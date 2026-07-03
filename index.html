@@ -8,15 +8,51 @@
     <link rel="canonical" href="https://nutrisize.health/">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0b3d2e">
     <meta property="og:title" content="Nutrisize Health — Nutrition and Exercise Intelligence">
     <meta property="og:description" content="Personalized nutrition, exercise, and physiology tracking — private by design. Your data never leaves your device.">
     <meta property="og:url" content="https://nutrisize.health/">
-    <meta property="og:image" content="https://nutrisize.health/assets/img/icon-512.png">
+    <meta property="og:image" content="https://nutrisize.health/assets/img/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta property="og:site_name" content="Nutrisize Health">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nutrisize Health — Nutrition and Exercise Intelligence">
+    <meta name="twitter:description" content="Personalized nutrition, exercise, and physiology tracking — private by design. Your data never leaves your device.">
+    <meta name="twitter:image" content="https://nutrisize.health/assets/img/og-image.png">
+    <link rel="stylesheet" href="assets/fonts/inter.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Nutrisize Health",
+      "alternateName": "Nutrisize Health — Nutrition and Exercise Intelligence",
+      "description": "Personalized nutrition, exercise, and physiology tracking. 4,995 world foods, 75 nutrients, 5,404 exercises, 200+ physiological parameters, 10 KPI dashboards — private by design: your data never leaves your device.",
+      "url": "https://nutrisize.health/",
+      "image": "https://nutrisize.health/assets/img/icon-512.png",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS 17.0+, iPadOS 17.0+, macOS 14.0+, visionOS 1.0+, watchOS, Android, Wear OS",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free download with optional premium in-app purchases"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "EqualInformation, LLC",
+        "url": "https://equalinformation.com"
+      },
+      "installUrl": "https://apps.apple.com/us/app/nutrisize-health/id6762168316",
+      "sameAs": [
+        "https://apps.apple.com/us/app/nutrisize-health/id6762168316",
+        "https://play.google.com/store/apps/details?id=com.nutrisize.health"
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -50,13 +86,11 @@
             absolute: everything stays on your device.
         </p>
         <div class="store-buttons">
-            <a class="store-btn" href="https://apps.apple.com/us/app/nutrisize-health/id6762168316" target="_blank" rel="noopener">
-                <span class="glyph">&#63743;</span>
-                <span class="lines"><span class="small">Download on the</span><span class="big">App Store</span></span>
+            <a href="https://apps.apple.com/us/app/nutrisize-health/id6762168316" target="_blank" rel="noopener">
+                <img class="badge-ios" src="assets/img/app-store-badge.svg" alt="Download on the App Store" height="54">
             </a>
-            <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.nutrisize.health" target="_blank" rel="noopener">
-                <span class="glyph">&#9654;</span>
-                <span class="lines"><span class="small">Get it on</span><span class="big">Google Play</span></span>
+            <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health" target="_blank" rel="noopener">
+                <img class="badge-play" src="assets/img/google-play-badge.png" alt="Get it on Google Play" height="80">
             </a>
         </div>
         <div class="stats">
@@ -192,7 +226,8 @@
         </ul>
         <p class="footer-copy">
             &copy; 2026 EqualInformation, LLC. All rights reserved.<br>
-            Nutrisize Health provides general educational information, not medical advice. <a href="disclaimer/">Read the disclaimer</a>.
+            Nutrisize Health provides general educational information, not medical advice. <a href="disclaimer/">Read the disclaimer</a>.<br>
+            <span style="font-size: 11px; opacity: 0.6;">Apple, the Apple logo, and App Store are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</span>
         </p>
     </div>
 </footer>
