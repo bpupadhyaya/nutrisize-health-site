@@ -149,6 +149,28 @@ section.tint { background: var(--paper-tint); border-top: 1px solid var(--line);
 .card h3 { font-size: 18px; font-weight: 700; color: var(--green-900); margin-bottom: 8px; }
 .card p { font-size: 15px; color: var(--ink-soft); }
 
+/* App screenshots strip */
+.screens-strip {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px;
+    max-width: 980px; margin: 0 auto;
+}
+.phone {
+    margin: 0; text-align: center;
+}
+.phone img {
+    width: 100%; height: auto; display: block;
+    border-radius: 26px;
+    border: 6px solid #10241c;
+    box-shadow: 0 12px 34px rgba(11, 61, 46, 0.25);
+    background: #000;
+}
+.phone figcaption {
+    margin-top: 12px; font-size: 14px; font-weight: 600; color: var(--ink-soft);
+}
+@media (max-width: 860px) {
+    .screens-strip { grid-template-columns: repeat(2, 1fr); max-width: 480px; }
+}
+
 /* Traffic light strip */
 .traffic {
     display: flex; align-items: center; justify-content: center;
