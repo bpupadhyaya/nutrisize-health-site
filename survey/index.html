@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey — Nutrisize Health</title>
+    <meta name="description" content="Help shape Nutrisize Health — take our short user survey.">
+    <link rel="canonical" href="https://nutrisize.health/survey/">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="../" class="nav-logo">
+            <img src="../assets/img/favicon.png" alt="" width="34" height="34">
+            Nutrisize Health
+        </a>
+        <ul class="nav-links">
+            <li><a href="../#features">Features</a></li>
+            <li><a href="../#kpis">KPIs</a></li>
+            <li><a href="../#privacy">Privacy</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="../support/">Support</a></li>
+            <li><a href="../#download" class="nav-cta">Get the App</a></li>
+        </ul>
+        <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
+    </div>
+</nav>
+
+<div class="page-title"><div class="wrap">
+    <h1>Help shape Nutrisize Health</h1>
+    <p class="meta">Two minutes, anonymous, and it directly influences what we build next.</p>
+</div></div>
+
+<div class="content wrap">
+
+    <!--
+        SETUP: Create a Google Form under nutrisize.universal@gmail.com, then:
+        1. In the form: Send -> Embed HTML (<>) -> copy the iframe src URL.
+        2. Replace GOOGLE_FORM_EMBED_URL below (both places) and remove this comment
+           and the "coming soon" notice.
+        Responses persist to Google Drive/Sheets under that account.
+    -->
+    <div class="notice">
+        The survey is being prepared and will appear here shortly. In the meantime, you can
+        always send thoughts to
+        <a href="mailto:nutrisize.universal@gmail.com">nutrisize.universal@gmail.com</a>
+        or use System &rarr; Feedback inside the app.
+    </div>
+
+    <!-- Uncomment once the form exists:
+    <iframe src="GOOGLE_FORM_EMBED_URL"
+            width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0"
+            style="border: 1px solid var(--line); border-radius: 14px; background: #fff;">
+        Loading&hellip;
+    </iframe>
+    <p style="text-align:center; margin-top: 14px;">
+        Trouble with the embedded form?
+        <a href="GOOGLE_FORM_EMBED_URL" target="_blank" rel="noopener">Open it in a new tab</a>.
+    </p>
+    -->
+
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <ul class="footer-links">
+            <li><a href="../about/">About</a></li>
+            <li><a href="../privacy/">Privacy Policy</a></li>
+            <li><a href="../disclaimer/">Disclaimer</a></li>
+            <li><a href="../support/">Support</a></li>
+            <li><a href="./">Survey</a></li>
+            <li><a href="https://equalinformation.com" target="_blank" rel="noopener">EqualInformation</a></li>
+        </ul>
+        <p class="footer-copy">&copy; 2026 EqualInformation, LLC. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
