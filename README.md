@@ -12,7 +12,7 @@ Marketing and branding website for the **Nutrisize Health** mobile app, served a
 | `privacy/` | Privacy policy (mirrors equalinformation.com/privacy-nutrisizehealth.html) |
 | `support/` | Support contact + FAQ (store-listing support URL) |
 | `disclaimer/` | Medical/educational disclaimer |
-| `survey/` | User survey (Google Form embed — see comment in the file to activate) |
+| `survey/` | User survey (embedded Google Form — see "Survey form" below) |
 | `assets/` | `css/style.css`, icons (`img/`) |
 | `CNAME` | `nutrisize.health` — the custom-domain binding for GitHub Pages |
 
@@ -43,6 +43,15 @@ Plain static HTML/CSS — no build step. Edit, commit, push to `main`; GitHub Pa
 Content lives permanently in this repo. If the `nutrisize.health` domain ever lapses,
 remove the `CNAME` file (and the custom-domain setting) and the site serves again at
 `bpupadhyaya.github.io/nutrisize-health-site` — a one-line recovery.
+
+## Survey form
+
+- **Responder URL:** https://docs.google.com/forms/d/e/1FAIpQLSfQCadgkoIfG-nIWPj9Bu2bGz2BlscbCuCdZriiuQtbRR_26A/viewform
+- Embedded at https://nutrisize.health/survey via the same URL with `?embedded=true`.
+- Form "Nutrisize Health — User Survey" is owned by **nutrisize.universal@gmail.com**;
+  responses auto-append to the "Nutrisize Health — User Survey (Responses)" Google Sheet
+  in that account's Drive (edit form / see responses from that account at forms.google.com).
+- Anonymous: no sign-in required, no email collection, all questions optional.
 
 ## Related
 
