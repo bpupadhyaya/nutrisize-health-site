@@ -1,454 +1,1597 @@
 {
  "totalParameters": 201,
  "totalSystems": 16,
+ "totalCitations": 465,
  "tracked": [
   {
    "name": "Resting Heart Rate",
    "system": "Cardiovascular System",
    "freq": "daily",
    "range": "60\u2013100 bpm",
-   "desc": "The number of times your heart beats per minute while at complete rest."
+   "desc": "The number of times your heart beats per minute while at complete rest.",
+   "citations": [
+    {
+     "text": "Mozaffarian D, Geelen A, Brouwer IA, et al. Effect of fish oil on heart rate in humans: a meta-analysis of randomized controlled trials. Circulation. 2005;112(13):1945-1952.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16172267/",
+     "source": "AHA/Circulation",
+     "grade": "A"
+    },
+    {
+     "text": "DiNicolantonio JJ, Liu J, O'Keefe JH. Magnesium for the prevention and treatment of cardiovascular disease. Open Heart. 2018;5(2):e000775.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30018772/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "American College of Sports Medicine. ACSM's Guidelines for Exercise Testing and Prescription. 11th ed. Wolters Kluwer; 2021.",
+     "url": "https://www.acsm.org/education-resources/books/guidelines-exercise-testing-prescription",
+     "source": "ACSM",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Systolic Blood Pressure",
    "system": "Cardiovascular System",
    "freq": "daily",
    "range": "<120 mmHg (normal), 120\u2013129 mmHg (elevated), 130\u2013139 mmHg (Stage 1 HTN), \u2265140 mmHg (Stage 2 HTN)",
-   "desc": "The pressure exerted on artery walls when the heart contracts and pumps blood."
+   "desc": "The pressure exerted on artery walls when the heart contracts and pumps blood.",
+   "citations": [
+    {
+     "text": "Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. Hypertension. 2018;71(6):e13-e115.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29133356/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "Sacks FM, Svetkey LP, Vollmer WM, et al. Effects on blood pressure of reduced dietary sodium and the Dietary Approaches to Stop Hypertension (DASH) diet. N Engl J Med. 2001;344(1):3-10.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11136953/",
+     "source": "NEJM",
+     "grade": "A"
+    },
+    {
+     "text": "Pescatello LS, Franklin BA, Fagard R, et al. Exercise and Hypertension: ACSM Position Stand. Med Sci Sports Exerc. 2004;36(3):533-553.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15076798/",
+     "source": "ACSM",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Guideline for the pharmacological treatment of hypertension in adults. WHO; 2021.",
+     "url": "https://www.who.int/publications/i/item/9789240033986",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Diastolic Blood Pressure",
    "system": "Cardiovascular System",
    "freq": "daily",
    "range": "<80 mmHg (normal), 80\u201389 mmHg (Stage 1 HTN), \u226590 mmHg (Stage 2 HTN)",
-   "desc": "The pressure in arteries when the heart relaxes between beats."
+   "desc": "The pressure in arteries when the heart relaxes between beats.",
+   "citations": [
+    {
+     "text": "Zhang X, Li Y, Del Gobbo LC, et al. Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of Randomized Double-Blind Placebo-Controlled Trials. Hypertension. 2016;68(2):324-333.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27402922/",
+     "source": "AHA/Hypertension",
+     "grade": "A"
+    },
+    {
+     "text": "Siervo M, Lara J, Ogbonmwan I, Mathers JC. Inorganic nitrate and beetroot juice supplementation reduces blood pressure in adults: a systematic review and meta-analysis. J Nutr. 2013;143(6):818-826.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23596162/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    },
+    {
+     "text": "Cornelissen VA, Smart NA. Exercise training for blood pressure: a systematic review and meta-analysis. J Am Heart Assoc. 2013;2(1):e004473.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23525435/",
+     "source": "AHA/JAHA",
+     "grade": "A"
+    },
+    {
+     "text": "World Health Organization. Guideline for the pharmacological treatment of hypertension in adults. WHO; 2021.",
+     "url": "https://www.who.int/publications/i/item/9789240033986",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Blood Pressure Trend",
    "system": "Cardiovascular System",
    "freq": "monthly",
    "range": "Average home BP <135/85 mmHg; average 24-hour ABPM <130/80 mmHg",
-   "desc": "A longitudinal analysis of blood pressure readings over time to identify patterns such as sustained hypertension, white-coat effect, masked hypertension, or nocturnal dipping patterns."
+   "desc": "A longitudinal analysis of blood pressure readings over time to identify patterns such as sustained hypertension, white-coat effect, masked hypertension, or nocturnal dipping patterns.",
+   "citations": [
+    {
+     "text": "Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. J Am Coll Cardiol. 2018;71(19):e127-e248.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29146535/",
+     "source": "ACC/AHA",
+     "grade": "B"
+    },
+    {
+     "text": "Pescatello LS, et al. Physical Activity to Prevent and Treat Hypertension: A Systematic Review. Med Sci Sports Exerc. 2019;51(6):1314-1323.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31095088/",
+     "source": "ACSM",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Blood Oxygen Saturation",
    "system": "Cardiovascular System",
    "freq": "daily",
    "range": "95\u2013100%",
-   "desc": "The percentage of hemoglobin binding sites occupied by oxygen in arterial blood."
+   "desc": "The percentage of hemoglobin binding sites occupied by oxygen in arterial blood.",
+   "citations": [
+    {
+     "text": "World Health Organization. Haemoglobin concentrations for the diagnosis of anaemia and assessment of severity. WHO/NMH/NHD/MNM/11.1. Geneva: WHO; 2011.",
+     "url": "https://www.who.int/publications/i/item/WHO-NMH-NHD-MNM-11.1",
+     "source": "WHO",
+     "grade": "B"
+    },
+    {
+     "text": "Guyton AC, Hall JE. Textbook of Medical Physiology. 14th ed. Elsevier; 2020. Chapter 41: Transport of Oxygen and Carbon Dioxide.",
+     "url": "https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8",
+     "source": "Guyton & Hall",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Body Temperature",
    "system": "Cardiovascular System",
    "freq": "daily",
    "range": "97.8\u201399.1\u00b0F (36.6\u201337.3\u00b0C) orally; varies with time of day and individual",
-   "desc": "Core body temperature reflects the balance between heat production (metabolism, muscular activity) and heat loss."
+   "desc": "Core body temperature reflects the balance between heat production (metabolism, muscular activity) and heat loss.",
+   "citations": [
+    {
+     "text": "Protsiv M, Ley C, Lankester J, Hastie T, Parsonnet J. Decreasing human body temperature in the United States since the Industrial Revolution. eLife. 2020;9:e49555.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31908267/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Guyton AC, Hall JE. Textbook of Medical Physiology. 14th ed. Elsevier; 2020. Chapter 74: Body Temperature Regulation and Fever.",
+     "url": "https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8",
+     "source": "Guyton & Hall",
+     "grade": "C"
+    },
+    {
+     "text": "World Health Organization. Integrated Management of Childhood Illness (IMCI) chart booklet. WHO; 2014.",
+     "url": "https://www.who.int/publications/i/item/9789241506823",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Hemoglobin",
    "system": "Hematological System",
    "freq": "annual",
    "range": "Men: 13.5\u201317.5 g/dL; Women: 12.0\u201316.0 g/dL; Pregnant women: 11.0\u201314.0 g/dL",
-   "desc": "The iron-containing protein in red blood cells responsible for carrying oxygen from the lungs to tissues and returning carbon dioxide."
+   "desc": "The iron-containing protein in red blood cells responsible for carrying oxygen from the lungs to tissues and returning carbon dioxide.",
+   "citations": [
+    {
+     "text": "World Health Organization. Haemoglobin concentrations for the diagnosis of anaemia and assessment of severity. WHO/NMH/NHD/MNM/11.1. Geneva: WHO; 2011.",
+     "url": "https://www.who.int/publications/i/item/WHO-NMH-NHD-MNM-11.1",
+     "source": "WHO",
+     "grade": "B"
+    },
+    {
+     "text": "Kasper DL, Fauci AS, Hauser SL, et al. Harrison's Principles of Internal Medicine. 21st ed. McGraw-Hill; 2022. Chapter 59: Anemia and Polycythemia.",
+     "url": "https://accessmedicine.mhmedical.com/book.aspx?bookid=3095",
+     "source": "Harrison's",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "White Blood Cell Count",
    "system": "Hematological System",
    "freq": "annual",
    "range": "4.5\u201311.0 \u00d710\u00b3/\u03bcL",
-   "desc": "The total number of white blood cells in the blood, reflecting the body's immune defense capacity."
+   "desc": "The total number of white blood cells in the blood, reflecting the body's immune defense capacity.",
+   "citations": [
+    {
+     "text": "Kasper DL, Fauci AS, Hauser SL, et al. Harrison's Principles of Internal Medicine. 21st ed. McGraw-Hill; 2022. Chapter 60: Disorders of Granulocytes and Monocytes.",
+     "url": "https://accessmedicine.mhmedical.com/book.aspx?bookid=3095",
+     "source": "Harrison's",
+     "grade": "C"
+    },
+    {
+     "text": "Nieman DC, Wentz LM. The compelling link between physical activity and the body's defense system. J Sport Health Sci. 2019;8(3):201-217.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31193280/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th ed. WHO; 2021.",
+     "url": "https://www.who.int/publications/i/item/9789240030787",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Platelet Count",
    "system": "Hematological System",
    "freq": "annual",
    "range": "150\u2013400 \u00d710\u00b3/\u03bcL",
-   "desc": "The number of platelets (thrombocytes) in the blood."
+   "desc": "The number of platelets (thrombocytes) in the blood.",
+   "citations": [
+    {
+     "text": "Kasper DL, Fauci AS, Hauser SL, et al. Harrison's Principles of Internal Medicine. 21st ed. McGraw-Hill; 2022. Chapter 111: Disorders of Platelets and Vessel Wall.",
+     "url": "https://accessmedicine.mhmedical.com/book.aspx?bookid=3095",
+     "source": "Harrison's",
+     "grade": "C"
+    },
+    {
+     "text": "Guyton AC, Hall JE. Textbook of Medical Physiology. 14th ed. Elsevier; 2020. Chapter 37: Hemostasis and Blood Coagulation.",
+     "url": "https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8",
+     "source": "Guyton & Hall",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Fasting Blood Glucose (Self-Monitored)",
    "system": "Metabolic & Endocrine System",
    "freq": "daily",
    "range": "Normal: 70\u201399 mg/dL; Prediabetes: 100\u2013125 mg/dL; Diabetes: \u2265126 mg/dL (confirmed on two occasions)",
-   "desc": "Blood sugar level measured after at least 8 hours of fasting using a home glucometer."
+   "desc": "Blood sugar level measured after at least 8 hours of fasting using a home glucometer.",
+   "citations": [
+    {
+     "text": "American Diabetes Association. Standards of Medical Care in Diabetes\u20142023. Diabetes Care. 2023;46(Suppl 1):S1-S291.",
+     "url": "https://diabetesjournals.org/care/issue/46/Supplement_1",
+     "source": "ADA",
+     "grade": "B"
+    },
+    {
+     "text": "Colberg SR, Sigal RJ, Yardley JE, et al. Physical Activity/Exercise and Diabetes: A Position Statement of the ADA. Diabetes Care. 2016;39(11):2065-2079.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27926890/",
+     "source": "ADA",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Classification of diabetes mellitus. WHO; 2019.",
+     "url": "https://www.who.int/publications/i/item/classification-of-diabetes-mellitus",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Hemoglobin A1c",
    "system": "Metabolic & Endocrine System",
    "freq": "quarterly",
    "range": "Normal: <5.7%; Prediabetes: 5.7\u20136.4%; Diabetes: \u22656.5%",
-   "desc": "The percentage of hemoglobin that has glucose attached, reflecting average blood glucose levels over the preceding 2\u20133 months."
+   "desc": "The percentage of hemoglobin that has glucose attached, reflecting average blood glucose levels over the preceding 2\u20133 months.",
+   "citations": [
+    {
+     "text": "American Diabetes Association. Standards of Medical Care in Diabetes\u20142023. Diabetes Care. 2023;46(Suppl 1):S1-S291.",
+     "url": "https://diabetesjournals.org/care/issue/46/Supplement_1",
+     "source": "ADA",
+     "grade": "B"
+    },
+    {
+     "text": "Umpierre D, Ribeiro PA, Kramer CK, et al. Physical activity advice only or structured exercise training and association with HbA1c levels in type 2 diabetes: a systematic review and meta-analysis. JAMA. 2011;305(17):1790-1799.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21540423/",
+     "source": "JAMA",
+     "grade": "A"
+    },
+    {
+     "text": "World Health Organization. Use of glycated haemoglobin (HbA1c) in the diagnosis of diabetes mellitus. WHO; 2011.",
+     "url": "https://www.who.int/publications/i/item/use-of-glycated-haemoglobin-(hba1c)-in-the-diagnosis-of-diabetes-mellitus",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Fasting Plasma Glucose (Lab)",
    "system": "Metabolic & Endocrine System",
    "freq": "annual",
    "range": "Normal: 70\u201399 mg/dL; Impaired Fasting Glucose (prediabetes): 100\u2013125 mg/dL; Diabetes: \u2265126 mg/dL",
-   "desc": "A laboratory measurement of plasma glucose after a minimum 8-hour overnight fast."
+   "desc": "A laboratory measurement of plasma glucose after a minimum 8-hour overnight fast.",
+   "citations": [
+    {
+     "text": "Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med. 2002;346(6):393-403.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11832527/",
+     "source": "NEJM",
+     "grade": "A"
+    },
+    {
+     "text": "American Diabetes Association. Standards of Medical Care in Diabetes\u20142023. Diabetes Care. 2023;46(Suppl 1):S1-S291.",
+     "url": "https://diabetesjournals.org/care/issue/46/Supplement_1",
+     "source": "ADA",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Classification of diabetes mellitus. WHO; 2019.",
+     "url": "https://www.who.int/publications/i/item/classification-of-diabetes-mellitus",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Thyroid Stimulating Hormone",
    "system": "Metabolic & Endocrine System",
    "freq": "annual",
    "range": "0.4\u20134.0 mIU/L (some experts advocate upper limit of 2.5 mIU/L)",
-   "desc": "A pituitary hormone that regulates thyroid gland function."
+   "desc": "A pituitary hormone that regulates thyroid gland function.",
+   "citations": [
+    {
+     "text": "Garber JR, Cobin RH, Gharib H, et al. Clinical Practice Guidelines for Hypothyroidism in Adults. Endocr Pract. 2012;18(6):988-1028.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23246686/",
+     "source": "Endocrine Society",
+     "grade": "B"
+    },
+    {
+     "text": "Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the Treatment of Hypothyroidism. Thyroid. 2014;24(12):1670-1751.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25266247/",
+     "source": "ATA",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Assessment of iodine deficiency disorders and monitoring their elimination: a guide for programme managers, 3rd ed. WHO; 2007.",
+     "url": "https://www.who.int/publications/i/item/9789241595827",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "TSH Monitoring (On Treatment)",
    "system": "Metabolic & Endocrine System",
    "freq": "quarterly",
    "range": "Target TSH: 0.5\u20132.5 mIU/L for most patients on levothyroxine; 0.1\u20130.5 for thyroid cancer suppression therapy",
-   "desc": "Regular TSH monitoring for patients on thyroid hormone replacement or antithyroid medications."
+   "desc": "Regular TSH monitoring for patients on thyroid hormone replacement or antithyroid medications.",
+   "citations": [
+    {
+     "text": "Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the Treatment of Hypothyroidism. Thyroid. 2014;24(12):1670-1751.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25266247/",
+     "source": "ATA",
+     "grade": "B"
+    },
+    {
+     "text": "Garber JR, Cobin RH, Gharib H, et al. Clinical Practice Guidelines for Hypothyroidism in Adults. Endocr Pract. 2012;18(6):988-1028.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23246686/",
+     "source": "Endocrine Society",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Total Cholesterol",
    "system": "Lipid & Cardiovascular Risk",
    "freq": "annual",
    "range": "Desirable: <200 mg/dL; Borderline high: 200\u2013239 mg/dL; High: \u2265240 mg/dL",
-   "desc": "The sum of all cholesterol carried in lipoproteins \u2014 LDL, HDL, VLDL, and others."
+   "desc": "The sum of all cholesterol carried in lipoproteins \u2014 LDL, HDL, VLDL, and others.",
+   "citations": [
+    {
+     "text": "Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC Guideline on the Management of Blood Cholesterol. Circulation. 2019;139(25):e1082-e1143.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "ACSM's Guidelines for Exercise Testing and Prescription. 11th ed. Wolters Kluwer; 2021.",
+     "url": "https://www.acsm.org/education-resources/books/guidelines-exercise-testing-prescription",
+     "source": "ACSM",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Hearts: technical package for cardiovascular disease management in primary health care. WHO; 2020.",
+     "url": "https://www.who.int/publications/i/item/hearts-technical-package",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "LDL Cholesterol",
    "system": "Lipid & Cardiovascular Risk",
    "freq": "annual",
    "range": "Optimal: <100 mg/dL; Near optimal: 100\u2013129; Borderline high: 130\u2013159; High: 160\u2013189; Very high: \u2265190 mg/dL",
-   "desc": "Low-density lipoprotein cholesterol is the primary driver of atherosclerotic plaque formation."
+   "desc": "Low-density lipoprotein cholesterol is the primary driver of atherosclerotic plaque formation.",
+   "citations": [
+    {
+     "text": "Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC Guideline on the Management of Blood Cholesterol. Circulation. 2019;139(25):e1082-e1143.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "Cholesterol Treatment Trialists' Collaboration. Efficacy and safety of statin therapy in older people. Lancet. 2019;393(10170):407-415.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30712900/",
+     "source": "Lancet",
+     "grade": "A"
+    },
+    {
+     "text": "World Health Organization. Hearts: technical package for cardiovascular disease management in primary health care. WHO; 2020.",
+     "url": "https://www.who.int/publications/i/item/hearts-technical-package",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "HDL Cholesterol",
    "system": "Lipid & Cardiovascular Risk",
    "freq": "annual",
    "range": "Men: >40 mg/dL; Women: >50 mg/dL; Optimal: >60 mg/dL",
-   "desc": "High-density lipoprotein cholesterol participates in reverse cholesterol transport \u2014 moving cholesterol from arterial walls back to the liver for excretion."
+   "desc": "High-density lipoprotein cholesterol participates in reverse cholesterol transport \u2014 moving cholesterol from arterial walls back to the liver for excretion.",
+   "citations": [
+    {
+     "text": "Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC Guideline on the Management of Blood Cholesterol. Circulation. 2019;139(25):e1082-e1143.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "Kodama S, Tanaka S, Saito K, et al. Effect of aerobic exercise training on serum levels of high-density lipoprotein cholesterol. Arch Intern Med. 2007;167(10):999-1008.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17533202/",
+     "source": "JAMA Internal Medicine",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Triglycerides",
    "system": "Lipid & Cardiovascular Risk",
    "freq": "annual",
    "range": "Normal: <150 mg/dL; Borderline: 150\u2013199; High: 200\u2013499; Very high: \u2265500 mg/dL",
-   "desc": "The main form of fat in the blood, carried in VLDL and chylomicrons."
+   "desc": "The main form of fat in the blood, carried in VLDL and chylomicrons.",
+   "citations": [
+    {
+     "text": "Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC Guideline on the Management of Blood Cholesterol. Circulation. 2019;139(25):e1082-e1143.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "Miller M, Stone NJ, Ballantyne C, et al. Triglycerides and Cardiovascular Disease: A Scientific Statement From the AHA. Circulation. 2011;123(20):2292-2333.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21502576/",
+     "source": "AHA",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Hearts: technical package for cardiovascular disease management in primary health care. WHO; 2020.",
+     "url": "https://www.who.int/publications/i/item/hearts-technical-package",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Lipid Panel Monitoring (On Treatment)",
    "system": "Lipid & Cardiovascular Risk",
    "freq": "quarterly",
    "range": "On high-intensity statin: expect \u226550% LDL reduction. On moderate-intensity: 30\u201349% reduction. Specific targets depend on risk category.",
-   "desc": "Regular lipid panel monitoring for patients on lipid-lowering therapy (statins, ezetimibe, PCSK9 inhibitors, fibrates)."
+   "desc": "Regular lipid panel monitoring for patients on lipid-lowering therapy (statins, ezetimibe, PCSK9 inhibitors, fibrates).",
+   "citations": [
+    {
+     "text": "Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC Guideline on the Management of Blood Cholesterol. Circulation. 2019;139(25):e1082-e1143.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "ACSM's Guidelines for Exercise Testing and Prescription. 11th ed. Wolters Kluwer; 2021.",
+     "url": "https://www.acsm.org/education-resources/books/guidelines-exercise-testing-prescription",
+     "source": "ACSM",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Alanine Aminotransferase",
    "system": "Hepatic System",
    "freq": "annual",
    "range": "Men: 7\u201356 U/L; Women: 7\u201345 U/L (updated guidelines suggest upper normal: 33 U/L men, 25 U/L women)",
-   "desc": "A liver enzyme released into the blood when hepatocytes (liver cells) are damaged."
+   "desc": "A liver enzyme released into the blood when hepatocytes (liver cells) are damaged.",
+   "citations": [
+    {
+     "text": "Chalasani N, Younossi Z, Lavine JE, et al. The Diagnosis and Management of Nonalcoholic Fatty Liver Disease: Practice Guidance From the AASLD. Hepatology. 2018;67(1):328-357.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28714183/",
+     "source": "AASLD",
+     "grade": "B"
+    },
+    {
+     "text": "Kasper DL, Fauci AS, Hauser SL, et al. Harrison's Principles of Internal Medicine. 21st ed. McGraw-Hill; 2022. Chapter 337: Evaluation of Liver Function.",
+     "url": "https://accessmedicine.mhmedical.com/book.aspx?bookid=3095",
+     "source": "Harrison's",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Creatinine / eGFR",
    "system": "Renal System",
    "freq": "annual",
    "range": "Creatinine: Men 0.7\u20131.3 mg/dL, Women 0.6\u20131.1 mg/dL; eGFR: >90 mL/min/1.73m\u00b2 (normal), 60\u201389 (mildly decreased), 30\u201359 (moderately decreased), 15\u201329 (severely decreased), <15 (kidney failure)",
-   "desc": "Serum creatinine is a waste product from muscle metabolism filtered by the kidneys."
+   "desc": "Serum creatinine is a waste product from muscle metabolism filtered by the kidneys.",
+   "citations": [
+    {
+     "text": "KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int Suppl. 2013;3(1):1-150.",
+     "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/",
+     "source": "KDIGO",
+     "grade": "B"
+    },
+    {
+     "text": "Kasper DL, Fauci AS, Hauser SL, et al. Harrison's Principles of Internal Medicine. 21st ed. McGraw-Hill; 2022. Chapter 305: Chronic Kidney Disease.",
+     "url": "https://accessmedicine.mhmedical.com/book.aspx?bookid=3095",
+     "source": "Harrison's",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Urinalysis",
    "system": "Renal System",
    "freq": "annual",
    "range": "pH: 4.5\u20138.0; Specific gravity: 1.005\u20131.030; Protein: negative; Glucose: negative; Blood: negative; WBC: 0\u20135/HPF; RBC: 0\u20133/HPF; No casts, bacteria, or crystals",
-   "desc": "A comprehensive urine screening test evaluating physical (color, clarity, specific gravity), chemical (pH, protein, glucose, blood, leukocyte esterase, nitrites, ketones, bilirubin), and microscopic (cells, casts, crystals, bacteria) properties."
+   "desc": "A comprehensive urine screening test evaluating physical (color, clarity, specific gravity), chemical (pH, protein, glucose, blood, leukocyte esterase, nitrites, ketones, bilirubin), and microscopic (cells, casts, crystals, bacteria) properties.",
+   "citations": [
+    {
+     "text": "KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int Suppl. 2013;3(1):1-150.",
+     "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/",
+     "source": "KDIGO",
+     "grade": "B"
+    },
+    {
+     "text": "Kasper DL, Fauci AS, Hauser SL, et al. Harrison's Principles of Internal Medicine. 21st ed. McGraw-Hill; 2022. Chapter 51: Urinary Abnormalities.",
+     "url": "https://accessmedicine.mhmedical.com/book.aspx?bookid=3095",
+     "source": "Harrison's",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Sleep Duration",
    "system": "Neurological System",
    "freq": "daily",
    "range": "7\u20139 hours (ages 18\u201364); 7\u20138 hours (ages 65+)",
-   "desc": "The total amount of sleep obtained per 24-hour period."
+   "desc": "The total amount of sleep obtained per 24-hour period.",
+   "citations": [
+    {
+     "text": "Abbasi B, Kimiagar M, Sadeghniiat K, et al. The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial. J Res Med Sci. 2012;17(12):1161-1169.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23853635/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Silber BY, Schmitt JA. Effects of tryptophan loading on human cognition, mood, and sleep. Neurosci Biobehav Rev. 2010;34(3):387-407.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19715722/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Kline CE. The bidirectional relationship between exercise and sleep: Implications for exercise adherence and sleep improvement. Am J Lifestyle Med. 2014;8(6):375-379.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25729341/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. WHO guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age. WHO; 2019.",
+     "url": "https://www.who.int/publications/i/item/9789241550536",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Mood & Stress Level",
    "system": "Neurological System",
    "freq": "weekly",
    "range": "PSS-10 score 0\u201313 (low stress); PHQ-9 score 0\u20134 (minimal depression); GAD-7 score 0\u20134 (minimal anxiety)",
-   "desc": "A self-reported assessment of psychological well-being, emotional state, and perceived stress burden."
+   "desc": "A self-reported assessment of psychological well-being, emotional state, and perceived stress burden.",
+   "citations": [
+    {
+     "text": "Su KP, Tseng PT, Lin PY, et al. Association of use of omega-3 polyunsaturated fatty acids with changes in severity of anxiety symptoms: A systematic review and meta-analysis. JAMA Netw Open. 2018;1(5):e182327.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30646157/",
+     "source": "JAMA",
+     "grade": "A"
+    },
+    {
+     "text": "Young LM, Pipingas A, White DJ, et al. A systematic review and meta-analysis of B vitamin supplementation on depressive symptoms, anxiety, and stress. Nutrients. 2019;11(9):2232.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31527485/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    },
+    {
+     "text": "Schuch FB, Vancampfort D, Richards J, et al. Exercise as a treatment for depression: A meta-analysis adjusting for publication bias. J Psychiatr Res. 2016;77:42-51.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27104692/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    },
+    {
+     "text": "Pascoe MC, Thompson DR, Ski CF. Yoga, mindfulness-based stress reduction and stress-related physiological measures: A meta-analysis. Psychoneuroendocrinology. 2017;86:152-168.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28963884/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Cortisol",
    "system": "Neurological System",
    "freq": "quarterly",
    "range": "Morning (6\u20138 AM): 10\u201320 mcg/dL (276\u2013552 nmol/L); Evening: 3\u201310 mcg/dL",
-   "desc": "The primary glucocorticoid stress hormone produced by the adrenal cortex."
+   "desc": "The primary glucocorticoid stress hormone produced by the adrenal cortex.",
+   "citations": [
+    {
+     "text": "Peters EM, Anderson R, Nieman DC, Fickl H, Jogessar V. Vitamin C supplementation attenuates the increases in circulating cortisol, adrenaline and anti-inflammatory polypeptides following ultramarathon running. Int J Sports Med. 2001;22(7):537-543.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11590482/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Starks MA, Starks SL, Kingsley M, Purpura M, J\u00e4ger R. The effects of phosphatidylserine on endocrine response to moderate intensity exercise. J Int Soc Sports Nutr. 2008;5:11.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18662395/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Hill EE, Zack E, Battaglini C, et al. Exercise and circulating cortisol levels: the intensity threshold effect. J Endocrinol Invest. 2008;31(7):587-591.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18787373/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Cognitive Function Score",
    "system": "Neurological System",
    "freq": "annual",
    "range": "MoCA \u226526/30 (normal); MMSE \u226524/30 (normal)",
-   "desc": "A standardized assessment of cognitive abilities including memory, attention, executive function, language, and visuospatial skills."
+   "desc": "A standardized assessment of cognitive abilities including memory, attention, executive function, language, and visuospatial skills.",
+   "citations": [
+    {
+     "text": "Valls-Pedret C, Sala-Vila A, Serra-Mir M, et al. Mediterranean diet and age-related cognitive decline: A randomized clinical trial. JAMA Intern Med. 2015;175(7):1094-1103.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25961184/",
+     "source": "JAMA",
+     "grade": "A"
+    },
+    {
+     "text": "Smith AD, Smith SM, de Jager CA, et al. Homocysteine-lowering by B vitamins slows the rate of accelerated brain atrophy in mild cognitive impairment: A randomized controlled trial. PLoS One. 2010;5(9):e12244.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20838622/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    },
+    {
+     "text": "Livingston G, Huntley J, Sommerlad A, et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet. 2020;396(10248):413-446.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32738937/",
+     "source": "Lancet",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Risk reduction of cognitive decline and dementia: WHO guidelines. WHO; 2019.",
+     "url": "https://www.who.int/publications/i/item/risk-reduction-of-cognitive-decline-and-dementia",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Reaction Time",
    "system": "Neurological System",
    "freq": "monthly",
    "range": "Simple reaction time: 150\u2013300 ms (visual), 120\u2013180 ms (auditory). Choice reaction time: 300\u2013500 ms.",
-   "desc": "The time elapsed between presentation of a stimulus and the initiation of a motor response."
+   "desc": "The time elapsed between presentation of a stimulus and the initiation of a motor response.",
+   "citations": [
+    {
+     "text": "McLellan TM, Caldwell JA, Lieberman HR. A review of caffeine's effects on cognitive, physical and occupational performance. Neurosci Biobehav Rev. 2016;71:294-312.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27612937/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Rae C, Digney AL, McEwan SR, Bates TC. Oral creatine monohydrate supplementation improves brain performance: a double-blind, placebo-controlled, cross-over trial. Proc Biol Sci. 2003;270(1529):2147-2150.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14561278/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Dupuy O, Gauthier CJ, Fraser SA, et al. Higher levels of cardiovascular fitness are associated with better executive function and prefrontal oxygenation in younger and older women. Front Hum Neurosci. 2015;9:66.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25741264/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "C-Reactive Protein",
    "system": "Immunological System",
    "freq": "quarterly",
    "range": "hs-CRP <1.0 mg/L (low cardiovascular risk); 1.0\u20133.0 mg/L (moderate risk); >3.0 mg/L (high risk). Standard CRP <10 mg/L.",
-   "desc": "An acute-phase protein produced by the liver in response to inflammation."
+   "desc": "An acute-phase protein produced by the liver in response to inflammation.",
+   "citations": [
+    {
+     "text": "Calder PC. Omega-3 fatty acids and inflammatory processes: from molecules to man. Biochem Soc Trans. 2017;45(5):1105-1115.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28900017/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Ma Y, Griffith JA, Chasan-Taber L, et al. Association between dietary fiber and serum C-reactive protein. Am J Clin Nutr. 2006;83(4):760-766.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16600926/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Fedewa MV, Hathaway ED, Ward-Ritacco CL. Effect of exercise training on C reactive protein: a systematic review and meta-analysis of randomised and non-randomised controlled trials. Br J Sports Med. 2017;51(8):670-676.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27445361/",
+     "source": "ACSM/BJSM",
+     "grade": "A"
+    },
+    {
+     "text": "World Health Organization. C-reactive protein concentrations as a marker of inflammation or infection for interpreting biomarkers of micronutrient status. WHO; 2014.",
+     "url": "https://www.who.int/publications/i/item/WHO-NMH-NHD-EPG-14.7",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Erythrocyte Sedimentation Rate",
    "system": "Immunological System",
    "freq": "quarterly",
    "range": "Men: 0\u201315 mm/hr (age <50), 0\u201320 mm/hr (age >50). Women: 0\u201320 mm/hr (age <50), 0\u201330 mm/hr (age >50).",
-   "desc": "A nonspecific marker of inflammation that measures how quickly red blood cells settle to the bottom of a test tube in one hour."
+   "desc": "A nonspecific marker of inflammation that measures how quickly red blood cells settle to the bottom of a test tube in one hour.",
+   "citations": [
+    {
+     "text": "Casas R, Sacanella E, Estruch R. The immune protective effect of the Mediterranean diet against chronic low-grade inflammatory diseases. Endocr Metab Immune Disord Drug Targets. 2014;14(4):245-254.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25244229/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Kasapis C, Thompson PD. The effects of physical activity on serum C-reactive protein and inflammatory markers: a systematic review. J Am Coll Cardiol. 2005;45(10):1563-1569.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15893167/",
+     "source": "AHA/JACC",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Immunoglobulin G (Total)",
    "system": "Immunological System",
    "freq": "annual",
    "range": "700\u20131,600 mg/dL (7.0\u201316.0 g/L)",
-   "desc": "The most abundant immunoglobulin in serum, comprising 70\u201380% of total antibodies."
+   "desc": "The most abundant immunoglobulin in serum, comprising 70\u201380% of total antibodies.",
+   "citations": [
+    {
+     "text": "Chandra RK. Nutrition and the immune system from birth to old age. Eur J Clin Nutr. 2002;56 Suppl 3:S73-76.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12142969/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Ross AC. Vitamin A and retinoic acid in T cell-related immunity. Am J Clin Nutr. 2012;96(5):1166S-1172S.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23053562/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Nieman DC, Wentz LM. The compelling link between physical activity and the body's defense system. J Sport Health Sci. 2019;8(3):201-217.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31193280/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Immunoglobulin A (Total)",
    "system": "Immunological System",
    "freq": "annual",
    "range": "Serum IgA: 70\u2013400 mg/dL (0.7\u20134.0 g/L). Salivary IgA: 80\u2013350 \u00b5g/mL.",
-   "desc": "The predominant antibody in mucosal surfaces (gut, respiratory tract, saliva, tears)."
+   "desc": "The predominant antibody in mucosal surfaces (gut, respiratory tract, saliva, tears).",
+   "citations": [
+    {
+     "text": "Yan F, Polk DB. Probiotics and immune health. Curr Opin Gastroenterol. 2011;27(6):496-501.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21897224/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Cruzat V, Macedo Rogero M, Noel Keane K, et al. Glutamine: Metabolism and immune function, supplementation and clinical translation. Nutrients. 2018;10(11):1564.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30360490/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Gleeson M, Bishop NC, Oliveira M, Tauler P. Daily probiotic's (Lactobacillus casei Shirota) reduction of infection incidence in athletes. Int J Sport Nutr Exerc Metab. 2011;21(1):55-64.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21411835/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Total IgE",
    "system": "Immunological System",
    "freq": "annual",
    "range": "Total IgE: <100 IU/mL (adults). Varies widely; atopic individuals may have 200\u20132,000+ IU/mL.",
-   "desc": "Immunoglobulin E is the antibody class responsible for allergic reactions and defense against parasitic infections."
+   "desc": "Immunoglobulin E is the antibody class responsible for allergic reactions and defense against parasitic infections.",
+   "citations": [
+    {
+     "text": "Bozzetto S, Carraro S, Giordano G, et al. Asthma, allergy and respiratory infections: the vitamin D hypothesis. Allergy. 2012;67(1):10-17.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21933195/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Zuccotti G, Meneghin F, Aceti A, et al. Probiotics for prevention of atopic diseases in infants: systematic review and meta-analysis. Allergy. 2015;70(11):1356-1371.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26198702/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    },
+    {
+     "text": "Eichenberger PA, Diener SN, Kofmehl R, Spengler CM. Effects of exercise training on airway hyperreactivity in asthma: a systematic review and meta-analysis. Sports Med. 2013;43(11):1157-1170.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23846823/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Vitamin A (Retinol)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "30\u201365 \u00b5g/dL (1.05\u20132.27 \u00b5mol/L)",
-   "desc": "A fat-soluble vitamin essential for vision, immune function, cell differentiation, and reproduction."
+   "desc": "A fat-soluble vitamin essential for vision, immune function, cell differentiation, and reproduction.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc. National Academies Press; 2001.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25057538/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "WHO. Global prevalence of vitamin A deficiency in populations at risk 1995-2005. WHO Global Database on Vitamin A Deficiency. Geneva: WHO; 2009.",
+     "url": "https://www.who.int/publications/i/item/9789241598019",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin B1 (Thiamine)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Whole blood thiamine: 70\u2013180 nmol/L. Erythrocyte TPP: 120\u2013150 nmol/L.",
-   "desc": "A water-soluble vitamin essential for carbohydrate metabolism and neural function."
+   "desc": "A water-soluble vitamin essential for carbohydrate metabolism and neural function.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Woolf K, Manore MM. B-vitamins and exercise: does exercise alter requirements? Int J Sport Nutr Exerc Metab. 2006;16(5):453-484.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17240780/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin B2 (Riboflavin)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "EGRAC <1.2 (adequate); 1.2\u20131.4 (marginal); >1.4 (deficient). Serum riboflavin: 6\u201324 \u00b5g/L.",
-   "desc": "A water-soluble vitamin that serves as a precursor to the coenzymes flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD)."
+   "desc": "A water-soluble vitamin that serves as a precursor to the coenzymes flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD).",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Woolf K, Manore MM. B-vitamins and exercise: does exercise alter requirements? Int J Sport Nutr Exerc Metab. 2006;16(5):453-484.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17240780/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin B3 (Niacin)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Urinary N1-methylnicotinamide: 5.8\u201317.5 \u00b5mol/day. No well-established serum reference range.",
-   "desc": "A water-soluble vitamin that is a precursor to NAD+ and NADP+, coenzymes involved in over 400 enzymatic reactions including energy metabolism, DNA repair, and cell signaling."
+   "desc": "A water-soluble vitamin that is a precursor to NAD+ and NADP+, coenzymes involved in over 400 enzymatic reactions including energy metabolism, DNA repair, and cell signaling.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Cant\u00f3 C, Menzies KJ, Auwerx J. NAD(+) metabolism and the control of energy homeostasis: A balancing act between mitochondria and the nucleus. Cell Metab. 2015;22(1):31-53.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26118927/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin B5 (Pantothenic Acid)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Whole blood: 1.6\u20132.7 \u00b5mol/L. Urinary excretion: 2\u20137 mg/day.",
-   "desc": "A water-soluble vitamin that is a component of coenzyme A (CoA) and acyl carrier protein, both essential for fatty acid synthesis and oxidation, citric acid cycle, and the synthesis of steroid hormones, neurotransmitters, and hemoglobin."
+   "desc": "A water-soluble vitamin that is a component of coenzyme A (CoA) and acyl carrier protein, both essential for fatty acid synthesis and oxidation, citric acid cycle, and the synthesis of steroid hormones, neurotransmitters, and hemoglobin.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Vitamin B6 (Pyridoxine)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Plasma PLP: 20\u2013200 nmol/L (5\u201350 \u00b5g/L)",
-   "desc": "A water-soluble vitamin with six vitamer forms, of which pyridoxal 5'-phosphate (PLP) is the active coenzyme."
+   "desc": "A water-soluble vitamin with six vitamer forms, of which pyridoxal 5'-phosphate (PLP) is the active coenzyme.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Manore MM. Effect of physical activity on thiamine, riboflavin, and vitamin B-6 requirements. Am J Clin Nutr. 2000;72(2 Suppl):598S-606S.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/10919966/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin B7 (Biotin)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Serum biotin: 200\u20131,200 pg/mL (0.8\u20134.9 nmol/L)",
-   "desc": "A water-soluble vitamin that serves as a coenzyme for five carboxylase enzymes involved in gluconeogenesis, fatty acid synthesis, and amino acid metabolism."
+   "desc": "A water-soluble vitamin that serves as a coenzyme for five carboxylase enzymes involved in gluconeogenesis, fatty acid synthesis, and amino acid metabolism.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    }
+   ]
   },
   {
    "name": "Folate (Vitamin B9)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Serum folate: 7\u201345 nmol/L (3\u201320 ng/mL). RBC folate: 340\u20131,020 nmol/L (150\u2013450 ng/mL).",
-   "desc": "A water-soluble B vitamin essential for one-carbon metabolism, DNA synthesis, repair, and methylation."
+   "desc": "A water-soluble B vitamin essential for one-carbon metabolism, DNA synthesis, repair, and methylation.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "MRC Vitamin Study Research Group. Prevention of neural tube defects: results of the Medical Research Council Vitamin Study. Lancet. 1991;338(8760):131-137.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1677062/",
+     "source": "Lancet",
+     "grade": "A"
+    },
+    {
+     "text": "World Health Organization. Serum and red blood cell folate concentrations for assessing folate status in populations. WHO; 2015.",
+     "url": "https://www.who.int/publications/i/item/WHO-NMH-NHD-EPG-15.01",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin B12 (Cobalamin)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Serum B12: 200\u2013900 pg/mL (148\u2013664 pmol/L). MMA: <370 nmol/L.",
-   "desc": "A water-soluble vitamin essential for DNA synthesis, methylation, neurological function, and red blood cell formation."
+   "desc": "A water-soluble vitamin essential for DNA synthesis, methylation, neurological function, and red blood cell formation.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press; 1998.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23193625/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Green R, Allen LH, Bj\u00f8rke-Monsen AL, et al. Vitamin B12 deficiency. Nat Rev Dis Primers. 2017;3:17040.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28660890/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Serum cobalamin concentrations for assessing vitamin B12 status in populations. WHO; 2023.",
+     "url": "https://www.who.int/publications/i/item/9789240079604",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin C (Ascorbic Acid)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Plasma: 0.6\u20132.0 mg/dL (34\u2013114 \u00b5mol/L). Deficiency: <0.2 mg/dL (<11 \u00b5mol/L).",
-   "desc": "A water-soluble vitamin and potent antioxidant essential for collagen synthesis, carnitine biosynthesis, neurotransmitter production, and immune function."
+   "desc": "A water-soluble vitamin and potent antioxidant essential for collagen synthesis, carnitine biosynthesis, neurotransmitter production, and immune function.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids. National Academies Press; 2000.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25077263/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Hemil\u00e4 H, Chalker E. Vitamin C for preventing and treating the common cold. Cochrane Database Syst Rev. 2013;(1):CD000980.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/",
+     "source": "Cochrane/NIH",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Vitamin D (25-Hydroxyvitamin D)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Sufficient: 30\u2013100 ng/mL (75\u2013250 nmol/L). Insufficient: 20\u201329 ng/mL. Deficient: <20 ng/mL (<50 nmol/L).",
-   "desc": "A fat-soluble prohormone essential for calcium absorption, bone mineralization, immune modulation, and muscle function."
+   "desc": "A fat-soluble prohormone essential for calcium absorption, bone mineralization, immune modulation, and muscle function.",
+   "citations": [
+    {
+     "text": "Holick MF, Binkley NC, Bischoff-Ferrari HA, et al. Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(7):1911-1930.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21646368/",
+     "source": "Endocrine Society",
+     "grade": "B"
+    },
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Calcium and Vitamin D. National Academies Press; 2011.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21796828/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "World Health Organization. Nutritional rickets: a review of disease burden, causes, diagnosis, prevention and treatment. WHO; 2019.",
+     "url": "https://www.who.int/publications/i/item/9789241516587",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Vitamin E (Alpha-Tocopherol)",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "5\u201320 mg/L (12\u201346 \u00b5mol/L). Lipid-adjusted ratio: >0.8 mg/g total lipids.",
-   "desc": "A fat-soluble antioxidant that protects cell membranes from lipid peroxidation."
+   "desc": "A fat-soluble antioxidant that protects cell membranes from lipid peroxidation.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids. National Academies Press; 2000.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25077263/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Miller ER 3rd, Pastor-Barriuso R, Dalal D, et al. Meta-analysis: high-dosage vitamin E supplementation may increase all-cause mortality. Ann Intern Med. 2005;142(1):37-46.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15537682/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Vitamin K",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Serum phylloquinone: 0.2\u20133.2 nmol/L (0.1\u20131.4 ng/mL). PT/INR normal: 11\u201313.5 sec / 0.9\u20131.1.",
-   "desc": "A fat-soluble vitamin essential for blood coagulation and bone metabolism."
+   "desc": "A fat-soluble vitamin essential for blood coagulation and bone metabolism.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc. National Academies Press; 2001.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25057538/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Geleijnse JM, Vermeer C, Grobbee DE, et al. Dietary intake of menaquinone is associated with a reduced risk of coronary heart disease: the Rotterdam Study. J Nutr. 2004;134(11):3100-3105.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15514282/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Knapen MH, Drummen NE, Smit E, Vermeer C, Theuwissen E. Three-year low-dose menaquinone-7 supplementation helps decrease bone loss in healthy postmenopausal women. Osteoporos Int. 2013;24(9):2499-2507.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23525894/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Vitamin K for the prevention of bleeding in newborns. WHO; 2022.",
+     "url": "https://www.who.int/tools/elena/interventions/vitamink-newborns",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Ferritin",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Men: 30\u2013300 ng/mL. Women (premenopausal): 10\u2013200 ng/mL. Women (postmenopausal): 30\u2013300 ng/mL.",
-   "desc": "The primary intracellular iron storage protein."
+   "desc": "The primary intracellular iron storage protein.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc. National Academies Press; 2001.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25057538/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Peeling P, Dawson B, Goodman C, et al. Athletic induced iron deficiency: new insights into the role of inflammation, cytokines and hormones. Eur J Appl Physiol. 2008;103(4):381-391.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18365240/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020.",
+     "url": "https://www.who.int/publications/i/item/9789240000124",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Total Iron-Binding Capacity",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "250\u2013370 \u00b5g/dL (45\u201366 \u00b5mol/L)",
-   "desc": "A measure of the blood's capacity to bind iron with transferrin, the primary iron transport protein."
+   "desc": "A measure of the blood's capacity to bind iron with transferrin, the primary iron transport protein.",
+   "citations": [
+    {
+     "text": "Camaschella C. Iron-deficiency anemia. N Engl J Med. 2015;372(19):1832-1843.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25946282/",
+     "source": "NEJM",
+     "grade": "A"
+    },
+    {
+     "text": "Peeling P, Dawson B, Goodman C, et al. Athletic induced iron deficiency: new insights into the role of inflammation, cytokines and hormones. Eur J Appl Physiol. 2008;103(4):381-391.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18365240/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Transferrin Saturation",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "20\u201350% (men); 15\u201350% (women)",
-   "desc": "The percentage of transferrin binding sites occupied by iron, calculated as (serum iron / TIBC) \u00d7 100."
+   "desc": "The percentage of transferrin binding sites occupied by iron, calculated as (serum iron / TIBC) \u00d7 100.",
+   "citations": [
+    {
+     "text": "Adams PC, Barton JC. A diagnostic approach to hyperferritinemia with a non-elevated transferrin saturation. J Hepatol. 2011;55(2):453-458.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21354228/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Peeling P, Dawson B, Goodman C, et al. Athletic induced iron deficiency. Eur J Appl Physiol. 2008;103(4):381-391.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18365240/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Zinc",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "60\u2013120 \u00b5g/dL (9.2\u201318.4 \u00b5mol/L)",
-   "desc": "An essential trace mineral involved in over 300 enzymatic reactions, including DNA synthesis, immune function, wound healing, protein synthesis, and taste/smell perception."
+   "desc": "An essential trace mineral involved in over 300 enzymatic reactions, including DNA synthesis, immune function, wound healing, protein synthesis, and taste/smell perception.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc. National Academies Press; 2001.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25057538/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Micheletti A, Rossi R, Rufini S. Zinc status in athletes: relation to diet and exercise. Sports Med. 2001;31(8):577-582.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11475319/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Zinc supplementation in the management of diarrhoea. WHO; 2023.",
+     "url": "https://www.who.int/publications/i/item/zinc-supplementation-in-the-management-of-diarrhoea",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Selenium",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "70\u2013150 \u00b5g/L (0.9\u20131.9 \u00b5mol/L)",
-   "desc": "An essential trace mineral incorporated as selenocysteine into 25 selenoproteins including glutathione peroxidases (antioxidant defense), thioredoxin reductases, and iodothyronine deiodinases (thyroid hormone conversion)."
+   "desc": "An essential trace mineral incorporated as selenocysteine into 25 selenoproteins including glutathione peroxidases (antioxidant defense), thioredoxin reductases, and iodothyronine deiodinases (thyroid hormone conversion).",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids. National Academies Press; 2000.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25077263/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Rayman MP. Selenium and human health. Lancet. 2012;379(9822):1256-1268.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22381456/",
+     "source": "Lancet",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Trace elements in human nutrition and health. WHO; 1996.",
+     "url": "https://www.who.int/publications/i/item/9241561734",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Copper",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Serum copper: 70\u2013140 \u00b5g/dL (11\u201322 \u00b5mol/L). Ceruloplasmin: 20\u201335 mg/dL.",
-   "desc": "An essential trace mineral required for iron metabolism (ceruloplasmin), connective tissue formation (lysyl oxidase), energy production (cytochrome c oxidase), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis (dopamine beta-hydroxylase)."
+   "desc": "An essential trace mineral required for iron metabolism (ceruloplasmin), connective tissue formation (lysyl oxidase), energy production (cytochrome c oxidase), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis (dopamine beta-hydroxylase).",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc. National Academies Press; 2001.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25057538/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Gaetke LM, Chow-Johnson HS, Chow CK. Copper: toxicological relevance and mechanisms. Arch Toxicol. 2014;88(11):1929-1938.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25199685/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Trace elements in human nutrition and health. WHO; 1996.",
+     "url": "https://www.who.int/publications/i/item/9241561734",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Iodine",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Median UIC: 100\u2013199 \u00b5g/L (adequate). 50\u201399 \u00b5g/L (mild deficiency). <50 \u00b5g/L (moderate deficiency). <20 \u00b5g/L (severe).",
-   "desc": "An essential trace mineral required exclusively for thyroid hormone synthesis (T3 and T4)."
+   "desc": "An essential trace mineral required exclusively for thyroid hormone synthesis (T3 and T4).",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc. National Academies Press; 2001.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25057538/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "WHO. Assessment of iodine deficiency disorders and monitoring their elimination: a guide for programme managers. 3rd ed. Geneva: WHO; 2007.",
+     "url": "https://www.who.int/publications/i/item/9789241595827",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "RBC Magnesium",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "RBC Mg: 4.2\u20136.8 mg/dL (1.7\u20132.8 mmol/L). Compare with serum Mg: 1.7\u20132.2 mg/dL.",
-   "desc": "Intracellular magnesium status measured in red blood cells, which better reflects tissue magnesium status than serum levels."
+   "desc": "Intracellular magnesium status measured in red blood cells, which better reflects tissue magnesium status than serum levels.",
+   "citations": [
+    {
+     "text": "DiNicolantonio JJ, O'Keefe JH, Wilson W. Subclinical magnesium deficiency: a principal driver of cardiovascular disease and a public health crisis. Open Heart. 2018;5(1):e000668.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29387426/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Nielsen FH, Lukaski HC. Update on the relationship between magnesium and exercise. Magnes Res. 2006;19(3):180-189.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17172008/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Omega-3 Index",
    "system": "Nutritional Markers",
    "freq": "annual",
    "range": "Desirable: \u22658%. Intermediate: 4\u20138%. High risk: <4%.",
-   "desc": "The percentage of EPA (eicosapentaenoic acid) plus DHA (docosahexaenoic acid) in red blood cell membranes."
+   "desc": "The percentage of EPA (eicosapentaenoic acid) plus DHA (docosahexaenoic acid) in red blood cell membranes.",
+   "citations": [
+    {
+     "text": "Harris WS, Von Schacky C. The Omega-3 Index: a new risk factor for death from coronary heart disease? Prev Med. 2004;39(1):212-220.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15208005/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Philpott JD, Witard OC, Galloway SDR. Applications of omega-3 polyunsaturated fatty acid supplementation for sport performance. Res Sports Med. 2019;27(2):219-237.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30484705/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Prealbumin (Transthyretin)",
    "system": "Nutritional Markers",
    "freq": "quarterly",
    "range": "20\u201340 mg/dL (200\u2013400 mg/L)",
-   "desc": "A hepatic transport protein with a short half-life (2\u20133 days) that makes it a sensitive marker of recent nutritional status and protein-calorie intake."
+   "desc": "A hepatic transport protein with a short half-life (2\u20133 days) that makes it a sensitive marker of recent nutritional status and protein-calorie intake.",
+   "citations": [
+    {
+     "text": "Shenkin A. Serum prealbumin: Is it a marker of nutritional status or of risk of malnutrition? Clin Chem. 2006;52(12):2177-2179.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17138848/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Thomas DR, Zdrowski CD, Wilson MM, et al. Malnutrition in subacute care. Am J Clin Nutr. 2002;75(2):308-313.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11815323/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Body Mass Index",
    "system": "Body Composition",
    "freq": "annual",
    "range": "Underweight: <18.5. Normal: 18.5\u201324.9. Overweight: 25.0\u201329.9. Obese I: 30.0\u201334.9. Obese II: 35.0\u201339.9. Obese III: \u226540.0 kg/m\u00b2.",
-   "desc": "A simple index of weight-for-height calculated as weight (kg) divided by height squared (m\u00b2)."
+   "desc": "A simple index of weight-for-height calculated as weight (kg) divided by height squared (m\u00b2).",
+   "citations": [
+    {
+     "text": "Jensen MD, Ryan DH, Apovian CM, et al. 2013 AHA/ACC/TOS guideline for the management of overweight and obesity in adults. Circulation. 2014;129(25 Suppl 2):S102-S138.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24222017/",
+     "source": "AHA/ACC",
+     "grade": "B"
+    },
+    {
+     "text": "Slavin JL. Dietary fiber and body weight. Nutrition. 2005;21(3):411-418.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15797686/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Donnelly JE, Blair SN, Jakicic JM, et al. ACSM Position Stand: Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults. Med Sci Sports Exerc. 2009;41(2):459-471.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19127177/",
+     "source": "ACSM",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Body mass index - BMI. WHO Regional Office for Europe. Obesity and overweight fact sheet. WHO; 2021.",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Body Fat Percentage",
    "system": "Body Composition",
    "freq": "weekly",
    "range": "Men: Essential fat 2\u20135%, Athletes 6\u201313%, Fitness 14\u201317%, Acceptable 18\u201324%, Obese >25%. Women: Essential fat 10\u201313%, Athletes 14\u201320%, Fitness 21\u201324%, Acceptable 25\u201331%, Obese >32%.",
-   "desc": "The proportion of total body mass that is adipose tissue."
+   "desc": "The proportion of total body mass that is adipose tissue.",
+   "citations": [
+    {
+     "text": "Westerterp-Plantenga MS, Lemmens SG, Westerterp KR. Dietary protein \u2014 its role in satiety, energetics, weight loss and health. Br J Nutr. 2012;108 Suppl 2:S105-S112.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23107521/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Westcott WL. Resistance training is medicine: effects of strength training on health. Curr Sports Med Rep. 2012;11(4):209-216.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22777332/",
+     "source": "ACSM",
+     "grade": "B"
+    },
+    {
+     "text": "Wewege M, van den Berg R, Ward RE, Keech A. The effects of high-intensity interval training vs. moderate-intensity continuous training on body composition in overweight and obese adults: a systematic review and meta-analysis. Obes Rev. 2017;18(6):635-646.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28401638/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Waist Circumference",
    "system": "Body Composition",
    "freq": "monthly",
    "range": "Men: <94 cm (<37 inches) normal, 94\u2013102 cm increased risk, >102 cm (>40 inches) substantially increased risk. Women: <80 cm (<31.5 inches) normal, 80\u201388 cm increased risk, >88 cm (>35 inches) substantially increased risk.",
-   "desc": "The circumference of the abdomen measured at the midpoint between the lower rib margin and the iliac crest."
+   "desc": "The circumference of the abdomen measured at the midpoint between the lower rib margin and the iliac crest.",
+   "citations": [
+    {
+     "text": "Estruch R, Ros E, Salas-Salvad\u00f3 J, et al. Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts. N Engl J Med. 2018;378(25):e34.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/",
+     "source": "NEJM",
+     "grade": "A"
+    },
+    {
+     "text": "Stanhope KL, Schwarz JM, Keim NL, et al. Consuming fructose-sweetened, not glucose-sweetened, beverages increases visceral adiposity and lipids and decreases insulin sensitivity in overweight/obese humans. J Clin Invest. 2009;119(5):1322-1334.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19381015/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Vissers D, Hens W, Brouwers J, et al. The effect of exercise on visceral adipose tissue in overweight adults: a systematic review and meta-analysis. PLoS One. 2013;8(2):e56415.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23409182/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    },
+    {
+     "text": "World Health Organization. Waist circumference and waist-hip ratio: report of a WHO expert consultation. WHO; 2008.",
+     "url": "https://www.who.int/publications/i/item/9789241501491",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Lean Body Mass",
    "system": "Body Composition",
    "freq": "monthly",
    "range": "Varies by sex, height, and age. Appendicular skeletal muscle mass index (ASMI = appendicular lean mass / height\u00b2): Men: >7.0 kg/m\u00b2. Women: >5.5 kg/m\u00b2.",
-   "desc": "Total body weight minus fat mass, comprising muscle, bone, water, organs, and connective tissue."
+   "desc": "Total body weight minus fat mass, comprising muscle, bone, water, organs, and connective tissue.",
+   "citations": [
+    {
+     "text": "Morton RW, Murphy KT, McKellar SR, et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2018;52(6):376-384.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+     "source": "ACSM/BJSM",
+     "grade": "A"
+    },
+    {
+     "text": "Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017;14:18.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28615996/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Schoenfeld BJ, Ogborn D, Krieger JW. Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis. J Sports Sci. 2017;35(11):1073-1082.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27433992/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Visceral Fat Area",
    "system": "Body Composition",
    "freq": "quarterly",
    "range": "CT/MRI: VFA <100 cm\u00b2 (low risk), 100\u2013130 cm\u00b2 (moderate), >130 cm\u00b2 (high risk). BIA visceral fat level: 1\u20139 (normal), 10\u201314 (high), \u226515 (very high).",
-   "desc": "Fat stored around abdominal organs (liver, intestines, pancreas) that is metabolically active and pathogenic."
+   "desc": "Fat stored around abdominal organs (liver, intestines, pancreas) that is metabolically active and pathogenic.",
+   "citations": [
+    {
+     "text": "Hairston KG, Vitolins MZ, Norris JM, et al. Lifestyle factors and 5-year abdominal fat accumulation in a minority cohort: the IRAS Family Study. Obesity. 2012;20(2):421-427.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21681224/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "Ohkawara K, Tanaka S, Miyachi M, et al. A dose-response relation between aerobic exercise and visceral fat reduction: systematic review of clinical trials. Int J Obes. 2007;31(12):1786-1797.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17637702/",
+     "source": "NIH/PubMed",
+     "grade": "A"
+    }
+   ]
   },
   {
    "name": "Waist-to-Hip Ratio",
    "system": "Body Composition",
    "freq": "monthly",
    "range": "Men: <0.90 (low risk), 0.90\u20130.99 (moderate), \u22651.0 (high risk). Women: <0.80 (low risk), 0.80\u20130.85 (moderate), >0.85 (high risk).",
-   "desc": "The ratio of waist circumference to hip circumference, indicating body fat distribution."
+   "desc": "The ratio of waist circumference to hip circumference, indicating body fat distribution.",
+   "citations": [
+    {
+     "text": "Yusuf S, Hawken S, Ounpuu S, et al. Obesity and the risk of myocardial infarction in 27,000 participants from 52 countries: a case-control study. Lancet. 2005;366(9497):1640-1649.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16271645/",
+     "source": "Lancet",
+     "grade": "A"
+    },
+    {
+     "text": "Vissers D, Hens W, Brouwers J, et al. The effect of exercise on visceral adipose tissue in overweight adults. PLoS One. 2013;8(2):e56415.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23409182/",
+     "source": "NIH/PubMed",
+     "grade": "B"
+    },
+    {
+     "text": "World Health Organization. Waist circumference and waist-hip ratio: report of a WHO expert consultation. WHO; 2008.",
+     "url": "https://www.who.int/publications/i/item/9789241501491",
+     "source": "WHO",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Bone Mineral Content",
    "system": "Body Composition",
    "freq": "annual",
    "range": "Total body BMC: Men 2,500\u20133,500 g, Women 2,000\u20132,800 g. Varies with body size and ethnicity.",
-   "desc": "The total amount of mineral (primarily calcium hydroxyapatite) in the skeleton, measured in grams."
+   "desc": "The total amount of mineral (primarily calcium hydroxyapatite) in the skeleton, measured in grams.",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Calcium and Vitamin D. National Academies Press; 2011.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21796828/",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Kohrt WM, Bloomfield SA, Little KD, Nelson ME, Yingling VR. ACSM Position Stand: Physical activity and bone health. Med Sci Sports Exerc. 2004;36(11):1985-1996.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15514517/",
+     "source": "ACSM",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Total Body Water",
    "system": "Body Composition",
    "freq": "weekly",
    "range": "Men: 55\u201365% of body weight. Women: 45\u201355% of body weight.",
-   "desc": "The total volume of water in the body, comprising intracellular fluid (ICF, ~60% of TBW) and extracellular fluid (ECF, ~40%)."
+   "desc": "The total volume of water in the body, comprising intracellular fluid (ICF, ~60% of TBW) and extracellular fluid (ECF, ~40%).",
+   "citations": [
+    {
+     "text": "Institute of Medicine. Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate. National Academies Press; 2005.",
+     "url": "https://www.nationalacademies.org/our-work/dietary-reference-intakes-for-water-potassium-sodium-chloride-and-sulfate",
+     "source": "NASEM",
+     "grade": "C"
+    },
+    {
+     "text": "Sawka MN, Burke LM, Eichner ER, et al. ACSM Position Stand: Exercise and fluid replacement. Med Sci Sports Exerc. 2007;39(2):377-390.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/",
+     "source": "ACSM",
+     "grade": "B"
+    }
+   ]
   },
   {
    "name": "Menstrual Cycle Tracking",
    "system": "Reproductive System",
    "freq": "monthly",
    "range": "Cycle length: 21\u201335 days; Flow duration: 3\u20137 days; Blood loss: 5\u201380 mL per cycle (>80 mL = heavy menstrual bleeding)",
-   "desc": "Menstrual cycle tracking monitors cycle length, regularity, flow duration, and associated symptoms as vital indicators of reproductive and overall health."
+   "desc": "Menstrual cycle tracking monitors cycle length, regularity, flow duration, and associated symptoms as vital indicators of reproductive and overall health.",
+   "citations": [
+    {
+     "text": "American College of Obstetricians and Gynecologists. Menstruation in Girls and Adolescents: Using the Menstrual Cycle as a Vital Sign. ACOG Committee Opinion No. 651. Obstet Gynecol. 2015;126(6):e143-e146.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26595586/",
+     "source": "ACOG",
+     "grade": "B"
+    },
+    {
+     "text": "Mountjoy M, Sundgot-Borgen JK, Burke LM, et al. IOC consensus statement on relative energy deficiency in sport (RED-S): 2018 update. Br J Sports Med. 2018;52(11):687-697.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29773536/",
+     "source": "IOC/British Journal of Sports Medicine",
+     "grade": "B"
+    }
+   ]
   }
  ]
 }

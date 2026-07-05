@@ -338,6 +338,67 @@ body.nm-open { overflow: hidden; }
 
 .nm-note { margin: 16px 0 2px; font-size: 11.5px; color: #8397; color: #8a9a91; line-height: 1.5; }
 
+/* Sources & references window — wide, 85% of viewport height, page dimmed
+   but visible behind; × / outside click / Esc return to the page. */
+.ref-modal {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(6, 28, 20, .55);
+  display: flex; align-items: center; justify-content: center; padding: 20px;
+  animation: nm-fade .16s ease;
+}
+.ref-modal[hidden] { display: none; }
+.rm-card {
+  width: min(1100px, 94vw); height: 85vh;
+  background: #fff; border-radius: 18px;
+  box-shadow: 0 24px 70px rgba(6, 28, 20, .45);
+  display: flex; flex-direction: column; overflow: hidden;
+  animation: nm-pop .18s cubic-bezier(.2,.8,.3,1);
+}
+.rm-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 24px 14px; border-bottom: 1px solid #e4eee8; flex: none;
+}
+.rm-head h3 { margin: 0; font-size: 20px; color: #0b3d2e; }
+.rm-close {
+  width: 36px; height: 36px; border: 0; border-radius: 50%;
+  background: #eef4f0; color: #40544a; font-size: 23px; line-height: 1;
+  cursor: pointer; transition: background .12s, color .12s; flex: none;
+}
+.rm-close:hover { background: #dbe8e1; color: #0b3d2e; }
+.rm-body { overflow-y: auto; padding: 20px 24px 26px; }
+.rm-body h4 { margin: 22px 0 4px; font-size: 15.5px; color: #0b3d2e; }
+.rm-body h4:first-child { margin-top: 0; }
+.rm-body .rm-sys { color: #8a9a91; font-weight: 500; font-size: 12.5px; margin-left: 6px; }
+.rm-cite {
+  display: flex; gap: 10px; align-items: flex-start;
+  padding: 8px 0; border-bottom: 1px solid #f0f6f2; font-size: 13.5px;
+  color: #40544a; line-height: 1.55;
+}
+.rm-cite:last-child { border-bottom: 0; }
+.rm-cite a { color: #1268b3; }
+.rm-grade {
+  flex: none; width: 22px; height: 22px; border-radius: 6px; margin-top: 1px;
+  font-size: 12px; font-weight: 800; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+}
+.rm-grade.a { background: #178a5e; }
+.rm-grade.b { background: #1268b3; }
+.rm-grade.c { background: #d97706; }
+.rm-src { color: #8a9a91; font-size: 12px; white-space: nowrap; }
+.rm-legend { font-size: 12.5px; color: #8a9a91; margin: 0 0 6px; }
+.ref-open {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-weight: 700; color: #178a5e; cursor: pointer;
+  background: none; border: 0; font-size: 14.5px; padding: 0;
+  text-decoration: underline; text-decoration-color: #bcd9c9; text-underline-offset: 3px;
+}
+.ref-open:hover { color: #0b3d2e; }
+#ref-library { display: none; }
+@media (max-width: 600px) {
+  .ref-modal { padding: 10px; }
+  .rm-card { width: 100%; height: 88vh; }
+}
+
 /* App pointer — quiet inline note for things the samples can't do (dietary
    variants, personalized exercise); reads as guidance, not advertising. */
 .app-plug {

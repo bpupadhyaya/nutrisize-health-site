@@ -347,6 +347,7 @@ def head(title, desc, canonical, prefix, extra=""):
     <link rel="stylesheet" href="{prefix}assets/css/style.css">
     <link rel="stylesheet" href="{prefix}assets/css/plans.css?v={asset_v('assets/css/plans.css')}">
     <script src="{prefix}assets/js/plan-popup.js?v={asset_v('assets/js/plan-popup.js')}" defer></script>
+    <script src="{prefix}assets/js/ref-modal.js?v={asset_v('assets/js/ref-modal.js')}" defer></script>
 {extra}</head>
 <body>
 """
@@ -406,6 +407,48 @@ def app_plug(prefix, text):
             <p>{text} <a href="{prefix}#download">Get the app &rarr;</a></p>
         </div>
 """
+
+
+# Authoritative standards the sample plans are built on — shown in the
+# sources & references window (assets/js/ref-modal.js) on every plan page.
+PLAN_REFS = [
+    ("FDA", "Daily Value on Nutrition and Supplement Facts Labels — the %DV reference amounts "
+            "used throughout these plans and the meal popups.",
+     "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels"),
+    ("NIH ODS", "Nutrient Recommendations and Databases — Dietary Reference Intakes (DRIs) from "
+                "the National Academies, the basis for energy, protein, fiber, and water targets.",
+     "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations.aspx"),
+    ("USDA / HHS", "Dietary Guidelines for Americans, 2020–2025 — meal patterns and life-stage "
+                   "guidance the weekly structure follows.",
+     "https://www.dietaryguidelines.gov/"),
+    ("USDA", "FoodData Central — the reference food-composition database behind per-food "
+             "nutrient values.",
+     "https://fdc.nal.usda.gov/"),
+    ("WHO", "Guideline: Sugars intake for adults and children — the basis for added-sugar "
+            "limits shown in each profile.",
+     "https://www.who.int/publications/i/item/9789241549028"),
+    ("WHO", "Guideline: Sodium intake for adults and children — the basis for sodium limits "
+            "shown in each profile.",
+     "https://www.who.int/publications/i/item/9789241504836"),
+    ("WHO", "Guidelines on physical activity and sedentary behaviour (2020) — the weekly "
+            "movement targets the exercise plans are sized to.",
+     "https://www.who.int/publications/i/item/9789240015128"),
+]
+
+
+def plan_ref_library(prefix):
+    rows = "".join(
+        f'<div class="rm-cite"><span>'
+        f'<a href="{url}" target="_blank" rel="noopener">{esc(text)}</a>'
+        f' <span class="rm-src">{esc(org)}</span></span></div>'
+        for org, text, url in PLAN_REFS)
+    plug = (f'<div class="app-plug" style="margin-top:24px">'
+            f'<img src="{prefix}assets/img/favicon.png" alt="" width="34" height="34">'
+            f"<p>The app is built on these same standards — 4,995 foods with reference "
+            f"nutrient data and targets computed to DRI and WHO guidance, personalized to "
+            f'your profile. <a href="{prefix}#download">Get the app &rarr;</a></p></div>')
+    return ('<div id="ref-library"><p class="rm-legend">The standards these sample plans are '
+            'built on. Links open in a new tab.</p>' + rows + plug + "</div>\n")
 
 
 DISCLAIMER = """
@@ -671,6 +714,10 @@ def plan_page(plan, nblob=None):
             <a class="btn" href="../../assets/downloads/nutrisize-plan-{key}.pdf" download>&#11015;&#65039; Download this plan (PDF)</a>
             <a class="btn outline" href="../worksheet/">&#129513; Open the interactive worksheet</a>
         </div>
+        <p style="text-align:center; margin-top:18px;">
+            <button class="ref-open" type="button" data-ref-open>&#128218; Sources &amp; references
+            <span style="font-weight:500; color:#8a9a91;">&middot; the standards this plan is built on</span></button>
+        </p>
 {DISCLAIMER}
         <div class="section-head" style="margin-top:44px; margin-bottom:20px;">
             <h2 style="font-size:22px">Explore other groups</h2>
@@ -682,6 +729,7 @@ def plan_page(plan, nblob=None):
     if nblob:
         html += ('<script type="application/json" id="nutri-data">'
                  + json.dumps(nblob, separators=(",", ":")) + "</script>\n")
+    html += plan_ref_library(prefix)
     html += footer(prefix)
     return html
 
