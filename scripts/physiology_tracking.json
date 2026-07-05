@@ -1,0 +1,454 @@
+{
+ "totalParameters": 201,
+ "totalSystems": 16,
+ "tracked": [
+  {
+   "name": "Resting Heart Rate",
+   "system": "Cardiovascular System",
+   "freq": "daily",
+   "range": "60\u2013100 bpm",
+   "desc": "The number of times your heart beats per minute while at complete rest."
+  },
+  {
+   "name": "Systolic Blood Pressure",
+   "system": "Cardiovascular System",
+   "freq": "daily",
+   "range": "<120 mmHg (normal), 120\u2013129 mmHg (elevated), 130\u2013139 mmHg (Stage 1 HTN), \u2265140 mmHg (Stage 2 HTN)",
+   "desc": "The pressure exerted on artery walls when the heart contracts and pumps blood."
+  },
+  {
+   "name": "Diastolic Blood Pressure",
+   "system": "Cardiovascular System",
+   "freq": "daily",
+   "range": "<80 mmHg (normal), 80\u201389 mmHg (Stage 1 HTN), \u226590 mmHg (Stage 2 HTN)",
+   "desc": "The pressure in arteries when the heart relaxes between beats."
+  },
+  {
+   "name": "Blood Pressure Trend",
+   "system": "Cardiovascular System",
+   "freq": "monthly",
+   "range": "Average home BP <135/85 mmHg; average 24-hour ABPM <130/80 mmHg",
+   "desc": "A longitudinal analysis of blood pressure readings over time to identify patterns such as sustained hypertension, white-coat effect, masked hypertension, or nocturnal dipping patterns."
+  },
+  {
+   "name": "Blood Oxygen Saturation",
+   "system": "Cardiovascular System",
+   "freq": "daily",
+   "range": "95\u2013100%",
+   "desc": "The percentage of hemoglobin binding sites occupied by oxygen in arterial blood."
+  },
+  {
+   "name": "Body Temperature",
+   "system": "Cardiovascular System",
+   "freq": "daily",
+   "range": "97.8\u201399.1\u00b0F (36.6\u201337.3\u00b0C) orally; varies with time of day and individual",
+   "desc": "Core body temperature reflects the balance between heat production (metabolism, muscular activity) and heat loss."
+  },
+  {
+   "name": "Hemoglobin",
+   "system": "Hematological System",
+   "freq": "annual",
+   "range": "Men: 13.5\u201317.5 g/dL; Women: 12.0\u201316.0 g/dL; Pregnant women: 11.0\u201314.0 g/dL",
+   "desc": "The iron-containing protein in red blood cells responsible for carrying oxygen from the lungs to tissues and returning carbon dioxide."
+  },
+  {
+   "name": "White Blood Cell Count",
+   "system": "Hematological System",
+   "freq": "annual",
+   "range": "4.5\u201311.0 \u00d710\u00b3/\u03bcL",
+   "desc": "The total number of white blood cells in the blood, reflecting the body's immune defense capacity."
+  },
+  {
+   "name": "Platelet Count",
+   "system": "Hematological System",
+   "freq": "annual",
+   "range": "150\u2013400 \u00d710\u00b3/\u03bcL",
+   "desc": "The number of platelets (thrombocytes) in the blood."
+  },
+  {
+   "name": "Fasting Blood Glucose (Self-Monitored)",
+   "system": "Metabolic & Endocrine System",
+   "freq": "daily",
+   "range": "Normal: 70\u201399 mg/dL; Prediabetes: 100\u2013125 mg/dL; Diabetes: \u2265126 mg/dL (confirmed on two occasions)",
+   "desc": "Blood sugar level measured after at least 8 hours of fasting using a home glucometer."
+  },
+  {
+   "name": "Hemoglobin A1c",
+   "system": "Metabolic & Endocrine System",
+   "freq": "quarterly",
+   "range": "Normal: <5.7%; Prediabetes: 5.7\u20136.4%; Diabetes: \u22656.5%",
+   "desc": "The percentage of hemoglobin that has glucose attached, reflecting average blood glucose levels over the preceding 2\u20133 months."
+  },
+  {
+   "name": "Fasting Plasma Glucose (Lab)",
+   "system": "Metabolic & Endocrine System",
+   "freq": "annual",
+   "range": "Normal: 70\u201399 mg/dL; Impaired Fasting Glucose (prediabetes): 100\u2013125 mg/dL; Diabetes: \u2265126 mg/dL",
+   "desc": "A laboratory measurement of plasma glucose after a minimum 8-hour overnight fast."
+  },
+  {
+   "name": "Thyroid Stimulating Hormone",
+   "system": "Metabolic & Endocrine System",
+   "freq": "annual",
+   "range": "0.4\u20134.0 mIU/L (some experts advocate upper limit of 2.5 mIU/L)",
+   "desc": "A pituitary hormone that regulates thyroid gland function."
+  },
+  {
+   "name": "TSH Monitoring (On Treatment)",
+   "system": "Metabolic & Endocrine System",
+   "freq": "quarterly",
+   "range": "Target TSH: 0.5\u20132.5 mIU/L for most patients on levothyroxine; 0.1\u20130.5 for thyroid cancer suppression therapy",
+   "desc": "Regular TSH monitoring for patients on thyroid hormone replacement or antithyroid medications."
+  },
+  {
+   "name": "Total Cholesterol",
+   "system": "Lipid & Cardiovascular Risk",
+   "freq": "annual",
+   "range": "Desirable: <200 mg/dL; Borderline high: 200\u2013239 mg/dL; High: \u2265240 mg/dL",
+   "desc": "The sum of all cholesterol carried in lipoproteins \u2014 LDL, HDL, VLDL, and others."
+  },
+  {
+   "name": "LDL Cholesterol",
+   "system": "Lipid & Cardiovascular Risk",
+   "freq": "annual",
+   "range": "Optimal: <100 mg/dL; Near optimal: 100\u2013129; Borderline high: 130\u2013159; High: 160\u2013189; Very high: \u2265190 mg/dL",
+   "desc": "Low-density lipoprotein cholesterol is the primary driver of atherosclerotic plaque formation."
+  },
+  {
+   "name": "HDL Cholesterol",
+   "system": "Lipid & Cardiovascular Risk",
+   "freq": "annual",
+   "range": "Men: >40 mg/dL; Women: >50 mg/dL; Optimal: >60 mg/dL",
+   "desc": "High-density lipoprotein cholesterol participates in reverse cholesterol transport \u2014 moving cholesterol from arterial walls back to the liver for excretion."
+  },
+  {
+   "name": "Triglycerides",
+   "system": "Lipid & Cardiovascular Risk",
+   "freq": "annual",
+   "range": "Normal: <150 mg/dL; Borderline: 150\u2013199; High: 200\u2013499; Very high: \u2265500 mg/dL",
+   "desc": "The main form of fat in the blood, carried in VLDL and chylomicrons."
+  },
+  {
+   "name": "Lipid Panel Monitoring (On Treatment)",
+   "system": "Lipid & Cardiovascular Risk",
+   "freq": "quarterly",
+   "range": "On high-intensity statin: expect \u226550% LDL reduction. On moderate-intensity: 30\u201349% reduction. Specific targets depend on risk category.",
+   "desc": "Regular lipid panel monitoring for patients on lipid-lowering therapy (statins, ezetimibe, PCSK9 inhibitors, fibrates)."
+  },
+  {
+   "name": "Alanine Aminotransferase",
+   "system": "Hepatic System",
+   "freq": "annual",
+   "range": "Men: 7\u201356 U/L; Women: 7\u201345 U/L (updated guidelines suggest upper normal: 33 U/L men, 25 U/L women)",
+   "desc": "A liver enzyme released into the blood when hepatocytes (liver cells) are damaged."
+  },
+  {
+   "name": "Creatinine / eGFR",
+   "system": "Renal System",
+   "freq": "annual",
+   "range": "Creatinine: Men 0.7\u20131.3 mg/dL, Women 0.6\u20131.1 mg/dL; eGFR: >90 mL/min/1.73m\u00b2 (normal), 60\u201389 (mildly decreased), 30\u201359 (moderately decreased), 15\u201329 (severely decreased), <15 (kidney failure)",
+   "desc": "Serum creatinine is a waste product from muscle metabolism filtered by the kidneys."
+  },
+  {
+   "name": "Urinalysis",
+   "system": "Renal System",
+   "freq": "annual",
+   "range": "pH: 4.5\u20138.0; Specific gravity: 1.005\u20131.030; Protein: negative; Glucose: negative; Blood: negative; WBC: 0\u20135/HPF; RBC: 0\u20133/HPF; No casts, bacteria, or crystals",
+   "desc": "A comprehensive urine screening test evaluating physical (color, clarity, specific gravity), chemical (pH, protein, glucose, blood, leukocyte esterase, nitrites, ketones, bilirubin), and microscopic (cells, casts, crystals, bacteria) properties."
+  },
+  {
+   "name": "Sleep Duration",
+   "system": "Neurological System",
+   "freq": "daily",
+   "range": "7\u20139 hours (ages 18\u201364); 7\u20138 hours (ages 65+)",
+   "desc": "The total amount of sleep obtained per 24-hour period."
+  },
+  {
+   "name": "Mood & Stress Level",
+   "system": "Neurological System",
+   "freq": "weekly",
+   "range": "PSS-10 score 0\u201313 (low stress); PHQ-9 score 0\u20134 (minimal depression); GAD-7 score 0\u20134 (minimal anxiety)",
+   "desc": "A self-reported assessment of psychological well-being, emotional state, and perceived stress burden."
+  },
+  {
+   "name": "Cortisol",
+   "system": "Neurological System",
+   "freq": "quarterly",
+   "range": "Morning (6\u20138 AM): 10\u201320 mcg/dL (276\u2013552 nmol/L); Evening: 3\u201310 mcg/dL",
+   "desc": "The primary glucocorticoid stress hormone produced by the adrenal cortex."
+  },
+  {
+   "name": "Cognitive Function Score",
+   "system": "Neurological System",
+   "freq": "annual",
+   "range": "MoCA \u226526/30 (normal); MMSE \u226524/30 (normal)",
+   "desc": "A standardized assessment of cognitive abilities including memory, attention, executive function, language, and visuospatial skills."
+  },
+  {
+   "name": "Reaction Time",
+   "system": "Neurological System",
+   "freq": "monthly",
+   "range": "Simple reaction time: 150\u2013300 ms (visual), 120\u2013180 ms (auditory). Choice reaction time: 300\u2013500 ms.",
+   "desc": "The time elapsed between presentation of a stimulus and the initiation of a motor response."
+  },
+  {
+   "name": "C-Reactive Protein",
+   "system": "Immunological System",
+   "freq": "quarterly",
+   "range": "hs-CRP <1.0 mg/L (low cardiovascular risk); 1.0\u20133.0 mg/L (moderate risk); >3.0 mg/L (high risk). Standard CRP <10 mg/L.",
+   "desc": "An acute-phase protein produced by the liver in response to inflammation."
+  },
+  {
+   "name": "Erythrocyte Sedimentation Rate",
+   "system": "Immunological System",
+   "freq": "quarterly",
+   "range": "Men: 0\u201315 mm/hr (age <50), 0\u201320 mm/hr (age >50). Women: 0\u201320 mm/hr (age <50), 0\u201330 mm/hr (age >50).",
+   "desc": "A nonspecific marker of inflammation that measures how quickly red blood cells settle to the bottom of a test tube in one hour."
+  },
+  {
+   "name": "Immunoglobulin G (Total)",
+   "system": "Immunological System",
+   "freq": "annual",
+   "range": "700\u20131,600 mg/dL (7.0\u201316.0 g/L)",
+   "desc": "The most abundant immunoglobulin in serum, comprising 70\u201380% of total antibodies."
+  },
+  {
+   "name": "Immunoglobulin A (Total)",
+   "system": "Immunological System",
+   "freq": "annual",
+   "range": "Serum IgA: 70\u2013400 mg/dL (0.7\u20134.0 g/L). Salivary IgA: 80\u2013350 \u00b5g/mL.",
+   "desc": "The predominant antibody in mucosal surfaces (gut, respiratory tract, saliva, tears)."
+  },
+  {
+   "name": "Total IgE",
+   "system": "Immunological System",
+   "freq": "annual",
+   "range": "Total IgE: <100 IU/mL (adults). Varies widely; atopic individuals may have 200\u20132,000+ IU/mL.",
+   "desc": "Immunoglobulin E is the antibody class responsible for allergic reactions and defense against parasitic infections."
+  },
+  {
+   "name": "Vitamin A (Retinol)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "30\u201365 \u00b5g/dL (1.05\u20132.27 \u00b5mol/L)",
+   "desc": "A fat-soluble vitamin essential for vision, immune function, cell differentiation, and reproduction."
+  },
+  {
+   "name": "Vitamin B1 (Thiamine)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Whole blood thiamine: 70\u2013180 nmol/L. Erythrocyte TPP: 120\u2013150 nmol/L.",
+   "desc": "A water-soluble vitamin essential for carbohydrate metabolism and neural function."
+  },
+  {
+   "name": "Vitamin B2 (Riboflavin)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "EGRAC <1.2 (adequate); 1.2\u20131.4 (marginal); >1.4 (deficient). Serum riboflavin: 6\u201324 \u00b5g/L.",
+   "desc": "A water-soluble vitamin that serves as a precursor to the coenzymes flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD)."
+  },
+  {
+   "name": "Vitamin B3 (Niacin)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Urinary N1-methylnicotinamide: 5.8\u201317.5 \u00b5mol/day. No well-established serum reference range.",
+   "desc": "A water-soluble vitamin that is a precursor to NAD+ and NADP+, coenzymes involved in over 400 enzymatic reactions including energy metabolism, DNA repair, and cell signaling."
+  },
+  {
+   "name": "Vitamin B5 (Pantothenic Acid)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Whole blood: 1.6\u20132.7 \u00b5mol/L. Urinary excretion: 2\u20137 mg/day.",
+   "desc": "A water-soluble vitamin that is a component of coenzyme A (CoA) and acyl carrier protein, both essential for fatty acid synthesis and oxidation, citric acid cycle, and the synthesis of steroid hormones, neurotransmitters, and hemoglobin."
+  },
+  {
+   "name": "Vitamin B6 (Pyridoxine)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Plasma PLP: 20\u2013200 nmol/L (5\u201350 \u00b5g/L)",
+   "desc": "A water-soluble vitamin with six vitamer forms, of which pyridoxal 5'-phosphate (PLP) is the active coenzyme."
+  },
+  {
+   "name": "Vitamin B7 (Biotin)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Serum biotin: 200\u20131,200 pg/mL (0.8\u20134.9 nmol/L)",
+   "desc": "A water-soluble vitamin that serves as a coenzyme for five carboxylase enzymes involved in gluconeogenesis, fatty acid synthesis, and amino acid metabolism."
+  },
+  {
+   "name": "Folate (Vitamin B9)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Serum folate: 7\u201345 nmol/L (3\u201320 ng/mL). RBC folate: 340\u20131,020 nmol/L (150\u2013450 ng/mL).",
+   "desc": "A water-soluble B vitamin essential for one-carbon metabolism, DNA synthesis, repair, and methylation."
+  },
+  {
+   "name": "Vitamin B12 (Cobalamin)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Serum B12: 200\u2013900 pg/mL (148\u2013664 pmol/L). MMA: <370 nmol/L.",
+   "desc": "A water-soluble vitamin essential for DNA synthesis, methylation, neurological function, and red blood cell formation."
+  },
+  {
+   "name": "Vitamin C (Ascorbic Acid)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Plasma: 0.6\u20132.0 mg/dL (34\u2013114 \u00b5mol/L). Deficiency: <0.2 mg/dL (<11 \u00b5mol/L).",
+   "desc": "A water-soluble vitamin and potent antioxidant essential for collagen synthesis, carnitine biosynthesis, neurotransmitter production, and immune function."
+  },
+  {
+   "name": "Vitamin D (25-Hydroxyvitamin D)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Sufficient: 30\u2013100 ng/mL (75\u2013250 nmol/L). Insufficient: 20\u201329 ng/mL. Deficient: <20 ng/mL (<50 nmol/L).",
+   "desc": "A fat-soluble prohormone essential for calcium absorption, bone mineralization, immune modulation, and muscle function."
+  },
+  {
+   "name": "Vitamin E (Alpha-Tocopherol)",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "5\u201320 mg/L (12\u201346 \u00b5mol/L). Lipid-adjusted ratio: >0.8 mg/g total lipids.",
+   "desc": "A fat-soluble antioxidant that protects cell membranes from lipid peroxidation."
+  },
+  {
+   "name": "Vitamin K",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Serum phylloquinone: 0.2\u20133.2 nmol/L (0.1\u20131.4 ng/mL). PT/INR normal: 11\u201313.5 sec / 0.9\u20131.1.",
+   "desc": "A fat-soluble vitamin essential for blood coagulation and bone metabolism."
+  },
+  {
+   "name": "Ferritin",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Men: 30\u2013300 ng/mL. Women (premenopausal): 10\u2013200 ng/mL. Women (postmenopausal): 30\u2013300 ng/mL.",
+   "desc": "The primary intracellular iron storage protein."
+  },
+  {
+   "name": "Total Iron-Binding Capacity",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "250\u2013370 \u00b5g/dL (45\u201366 \u00b5mol/L)",
+   "desc": "A measure of the blood's capacity to bind iron with transferrin, the primary iron transport protein."
+  },
+  {
+   "name": "Transferrin Saturation",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "20\u201350% (men); 15\u201350% (women)",
+   "desc": "The percentage of transferrin binding sites occupied by iron, calculated as (serum iron / TIBC) \u00d7 100."
+  },
+  {
+   "name": "Zinc",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "60\u2013120 \u00b5g/dL (9.2\u201318.4 \u00b5mol/L)",
+   "desc": "An essential trace mineral involved in over 300 enzymatic reactions, including DNA synthesis, immune function, wound healing, protein synthesis, and taste/smell perception."
+  },
+  {
+   "name": "Selenium",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "70\u2013150 \u00b5g/L (0.9\u20131.9 \u00b5mol/L)",
+   "desc": "An essential trace mineral incorporated as selenocysteine into 25 selenoproteins including glutathione peroxidases (antioxidant defense), thioredoxin reductases, and iodothyronine deiodinases (thyroid hormone conversion)."
+  },
+  {
+   "name": "Copper",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Serum copper: 70\u2013140 \u00b5g/dL (11\u201322 \u00b5mol/L). Ceruloplasmin: 20\u201335 mg/dL.",
+   "desc": "An essential trace mineral required for iron metabolism (ceruloplasmin), connective tissue formation (lysyl oxidase), energy production (cytochrome c oxidase), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis (dopamine beta-hydroxylase)."
+  },
+  {
+   "name": "Iodine",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Median UIC: 100\u2013199 \u00b5g/L (adequate). 50\u201399 \u00b5g/L (mild deficiency). <50 \u00b5g/L (moderate deficiency). <20 \u00b5g/L (severe).",
+   "desc": "An essential trace mineral required exclusively for thyroid hormone synthesis (T3 and T4)."
+  },
+  {
+   "name": "RBC Magnesium",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "RBC Mg: 4.2\u20136.8 mg/dL (1.7\u20132.8 mmol/L). Compare with serum Mg: 1.7\u20132.2 mg/dL.",
+   "desc": "Intracellular magnesium status measured in red blood cells, which better reflects tissue magnesium status than serum levels."
+  },
+  {
+   "name": "Omega-3 Index",
+   "system": "Nutritional Markers",
+   "freq": "annual",
+   "range": "Desirable: \u22658%. Intermediate: 4\u20138%. High risk: <4%.",
+   "desc": "The percentage of EPA (eicosapentaenoic acid) plus DHA (docosahexaenoic acid) in red blood cell membranes."
+  },
+  {
+   "name": "Prealbumin (Transthyretin)",
+   "system": "Nutritional Markers",
+   "freq": "quarterly",
+   "range": "20\u201340 mg/dL (200\u2013400 mg/L)",
+   "desc": "A hepatic transport protein with a short half-life (2\u20133 days) that makes it a sensitive marker of recent nutritional status and protein-calorie intake."
+  },
+  {
+   "name": "Body Mass Index",
+   "system": "Body Composition",
+   "freq": "annual",
+   "range": "Underweight: <18.5. Normal: 18.5\u201324.9. Overweight: 25.0\u201329.9. Obese I: 30.0\u201334.9. Obese II: 35.0\u201339.9. Obese III: \u226540.0 kg/m\u00b2.",
+   "desc": "A simple index of weight-for-height calculated as weight (kg) divided by height squared (m\u00b2)."
+  },
+  {
+   "name": "Body Fat Percentage",
+   "system": "Body Composition",
+   "freq": "weekly",
+   "range": "Men: Essential fat 2\u20135%, Athletes 6\u201313%, Fitness 14\u201317%, Acceptable 18\u201324%, Obese >25%. Women: Essential fat 10\u201313%, Athletes 14\u201320%, Fitness 21\u201324%, Acceptable 25\u201331%, Obese >32%.",
+   "desc": "The proportion of total body mass that is adipose tissue."
+  },
+  {
+   "name": "Waist Circumference",
+   "system": "Body Composition",
+   "freq": "monthly",
+   "range": "Men: <94 cm (<37 inches) normal, 94\u2013102 cm increased risk, >102 cm (>40 inches) substantially increased risk. Women: <80 cm (<31.5 inches) normal, 80\u201388 cm increased risk, >88 cm (>35 inches) substantially increased risk.",
+   "desc": "The circumference of the abdomen measured at the midpoint between the lower rib margin and the iliac crest."
+  },
+  {
+   "name": "Lean Body Mass",
+   "system": "Body Composition",
+   "freq": "monthly",
+   "range": "Varies by sex, height, and age. Appendicular skeletal muscle mass index (ASMI = appendicular lean mass / height\u00b2): Men: >7.0 kg/m\u00b2. Women: >5.5 kg/m\u00b2.",
+   "desc": "Total body weight minus fat mass, comprising muscle, bone, water, organs, and connective tissue."
+  },
+  {
+   "name": "Visceral Fat Area",
+   "system": "Body Composition",
+   "freq": "quarterly",
+   "range": "CT/MRI: VFA <100 cm\u00b2 (low risk), 100\u2013130 cm\u00b2 (moderate), >130 cm\u00b2 (high risk). BIA visceral fat level: 1\u20139 (normal), 10\u201314 (high), \u226515 (very high).",
+   "desc": "Fat stored around abdominal organs (liver, intestines, pancreas) that is metabolically active and pathogenic."
+  },
+  {
+   "name": "Waist-to-Hip Ratio",
+   "system": "Body Composition",
+   "freq": "monthly",
+   "range": "Men: <0.90 (low risk), 0.90\u20130.99 (moderate), \u22651.0 (high risk). Women: <0.80 (low risk), 0.80\u20130.85 (moderate), >0.85 (high risk).",
+   "desc": "The ratio of waist circumference to hip circumference, indicating body fat distribution."
+  },
+  {
+   "name": "Bone Mineral Content",
+   "system": "Body Composition",
+   "freq": "annual",
+   "range": "Total body BMC: Men 2,500\u20133,500 g, Women 2,000\u20132,800 g. Varies with body size and ethnicity.",
+   "desc": "The total amount of mineral (primarily calcium hydroxyapatite) in the skeleton, measured in grams."
+  },
+  {
+   "name": "Total Body Water",
+   "system": "Body Composition",
+   "freq": "weekly",
+   "range": "Men: 55\u201365% of body weight. Women: 45\u201355% of body weight.",
+   "desc": "The total volume of water in the body, comprising intracellular fluid (ICF, ~60% of TBW) and extracellular fluid (ECF, ~40%)."
+  },
+  {
+   "name": "Menstrual Cycle Tracking",
+   "system": "Reproductive System",
+   "freq": "monthly",
+   "range": "Cycle length: 21\u201335 days; Flow duration: 3\u20137 days; Blood loss: 5\u201380 mL per cycle (>80 mL = heavy menstrual bleeding)",
+   "desc": "Menstrual cycle tracking monitors cycle length, regularity, flow duration, and associated symptoms as vital indicators of reproductive and overall health."
+  }
+ ]
+}

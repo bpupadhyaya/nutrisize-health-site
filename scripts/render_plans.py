@@ -363,6 +363,7 @@ def nav(prefix, here="plans"):
         <ul class="nav-links">
             <li><a href="{prefix}#features">Features</a></li>
             <li><a href="{prefix}plans/">Plans</a></li>
+            <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}#privacy">Privacy</a></li>
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}support/">Support</a></li>
@@ -381,6 +382,7 @@ def footer(prefix):
         <ul class="footer-links">
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}plans/">Plans</a></li>
+            <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}privacy/">Privacy Policy</a></li>
             <li><a href="{prefix}disclaimer/">Disclaimer</a></li>
             <li><a href="{prefix}support/">Support</a></li>
@@ -612,7 +614,9 @@ def plan_page(plan, nblob=None):
         <div class="section-head">
             <span class="kicker">Physiological parameters</span>
             <h2>What this plan moves, and why</h2>
-            <p>Typical healthy values for this group, and the direction consistent nutrition + exercise nudges them. The app tracks 200+ parameters like these.</p>
+            <p>Typical healthy values for this group, and the direction consistent nutrition + exercise nudges them.
+            The app tracks 201 parameters like these across 16 body systems &mdash;
+            <a href="../../parameters/">see which to check daily, monthly, and yearly</a>.</p>
         </div>
         <div class="table-scroll">
         <table class="param-table">
