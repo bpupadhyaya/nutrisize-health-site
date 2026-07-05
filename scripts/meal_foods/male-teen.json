@@ -7,7 +7,7 @@
       },
       {
         "id": "milk-2-percent",
-        "g": 150
+        "g": 240
       },
       {
         "id": "banana",
@@ -15,29 +15,29 @@
       },
       {
         "id": "raisins",
-        "g": 35
+        "g": 30
       },
       {
         "id": "walnut-raw",
-        "g": 8
+        "g": 15
       }
     ],
     "Lunch": [
       {
-        "id": "bread-white",
-        "g": 120
+        "id": "bread-whole-wheat",
+        "g": 80
       },
       {
         "id": "turkey-breast-cooked",
-        "g": 12
+        "g": 85
       },
       {
         "id": "cheese-cheddar",
-        "g": 12
+        "g": 25
       },
       {
         "id": "mayonnaise",
-        "g": 13
+        "g": 10
       },
       {
         "id": "carrot",
@@ -45,35 +45,35 @@
       },
       {
         "id": "apple",
-        "g": 230
+        "g": 180
       },
       {
         "id": "milk-2-percent",
-        "g": 100
+        "g": 240
       }
     ],
     "Snack": [
       {
         "id": "trail-mix",
-        "g": 30
+        "g": 50
       },
       {
         "id": "raisins",
-        "g": 40
+        "g": 20
       },
       {
         "id": "orange",
-        "g": 200
+        "g": 180
       }
     ],
     "Dinner": [
       {
         "id": "pasta-cooked",
-        "g": 245
+        "g": 280
       },
       {
         "id": "beef-ground-lean-cooked",
-        "g": 15
+        "g": 90
       },
       {
         "id": "tomato-paste",
@@ -81,15 +81,11 @@
       },
       {
         "id": "tomato",
-        "g": 60
-      },
-      {
-        "id": "white-sugar",
-        "g": 14
+        "g": 80
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 24
+        "g": 12
       },
       {
         "id": "lettuce-romaine",
@@ -97,11 +93,11 @@
       },
       {
         "id": "baguette",
-        "g": 55
+        "g": 50
       },
       {
         "id": "butter-salted",
-        "g": 11
+        "g": 8
       },
       {
         "id": "garlic",
@@ -113,33 +109,33 @@
     "Breakfast": [
       {
         "id": "egg-chicken-scrambled",
-        "g": 55
+        "g": 120
       },
       {
         "id": "spinach",
-        "g": 30
+        "g": 40
       },
       {
         "id": "bread-whole-wheat",
-        "g": 90
+        "g": 80
       },
       {
         "id": "butter-salted",
-        "g": 4
+        "g": 6
       },
       {
         "id": "orange-juice",
-        "g": 400
+        "g": 300
       }
     ],
     "Lunch": [
       {
         "id": "rice-brown",
-        "g": 400
+        "g": 300
       },
       {
         "id": "chicken-breast-cooked",
-        "g": 15
+        "g": 120
       },
       {
         "id": "teriyaki-sauce",
@@ -147,15 +143,15 @@
       },
       {
         "id": "broccoli",
-        "g": 90
+        "g": 100
       },
       {
         "id": "edamame",
-        "g": 35
+        "g": 60
       },
       {
         "id": "sesame-oil",
-        "g": 14
+        "g": 8
       }
     ],
     "Snack": [
@@ -165,21 +161,21 @@
       },
       {
         "id": "granola",
-        "g": 55
+        "g": 45
       },
       {
         "id": "milk-2-percent",
-        "g": 100
+        "g": 240
       }
     ],
     "Dinner": [
       {
         "id": "noodles-rice",
-        "g": 400
+        "g": 350
       },
       {
         "id": "shrimp-cooked",
-        "g": 40
+        "g": 130
       },
       {
         "id": "bell-pepper",
@@ -195,7 +191,7 @@
       },
       {
         "id": "sesame-seed",
-        "g": 10
+        "g": 8
       },
       {
         "id": "soy-sauce",
@@ -203,11 +199,11 @@
       },
       {
         "id": "sesame-oil",
-        "g": 30
+        "g": 15
       },
       {
         "id": "pineapple",
-        "g": 250
+        "g": 200
       }
     ]
   },
@@ -215,11 +211,11 @@
     "Breakfast": [
       {
         "id": "rice-cake",
-        "g": 55
+        "g": 50
       },
       {
         "id": "milk-2-percent",
-        "g": 130
+        "g": 240
       },
       {
         "id": "strawberry",
@@ -227,11 +223,11 @@
       },
       {
         "id": "bread-whole-wheat",
-        "g": 45
+        "g": 40
       },
       {
         "id": "peanut-butter",
-        "g": 12
+        "g": 16
       }
     ],
     "Lunch": [
@@ -241,33 +237,29 @@
       },
       {
         "id": "black-beans",
-        "g": 50
+        "g": 120
       },
       {
         "id": "cheese-cheddar",
-        "g": 17
+        "g": 40
       },
       {
         "id": "tomato",
-        "g": 50
-      },
-      {
-        "id": "olive-oil-extra-virgin",
-        "g": 3
-      },
-      {
-        "id": "corn-sweet",
         "g": 60
       },
       {
+        "id": "corn-sweet",
+        "g": 90
+      },
+      {
         "id": "watermelon",
-        "g": 350
+        "g": 250
       }
     ],
     "Snack": [
       {
         "id": "yogurt-low-fat",
-        "g": 140
+        "g": 200
       },
       {
         "id": "granola",
@@ -276,24 +268,20 @@
       {
         "id": "mango",
         "g": 150
-      },
-      {
-        "id": "honey",
-        "g": 8
       }
     ],
     "Dinner": [
       {
         "id": "rice-white",
-        "g": 320
+        "g": 250
       },
       {
         "id": "black-beans",
-        "g": 60
+        "g": 70
       },
       {
         "id": "chicken-breast-cooked",
-        "g": 15
+        "g": 100
       },
       {
         "id": "bell-pepper",
@@ -305,11 +293,11 @@
       },
       {
         "id": "guacamole",
-        "g": 150
+        "g": 90
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 12
+        "g": 8
       }
     ]
   },
@@ -317,15 +305,15 @@
     "Breakfast": [
       {
         "id": "yogurt-greek",
-        "g": 80
-      },
-      {
-        "id": "granola",
-        "g": 65
+        "g": 250
       },
       {
         "id": "honey",
-        "g": 30
+        "g": 20
+      },
+      {
+        "id": "granola",
+        "g": 60
       },
       {
         "id": "peach",
@@ -339,15 +327,15 @@
       },
       {
         "id": "chickpeas",
-        "g": 65
+        "g": 120
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 16
+        "g": 12
       },
       {
         "id": "hummus",
-        "g": 40
+        "g": 50
       },
       {
         "id": "tomato",
@@ -365,15 +353,15 @@
     "Snack": [
       {
         "id": "pita-bread",
-        "g": 65
+        "g": 60
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 6
+        "g": 5
       },
       {
         "id": "hummus",
-        "g": 40
+        "g": 50
       },
       {
         "id": "carrot",
@@ -386,12 +374,12 @@
     ],
     "Dinner": [
       {
-        "id": "rice-basmati",
-        "g": 400
+        "id": "chicken-breast-cooked",
+        "g": 100
       },
       {
-        "id": "chicken-breast-cooked",
-        "g": 15
+        "id": "rice-basmati",
+        "g": 300
       },
       {
         "id": "bell-pepper",
@@ -411,11 +399,11 @@
       },
       {
         "id": "yogurt-plain",
-        "g": 80
+        "g": 100
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 28
+        "g": 15
       },
       {
         "id": "garlic",
@@ -431,29 +419,29 @@
       },
       {
         "id": "peanut-butter",
-        "g": 15
+        "g": 30
       },
       {
         "id": "banana",
-        "g": 130
+        "g": 120
       },
       {
         "id": "milk-2-percent",
-        "g": 120
+        "g": 240
       }
     ],
     "Lunch": [
       {
         "id": "tortilla-flour",
-        "g": 110
+        "g": 90
       },
       {
         "id": "tuna-canned-light",
-        "g": 40
+        "g": 90
       },
       {
         "id": "mayonnaise",
-        "g": 12
+        "g": 15
       },
       {
         "id": "lettuce-romaine",
@@ -465,17 +453,17 @@
       },
       {
         "id": "pear",
-        "g": 200
+        "g": 180
       },
       {
         "id": "milk-2-percent",
-        "g": 100
+        "g": 240
       }
     ],
     "Snack": [
       {
         "id": "apple",
-        "g": 220
+        "g": 180
       },
       {
         "id": "yogurt-low-fat",
@@ -483,33 +471,33 @@
       },
       {
         "id": "honey",
-        "g": 15
+        "g": 10
       },
       {
         "id": "almond-raw",
-        "g": 12
+        "g": 20
       }
     ],
     "Dinner": [
       {
-        "id": "rice-white",
-        "g": 340
+        "id": "chicken-breast-cooked",
+        "g": 100
+      },
+      {
+        "id": "rice-basmati",
+        "g": 220
       },
       {
         "id": "naan",
-        "g": 50
+        "g": 70
       },
       {
         "id": "lentil-red",
-        "g": 30
-      },
-      {
-        "id": "chicken-breast-cooked",
-        "g": 10
+        "g": 75
       },
       {
         "id": "yogurt-plain",
-        "g": 60
+        "g": 80
       },
       {
         "id": "zucchini",
@@ -521,7 +509,7 @@
       },
       {
         "id": "ghee",
-        "g": 30
+        "g": 12
       }
     ]
   },
@@ -529,7 +517,7 @@
     "Breakfast": [
       {
         "id": "wheat-flour-whole",
-        "g": 65
+        "g": 70
       },
       {
         "id": "egg-chicken-scrambled",
@@ -537,7 +525,7 @@
       },
       {
         "id": "milk-2-percent",
-        "g": 150
+        "g": 240
       },
       {
         "id": "blueberry",
@@ -549,17 +537,17 @@
       },
       {
         "id": "maple-syrup",
-        "g": 45
+        "g": 35
       },
       {
         "id": "butter-salted",
-        "g": 8
+        "g": 10
       }
     ],
     "Lunch": [
       {
         "id": "rice-white",
-        "g": 300
+        "g": 250
       },
       {
         "id": "white-sugar",
@@ -567,11 +555,11 @@
       },
       {
         "id": "salmon-atlantic-cooked",
-        "g": 35
+        "g": 100
       },
       {
         "id": "avocado",
-        "g": 100
+        "g": 70
       },
       {
         "id": "nori",
@@ -579,7 +567,7 @@
       },
       {
         "id": "edamame",
-        "g": 30
+        "g": 80
       },
       {
         "id": "orange",
@@ -593,7 +581,7 @@
       },
       {
         "id": "banana",
-        "g": 130
+        "g": 120
       },
       {
         "id": "strawberry",
@@ -601,25 +589,25 @@
       },
       {
         "id": "yogurt-plain",
-        "g": 125
+        "g": 100
       },
       {
-        "id": "milk-whole",
-        "g": 60
+        "id": "milk-2-percent",
+        "g": 150
       },
       {
         "id": "honey",
-        "g": 12
+        "g": 10
       }
     ],
     "Dinner": [
       {
-        "id": "wheat-flour-white",
-        "g": 105
+        "id": "wheat-flour-whole",
+        "g": 100
       },
       {
         "id": "cheese-mozzarella",
-        "g": 22
+        "g": 80
       },
       {
         "id": "tomato-paste",
@@ -631,11 +619,11 @@
       },
       {
         "id": "button-mushroom",
-        "g": 30
+        "g": 40
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 20
+        "g": 12
       },
       {
         "id": "lettuce-romaine",
@@ -651,11 +639,11 @@
       },
       {
         "id": "yogurt-plain",
-        "g": 70
+        "g": 100
       },
       {
         "id": "white-sugar",
-        "g": 20
+        "g": 15
       }
     ]
   },
@@ -663,7 +651,7 @@
     "Breakfast": [
       {
         "id": "egg-omelette",
-        "g": 70
+        "g": 130
       },
       {
         "id": "bell-pepper",
@@ -683,29 +671,29 @@
       },
       {
         "id": "apple",
-        "g": 100
-      },
-      {
-        "id": "orange",
-        "g": 100
-      },
-      {
-        "id": "grape",
         "g": 80
       },
       {
+        "id": "orange",
+        "g": 80
+      },
+      {
+        "id": "grape",
+        "g": 60
+      },
+      {
         "id": "banana",
-        "g": 70
+        "g": 60
       }
     ],
     "Lunch": [
       {
         "id": "white-beans",
-        "g": 45
+        "g": 100
       },
       {
         "id": "pasta-cooked",
-        "g": 45
+        "g": 60
       },
       {
         "id": "potato",
@@ -725,19 +713,19 @@
       },
       {
         "id": "olive-oil-extra-virgin",
-        "g": 12
+        "g": 8
       },
       {
         "id": "bread-whole-wheat",
-        "g": 50
+        "g": 60
       },
       {
         "id": "cheese-cheddar",
-        "g": 12
+        "g": 25
       },
       {
         "id": "apple",
-        "g": 220
+        "g": 140
       }
     ],
     "Snack": [
@@ -751,41 +739,41 @@
       },
       {
         "id": "white-sugar",
-        "g": 20
+        "g": 12
       },
       {
         "id": "butter-salted",
-        "g": 6
-      },
-      {
-        "id": "egg-chicken-whole-cooked",
         "g": 8
       },
       {
+        "id": "egg-chicken-whole-cooked",
+        "g": 10
+      },
+      {
         "id": "milk-2-percent",
-        "g": 150
+        "g": 240
       }
     ],
     "Dinner": [
       {
         "id": "chicken-whole-roasted",
-        "g": 30
+        "g": 120
       },
       {
         "id": "potato",
-        "g": 230
+        "g": 220
       },
       {
         "id": "milk-2-percent",
-        "g": 50
+        "g": 30
       },
       {
         "id": "butter-salted",
-        "g": 32
+        "g": 12
       },
       {
         "id": "corn-sweet",
-        "g": 70
+        "g": 80
       },
       {
         "id": "green-beans",
@@ -793,23 +781,23 @@
       },
       {
         "id": "bread-white",
-        "g": 50
+        "g": 35
       },
       {
         "id": "apple",
-        "g": 150
+        "g": 100
       },
       {
         "id": "oats-rolled",
-        "g": 20
-      },
-      {
-        "id": "wheat-flour-white",
         "g": 25
       },
       {
+        "id": "wheat-flour-white",
+        "g": 15
+      },
+      {
         "id": "white-sugar",
-        "g": 30
+        "g": 12
       }
     ]
   }

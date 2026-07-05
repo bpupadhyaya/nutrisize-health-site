@@ -77,42 +77,42 @@
         {
           "meal": "Breakfast",
           "items": "Oatmeal with banana slices, cinnamon, and a drizzle of honey; low-fat milk",
-          "kcal": 389,
-          "proteinG": 7,
-          "carbsG": 70,
-          "fatG": 9
+          "kcal": 367,
+          "proteinG": 13,
+          "carbsG": 66,
+          "fatG": 8
         },
         {
           "meal": "Lunch",
           "items": "Peanut butter and strawberry jam sandwich on whole wheat; carrot sticks; a clementine",
-          "kcal": 414,
-          "proteinG": 10,
-          "carbsG": 62,
+          "kcal": 399,
+          "proteinG": 15,
+          "carbsG": 57,
           "fatG": 14
         },
         {
           "meal": "Snack",
           "items": "Low-fat vanilla yogurt with blueberries and a granola sprinkle",
-          "kcal": 189,
-          "proteinG": 6,
-          "carbsG": 30,
-          "fatG": 5
+          "kcal": 219,
+          "proteinG": 10,
+          "carbsG": 32,
+          "fatG": 6
         },
         {
           "meal": "Dinner",
           "items": "Homemade baked chicken tenders, roasted sweet potato wedges, steamed broccoli, small dinner roll; glass of low-fat milk",
-          "kcal": 588,
-          "proteinG": 14,
-          "carbsG": 88,
-          "fatG": 20
+          "kcal": 559,
+          "proteinG": 31,
+          "carbsG": 69,
+          "fatG": 19
         }
       ],
       "mealTotals": {
-        "kcal": 1580,
-        "proteinG": 37,
-        "carbsG": 250,
-        "fatG": 48,
-        "fiberG": 17
+        "kcal": 1544,
+        "proteinG": 69,
+        "carbsG": 224,
+        "fatG": 47,
+        "fiberG": 26
       },
       "exercise": {
         "activity": "Playground games: tag, climbing, and monkey bars",
@@ -129,42 +129,42 @@
         {
           "meal": "Breakfast",
           "items": "Scrambled egg and cheese breakfast taco on a small flour tortilla; orange wedges; low-fat milk",
-          "kcal": 372,
-          "proteinG": 12,
-          "carbsG": 54,
-          "fatG": 12
+          "kcal": 431,
+          "proteinG": 20,
+          "carbsG": 49,
+          "fatG": 18
         },
         {
           "meal": "Lunch",
           "items": "Chicken noodle soup with whole-grain crackers; grapes",
-          "kcal": 397,
-          "proteinG": 9,
+          "kcal": 398,
+          "proteinG": 21,
           "carbsG": 70,
-          "fatG": 9
+          "fatG": 5
         },
         {
           "meal": "Snack",
           "items": "Air-popped popcorn and a small banana",
-          "kcal": 217,
+          "kcal": 159,
           "proteinG": 3,
-          "carbsG": 40,
-          "fatG": 5
+          "carbsG": 37,
+          "fatG": 1
         },
         {
           "meal": "Dinner",
           "items": "Bean and cheese quesadilla with mild salsa, cilantro-lime rice, cucumber sticks; mango cubes for dessert",
-          "kcal": 609,
-          "proteinG": 13,
+          "kcal": 615,
+          "proteinG": 21,
           "carbsG": 92,
-          "fatG": 21
+          "fatG": 20
         }
       ],
       "mealTotals": {
-        "kcal": 1595,
-        "proteinG": 37,
-        "carbsG": 256,
-        "fatG": 47,
-        "fiberG": 16
+        "kcal": 1603,
+        "proteinG": 65,
+        "carbsG": 248,
+        "fatG": 44,
+        "fiberG": 24
       },
       "exercise": {
         "activity": "Swimming lesson plus free-swim play",
@@ -181,42 +181,42 @@
         {
           "meal": "Breakfast",
           "items": "Whole-grain toast with ricotta and sliced peaches; low-fat milk",
-          "kcal": 358,
-          "proteinG": 9,
-          "carbsG": 58,
+          "kcal": 343,
+          "proteinG": 20,
+          "carbsG": 45,
           "fatG": 10
         },
         {
           "meal": "Lunch",
           "items": "Caprese-style pasta salad with mozzarella pearls, cherry tomatoes, and basil; a pear",
-          "kcal": 429,
-          "proteinG": 10,
-          "carbsG": 68,
-          "fatG": 13
+          "kcal": 475,
+          "proteinG": 17,
+          "carbsG": 70,
+          "fatG": 16
         },
         {
           "meal": "Snack",
           "items": "Banana with a small handful of almonds",
-          "kcal": 224,
-          "proteinG": 4,
-          "carbsG": 34,
+          "kcal": 191,
+          "proteinG": 5,
+          "carbsG": 29,
           "fatG": 8
         },
         {
           "meal": "Dinner",
           "items": "Spaghetti with turkey meatballs in marinara, garlicky green beans, and a small slice of garlic bread",
-          "kcal": 578,
-          "proteinG": 14,
-          "carbsG": 90,
-          "fatG": 18
+          "kcal": 523,
+          "proteinG": 29,
+          "carbsG": 67,
+          "fatG": 17
         }
       ],
       "mealTotals": {
-        "kcal": 1589,
-        "proteinG": 37,
-        "carbsG": 250,
-        "fatG": 49,
-        "fiberG": 17
+        "kcal": 1532,
+        "proteinG": 71,
+        "carbsG": 211,
+        "fatG": 51,
+        "fiberG": 26
       },
       "exercise": {
         "activity": "Family bike ride around the neighborhood",
@@ -233,42 +233,42 @@
         {
           "meal": "Breakfast",
           "items": "Whole-grain cereal with sliced strawberries and half a banana; low-fat milk",
-          "kcal": 380,
-          "proteinG": 9,
+          "kcal": 363,
+          "proteinG": 12,
           "carbsG": 68,
-          "fatG": 8
+          "fatG": 6
         },
         {
           "meal": "Lunch",
           "items": "Bento-style lunch: rice balls (onigiri), edamame, cucumber sticks with sesame dressing, orange segments",
-          "kcal": 414,
-          "proteinG": 9,
-          "carbsG": 72,
+          "kcal": 444,
+          "proteinG": 15,
+          "carbsG": 75,
           "fatG": 10
         },
         {
           "meal": "Snack",
           "items": "Whole-wheat crackers with hummus",
-          "kcal": 214,
-          "proteinG": 5,
-          "carbsG": 26,
-          "fatG": 10
+          "kcal": 188,
+          "proteinG": 6,
+          "carbsG": 29,
+          "fatG": 6
         },
         {
           "meal": "Dinner",
           "items": "Teriyaki salmon (small fillet), steamed rice, and stir-fried broccoli with carrots",
-          "kcal": 598,
-          "proteinG": 15,
-          "carbsG": 85,
-          "fatG": 22
+          "kcal": 546,
+          "proteinG": 24,
+          "carbsG": 73,
+          "fatG": 17
         }
       ],
       "mealTotals": {
-        "kcal": 1606,
-        "proteinG": 38,
-        "carbsG": 251,
-        "fatG": 50,
-        "fiberG": 16
+        "kcal": 1541,
+        "proteinG": 57,
+        "carbsG": 245,
+        "fatG": 39,
+        "fiberG": 20
       },
       "exercise": {
         "activity": "Soccer practice: drills plus a short scrimmage",
@@ -285,42 +285,42 @@
         {
           "meal": "Breakfast",
           "items": "Mango-yogurt smoothie with a small whole-grain blueberry muffin",
-          "kcal": 373,
-          "proteinG": 9,
-          "carbsG": 64,
-          "fatG": 9
+          "kcal": 384,
+          "proteinG": 14,
+          "carbsG": 65,
+          "fatG": 10
         },
         {
           "meal": "Lunch",
           "items": "Grilled cheese sandwich on whole wheat with tomato soup; grapes",
-          "kcal": 448,
-          "proteinG": 12,
-          "carbsG": 64,
-          "fatG": 16
+          "kcal": 476,
+          "proteinG": 20,
+          "carbsG": 58,
+          "fatG": 20
         },
         {
           "meal": "Snack",
           "items": "Homemade trail mix: raisins, sunflower seeds, and whole-grain cereal rings",
-          "kcal": 208,
-          "proteinG": 4,
-          "carbsG": 30,
+          "kcal": 200,
+          "proteinG": 5,
+          "carbsG": 31,
           "fatG": 8
         },
         {
           "meal": "Dinner",
           "items": "Mild chicken curry with basmati rice, green peas, and cucumber raita",
-          "kcal": 565,
-          "proteinG": 13,
-          "carbsG": 90,
-          "fatG": 17
+          "kcal": 523,
+          "proteinG": 29,
+          "carbsG": 67,
+          "fatG": 15
         }
       ],
       "mealTotals": {
-        "kcal": 1594,
-        "proteinG": 38,
-        "carbsG": 248,
-        "fatG": 50,
-        "fiberG": 18
+        "kcal": 1583,
+        "proteinG": 68,
+        "carbsG": 221,
+        "fatG": 53,
+        "fiberG": 20
       },
       "exercise": {
         "activity": "Dance-along videos and jump-rope challenges",
@@ -337,42 +337,42 @@
         {
           "meal": "Breakfast",
           "items": "Whole-wheat pancakes with strawberries and a little maple syrup; low-fat milk",
-          "kcal": 434,
-          "proteinG": 10,
-          "carbsG": 76,
-          "fatG": 10
+          "kcal": 432,
+          "proteinG": 16,
+          "carbsG": 67,
+          "fatG": 13
         },
         {
           "meal": "Lunch",
           "items": "Greek-style pita pocket with hummus, tomato, cucumber, and feta; watermelon cubes",
-          "kcal": 367,
-          "proteinG": 9,
-          "carbsG": 58,
-          "fatG": 11
+          "kcal": 366,
+          "proteinG": 14,
+          "carbsG": 59,
+          "fatG": 10
         },
         {
           "meal": "Snack",
           "items": "Cheese stick with pretzel twists and grapes",
-          "kcal": 205,
-          "proteinG": 6,
-          "carbsG": 34,
-          "fatG": 5
+          "kcal": 217,
+          "proteinG": 8,
+          "carbsG": 32,
+          "fatG": 7
         },
         {
           "meal": "Dinner",
           "items": "Homemade veggie pizza night: whole-wheat crust with mozzarella, peppers, and mushrooms; crunchy side salad",
-          "kcal": 578,
-          "proteinG": 13,
-          "carbsG": 82,
+          "kcal": 530,
+          "proteinG": 22,
+          "carbsG": 65,
           "fatG": 22
         }
       ],
       "mealTotals": {
-        "kcal": 1584,
-        "proteinG": 38,
-        "carbsG": 250,
-        "fatG": 48,
-        "fiberG": 15
+        "kcal": 1545,
+        "proteinG": 60,
+        "carbsG": 223,
+        "fatG": 52,
+        "fiberG": 22
       },
       "exercise": {
         "activity": "Family nature hike with a scavenger hunt",
@@ -389,42 +389,42 @@
         {
           "meal": "Breakfast",
           "items": "Whole-grain French toast with mixed berries; low-fat milk",
-          "kcal": 383,
-          "proteinG": 9,
-          "carbsG": 62,
-          "fatG": 11
+          "kcal": 433,
+          "proteinG": 20,
+          "carbsG": 58,
+          "fatG": 15
         },
         {
           "meal": "Lunch",
           "items": "Baked potato topped with cheese and broccoli; apple slices",
-          "kcal": 406,
-          "proteinG": 9,
-          "carbsG": 70,
-          "fatG": 10
+          "kcal": 424,
+          "proteinG": 14,
+          "carbsG": 69,
+          "fatG": 12
         },
         {
           "meal": "Snack",
           "items": "Banana-oat mini muffin with a glass of low-fat milk",
-          "kcal": 223,
-          "proteinG": 6,
-          "carbsG": 34,
-          "fatG": 7
+          "kcal": 275,
+          "proteinG": 10,
+          "carbsG": 41,
+          "fatG": 9
         },
         {
           "meal": "Dinner",
           "items": "Homemade baked fish sticks, oven potato wedges, and sweet peas; fruit salad for dessert",
-          "kcal": 580,
-          "proteinG": 14,
-          "carbsG": 86,
-          "fatG": 20
+          "kcal": 494,
+          "proteinG": 26,
+          "carbsG": 75,
+          "fatG": 11
         }
       ],
       "mealTotals": {
-        "kcal": 1592,
-        "proteinG": 38,
-        "carbsG": 252,
-        "fatG": 48,
-        "fiberG": 17
+        "kcal": 1626,
+        "proteinG": 70,
+        "carbsG": 243,
+        "fatG": 47,
+        "fiberG": 31
       },
       "exercise": {
         "activity": "Gentle stretching and an easy walk with family",
