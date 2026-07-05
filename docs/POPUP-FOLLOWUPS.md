@@ -9,6 +9,14 @@ Every meal now also shows **Fiber** (%DV vs 28 g), **Sodium** (%DV vs 2,300 mg),
 (grams only — FDA defines a DV for *added* sugar, which this data doesn't carry), and a collapsible
 **Vitamins & minerals** section (11 vitamins + 7 minerals, %DV vs FDA adult DVs).
 
+**Done (follow-up):** per-food breakdown, matching the mobile app. The popup's "Foods in this
+meal" section lists every constituent food with its portion and kcal; each expands to that food's
+full 25-nutrient panel (macros + fiber/sugar/sodium + all micros, %DV) for its portion. The page
+blob now carries a per-page food table (`foods`: name + per-100g values in FOOD_NUTRIENT_ORDER)
+plus per-meal food lists (`meals[nid].i`: [food index, grams]); the popup multiplies per-100g by
+grams client-side. Per-food fiber applies the day scale (`meals[nid].s`) so foods sum to their
+meal and meals sum to the day.
+
 ## How it works
 
 - `scripts/food_db.json` — 593 foods (id, name, nutrientsPer100g: kcal + macros + fiber/sugar/sodium
@@ -30,7 +38,8 @@ Every meal now also shows **Fiber** (%DV vs 28 g), **Sodium** (%DV vs 2,300 mg),
   if the blob is missing or corrupt. `assets/css/plans.css` — `.nm-micros` grid + fiber/sodium bar
   colors.
 
-Page cost: ~+1.8 KB gzipped per plan page (9.6 → ~11.4 KB). No extra HTTP requests.
+Page cost: ~+6.5 KB gzipped per plan page (9.6 → ~16 KB) including the per-food breakdown.
+No extra HTTP requests; A/B-measured load and popup-open timings unchanged vs the original site.
 
 ## Notes / known limits
 

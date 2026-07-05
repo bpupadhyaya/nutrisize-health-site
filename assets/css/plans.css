@@ -307,6 +307,33 @@ body.nm-open { overflow: hidden; }
 .nm-micro .nm-track { height: 7px; border-radius: 4px; }
 .nm-micro .nm-fill { background: #178a5e; border-radius: 4px; }
 .nm-sugar-note { margin-top: 10px; }
+.nm-nodv { color: #8a9a91; font-weight: 600; }
+
+/* Per-food breakdown — each constituent food expands to its own nutrient panel. */
+.nm-foods-sec { margin-top: 12px; border-top: 1px solid #e4eee8; padding-top: 12px; }
+.nm-foods-sec h4 {
+  margin: 0 0 8px; font-size: 14.5px; color: #223a30;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px;
+}
+.nm-food {
+  border: 1px solid #e4eee8; border-radius: 12px; margin-bottom: 8px;
+  background: #fafcfb; overflow: hidden;
+}
+.nm-food summary {
+  cursor: pointer; list-style: none; display: flex; align-items: baseline;
+  justify-content: space-between; gap: 10px; padding: 9px 12px;
+}
+.nm-food summary::-webkit-details-marker { display: none; }
+.nm-food summary:hover { background: #f0f6f2; }
+.nm-food-name { font-weight: 600; color: #223a30; font-size: 13px; }
+.nm-food-name::before { content: "\203A"; color: #178a5e; font-weight: 800;
+  margin-right: 7px; display: inline-block; transition: transform .15s; }
+.nm-food[open] .nm-food-name::before { transform: rotate(90deg); }
+.nm-food-meta { color: #52655b; font-size: 12px; white-space: nowrap; }
+.nm-food-meta b { color: #0b3d2e; }
+.nm-food .nm-micro-grid { padding: 4px 12px 12px; border-top: 1px solid #e4eee8;
+  margin-top: 0; padding-top: 10px; background: #fff; }
+
 @media (max-width: 380px) { .nm-micro-grid { grid-template-columns: 1fr; } }
 
 .nm-note { margin: 16px 0 2px; font-size: 11.5px; color: #8397; color: #8a9a91; line-height: 1.5; }

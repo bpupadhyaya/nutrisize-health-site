@@ -23,6 +23,9 @@ NUTRIENT_ORDER = [
     "vitaminB1", "vitaminB2", "vitaminB3", "vitaminB6", "vitaminB9", "vitaminB12",
     "calcium", "iron", "magnesium", "phosphorus", "potassium", "zinc", "selenium",
 ]
+# Per-food per-100g arrays in the page food table add the four macros up front.
+# Order MUST match FOOD_NUTR in assets/js/plan-popup.js.
+FOOD_NUTRIENT_ORDER = ["calories", "protein", "carbohydrates", "fat"] + NUTRIENT_ORDER
 
 CATS = [
     "male-child", "male-teen", "male-young-adult", "male-middle-age", "male-older-adult",
@@ -67,15 +70,32 @@ def _round_nutrient(v):
 
 
 def meal_nutrient_blob(plan, food_db):
-    """{nid: [values in NUTRIENT_ORDER]} for every itemized meal, or {} when the
-    plan has no scripts/meal_foods mapping yet (pages then render without it)."""
+    """Popup data for one plan page, or {} when the plan has no
+    scripts/meal_foods mapping yet (pages then render without it):
+
+      {"foods": [[name, [per-100g values in FOOD_NUTRIENT_ORDER]], ...],
+       "meals": {nid: {"t": [meal totals in NUTRIENT_ORDER],
+                       "i": [[food index, grams], ...],
+                       "s": day fiber scale}}}
+    """
     path = os.path.join(MEAL_FOODS, plan["key"] + ".json")
     if not food_db or not os.path.exists(path):
         return {}
     with open(path) as f:
         mapping = json.load(f)
     fiber_i = NUTRIENT_ORDER.index("fiber")
-    blob = {}
+    foods_tbl, food_idx = [], {}
+
+    def index_food(fid):
+        if fid not in food_idx:
+            food = food_db[fid]
+            food_idx[fid] = len(foods_tbl)
+            foods_tbl.append([food["name"],
+                              [_round_nutrient(food["n"].get(k, 0))
+                               for k in FOOD_NUTRIENT_ORDER]])
+        return food_idx[fid]
+
+    meals = {}
     for day in plan["week"]:
         day_map = mapping.get(day["day"], {})
         day_meals = []
@@ -84,6 +104,7 @@ def meal_nutrient_blob(plan, food_db):
             if not foods:
                 continue
             totals = [0.0] * len(NUTRIENT_ORDER)
+            items = []
             for item in foods:
                 food = food_db.get(item["id"])
                 if not food:
@@ -91,17 +112,20 @@ def meal_nutrient_blob(plan, food_db):
                 scale = item["g"] / 100.0
                 for i, k in enumerate(NUTRIENT_ORDER):
                     totals[i] += food["n"].get(k, 0) * scale
-            day_meals.append((meal_nid(day["day"], meal["meal"]), totals))
+                items.append([index_food(item["id"]), item["g"]])
+            day_meals.append((meal_nid(day["day"], meal["meal"]), totals, items))
         # The page already publishes a day-total fiber (mealTotals.fiberG); scale
         # the meals' fiber to sum to it so the popup never contradicts the table.
-        fiber_sum = sum(t[fiber_i] for _, t in day_meals)
+        # The same factor is applied per food in the popup (via "s") so foods sum
+        # to their meal and meals sum to the day.
+        fiber_sum = sum(t[fiber_i] for _, t, _ in day_meals)
         pub_fiber = day.get("mealTotals", {}).get("fiberG")
-        if fiber_sum > 0 and pub_fiber:
-            for _, totals in day_meals:
-                totals[fiber_i] *= pub_fiber / fiber_sum
-        for nid, totals in day_meals:
-            blob[nid] = [_round_nutrient(v) for v in totals]
-    return blob
+        fiber_scale = pub_fiber / fiber_sum if fiber_sum > 0 and pub_fiber else 1.0
+        for nid, totals, items in day_meals:
+            totals[fiber_i] *= fiber_scale
+            meals[nid] = {"t": [_round_nutrient(v) for v in totals],
+                          "i": items, "s": round(fiber_scale, 3)}
+    return {"foods": foods_tbl, "meals": meals}
 
 
 # ---------------------------------------------------------------- SVG charts
@@ -678,8 +702,8 @@ def main():
         os.makedirs(out_dir, exist_ok=True)
         with open(os.path.join(out_dir, "index.html"), "w") as f:
             f.write(plan_page(plan, nblob))
-        print("wrote plans/%s/index.html (%d meals with nutrients)"
-              % (plan["key"], len(nblob)))
+        print("wrote plans/%s/index.html (%d meals, %d foods)"
+              % (plan["key"], len(nblob.get("meals", {})), len(nblob.get("foods", []))))
 
     with open(os.path.join(ROOT, "plans", "index.html"), "w") as f:
         f.write(hub_page(plans))

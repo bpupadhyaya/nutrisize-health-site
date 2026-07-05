@@ -1,10 +1,11 @@
 /* Nutrisize — per-meal nutrition popup.
  * Tap a meal row → a fixed-overlay popup shows that meal's calories + macros as
- * %DV bars and numbers, plus fiber/sodium/sugar and a vitamins & minerals
- * section computed from the meal's itemized foods (embedded per page in the
- * #nutri-data JSON blob by scripts/render_plans.py). Closes on the × button,
- * an outside tap, or Esc. The overlay is position:fixed, so page content never
- * shifts. No dependencies. */
+ * %DV bars and numbers, plus fiber/sodium/sugar, a vitamins & minerals section,
+ * and a per-food breakdown (every constituent food expands to its own full
+ * nutrient panel), all computed from the meal's itemized foods (embedded per
+ * page in the #nutri-data JSON blob by scripts/render_plans.py). Closes on the
+ * × button, an outside tap, or Esc. The overlay is position:fixed, so page
+ * content never shifts. No dependencies. */
 (function () {
   "use strict";
 
@@ -18,7 +19,7 @@
   ];
 
   // Extended nutrients from the itemized foods. Index = position in each
-  // #nutri-data array — order MUST match NUTRIENT_ORDER in scripts/render_plans.py.
+  // meal's "t" array — order MUST match NUTRIENT_ORDER in scripts/render_plans.py.
   // dv: FDA adult Daily Value; sugar has no DV (FDA defines one for ADDED sugar
   // only; the food data carries total sugar), so it renders as a value-only row.
   var NUTR = [
@@ -44,6 +45,15 @@
     { label: "Zinc", unit: "mg", dv: 11, vit: 1 },
     { label: "Selenium", unit: "µg", dv: 55, vit: 1 },
   ];
+
+  // Per-food per-100g arrays in the page food table put the four macros first —
+  // order MUST match FOOD_NUTRIENT_ORDER in scripts/render_plans.py.
+  var FOOD_NUTR = [
+    { label: "Calories", unit: "kcal", dv: 2000 },
+    { label: "Protein", unit: "g", dv: 50 },
+    { label: "Carbs", unit: "g", dv: 275 },
+    { label: "Fat", unit: "g", dv: 78 },
+  ].concat(NUTR);
 
   var overlay, card, lastFocus, nutriData;
 
@@ -110,6 +120,61 @@
       Math.min(p, 100) + '%"></span></div></div>';
   }
 
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // Compact label/value/%DV rows. specs: [{label, unit, dv, vit}], vals aligned
+  // by index. vitOnly limits to the vitamins/minerals subset (meal-level grid);
+  // per-food grids pass false and show everything, macros included.
+  function microGrid(specs, vals, vitOnly) {
+    var rows = "";
+    specs.forEach(function (n, i) {
+      if (vitOnly && !n.vit) return;
+      var v = vals[i];
+      var body;
+      if (!n.dv) {
+        body = '<span class="nm-micro-val"><b>' + fmt(v) + "</b> " + n.unit +
+          ' <span class="nm-bar-pct nm-nodv">no DV*</span></span>';
+      } else {
+        var p = pct(v, n.dv);
+        body = '<span class="nm-micro-val"><b>' + fmt(v) + "</b> " + n.unit +
+          ' <span class="nm-bar-pct">' + p + "%</span></span>" +
+          '<div class="nm-track"><span class="nm-fill" style="width:' +
+          Math.min(p, 100) + '%"></span></div>';
+      }
+      rows += '<div class="nm-micro"><span class="nm-micro-label">' + n.label +
+        "</span>" + body + "</div>";
+    });
+    return rows;
+  }
+
+  // "Foods in this meal": one expandable row per constituent food, each with
+  // the food's full nutrient panel for its portion in this meal.
+  function foodsHTML(foods, meal) {
+    if (!foods || !meal.i || !meal.i.length) return "";
+    var out = "";
+    meal.i.forEach(function (it) {
+      var food = foods[it[0]];
+      if (!food) return;
+      var grams = it[1];
+      var per100 = food[1];
+      var vals = per100.map(function (v, i) {
+        var x = v * grams / 100;
+        // fiber (index 4: after the 4 macros) carries the day reconciliation
+        // scale so foods sum to their meal and meals sum to the day
+        return i === 4 ? x * (meal.s || 1) : x;
+      });
+      out += '<details class="nm-food"><summary><span class="nm-food-name">' +
+        esc(food[0]) + '</span><span class="nm-food-meta">' + fmt(grams) +
+        ' g · <b>' + fmt(vals[0]) + '</b> kcal</span></summary>' +
+        '<div class="nm-micro-grid">' + microGrid(FOOD_NUTR, vals, false) +
+        "</div></details>";
+    });
+    return '<div class="nm-foods-sec"><h4>Foods in this meal <span class="nm-sum-hint">' +
+      "tap a food for its nutrients</span></h4>" + out + "</div>";
+  }
+
   function open(row) {
     if (!overlay) buildOverlay();
     var d = row.dataset;
@@ -131,26 +196,18 @@
     var micros = overlay.querySelector("#nm-micros");
     micros.innerHTML = "";
     var data = getNutriData();
-    var nvals = data && d.nid ? data[d.nid] : null;
-    if (nvals) {
+    var meal = data && data.meals && d.nid ? data.meals[d.nid] : null;
+    if (meal) {
+      var nvals = meal.t;
       NUTR.forEach(function (n, i) {
         if (!n.vit) bars.insertAdjacentHTML("beforeend",
           barHTML(n.label, nvals[i], n.unit, n.dv, n.cls));
       });
-      var rows = "";
-      NUTR.forEach(function (n, i) {
-        if (!n.vit) return;
-        var p = pct(nvals[i], n.dv);
-        rows += '<div class="nm-micro"><span class="nm-micro-label">' + n.label +
-          "</span><span class=\"nm-micro-val\"><b>" + fmt(nvals[i]) + "</b> " + n.unit +
-          ' <span class="nm-bar-pct">' + p + "%</span></span>" +
-          '<div class="nm-track"><span class="nm-fill" style="width:' +
-          Math.min(p, 100) + '%"></span></div></div>';
-      });
       micros.innerHTML =
         '<details class="nm-micros"><summary>Vitamins &amp; minerals <span class="nm-sum-hint">' +
         "estimated from this meal's foods</span></summary>" +
-        '<div class="nm-micro-grid">' + rows + "</div></details>" +
+        '<div class="nm-micro-grid">' + microGrid(NUTR, nvals, true) + "</div></details>" +
+        foodsHTML(data.foods, meal) +
         '<p class="nm-note nm-sugar-note">*FDA sets a Daily Value for added sugar only; ' +
         "the value shown is total sugar.</p>";
     }
