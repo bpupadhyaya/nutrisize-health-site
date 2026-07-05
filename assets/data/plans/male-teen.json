@@ -1,0 +1,506 @@
+{
+  "key": "male-teen",
+  "gender": "Male",
+  "ageGroup": "Teenager",
+  "ageRange": "12–17",
+  "refAge": 15,
+  "profile": {
+    "heightCm": 170,
+    "weightKg": 58,
+    "bmi": 20.1,
+    "bmrKcal": 1680,
+    "activity": "Active play / sports (typical for age)",
+    "tdeeKcal": 2600,
+    "targetKcal": 2600,
+    "proteinG": 65,
+    "carbsG": 395,
+    "fatG": 85,
+    "fiberG": 36,
+    "waterL": 2.4,
+    "sodiumMgMax": 2300,
+    "addedSugarGMax": 32
+  },
+  "physiologicalParams": [
+    {
+      "name": "Height growth velocity",
+      "typical": "5–9 cm per year during the teen growth spurt",
+      "expectedChange": "Steady, on-track growth along the individual curve",
+      "driver": "Adequate energy, protein, calcium, and 8–10 h of sleep"
+    },
+    {
+      "name": "Bone mineral density",
+      "typical": "Peak accrual years — roughly half of adult bone is built in the teens",
+      "expectedChange": "Faster bone mineral gain over months",
+      "driver": "Calcium and vitamin D plus impact sports like basketball and soccer"
+    },
+    {
+      "name": "Aerobic fitness (estimated VO2max)",
+      "typical": "40–50 mL/kg/min for active teen boys",
+      "expectedChange": "Up 5–10% over 8–12 weeks",
+      "driver": "Regular running-based sport sessions raise heart and lung capacity"
+    },
+    {
+      "name": "Resting heart rate",
+      "typical": "60–80 bpm",
+      "expectedChange": "Down 3–6 bpm over 8–12 weeks",
+      "driver": "Repeated aerobic training increases stroke volume"
+    },
+    {
+      "name": "Muscular strength & coordination",
+      "typical": "Rapid gains possible during adolescence",
+      "expectedChange": "Noticeably stronger and more coordinated in 6–10 weeks",
+      "driver": "Sport skill practice plus maturing nervous system and adequate protein"
+    },
+    {
+      "name": "Healthy weight trajectory (BMI-for-age)",
+      "typical": "Within the healthy percentile band for age",
+      "expectedChange": "Stays in the healthy band while height and muscle increase",
+      "driver": "Energy intake matched to high daily activity"
+    },
+    {
+      "name": "Sleep duration & quality",
+      "typical": "8–10 h per night recommended for teens",
+      "expectedChange": "Easier sleep onset and deeper sleep",
+      "driver": "Daytime exercise and limited late-evening sugar and screens"
+    },
+    {
+      "name": "Focus & mood",
+      "typical": "Varies with meals, sleep, and activity",
+      "expectedChange": "Steadier energy and mood across the school day",
+      "driver": "Regular balanced meals prevent energy dips; exercise supports mood"
+    }
+  ],
+  "week": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Oatmeal cooked in low-fat milk with banana, raisins, and chopped walnuts",
+          "kcal": 534,
+          "proteinG": 14,
+          "carbsG": 88,
+          "fatG": 14
+        },
+        {
+          "meal": "Lunch",
+          "items": "Turkey and cheese sandwich on whole-grain bread; baby carrots; apple; low-fat milk",
+          "kcal": 718,
+          "proteinG": 20,
+          "carbsG": 110,
+          "fatG": 22
+        },
+        {
+          "meal": "Snack",
+          "items": "Trail mix with dried fruit; fresh orange",
+          "kcal": 370,
+          "proteinG": 8,
+          "carbsG": 62,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Spaghetti with lean beef marinara, garden salad with olive-oil dressing, garlic bread",
+          "kcal": 954,
+          "proteinG": 23,
+          "carbsG": 130,
+          "fatG": 38
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2576,
+        "proteinG": 65,
+        "carbsG": 390,
+        "fatG": 84,
+        "fiberG": 36
+      },
+      "exercise": {
+        "activity": "Basketball practice (drills, scrimmage)",
+        "durationMin": 60,
+        "intensity": "Vigorous",
+        "kcalBurned": 350,
+        "focus": "Aerobic fitness + agility"
+      },
+      "highlight": "A hearty pasta dinner refuels muscles after an intense basketball practice."
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Scrambled eggs with spinach, whole-wheat toast, and a glass of orange juice",
+          "kcal": 528,
+          "proteinG": 18,
+          "carbsG": 78,
+          "fatG": 16
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chicken teriyaki bowl with brown rice, steamed broccoli, and edamame",
+          "kcal": 732,
+          "proteinG": 20,
+          "carbsG": 118,
+          "fatG": 20
+        },
+        {
+          "meal": "Snack",
+          "items": "Banana with a granola bar and low-fat milk",
+          "kcal": 408,
+          "proteinG": 9,
+          "carbsG": 66,
+          "fatG": 12
+        },
+        {
+          "meal": "Dinner",
+          "items": "Shrimp and vegetable stir-fried noodles with sesame; fresh pineapple",
+          "kcal": 974,
+          "proteinG": 20,
+          "carbsG": 138,
+          "fatG": 38
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2642,
+        "proteinG": 67,
+        "carbsG": 400,
+        "fatG": 86,
+        "fiberG": 35
+      },
+      "exercise": {
+        "activity": "School PE class + easy evening bike ride",
+        "durationMin": 50,
+        "intensity": "Moderate",
+        "kcalBurned": 290,
+        "focus": "General fitness + active transport"
+      },
+      "highlight": "An Asian-inspired day with rice and noodles keeps carbohydrate stores topped up for daily sport."
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain cereal with low-fat milk and strawberries; toast with peanut butter",
+          "kcal": 535,
+          "proteinG": 16,
+          "carbsG": 84,
+          "fatG": 15
+        },
+        {
+          "meal": "Lunch",
+          "items": "Bean and cheese quesadilla with salsa; corn on the cob; watermelon",
+          "kcal": 704,
+          "proteinG": 19,
+          "carbsG": 112,
+          "fatG": 20
+        },
+        {
+          "meal": "Snack",
+          "items": "Yogurt parfait with granola and diced mango",
+          "kcal": 386,
+          "proteinG": 10,
+          "carbsG": 64,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Chicken fajita bowl with rice, black beans, sautéed peppers, and guacamole",
+          "kcal": 978,
+          "proteinG": 21,
+          "carbsG": 138,
+          "fatG": 38
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2603,
+        "proteinG": 66,
+        "carbsG": 398,
+        "fatG": 83,
+        "fiberG": 37
+      },
+      "exercise": {
+        "activity": "Soccer practice (drills + small-sided games)",
+        "durationMin": 75,
+        "intensity": "Vigorous",
+        "kcalBurned": 505,
+        "focus": "Endurance + footwork"
+      },
+      "highlight": "Latin flavors with beans and guacamole add fiber and healthy fats on the hardest training day."
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Greek yogurt with honey, granola, and peach slices",
+          "kcal": 548,
+          "proteinG": 15,
+          "carbsG": 86,
+          "fatG": 16
+        },
+        {
+          "meal": "Lunch",
+          "items": "Falafel pita with hummus and tomato-cucumber salad; grapes",
+          "kcal": 728,
+          "proteinG": 18,
+          "carbsG": 110,
+          "fatG": 24
+        },
+        {
+          "meal": "Snack",
+          "items": "Hummus with pita chips and carrot sticks; clementine",
+          "kcal": 380,
+          "proteinG": 8,
+          "carbsG": 60,
+          "fatG": 12
+        },
+        {
+          "meal": "Dinner",
+          "items": "Grilled chicken souvlaki with rice pilaf, roasted vegetables, and tzatziki",
+          "kcal": 951,
+          "proteinG": 23,
+          "carbsG": 136,
+          "fatG": 35
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2607,
+        "proteinG": 64,
+        "carbsG": 392,
+        "fatG": 87,
+        "fiberG": 36
+      },
+      "exercise": {
+        "activity": "Swimming laps at the community pool",
+        "durationMin": 45,
+        "intensity": "Moderate",
+        "kcalBurned": 260,
+        "focus": "Low-impact cardio + shoulder strength"
+      },
+      "highlight": "A Mediterranean day pairs olive-oil-based fats with low-impact swimming to give joints a break."
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Peanut butter and banana toast on whole-grain bread; glass of low-fat milk",
+          "kcal": 514,
+          "proteinG": 17,
+          "carbsG": 80,
+          "fatG": 14
+        },
+        {
+          "meal": "Lunch",
+          "items": "Tuna salad wrap with lettuce and tomato; pear; low-fat milk",
+          "kcal": 692,
+          "proteinG": 22,
+          "carbsG": 106,
+          "fatG": 20
+        },
+        {
+          "meal": "Snack",
+          "items": "Apple slices with yogurt dip; small handful of almonds",
+          "kcal": 358,
+          "proteinG": 9,
+          "carbsG": 58,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Chicken tikka with basmati rice, lentil dal, naan, and cucumber raita",
+          "kcal": 990,
+          "proteinG": 20,
+          "carbsG": 142,
+          "fatG": 38
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2554,
+        "proteinG": 68,
+        "carbsG": 386,
+        "fatG": 82,
+        "fiberG": 34
+      },
+      "exercise": {
+        "activity": "Cycling and skateboarding with friends",
+        "durationMin": 45,
+        "intensity": "Moderate",
+        "kcalBurned": 220,
+        "focus": "Fun movement + balance"
+      },
+      "highlight": "An Indian-inspired dinner with dal adds plant protein and fiber before a big weekend of sport."
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain pancakes with mixed berries and maple syrup; scrambled egg; low-fat milk",
+          "kcal": 636,
+          "proteinG": 18,
+          "carbsG": 96,
+          "fatG": 20
+        },
+        {
+          "meal": "Lunch",
+          "items": "Salmon and avocado sushi rolls with edamame; orange",
+          "kcal": 744,
+          "proteinG": 20,
+          "carbsG": 112,
+          "fatG": 24
+        },
+        {
+          "meal": "Snack",
+          "items": "Air-popped popcorn and a berry-banana smoothie",
+          "kcal": 394,
+          "proteinG": 8,
+          "carbsG": 68,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Homemade vegetable and mozzarella pizza on whole-wheat crust; side salad; frozen yogurt",
+          "kcal": 898,
+          "proteinG": 20,
+          "carbsG": 128,
+          "fatG": 34
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2672,
+        "proteinG": 66,
+        "carbsG": 404,
+        "fatG": 88,
+        "fiberG": 35
+      },
+      "exercise": {
+        "activity": "Weekend soccer match, including warm-up",
+        "durationMin": 80,
+        "intensity": "Vigorous",
+        "kcalBurned": 540,
+        "focus": "Match endurance + speed"
+      },
+      "highlight": "The biggest eating day fuels a soccer match — pancakes early, sushi at midday, pizza night to refuel."
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Vegetable omelet with whole-wheat toast and fresh fruit salad",
+          "kcal": 554,
+          "proteinG": 16,
+          "carbsG": 82,
+          "fatG": 18
+        },
+        {
+          "meal": "Lunch",
+          "items": "Minestrone soup with a whole-grain roll, cheese slice, and apple",
+          "kcal": 664,
+          "proteinG": 17,
+          "carbsG": 104,
+          "fatG": 20
+        },
+        {
+          "meal": "Snack",
+          "items": "Slice of homemade banana bread with low-fat milk",
+          "kcal": 344,
+          "proteinG": 8,
+          "carbsG": 60,
+          "fatG": 8
+        },
+        {
+          "meal": "Dinner",
+          "items": "Roast chicken with mashed potatoes, corn, green beans, dinner roll, and apple crumble",
+          "kcal": 1034,
+          "proteinG": 24,
+          "carbsG": 149,
+          "fatG": 38
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2596,
+        "proteinG": 65,
+        "carbsG": 395,
+        "fatG": 84,
+        "fiberG": 37
+      },
+      "exercise": {
+        "activity": "Easy walk with family + full-body stretching",
+        "durationMin": 40,
+        "intensity": "Light",
+        "kcalBurned": 115,
+        "focus": "Recovery + flexibility"
+      },
+      "highlight": "A lighter recovery day with an easy walk and stretching lets muscles rebuild after the weekend match."
+    }
+  ],
+  "micronutrients": [
+    {
+      "name": "Calcium",
+      "target": "1300 mg",
+      "percentMet": 102,
+      "keySources": "Milk, yogurt, cheese, mozzarella"
+    },
+    {
+      "name": "Iron",
+      "target": "11 mg",
+      "percentMet": 118,
+      "keySources": "Lean beef, chicken, lentils, fortified cereal"
+    },
+    {
+      "name": "Potassium",
+      "target": "3000 mg",
+      "percentMet": 108,
+      "keySources": "Bananas, potatoes, beans, milk"
+    },
+    {
+      "name": "Vitamin D",
+      "target": "15 µg (600 IU)",
+      "percentMet": 88,
+      "keySources": "Fortified milk, salmon, eggs, tuna"
+    },
+    {
+      "name": "Vitamin C",
+      "target": "75 mg",
+      "percentMet": 130,
+      "keySources": "Oranges, strawberries, peppers, broccoli"
+    },
+    {
+      "name": "Vitamin B12",
+      "target": "2.4 µg",
+      "percentMet": 125,
+      "keySources": "Eggs, milk, chicken, fish"
+    },
+    {
+      "name": "Magnesium",
+      "target": "410 mg",
+      "percentMet": 92,
+      "keySources": "Whole grains, almonds, edamame, beans"
+    },
+    {
+      "name": "Zinc",
+      "target": "11 mg",
+      "percentMet": 105,
+      "keySources": "Beef, chicken, yogurt, whole grains"
+    }
+  ],
+  "changes": {
+    "nutrition": [
+      "Consistent energy intake around 2600 kcal supports the teen growth spurt in height and lean mass rather than fat gain.",
+      "Roughly 1300 mg of daily calcium with vitamin D drives peak bone mineral accrual during these key building years.",
+      "Regular carbohydrate at every meal keeps muscle glycogen full, so sport sessions and school focus don't run out of fuel.",
+      "About 35 g of daily fiber from whole grains, beans, and fruit supports digestion and steadier blood-sugar curves.",
+      "Protein spread across four eating occasions (about 65 g per day) supplies the amino acids growing muscle needs."
+    ],
+    "exercise": [
+      "Five-plus active days per week raise aerobic capacity (VO2max) by roughly 5–10% within 8–12 weeks.",
+      "Impact sports like basketball and soccer stimulate bone growth exactly when the skeleton is most responsive.",
+      "Mixing sports (ball games, swimming, cycling) builds broad coordination and reduces overuse injuries from one repeated motion.",
+      "Regular vigorous play lowers resting heart rate a few beats as the heart pumps more per stroke.",
+      "A weekly light recovery day with walking and stretching helps muscles adapt and keeps motivation high."
+    ]
+  },
+  "notes": "Teen years are for building — bone, muscle, and habits — so this week focuses on fueling sport and growth, not restricting. Portions can flex up on heavy training days; hunger is usually a reliable guide at this age."
+}

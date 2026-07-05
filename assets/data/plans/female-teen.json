@@ -1,0 +1,506 @@
+{
+  "key": "female-teen",
+  "gender": "Female",
+  "ageGroup": "Teenager",
+  "ageRange": "12–17",
+  "refAge": 15,
+  "profile": {
+    "heightCm": 162,
+    "weightKg": 52,
+    "bmi": 19.8,
+    "bmrKcal": 1390,
+    "activity": "Active play / sports (typical for age)",
+    "tdeeKcal": 2020,
+    "targetKcal": 2000,
+    "proteinG": 52,
+    "carbsG": 308,
+    "fatG": 62,
+    "fiberG": 28,
+    "waterL": 1.9,
+    "sodiumMgMax": 2300,
+    "addedSugarGMax": 25
+  },
+  "physiologicalParams": [
+    {
+      "name": "Bone mineral density",
+      "typical": "Peak bone-building years — up to ~40% of adult bone mass forms in adolescence",
+      "expectedChange": "Steady density gains over months",
+      "driver": "Calcium and vitamin D intake plus weight-bearing sports"
+    },
+    {
+      "name": "Height growth velocity",
+      "typical": "Tracking along her growth curve after the early-teen spurt",
+      "expectedChange": "Continues on-curve, no dips",
+      "driver": "Energy intake matched to growth and daily activity"
+    },
+    {
+      "name": "Aerobic fitness (estimated VO2max)",
+      "typical": "38–44 mL/kg/min",
+      "expectedChange": "Up 5–10% over 8–12 weeks",
+      "driver": "Soccer, swimming, dance and cycling most days"
+    },
+    {
+      "name": "Muscular strength & coordination",
+      "typical": "Improving steadily through puberty",
+      "expectedChange": "More reps and longer play without fatigue in 6–8 weeks",
+      "driver": "Varied sport practice plus protein spread across meals"
+    },
+    {
+      "name": "Healthy weight trajectory (BMI-for-age)",
+      "typical": "Near the 50th percentile for age",
+      "expectedChange": "Tracks smoothly along the growth curve — no restrictive dieting",
+      "driver": "Regular balanced meals sized to activity"
+    },
+    {
+      "name": "Energy & iron status",
+      "typical": "Teen girls need more iron (about 15 mg/day)",
+      "expectedChange": "Steady energy in class and sport",
+      "driver": "Iron-rich beans, beef, turkey and fortified grains paired with vitamin C fruit"
+    },
+    {
+      "name": "Sleep duration & quality",
+      "typical": "8–10 hours recommended for teens",
+      "expectedChange": "Easier sleep onset and a more consistent schedule",
+      "driver": "Daytime activity and regular meal timing"
+    },
+    {
+      "name": "Focus & mood",
+      "typical": "Stable energy across the school day",
+      "expectedChange": "Fewer mid-afternoon slumps within 2–4 weeks",
+      "driver": "Breakfast every day and steady carbs plus protein at lunch"
+    }
+  ],
+  "week": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Overnight oats with sliced banana, peanut butter and chia; small glass of orange juice",
+          "kcal": 495,
+          "proteinG": 14,
+          "carbsG": 81,
+          "fatG": 13
+        },
+        {
+          "meal": "Lunch",
+          "items": "Tuna salad sandwich on whole-grain bread with lettuce; apple; baby carrots",
+          "kcal": 470,
+          "proteinG": 18,
+          "carbsG": 66,
+          "fatG": 15
+        },
+        {
+          "meal": "Snack",
+          "items": "Greek yogurt parfait with granola and mixed berries",
+          "kcal": 290,
+          "proteinG": 11,
+          "carbsG": 48,
+          "fatG": 6
+        },
+        {
+          "meal": "Dinner",
+          "items": "Sheet-pan honey-lime chicken with roasted sweet potatoes and broccoli; whole-grain roll",
+          "kcal": 695,
+          "proteinG": 21,
+          "carbsG": 96,
+          "fatG": 25
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1950,
+        "proteinG": 64,
+        "carbsG": 291,
+        "fatG": 59,
+        "fiberG": 28
+      },
+      "exercise": {
+        "activity": "Soccer practice with the school team (drills + scrimmage)",
+        "durationMin": 60,
+        "intensity": "Vigorous",
+        "kcalBurned": 360,
+        "focus": "Aerobic fitness + agility"
+      },
+      "highlight": "A colorful sheet-pan dinner refuels muscles after a hard soccer practice."
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Greek yogurt with honey, walnuts and sliced peach; slice of whole-grain toast",
+          "kcal": 440,
+          "proteinG": 16,
+          "carbsG": 58,
+          "fatG": 16
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chicken pita pocket with tzatziki, cucumber and tomato; small bunch of grapes",
+          "kcal": 480,
+          "proteinG": 19,
+          "carbsG": 70,
+          "fatG": 14
+        },
+        {
+          "meal": "Snack",
+          "items": "Hummus with pita triangles and bell pepper strips; banana",
+          "kcal": 355,
+          "proteinG": 7,
+          "carbsG": 61,
+          "fatG": 9
+        },
+        {
+          "meal": "Dinner",
+          "items": "Baked lemon-herb white fish, roasted potatoes with olive oil and oregano, green beans; whole-grain roll",
+          "kcal": 705,
+          "proteinG": 24,
+          "carbsG": 94,
+          "fatG": 26
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1980,
+        "proteinG": 66,
+        "carbsG": 283,
+        "fatG": 65,
+        "fiberG": 29
+      },
+      "exercise": {
+        "activity": "Basketball with friends at the park",
+        "durationMin": 50,
+        "intensity": "Moderate",
+        "kcalBurned": 280,
+        "focus": "Cardio + agility"
+      },
+      "highlight": "Mediterranean flavors pack in olive oil, fish and plenty of vegetables."
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Scrambled eggs with whole-grain toast, banana and orange slices; glass of low-fat milk",
+          "kcal": 520,
+          "proteinG": 19,
+          "carbsG": 75,
+          "fatG": 16
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chicken and vegetable stir-fry with brown rice (bento-style school lunch)",
+          "kcal": 485,
+          "proteinG": 18,
+          "carbsG": 74,
+          "fatG": 13
+        },
+        {
+          "meal": "Snack",
+          "items": "Steamed edamame, rice crackers and a mandarin",
+          "kcal": 225,
+          "proteinG": 9,
+          "carbsG": 36,
+          "fatG": 5
+        },
+        {
+          "meal": "Dinner",
+          "items": "Vegetable and tofu pad thai with rice noodles, crushed peanuts and lime",
+          "kcal": 745,
+          "proteinG": 17,
+          "carbsG": 104,
+          "fatG": 29
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1975,
+        "proteinG": 63,
+        "carbsG": 289,
+        "fatG": 63,
+        "fiberG": 27
+      },
+      "exercise": {
+        "activity": "Swim session (laps + technique drills)",
+        "durationMin": 45,
+        "intensity": "Moderate",
+        "kcalBurned": 235,
+        "focus": "Full-body aerobic fitness"
+      },
+      "highlight": "A plant-forward pad thai shows protein doesn't always have to come from meat."
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain toast with mashed avocado and a fried egg; mango chunks; glass of low-fat milk",
+          "kcal": 450,
+          "proteinG": 17,
+          "carbsG": 60,
+          "fatG": 16
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chicken and black bean burrito bowl with brown rice, salsa, lettuce and a sprinkle of cheese",
+          "kcal": 530,
+          "proteinG": 21,
+          "carbsG": 78,
+          "fatG": 15
+        },
+        {
+          "meal": "Snack",
+          "items": "Small corn-tortilla cheese quesadilla; watermelon cubes",
+          "kcal": 260,
+          "proteinG": 9,
+          "carbsG": 34,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Beef fajitas with sauteed peppers and onions, flour tortillas and guacamole",
+          "kcal": 700,
+          "proteinG": 20,
+          "carbsG": 96,
+          "fatG": 26
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1940,
+        "proteinG": 67,
+        "carbsG": 268,
+        "fatG": 67,
+        "fiberG": 29
+      },
+      "exercise": {
+        "activity": "Hip-hop dance class",
+        "durationMin": 60,
+        "intensity": "Moderate",
+        "kcalBurned": 285,
+        "focus": "Coordination + cardio"
+      },
+      "highlight": "Iron-rich beef and beans help meet the higher iron needs of teen girls."
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Banana-berry smoothie blended with low-fat milk and oats; small handful of almonds",
+          "kcal": 440,
+          "proteinG": 15,
+          "carbsG": 64,
+          "fatG": 14
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chana masala (chickpea curry) with basmati rice and cucumber raita",
+          "kcal": 540,
+          "proteinG": 18,
+          "carbsG": 86,
+          "fatG": 14
+        },
+        {
+          "meal": "Snack",
+          "items": "Apple slices with peanut butter",
+          "kcal": 285,
+          "proteinG": 7,
+          "carbsG": 28,
+          "fatG": 16
+        },
+        {
+          "meal": "Dinner",
+          "items": "Chicken tikka with whole-wheat naan, yellow dal and kachumber salad",
+          "kcal": 770,
+          "proteinG": 28,
+          "carbsG": 104,
+          "fatG": 27
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2035,
+        "proteinG": 68,
+        "carbsG": 282,
+        "fatG": 71,
+        "fiberG": 31
+      },
+      "exercise": {
+        "activity": "Easy jog with the running club + 10 minutes of stretching",
+        "durationMin": 40,
+        "intensity": "Moderate",
+        "kcalBurned": 200,
+        "focus": "Aerobic base + flexibility"
+      },
+      "highlight": "Indian-style dishes deliver fiber-rich legumes alongside whole grains."
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain waffles topped with strawberries, yogurt and a drizzle of maple syrup",
+          "kcal": 495,
+          "proteinG": 13,
+          "carbsG": 82,
+          "fatG": 13
+        },
+        {
+          "meal": "Lunch",
+          "items": "Caprese sandwich with mozzarella, tomato and basil on ciabatta; fresh peach",
+          "kcal": 505,
+          "proteinG": 16,
+          "carbsG": 70,
+          "fatG": 18
+        },
+        {
+          "meal": "Snack",
+          "items": "Air-popped popcorn with a sprinkle of parmesan; grapes",
+          "kcal": 255,
+          "proteinG": 6,
+          "carbsG": 40,
+          "fatG": 8
+        },
+        {
+          "meal": "Dinner",
+          "items": "Homemade whole-wheat veggie pizza with mozzarella, mushrooms and spinach; side salad",
+          "kcal": 785,
+          "proteinG": 25,
+          "carbsG": 104,
+          "fatG": 30
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2040,
+        "proteinG": 60,
+        "carbsG": 296,
+        "fatG": 69,
+        "fiberG": 27
+      },
+      "exercise": {
+        "activity": "Family bike ride on the greenway",
+        "durationMin": 60,
+        "intensity": "Moderate",
+        "kcalBurned": 310,
+        "focus": "Endurance + leg strength"
+      },
+      "highlight": "Homemade pizza night keeps food fun while the veggies keep it balanced."
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Shakshuka-style eggs in tomato-pepper sauce with whole-grain pita; orange",
+          "kcal": 450,
+          "proteinG": 18,
+          "carbsG": 56,
+          "fatG": 17
+        },
+        {
+          "meal": "Lunch",
+          "items": "Falafel wrap with hummus, tomato and cucumber; watermelon slices",
+          "kcal": 535,
+          "proteinG": 15,
+          "carbsG": 76,
+          "fatG": 19
+        },
+        {
+          "meal": "Snack",
+          "items": "Dates stuffed with almond butter; glass of low-fat milk",
+          "kcal": 295,
+          "proteinG": 9,
+          "carbsG": 42,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Grilled chicken and vegetable skewers with bulgur pilaf and yogurt-mint sauce",
+          "kcal": 710,
+          "proteinG": 28,
+          "carbsG": 96,
+          "fatG": 24
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1990,
+        "proteinG": 70,
+        "carbsG": 270,
+        "fatG": 70,
+        "fiberG": 28
+      },
+      "exercise": {
+        "activity": "Gentle yoga at home + relaxed neighborhood walk",
+        "durationMin": 40,
+        "intensity": "Light",
+        "kcalBurned": 100,
+        "focus": "Recovery + flexibility + balance"
+      },
+      "highlight": "A lighter recovery day pairs easy movement with a colorful Middle Eastern spread."
+    }
+  ],
+  "micronutrients": [
+    {
+      "name": "Calcium",
+      "target": "1300 mg",
+      "percentMet": 96,
+      "keySources": "Milk, yogurt, cheese, fortified waffles"
+    },
+    {
+      "name": "Iron",
+      "target": "15 mg",
+      "percentMet": 92,
+      "keySources": "Beef fajitas, chickpeas, black beans, fortified grains"
+    },
+    {
+      "name": "Potassium",
+      "target": "2300 mg",
+      "percentMet": 108,
+      "keySources": "Bananas, potatoes, yogurt, beans"
+    },
+    {
+      "name": "Vitamin D",
+      "target": "600 IU",
+      "percentMet": 88,
+      "keySources": "Fortified milk and yogurt, eggs, baked fish"
+    },
+    {
+      "name": "Vitamin C",
+      "target": "65 mg",
+      "percentMet": 128,
+      "keySources": "Oranges, strawberries, bell peppers, mango"
+    },
+    {
+      "name": "Vitamin B12",
+      "target": "2.4 mcg",
+      "percentMet": 120,
+      "keySources": "Milk, eggs, chicken, fish"
+    },
+    {
+      "name": "Magnesium",
+      "target": "360 mg",
+      "percentMet": 90,
+      "keySources": "Oats, almonds, edamame, whole grains"
+    },
+    {
+      "name": "Zinc",
+      "target": "9 mg",
+      "percentMet": 96,
+      "keySources": "Chicken, beef, chickpeas, yogurt"
+    }
+  ],
+  "changes": {
+    "nutrition": [
+      "Calcium- and vitamin D-rich dairy at most meals supports the roughly 40% of adult bone mass built during the teen years.",
+      "About 65 g of protein a day, spread across four meals, fuels growth spurts and muscle repair after sport.",
+      "Iron from beef, beans and fortified grains — paired with vitamin C fruits — helps offset the higher iron needs of teen girls.",
+      "Around 28 g of fiber daily from oats, whole grains, fruit and legumes keeps digestion comfortable and fullness steady.",
+      "Eating breakfast and regular meals keeps blood sugar even, supporting concentration through the school day."
+    ],
+    "exercise": [
+      "Weight-bearing sports like soccer, basketball and dance stimulate bone density during these peak building years.",
+      "Five to six varied active days steadily build aerobic fitness — VO2max typically rises 5–10% within 8–12 weeks.",
+      "Mixing team sports, swimming, dance and cycling develops coordination, agility and confidence.",
+      "One light recovery day of yoga and easy walking builds the habit of rest and lowers injury risk.",
+      "Consistent daytime activity makes it easier to fall asleep — important when teens need 8–10 hours a night."
+    ]
+  },
+  "notes": "Teenage girls are in peak bone-building years, so calcium, vitamin D and iron matter most. This week matches food to growth and sport — it is about fueling well, never about restrictive dieting."
+}

@@ -1,0 +1,506 @@
+{
+  "key": "female-middle-age",
+  "gender": "Female",
+  "ageGroup": "Middle age",
+  "ageRange": "36–55",
+  "refAge": 45,
+  "profile": {
+    "heightCm": 162,
+    "weightKg": 66,
+    "bmi": 25.1,
+    "bmrKcal": 1290,
+    "activity": "Moderately active",
+    "tdeeKcal": 1990,
+    "targetKcal": 2000,
+    "proteinG": 85,
+    "carbsG": 268,
+    "fatG": 65,
+    "fiberG": 28,
+    "waterL": 2.2,
+    "sodiumMgMax": 2300,
+    "addedSugarGMax": 25
+  },
+  "physiologicalParams": [
+    {
+      "name": "Resting heart rate",
+      "typical": "62–78 bpm",
+      "expectedChange": "Down 3–6 bpm over 8–12 weeks",
+      "driver": "Regular cardio improves stroke volume so the heart works less at rest"
+    },
+    {
+      "name": "Blood pressure",
+      "typical": "110–125 / 70–82 mmHg",
+      "expectedChange": "Down 4–8 mmHg systolic over 8–12 weeks",
+      "driver": "Aerobic exercise plus potassium-rich, lower-sodium meals relax vessel walls"
+    },
+    {
+      "name": "Fasting glucose",
+      "typical": "80–99 mg/dL",
+      "expectedChange": "Steadier readings, 2–5 mg/dL lower average",
+      "driver": "Fiber-rich carbs and strength work improve insulin sensitivity"
+    },
+    {
+      "name": "LDL / HDL cholesterol",
+      "typical": "LDL < 130 mg/dL, HDL > 50 mg/dL",
+      "expectedChange": "LDL down 5–10%, HDL up modestly over 12 weeks",
+      "driver": "Olive oil, nuts, fish, and soluble fiber shift the lipid profile"
+    },
+    {
+      "name": "VO2max",
+      "typical": "26–32 mL/kg/min",
+      "expectedChange": "Up 8–12% over 12 weeks",
+      "driver": "Brisk walking, cycling, and swimming stress and strengthen the aerobic system"
+    },
+    {
+      "name": "Body-fat percentage",
+      "typical": "28–36%",
+      "expectedChange": "Down 1–2 points over 12 weeks",
+      "driver": "Slight energy balance with high protein preserves muscle while fat trends down"
+    },
+    {
+      "name": "Muscle mass",
+      "typical": "Stable to slowly declining after 40",
+      "expectedChange": "Maintained or up ~0.5 kg over 12 weeks",
+      "driver": "Twice-weekly strength training plus ~85 g protein daily counters age-related loss"
+    },
+    {
+      "name": "Sleep quality",
+      "typical": "6.5–8 h, variable in midlife",
+      "expectedChange": "Faster sleep onset and deeper sleep within 3–4 weeks",
+      "driver": "Daytime activity and steady meal timing reinforce the body clock"
+    }
+  ],
+  "week": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Greek yogurt parfait with strawberries, honey, and walnuts; slice of whole-grain toast",
+          "kcal": 460,
+          "proteinG": 24,
+          "carbsG": 58,
+          "fatG": 15
+        },
+        {
+          "meal": "Lunch",
+          "items": "Quinoa tabbouleh with chickpeas, cucumber, parsley, feta, and olive-oil lemon dressing",
+          "kcal": 560,
+          "proteinG": 22,
+          "carbsG": 72,
+          "fatG": 19
+        },
+        {
+          "meal": "Snack",
+          "items": "Apple slices with almond butter",
+          "kcal": 260,
+          "proteinG": 8,
+          "carbsG": 32,
+          "fatG": 11
+        },
+        {
+          "meal": "Dinner",
+          "items": "Herb-baked salmon, lemon bulgur pilaf, roasted zucchini and red peppers",
+          "kcal": 680,
+          "proteinG": 38,
+          "carbsG": 75,
+          "fatG": 24
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1960,
+        "proteinG": 92,
+        "carbsG": 237,
+        "fatG": 69,
+        "fiberG": 29
+      },
+      "exercise": {
+        "activity": "Brisk walk followed by a full-body dumbbell strength circuit",
+        "durationMin": 55,
+        "intensity": "Moderate",
+        "kcalBurned": 250,
+        "focus": "Cardio base + muscle preservation"
+      },
+      "highlight": "Omega-3-rich salmon and a strength session set the week's tone for heart and muscle health."
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Spinach-mushroom omelet with avocado slices; whole-grain toast; an orange",
+          "kcal": 470,
+          "proteinG": 22,
+          "carbsG": 46,
+          "fatG": 23
+        },
+        {
+          "meal": "Lunch",
+          "items": "Teriyaki-glazed tofu bowl with brown rice, edamame, steamed broccoli, and sesame seeds",
+          "kcal": 640,
+          "proteinG": 28,
+          "carbsG": 88,
+          "fatG": 19
+        },
+        {
+          "meal": "Snack",
+          "items": "Low-fat cottage cheese with fresh pineapple",
+          "kcal": 200,
+          "proteinG": 13,
+          "carbsG": 24,
+          "fatG": 6
+        },
+        {
+          "meal": "Dinner",
+          "items": "Miso-ginger baked cod, soba noodles, stir-fried bok choy with garlic",
+          "kcal": 680,
+          "proteinG": 36,
+          "carbsG": 80,
+          "fatG": 22
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1990,
+        "proteinG": 99,
+        "carbsG": 238,
+        "fatG": 70,
+        "fiberG": 28
+      },
+      "exercise": {
+        "activity": "Stationary cycling at a steady, conversational-plus pace",
+        "durationMin": 40,
+        "intensity": "Moderate",
+        "kcalBurned": 300,
+        "focus": "Aerobic endurance, joint-friendly"
+      },
+      "highlight": "A Japanese-inspired day pairs soy and fish protein with low-impact cycling to spare the knees."
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Overnight oats with chia seeds, diced mango, toasted coconut, and chopped walnuts",
+          "kcal": 480,
+          "proteinG": 15,
+          "carbsG": 68,
+          "fatG": 17
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chicken and black bean burrito bowl with brown rice, pico de gallo, and guacamole",
+          "kcal": 620,
+          "proteinG": 35,
+          "carbsG": 70,
+          "fatG": 21
+        },
+        {
+          "meal": "Snack",
+          "items": "Carrot and jicama sticks with hummus; a small orange",
+          "kcal": 220,
+          "proteinG": 6,
+          "carbsG": 30,
+          "fatG": 9
+        },
+        {
+          "meal": "Dinner",
+          "items": "Shrimp fajita skillet with peppers and onions, warm corn tortillas, cabbage-lime slaw",
+          "kcal": 690,
+          "proteinG": 36,
+          "carbsG": 80,
+          "fatG": 24
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2010,
+        "proteinG": 92,
+        "carbsG": 248,
+        "fatG": 71,
+        "fiberG": 31
+      },
+      "exercise": {
+        "activity": "Resistance training: squats, rows, presses, plus a core finisher",
+        "durationMin": 45,
+        "intensity": "Moderate",
+        "kcalBurned": 245,
+        "focus": "Strength + bone loading"
+      },
+      "highlight": "Bean-and-vegetable fiber meets a loading-focused strength day that supports midlife bone density."
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Vegetable poha (flattened rice with peas, carrots, and peanuts); small low-fat lassi",
+          "kcal": 470,
+          "proteinG": 15,
+          "carbsG": 70,
+          "fatG": 15
+        },
+        {
+          "meal": "Lunch",
+          "items": "Spinach dal (lentils), brown basmati rice, cucumber-mint raita",
+          "kcal": 620,
+          "proteinG": 27,
+          "carbsG": 92,
+          "fatG": 15
+        },
+        {
+          "meal": "Snack",
+          "items": "Roasted chickpeas and a ripe pear",
+          "kcal": 230,
+          "proteinG": 8,
+          "carbsG": 38,
+          "fatG": 5
+        },
+        {
+          "meal": "Dinner",
+          "items": "Tandoori-spiced chicken thigh, whole-wheat roti, sautéed okra with cumin",
+          "kcal": 680,
+          "proteinG": 40,
+          "carbsG": 62,
+          "fatG": 28
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2000,
+        "proteinG": 90,
+        "carbsG": 262,
+        "fatG": 63,
+        "fiberG": 33
+      },
+      "exercise": {
+        "activity": "Yoga flow session, then a short brisk walk",
+        "durationMin": 50,
+        "intensity": "Light to moderate",
+        "kcalBurned": 190,
+        "focus": "Mobility, balance, stress relief"
+      },
+      "highlight": "Lentil-forward Indian plates keep fiber at its weekly peak while yoga eases mid-week tension."
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Scrambled eggs with smoked salmon on half a whole-grain bagel; mixed berries",
+          "kcal": 445,
+          "proteinG": 27,
+          "carbsG": 44,
+          "fatG": 17
+        },
+        {
+          "meal": "Lunch",
+          "items": "Turkey, avocado, and crunchy-veggie sandwich on whole-grain bread; side garden salad",
+          "kcal": 565,
+          "proteinG": 30,
+          "carbsG": 62,
+          "fatG": 20
+        },
+        {
+          "meal": "Snack",
+          "items": "Air-popped popcorn, a peach, and a few almonds",
+          "kcal": 230,
+          "proteinG": 6,
+          "carbsG": 38,
+          "fatG": 8
+        },
+        {
+          "meal": "Dinner",
+          "items": "Grilled lean sirloin, baked sweet potato, garlicky green beans, small whole-grain roll",
+          "kcal": 700,
+          "proteinG": 41,
+          "carbsG": 78,
+          "fatG": 24
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1940,
+        "proteinG": 104,
+        "carbsG": 222,
+        "fatG": 69,
+        "fiberG": 27
+      },
+      "exercise": {
+        "activity": "Swimming laps at an easy-to-moderate pace",
+        "durationMin": 35,
+        "intensity": "Moderate",
+        "kcalBurned": 225,
+        "focus": "Full-body cardio, zero joint impact"
+      },
+      "highlight": "An iron-rich beef dinner backs up a swim day — protein lands highest right after the week's hardest sessions."
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Ricotta and blueberry whole-wheat pancakes with a light maple drizzle",
+          "kcal": 500,
+          "proteinG": 20,
+          "carbsG": 72,
+          "fatG": 16
+        },
+        {
+          "meal": "Lunch",
+          "items": "Minestrone with cannellini beans and kale; slice of whole-grain focaccia with parmesan",
+          "kcal": 560,
+          "proteinG": 24,
+          "carbsG": 76,
+          "fatG": 17
+        },
+        {
+          "meal": "Snack",
+          "items": "Caprese skewers: cherry tomatoes, mini mozzarella, basil; small bunch of grapes",
+          "kcal": 215,
+          "proteinG": 11,
+          "carbsG": 14,
+          "fatG": 13
+        },
+        {
+          "meal": "Dinner",
+          "items": "Chicken piccata with lemon and capers, whole-wheat spaghetti, sautéed broccolini",
+          "kcal": 760,
+          "proteinG": 42,
+          "carbsG": 82,
+          "fatG": 26
+        }
+      ],
+      "mealTotals": {
+        "kcal": 2035,
+        "proteinG": 97,
+        "carbsG": 244,
+        "fatG": 72,
+        "fiberG": 30
+      },
+      "exercise": {
+        "activity": "Weekend hike on rolling trails with friends",
+        "durationMin": 70,
+        "intensity": "Moderate",
+        "kcalBurned": 400,
+        "focus": "Endurance + time outdoors"
+      },
+      "highlight": "The longest, highest-burn day of the week is fueled by an Italian table and a social trail hike."
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Shakshuka — eggs poached in spiced tomato-pepper sauce — with whole-wheat pita",
+          "kcal": 460,
+          "proteinG": 22,
+          "carbsG": 48,
+          "fatG": 18
+        },
+        {
+          "meal": "Lunch",
+          "items": "Mezze plate: hummus, tabbouleh, grilled halloumi, olives, and warm pita",
+          "kcal": 590,
+          "proteinG": 24,
+          "carbsG": 66,
+          "fatG": 25
+        },
+        {
+          "meal": "Snack",
+          "items": "Dates stuffed with walnuts; glass of kefir",
+          "kcal": 215,
+          "proteinG": 6,
+          "carbsG": 32,
+          "fatG": 6
+        },
+        {
+          "meal": "Dinner",
+          "items": "Za'atar roasted chicken breast, freekeh pilaf with pomegranate seeds, charred cauliflower",
+          "kcal": 705,
+          "proteinG": 40,
+          "carbsG": 80,
+          "fatG": 21
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1970,
+        "proteinG": 92,
+        "carbsG": 226,
+        "fatG": 70,
+        "fiberG": 29
+      },
+      "exercise": {
+        "activity": "Gentle stretching routine and an easy neighborhood stroll",
+        "durationMin": 30,
+        "intensity": "Light",
+        "kcalBurned": 80,
+        "focus": "Recovery, flexibility"
+      },
+      "highlight": "A Middle Eastern feast day doubles as active recovery, letting muscles rebuild before the new week."
+    }
+  ],
+  "micronutrients": [
+    {
+      "name": "Calcium",
+      "target": "1000 mg",
+      "percentMet": 102,
+      "keySources": "Yogurt, ricotta, mozzarella, kefir, kale"
+    },
+    {
+      "name": "Iron",
+      "target": "18 mg",
+      "percentMet": 88,
+      "keySources": "Lean beef, lentils, chickpeas, spinach, fortified oats"
+    },
+    {
+      "name": "Potassium",
+      "target": "2600 mg",
+      "percentMet": 118,
+      "keySources": "Sweet potato, beans, tomatoes, yogurt, avocado"
+    },
+    {
+      "name": "Vitamin D",
+      "target": "15 µg (600 IU)",
+      "percentMet": 86,
+      "keySources": "Salmon, cod, eggs, fortified milk products"
+    },
+    {
+      "name": "Vitamin C",
+      "target": "75 mg",
+      "percentMet": 128,
+      "keySources": "Oranges, strawberries, bell peppers, broccoli, mango"
+    },
+    {
+      "name": "Folate",
+      "target": "400 µg DFE",
+      "percentMet": 110,
+      "keySources": "Lentils, chickpeas, spinach, edamame, whole grains"
+    },
+    {
+      "name": "Magnesium",
+      "target": "320 mg",
+      "percentMet": 104,
+      "keySources": "Almonds, walnuts, oats, brown rice, black beans"
+    },
+    {
+      "name": "Zinc",
+      "target": "8 mg",
+      "percentMet": 112,
+      "keySources": "Beef, shrimp, chickpeas, yogurt, whole grains"
+    }
+  ],
+  "changes": {
+    "nutrition": [
+      "About 85–100 g of protein spread across four meals helps counter the gradual muscle loss that accelerates after 40.",
+      "27–33 g of daily fiber from beans, whole grains, and vegetables steadies blood sugar and supports healthy cholesterol.",
+      "Fat kept near 30% of calories — mostly olive oil, nuts, avocado, and fish — favors LDL reduction and hormone balance.",
+      "Calcium-rich dairy at most meals plus vitamin D from fish supports bone density through the perimenopausal years.",
+      "Iron and folate from lentils, beef, and leafy greens cover needs that remain elevated for women through the mid-50s."
+    ],
+    "exercise": [
+      "Two weekly strength sessions load muscles and bones, the most effective known signal for preserving both in midlife.",
+      "Roughly 150 minutes of moderate cardio across the week improves VO2max and gradually lowers resting heart rate.",
+      "Low-impact choices — cycling, swimming, walking — build fitness while protecting knees and hips.",
+      "Yoga and stretching maintain balance and joint range of motion, reducing stiffness and future fall risk.",
+      "One light recovery day allows tissue repair, which is where strength and endurance gains actually consolidate."
+    ]
+  },
+  "notes": "This sample week shows how a moderately active woman in midlife can meet protein, fiber, calcium, and iron needs at about 2000 kcal while enjoying varied global cuisine. It is educational only — individual needs vary, so adjust portions to your own goals and appetite."
+}

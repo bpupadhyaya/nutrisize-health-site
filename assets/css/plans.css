@@ -1,0 +1,222 @@
+/* Nutrisize Health — sample weekly plans + worksheet styles
+   Loaded in addition to style.css on /plans/ pages. */
+
+/* ---------- Plan hub (category picker) ---------- */
+.plan-groups { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.plan-group h3 {
+    font-size: 15px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--blue-700); margin-bottom: 14px;
+}
+.plan-cards { display: grid; gap: 14px; }
+.plan-card {
+    display: flex; align-items: center; gap: 16px;
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 18px 20px; color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.plan-card:hover {
+    text-decoration: none; transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(11, 61, 46, 0.14);
+}
+.plan-card .badge {
+    flex: none; width: 52px; height: 52px; border-radius: 14px;
+    display: flex; align-items: center; justify-content: center; font-size: 26px;
+    background: var(--green-100);
+}
+.plan-card.f .badge { background: var(--blue-100); }
+.plan-card h4 { font-size: 16.5px; font-weight: 700; color: var(--green-900); }
+.plan-card .sub { font-size: 13.5px; color: var(--ink-faint); margin-top: 2px; }
+.plan-card .kcal {
+    margin-left: auto; text-align: right; flex: none;
+}
+.plan-card .kcal .n { font-size: 18px; font-weight: 800; color: var(--green-700); }
+.plan-card .kcal .l { font-size: 11.5px; color: var(--ink-faint); }
+@media (max-width: 760px) { .plan-groups { grid-template-columns: 1fr; } }
+
+/* ---------- Plan page: profile strip ---------- */
+.plan-hero {
+    background:
+        radial-gradient(900px 420px at 90% -10%, var(--blue-100) 0%, transparent 60%),
+        radial-gradient(800px 420px at 5% 110%, var(--green-100) 0%, transparent 60%),
+        var(--paper-tint);
+    border-bottom: 1px solid var(--line);
+    padding: 52px 0 40px;
+}
+.plan-hero .crumb { font-size: 13.5px; color: var(--ink-faint); margin-bottom: 10px; }
+.plan-hero .crumb a { color: var(--green-700); font-weight: 600; }
+.plan-hero h1 {
+    font-size: clamp(28px, 4.5vw, 42px); font-weight: 900; letter-spacing: -0.03em;
+    color: var(--green-900); line-height: 1.15;
+}
+.plan-hero .assume { margin-top: 10px; color: var(--ink-soft); font-size: 15px; max-width: 780px; }
+.profile-grid {
+    margin-top: 26px; display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 10px;
+}
+.pstat {
+    background: #fff; border: 1px solid var(--line); border-radius: 12px;
+    padding: 10px 14px; box-shadow: var(--shadow);
+}
+.pstat .v { font-size: 19px; font-weight: 800; color: var(--green-700); letter-spacing: -0.02em; white-space: nowrap; }
+.pstat .v small { font-size: 12px; font-weight: 600; color: var(--ink-faint); }
+.pstat .k { font-size: 11.5px; font-weight: 600; color: var(--ink-faint); }
+
+/* ---------- Charts ---------- */
+.chart-row { display: grid; grid-template-columns: 1.35fr 1fr 1.15fr; gap: 20px; align-items: stretch; }
+.chart-card {
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 20px 20px 14px; display: flex; flex-direction: column;
+}
+.chart-card h3 { font-size: 15.5px; font-weight: 700; color: var(--green-900); margin-bottom: 2px; }
+.chart-card .sub { font-size: 12.5px; color: var(--ink-faint); margin-bottom: 10px; }
+.chart-card svg { width: 100%; height: auto; display: block; margin-top: auto; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; font-size: 12px; color: var(--ink-soft); }
+.legend .sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; margin-right: 5px; vertical-align: -1px; }
+@media (max-width: 960px) { .chart-row { grid-template-columns: 1fr; } }
+
+/* ---------- Week at a glance table ---------- */
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); background: #fff; }
+table.plan-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 860px; }
+.plan-table thead th {
+    background: var(--green-900); color: #eaf7f0; text-align: left;
+    padding: 12px 14px; font-size: 12.5px; letter-spacing: 0.05em; text-transform: uppercase;
+    white-space: nowrap;
+}
+.plan-table tbody td { padding: 12px 14px; border-top: 1px solid var(--line); vertical-align: top; color: var(--ink-soft); }
+.plan-table tbody tr:nth-child(even) { background: var(--paper-tint); }
+.plan-table td.day { font-weight: 700; color: var(--green-900); white-space: nowrap; }
+.plan-table .kcal-chip {
+    display: inline-block; background: var(--green-100); color: var(--green-700);
+    border-radius: 999px; padding: 1px 9px; font-size: 12px; font-weight: 700; white-space: nowrap;
+}
+.plan-table .burn-chip {
+    display: inline-block; background: var(--blue-100); color: var(--blue-700);
+    border-radius: 999px; padding: 1px 9px; font-size: 12px; font-weight: 700; white-space: nowrap;
+}
+.plan-table td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ---------- Day detail cards ---------- */
+.day-list { display: grid; gap: 14px; }
+details.day-card {
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); overflow: hidden;
+}
+details.day-card summary {
+    list-style: none; cursor: pointer; padding: 16px 22px;
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+details.day-card summary::-webkit-details-marker { display: none; }
+details.day-card summary .dname { font-weight: 800; color: var(--green-900); font-size: 16px; min-width: 96px; }
+details.day-card summary .dhl { color: var(--ink-soft); font-size: 13.5px; flex: 1 1 240px; }
+details.day-card summary .arrow { margin-left: auto; color: var(--green-600); font-weight: 800; transition: transform 0.2s; }
+details.day-card[open] summary .arrow { transform: rotate(90deg); }
+details.day-card .day-body { border-top: 1px solid var(--line); padding: 6px 22px 20px; }
+.meal-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.meal-table th {
+    text-align: left; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); padding: 12px 10px 6px; border-bottom: 1px solid var(--line);
+}
+.meal-table td { padding: 10px; border-bottom: 1px solid var(--line); color: var(--ink-soft); }
+.meal-table td.mname { font-weight: 700; color: var(--green-900); white-space: nowrap; }
+.meal-table td.num, .meal-table th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.meal-table tr.total td { font-weight: 800; color: var(--green-900); border-bottom: none; background: var(--paper-tint); }
+.day-exercise {
+    margin-top: 14px; background: var(--blue-100); border-radius: 12px;
+    padding: 12px 16px; font-size: 14px; color: var(--blue-700);
+    display: flex; gap: 8px 22px; flex-wrap: wrap; align-items: baseline;
+}
+.day-exercise strong { font-weight: 800; }
+
+/* ---------- Physiological params ---------- */
+table.param-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 720px; }
+.param-table thead th {
+    background: var(--blue-700); color: #eaf3fb; text-align: left; padding: 12px 14px;
+    font-size: 12.5px; letter-spacing: 0.05em; text-transform: uppercase; white-space: nowrap;
+}
+.param-table tbody td { padding: 12px 14px; border-top: 1px solid var(--line); color: var(--ink-soft); }
+.param-table tbody tr:nth-child(even) { background: var(--paper-tint); }
+.param-table td.pname { font-weight: 700; color: var(--green-900); }
+.param-table td.change { color: var(--green-700); font-weight: 600; }
+
+/* ---------- Changes two-column ---------- */
+.changes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.changes-col {
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 24px;
+}
+.changes-col h3 { display: flex; align-items: center; gap: 10px; font-size: 17px; color: var(--green-900); margin-bottom: 12px; }
+.changes-col ul { list-style: none; }
+.changes-col li {
+    position: relative; padding: 7px 0 7px 26px; color: var(--ink-soft); font-size: 14.5px;
+}
+.changes-col li::before {
+    content: "✓"; position: absolute; left: 0; top: 7px;
+    color: var(--green-600); font-weight: 800;
+}
+.changes-col.ex li::before { color: var(--blue-600); }
+@media (max-width: 760px) { .changes-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Category chips + CTA ---------- */
+.cat-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.cat-chips a {
+    background: #fff; border: 1px solid var(--line); border-radius: 999px;
+    padding: 8px 16px; font-size: 13.5px; font-weight: 600; color: var(--green-700);
+}
+.cat-chips a:hover { background: var(--green-100); text-decoration: none; }
+.cat-chips a.current { background: var(--green-600); border-color: var(--green-600); color: #fff; }
+.plan-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 8px; }
+
+/* ---------- Worksheet ---------- */
+.ws-grid { display: grid; grid-template-columns: 340px 1fr; gap: 24px; align-items: start; }
+@media (max-width: 900px) { .ws-grid { grid-template-columns: 1fr; } }
+.ws-panel {
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 24px;
+}
+.ws-panel h3 { font-size: 17px; color: var(--green-900); margin-bottom: 14px; }
+.ws-field { margin-bottom: 14px; }
+.ws-field label { display: block; font-size: 13px; font-weight: 600; color: var(--ink-soft); margin-bottom: 5px; }
+.ws-field input, .ws-field select {
+    width: 100%; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px;
+    font: inherit; font-size: 14.5px; color: var(--ink); background: var(--paper-tint);
+}
+.ws-field input:focus, .ws-field select:focus { outline: 2px solid var(--green-500); border-color: transparent; }
+.ws-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.ws-results { display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 10px; margin-top: 8px; }
+.ws-out { background: var(--green-100); border-radius: 12px; padding: 10px 14px; }
+.ws-out .v { font-size: 20px; font-weight: 800; color: var(--green-800, #0f5b40); white-space: nowrap; }
+.ws-out .v small { font-size: 12px; font-weight: 600; color: var(--ink-faint); }
+.ws-out .k { font-size: 11.5px; font-weight: 600; color: var(--ink-faint); }
+.ws-out.blue { background: var(--blue-100); }
+.ws-out.blue .v { color: var(--blue-700); }
+table.ws-week { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 760px; }
+.ws-week th {
+    background: var(--green-900); color: #eaf7f0; padding: 10px 8px; font-size: 11.5px;
+    letter-spacing: 0.04em; text-transform: uppercase; text-align: left; white-space: nowrap;
+}
+.ws-week td { border-top: 1px solid var(--line); padding: 6px 8px; }
+.ws-week td.day { font-weight: 700; color: var(--green-900); white-space: nowrap; }
+.ws-week input {
+    width: 74px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px;
+    font: inherit; font-size: 13.5px; text-align: right; background: var(--paper-tint);
+}
+.ws-week input:focus { outline: 2px solid var(--green-500); border-color: transparent; }
+.ws-week td.total { font-weight: 800; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ws-week td.total.ok { color: var(--green-600); }
+.ws-week td.total.near { color: var(--amber-500); }
+.ws-week td.total.off { color: var(--red-500); }
+.ws-summary { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.ws-note { font-size: 13px; color: var(--ink-faint); margin-top: 14px; }
+
+/* ---------- Print (PDF export) ---------- */
+@media print {
+    nav, footer, .no-print, .plan-cta, .cat-chips { display: none !important; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .plan-hero { padding: 20px 0 16px; }
+    section { padding: 22px 0; }
+    details.day-card { break-inside: avoid; }
+    details.day-card summary .arrow { display: none; }
+    .chart-row { grid-template-columns: 1fr 1fr; }
+    .table-scroll { box-shadow: none; }
+    a { color: inherit; }
+}

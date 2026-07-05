@@ -1,0 +1,506 @@
+{
+  "key": "female-child",
+  "gender": "Female",
+  "ageGroup": "Child",
+  "ageRange": "6–11",
+  "refAge": 9,
+  "profile": {
+    "heightCm": 132,
+    "weightKg": 28,
+    "bmi": 16.1,
+    "bmrKcal": 1050,
+    "activity": "Active play / sports (typical for age)",
+    "tdeeKcal": 1580,
+    "targetKcal": 1600,
+    "proteinG": 34,
+    "carbsG": 253,
+    "fatG": 50,
+    "fiberG": 17,
+    "waterL": 1.7,
+    "sodiumMgMax": 1800,
+    "addedSugarGMax": 40
+  },
+  "physiologicalParams": [
+    {
+      "name": "Growth & bone development",
+      "typical": "Steady height gain of about 5–6 cm per year",
+      "expectedChange": "Stronger bone-mineral gains over the coming months",
+      "driver": "Daily calcium and vitamin D plus weight-bearing play"
+    },
+    {
+      "name": "Motor skills & coordination",
+      "typical": "Improving balance, ball skills, and body control",
+      "expectedChange": "Noticeably smoother coordination in 6–8 weeks",
+      "driver": "Varied play: climbing, skipping, swimming, and biking"
+    },
+    {
+      "name": "Aerobic fitness",
+      "typical": "Can play actively for 60+ minutes a day",
+      "expectedChange": "Runs and plays longer before tiring within 4–8 weeks",
+      "driver": "Daily active play builds heart and lung capacity"
+    },
+    {
+      "name": "Healthy weight trajectory",
+      "typical": "BMI-for-age tracking near the middle percentiles",
+      "expectedChange": "Stays smoothly on her own growth curve",
+      "driver": "Balanced meals and snacks matched to daily activity"
+    },
+    {
+      "name": "Muscle & posture strength",
+      "typical": "Age-typical core, leg, and grip strength",
+      "expectedChange": "Better posture and playground strength in 8–12 weeks",
+      "driver": "Climbing, swimming, and carrying games load muscles safely"
+    },
+    {
+      "name": "Sleep quality",
+      "typical": "9–12 hours per night recommended at this age",
+      "expectedChange": "Falls asleep faster and wakes more refreshed",
+      "driver": "Daytime outdoor activity plus a consistent bedtime"
+    },
+    {
+      "name": "Focus & mood",
+      "typical": "Alert and even-tempered through the school day",
+      "expectedChange": "Steadier attention and mood within a few weeks",
+      "driver": "Regular meals, fiber-rich carbs, and daily play breaks"
+    },
+    {
+      "name": "Iron status & energy",
+      "typical": "Age-appropriate energy for school and sport",
+      "expectedChange": "Consistent, steady energy across the day",
+      "driver": "Iron-rich foods paired with vitamin C for absorption"
+    }
+  ],
+  "week": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Oatmeal with banana slices, cinnamon, and a drizzle of honey; low-fat milk",
+          "kcal": 389,
+          "proteinG": 7,
+          "carbsG": 70,
+          "fatG": 9
+        },
+        {
+          "meal": "Lunch",
+          "items": "Peanut butter and strawberry jam sandwich on whole wheat; carrot sticks; a clementine",
+          "kcal": 414,
+          "proteinG": 10,
+          "carbsG": 62,
+          "fatG": 14
+        },
+        {
+          "meal": "Snack",
+          "items": "Low-fat vanilla yogurt with blueberries and a granola sprinkle",
+          "kcal": 189,
+          "proteinG": 6,
+          "carbsG": 30,
+          "fatG": 5
+        },
+        {
+          "meal": "Dinner",
+          "items": "Homemade baked chicken tenders, roasted sweet potato wedges, steamed broccoli, small dinner roll; glass of low-fat milk",
+          "kcal": 588,
+          "proteinG": 14,
+          "carbsG": 88,
+          "fatG": 20
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1580,
+        "proteinG": 37,
+        "carbsG": 250,
+        "fatG": 48,
+        "fiberG": 17
+      },
+      "exercise": {
+        "activity": "Playground games: tag, climbing, and monkey bars",
+        "durationMin": 60,
+        "intensity": "Moderate",
+        "kcalBurned": 140,
+        "focus": "Whole-body play + bone-loading fun"
+      },
+      "highlight": "A familiar, fiber-rich start to the week that fuels school focus and playground energy."
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Scrambled egg and cheese breakfast taco on a small flour tortilla; orange wedges; low-fat milk",
+          "kcal": 372,
+          "proteinG": 12,
+          "carbsG": 54,
+          "fatG": 12
+        },
+        {
+          "meal": "Lunch",
+          "items": "Chicken noodle soup with whole-grain crackers; grapes",
+          "kcal": 397,
+          "proteinG": 9,
+          "carbsG": 70,
+          "fatG": 9
+        },
+        {
+          "meal": "Snack",
+          "items": "Air-popped popcorn and a small banana",
+          "kcal": 217,
+          "proteinG": 3,
+          "carbsG": 40,
+          "fatG": 5
+        },
+        {
+          "meal": "Dinner",
+          "items": "Bean and cheese quesadilla with mild salsa, cilantro-lime rice, cucumber sticks; mango cubes for dessert",
+          "kcal": 609,
+          "proteinG": 13,
+          "carbsG": 92,
+          "fatG": 21
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1595,
+        "proteinG": 37,
+        "carbsG": 256,
+        "fatG": 47,
+        "fiberG": 16
+      },
+      "exercise": {
+        "activity": "Swimming lesson plus free-swim play",
+        "durationMin": 45,
+        "intensity": "Moderate",
+        "kcalBurned": 130,
+        "focus": "Heart-lung fitness + water confidence"
+      },
+      "highlight": "A taco-morning treat and a bean-and-cheese dinner show how plant protein can anchor a meal."
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain toast with ricotta and sliced peaches; low-fat milk",
+          "kcal": 358,
+          "proteinG": 9,
+          "carbsG": 58,
+          "fatG": 10
+        },
+        {
+          "meal": "Lunch",
+          "items": "Caprese-style pasta salad with mozzarella pearls, cherry tomatoes, and basil; a pear",
+          "kcal": 429,
+          "proteinG": 10,
+          "carbsG": 68,
+          "fatG": 13
+        },
+        {
+          "meal": "Snack",
+          "items": "Banana with a small handful of almonds",
+          "kcal": 224,
+          "proteinG": 4,
+          "carbsG": 34,
+          "fatG": 8
+        },
+        {
+          "meal": "Dinner",
+          "items": "Spaghetti with turkey meatballs in marinara, garlicky green beans, and a small slice of garlic bread",
+          "kcal": 578,
+          "proteinG": 14,
+          "carbsG": 90,
+          "fatG": 18
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1589,
+        "proteinG": 37,
+        "carbsG": 250,
+        "fatG": 49,
+        "fiberG": 17
+      },
+      "exercise": {
+        "activity": "Family bike ride around the neighborhood",
+        "durationMin": 40,
+        "intensity": "Moderate",
+        "kcalBurned": 105,
+        "focus": "Leg strength + balance"
+      },
+      "highlight": "An Italian-themed day where pasta is balanced with vegetables and kid-sized portions."
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain cereal with sliced strawberries and half a banana; low-fat milk",
+          "kcal": 380,
+          "proteinG": 9,
+          "carbsG": 68,
+          "fatG": 8
+        },
+        {
+          "meal": "Lunch",
+          "items": "Bento-style lunch: rice balls (onigiri), edamame, cucumber sticks with sesame dressing, orange segments",
+          "kcal": 414,
+          "proteinG": 9,
+          "carbsG": 72,
+          "fatG": 10
+        },
+        {
+          "meal": "Snack",
+          "items": "Whole-wheat crackers with hummus",
+          "kcal": 214,
+          "proteinG": 5,
+          "carbsG": 26,
+          "fatG": 10
+        },
+        {
+          "meal": "Dinner",
+          "items": "Teriyaki salmon (small fillet), steamed rice, and stir-fried broccoli with carrots",
+          "kcal": 598,
+          "proteinG": 15,
+          "carbsG": 85,
+          "fatG": 22
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1606,
+        "proteinG": 38,
+        "carbsG": 251,
+        "fatG": 50,
+        "fiberG": 16
+      },
+      "exercise": {
+        "activity": "Soccer practice: drills plus a short scrimmage",
+        "durationMin": 60,
+        "intensity": "Vigorous",
+        "kcalBurned": 195,
+        "focus": "Agility, speed + teamwork"
+      },
+      "highlight": "A playful bento makes trying new foods fun, and salmon brings omega-3s for a growing brain."
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Mango-yogurt smoothie with a small whole-grain blueberry muffin",
+          "kcal": 373,
+          "proteinG": 9,
+          "carbsG": 64,
+          "fatG": 9
+        },
+        {
+          "meal": "Lunch",
+          "items": "Grilled cheese sandwich on whole wheat with tomato soup; grapes",
+          "kcal": 448,
+          "proteinG": 12,
+          "carbsG": 64,
+          "fatG": 16
+        },
+        {
+          "meal": "Snack",
+          "items": "Homemade trail mix: raisins, sunflower seeds, and whole-grain cereal rings",
+          "kcal": 208,
+          "proteinG": 4,
+          "carbsG": 30,
+          "fatG": 8
+        },
+        {
+          "meal": "Dinner",
+          "items": "Mild chicken curry with basmati rice, green peas, and cucumber raita",
+          "kcal": 565,
+          "proteinG": 13,
+          "carbsG": 90,
+          "fatG": 17
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1594,
+        "proteinG": 38,
+        "carbsG": 248,
+        "fatG": 50,
+        "fiberG": 18
+      },
+      "exercise": {
+        "activity": "Dance-along videos and jump-rope challenges",
+        "durationMin": 40,
+        "intensity": "Moderate",
+        "kcalBurned": 100,
+        "focus": "Rhythm, coordination + bone loading"
+      },
+      "highlight": "A comfort-food lunch balanced by a gently spiced curry that stretches her flavor range."
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-wheat pancakes with strawberries and a little maple syrup; low-fat milk",
+          "kcal": 434,
+          "proteinG": 10,
+          "carbsG": 76,
+          "fatG": 10
+        },
+        {
+          "meal": "Lunch",
+          "items": "Greek-style pita pocket with hummus, tomato, cucumber, and feta; watermelon cubes",
+          "kcal": 367,
+          "proteinG": 9,
+          "carbsG": 58,
+          "fatG": 11
+        },
+        {
+          "meal": "Snack",
+          "items": "Cheese stick with pretzel twists and grapes",
+          "kcal": 205,
+          "proteinG": 6,
+          "carbsG": 34,
+          "fatG": 5
+        },
+        {
+          "meal": "Dinner",
+          "items": "Homemade veggie pizza night: whole-wheat crust with mozzarella, peppers, and mushrooms; crunchy side salad",
+          "kcal": 578,
+          "proteinG": 13,
+          "carbsG": 82,
+          "fatG": 22
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1584,
+        "proteinG": 38,
+        "carbsG": 250,
+        "fatG": 48,
+        "fiberG": 15
+      },
+      "exercise": {
+        "activity": "Family nature hike with a scavenger hunt",
+        "durationMin": 60,
+        "intensity": "Moderate",
+        "kcalBurned": 125,
+        "focus": "Endurance + outdoor exploring"
+      },
+      "highlight": "Pancakes and pizza night keep weekend food fun while portions stay right-sized."
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal": "Breakfast",
+          "items": "Whole-grain French toast with mixed berries; low-fat milk",
+          "kcal": 383,
+          "proteinG": 9,
+          "carbsG": 62,
+          "fatG": 11
+        },
+        {
+          "meal": "Lunch",
+          "items": "Baked potato topped with cheese and broccoli; apple slices",
+          "kcal": 406,
+          "proteinG": 9,
+          "carbsG": 70,
+          "fatG": 10
+        },
+        {
+          "meal": "Snack",
+          "items": "Banana-oat mini muffin with a glass of low-fat milk",
+          "kcal": 223,
+          "proteinG": 6,
+          "carbsG": 34,
+          "fatG": 7
+        },
+        {
+          "meal": "Dinner",
+          "items": "Homemade baked fish sticks, oven potato wedges, and sweet peas; fruit salad for dessert",
+          "kcal": 580,
+          "proteinG": 14,
+          "carbsG": 86,
+          "fatG": 20
+        }
+      ],
+      "mealTotals": {
+        "kcal": 1592,
+        "proteinG": 38,
+        "carbsG": 252,
+        "fatG": 48,
+        "fiberG": 17
+      },
+      "exercise": {
+        "activity": "Gentle stretching and an easy walk with family",
+        "durationMin": 30,
+        "intensity": "Light",
+        "kcalBurned": 40,
+        "focus": "Recovery + flexibility"
+      },
+      "highlight": "A lighter recovery day: gentle movement and a simple family dinner set up the week ahead."
+    }
+  ],
+  "micronutrients": [
+    {
+      "name": "Calcium",
+      "target": "1300 mg",
+      "percentMet": 96,
+      "keySources": "Milk, yogurt, cheese, fortified cereal"
+    },
+    {
+      "name": "Iron",
+      "target": "8 mg",
+      "percentMet": 112,
+      "keySources": "Chicken, beans, fortified oats, peas"
+    },
+    {
+      "name": "Potassium",
+      "target": "2300 mg",
+      "percentMet": 94,
+      "keySources": "Banana, potato, milk, tomatoes"
+    },
+    {
+      "name": "Vitamin D",
+      "target": "15 µg (600 IU)",
+      "percentMet": 88,
+      "keySources": "Fortified milk, salmon, eggs"
+    },
+    {
+      "name": "Vitamin C",
+      "target": "45 mg",
+      "percentMet": 130,
+      "keySources": "Oranges, strawberries, broccoli, peppers"
+    },
+    {
+      "name": "Vitamin B12",
+      "target": "1.8 µg",
+      "percentMet": 124,
+      "keySources": "Milk, eggs, chicken, salmon"
+    },
+    {
+      "name": "Magnesium",
+      "target": "240 mg",
+      "percentMet": 92,
+      "keySources": "Whole grains, beans, banana, yogurt"
+    },
+    {
+      "name": "Zinc",
+      "target": "8 mg",
+      "percentMet": 97,
+      "keySources": "Cheese, chicken, beans, whole grains"
+    }
+  ],
+  "changes": {
+    "nutrition": [
+      "Daily dairy delivers the calcium and vitamin D that peak bone-building years depend on.",
+      "Fiber from whole grains, fruit, and vegetables keeps digestion regular and fullness steady between meals.",
+      "Pairing iron-rich foods with vitamin C fruits supports healthy red blood cells and school-day energy.",
+      "A predictable rhythm of three meals plus one snack keeps blood sugar and mood even.",
+      "Keeping added sugar modest leaves room for the nutrient-dense foods a growing body actually needs."
+    ],
+    "exercise": [
+      "Weight-bearing play like running, skipping, and climbing stimulates bone density during this key growth window.",
+      "Rotating through swimming, biking, soccer, and dance builds broad coordination and confidence in new sports.",
+      "Hitting about 60 minutes of movement most days strengthens the heart and lungs and cements a lifelong habit.",
+      "Active outdoor time earlier in the day helps her fall asleep faster and sleep more deeply.",
+      "A gentle Sunday of stretching and walking teaches that rest is part of being active, not a break from it."
+    ]
+  },
+  "notes": "This is a sample week for a typical, healthy 9-year-old girl — real needs shift with growth spurts and activity, so let her appetite guide exact portions. Keep mealtimes relaxed, screen-free, and pressure-free."
+}
