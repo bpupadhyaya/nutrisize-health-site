@@ -54,9 +54,10 @@ No extra HTTP requests; A/B-measured load and popup-open timings unchanged vs th
 
 - Micronutrient values are **educational estimates** derived from the curated itemizations, not
   lab-analyzed recipe data. Framing on the page stays "educational estimate".
-- The published plan macros for the child/teen plans pair high kcal with low protein, which forced
-  unrealistically small meat portions in the itemizations (e.g. 10–20 g chicken) to stay within the
-  protein tolerance. If plan macros are ever rebalanced, revisit those mappings.
+- ~~Child/teen plans forced unrealistically small meat portions~~ Fixed: those four plans were
+  rebalanced (commit 083b68d) — itemizations rebuilt with realistic portions and the published
+  per-meal macros recomputed from them (day kcal within ±5% of the originals; PDFs regenerated).
+  If plan meals ever change again, the itemization is the source of truth for macros.
 - No cucumber/crackers/cereal/falafel/pancake entries in the food DB — agents substituted the
   nutritionally closest items (zucchini, rice-cake, component decompositions); substitutions are
   consistent across plans.
