@@ -72,7 +72,10 @@ Cadence to start: 2–3 posts/week, same content adapted per platform; recycle s
 ## Who does what
 
 **Account creation needs a human** (phone/email verification, CAPTCHAs, 2FA) — that part is
-yours. Suggested: create with `nutrisize.universal@gmail.com`, enable 2FA, use a password
+yours. Use `social@nutrisize.health` (add it as a free alias on the existing Microsoft 365
+mailbox first: GoDaddy Email & Office → user → Manage email aliases). Facebook and LinkedIn
+are Pages created from your existing personal accounts, not new sign-ups. For YouTube, create
+the Google account with "Use my current email address instead". Enable 2FA, use a password
 manager. Per account: upload `profile-1024.png` + the platform's banner, paste the bio, set
 category + link.
 
