@@ -276,6 +276,38 @@ body.nm-open { overflow: hidden; }
 .nm-bar.fat .nm-fill { background: #d97706; }
 .nm-bar.carbs .nm-bar-pct { color: #1268b3; }
 .nm-bar.fat .nm-bar-pct { color: #d97706; }
+.nm-bar.fiber .nm-fill { background: #5b8c2a; }
+.nm-bar.fiber .nm-bar-pct { color: #5b8c2a; }
+.nm-bar.sodium .nm-fill { background: #b0486e; }
+.nm-bar.sodium .nm-bar-pct { color: #b0486e; }
+.nm-bar.nm-noDV { margin-bottom: 10px; }
+.nm-bar.nm-noDV .nm-bar-pct { color: #8a9a91; font-weight: 600; }
+
+/* Vitamins & minerals — compact two-column %DV grid, collapsed by default. */
+.nm-micros { margin-top: 4px; border-top: 1px solid #e4eee8; padding-top: 10px; }
+.nm-micros summary {
+  cursor: pointer; list-style: none; display: flex; flex-wrap: wrap;
+  align-items: baseline; gap: 4px 8px;
+  font-weight: 700; color: #223a30; font-size: 14.5px; padding: 4px 0;
+}
+.nm-micros summary::-webkit-details-marker { display: none; }
+.nm-micros summary::before { content: "\203A"; color: #178a5e; font-weight: 800;
+  transition: transform .15s; display: inline-block; }
+.nm-micros[open] summary::before { transform: rotate(90deg); }
+.nm-sum-hint { font-weight: 500; color: #8a9a91; font-size: 11.5px; }
+.nm-micro-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; margin-top: 10px;
+}
+.nm-micro { min-width: 0; }
+.nm-micro .nm-micro-label { display: block; font-weight: 600; color: #40544a;
+  font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nm-micro .nm-micro-val { display: block; color: #52655b; font-size: 11.5px; margin: 1px 0 3px; }
+.nm-micro .nm-micro-val b { color: #0b3d2e; font-size: 12.5px; }
+.nm-micro .nm-bar-pct { font-size: 11px; }
+.nm-micro .nm-track { height: 7px; border-radius: 4px; }
+.nm-micro .nm-fill { background: #178a5e; border-radius: 4px; }
+.nm-sugar-note { margin-top: 10px; }
+@media (max-width: 380px) { .nm-micro-grid { grid-template-columns: 1fr; } }
 
 .nm-note { margin: 16px 0 2px; font-size: 11.5px; color: #8397; color: #8a9a91; line-height: 1.5; }
 

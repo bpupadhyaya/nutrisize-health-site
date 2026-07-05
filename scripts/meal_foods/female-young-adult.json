@@ -1,0 +1,210 @@
+{
+  "Monday": {
+    "Breakfast": [
+      {"id": "yogurt-greek", "g": 200},
+      {"id": "granola", "g": 55},
+      {"id": "strawberry", "g": 100},
+      {"id": "honey", "g": 15}
+    ],
+    "Lunch": [
+      {"id": "chicken-breast-cooked", "g": 55},
+      {"id": "bulgur-cooked", "g": 250},
+      {"id": "pita-bread", "g": 30},
+      {"id": "tomato", "g": 80},
+      {"id": "zucchini", "g": 80},
+      {"id": "tahini-dressing", "g": 40},
+      {"id": "olive-oil-extra-virgin", "g": 5}
+    ],
+    "Snack": [
+      {"id": "apple", "g": 180},
+      {"id": "peanut-butter", "g": 25}
+    ],
+    "Dinner": [
+      {"id": "salmon-atlantic-cooked", "g": 90},
+      {"id": "potato", "g": 480},
+      {"id": "broccoli", "g": 150},
+      {"id": "olive-oil-extra-virgin", "g": 10},
+      {"id": "lemon", "g": 10}
+    ]
+  },
+  "Tuesday": {
+    "Breakfast": [
+      {"id": "egg-omelette", "g": 120},
+      {"id": "bell-pepper", "g": 40},
+      {"id": "spinach", "g": 30},
+      {"id": "bread-whole-wheat", "g": 70},
+      {"id": "orange", "g": 110}
+    ],
+    "Lunch": [
+      {"id": "chicken-breast-cooked", "g": 70},
+      {"id": "rice-brown", "g": 320},
+      {"id": "edamame", "g": 60},
+      {"id": "teriyaki-sauce", "g": 30},
+      {"id": "carrot", "g": 40},
+      {"id": "daikon-radish", "g": 40},
+      {"id": "sesame-oil", "g": 4}
+    ],
+    "Snack": [
+      {"id": "banana", "g": 130},
+      {"id": "almond-raw", "g": 20}
+    ],
+    "Dinner": [
+      {"id": "tofu-firm", "g": 50},
+      {"id": "soba-noodles", "g": 260},
+      {"id": "water-chestnut", "g": 100},
+      {"id": "bell-pepper", "g": 60},
+      {"id": "carrot", "g": 50},
+      {"id": "cabbage", "g": 50},
+      {"id": "hoisin-sauce", "g": 25},
+      {"id": "sesame-oil", "g": 17}
+    ]
+  },
+  "Wednesday": {
+    "Breakfast": [
+      {"id": "oats-rolled", "g": 350},
+      {"id": "chia-seed", "g": 15},
+      {"id": "raspberry", "g": 80},
+      {"id": "milk-2-percent", "g": 200},
+      {"id": "honey", "g": 5}
+    ],
+    "Lunch": [
+      {"id": "chicken-breast-cooked", "g": 75},
+      {"id": "rice-white", "g": 210},
+      {"id": "black-beans", "g": 80},
+      {"id": "tomato", "g": 60},
+      {"id": "guacamole", "g": 110}
+    ],
+    "Snack": [
+      {"id": "yogurt-greek", "g": 120},
+      {"id": "yogurt-plain", "g": 80},
+      {"id": "honey", "g": 22}
+    ],
+    "Dinner": [
+      {"id": "shrimp-cooked", "g": 50},
+      {"id": "tortilla-corn", "g": 140},
+      {"id": "cabbage", "g": 80},
+      {"id": "avocado", "g": 120},
+      {"id": "sour-cream", "g": 40},
+      {"id": "olive-oil-extra-virgin", "g": 5},
+      {"id": "lime", "g": 10}
+    ]
+  },
+  "Thursday": {
+    "Breakfast": [
+      {"id": "bread-whole-wheat", "g": 70},
+      {"id": "avocado", "g": 90},
+      {"id": "egg-chicken-whole-cooked", "g": 88}
+    ],
+    "Lunch": [
+      {"id": "chickpeas", "g": 150},
+      {"id": "rice-basmati", "g": 220},
+      {"id": "tomato", "g": 60},
+      {"id": "onion", "g": 40},
+      {"id": "yogurt-plain", "g": 60},
+      {"id": "ghee", "g": 7}
+    ],
+    "Snack": [
+      {"id": "mango", "g": 140},
+      {"id": "yogurt-low-fat", "g": 180},
+      {"id": "honey", "g": 10}
+    ],
+    "Dinner": [
+      {"id": "chicken-breast-cooked", "g": 65},
+      {"id": "chapati", "g": 165},
+      {"id": "spinach", "g": 100},
+      {"id": "garlic", "g": 5},
+      {"id": "ghee", "g": 8}
+    ]
+  },
+  "Friday": {
+    "Breakfast": [
+      {"id": "banana", "g": 120},
+      {"id": "spinach", "g": 40},
+      {"id": "oats-rolled", "g": 150},
+      {"id": "yogurt-greek", "g": 150},
+      {"id": "milk-2-percent", "g": 150},
+      {"id": "honey", "g": 8}
+    ],
+    "Lunch": [
+      {"id": "tuna-canned-light", "g": 60},
+      {"id": "cannellini-beans", "g": 120},
+      {"id": "arugula", "g": 40},
+      {"id": "tomato", "g": 50},
+      {"id": "olive-oil-extra-virgin", "g": 19},
+      {"id": "bread-whole-wheat", "g": 45}
+    ],
+    "Snack": [
+      {"id": "rice-cake", "g": 25},
+      {"id": "hummus", "g": 70}
+    ],
+    "Dinner": [
+      {"id": "pasta-whole-wheat", "g": 330},
+      {"id": "turkey-ground-cooked", "g": 35},
+      {"id": "bread-white", "g": 15},
+      {"id": "tomato", "g": 120},
+      {"id": "tomato-paste", "g": 25},
+      {"id": "lettuce-romaine", "g": 50},
+      {"id": "olive-oil-extra-virgin", "g": 22}
+    ]
+  },
+  "Saturday": {
+    "Breakfast": [
+      {"id": "wheat-flour-whole", "g": 75},
+      {"id": "milk-2-percent", "g": 100},
+      {"id": "egg-chicken-scrambled", "g": 55},
+      {"id": "strawberry", "g": 100},
+      {"id": "maple-syrup", "g": 33},
+      {"id": "butter-unsalted", "g": 4}
+    ],
+    "Lunch": [
+      {"id": "pita-bread", "g": 80},
+      {"id": "chickpeas", "g": 90},
+      {"id": "hummus", "g": 50},
+      {"id": "bulgur-cooked", "g": 50},
+      {"id": "parsley-fresh", "g": 10},
+      {"id": "tomato", "g": 50},
+      {"id": "olive-oil-extra-virgin", "g": 15}
+    ],
+    "Snack": [
+      {"id": "cheese-cottage", "g": 170},
+      {"id": "pineapple", "g": 130}
+    ],
+    "Dinner": [
+      {"id": "beef-sirloin-steak-cooked", "g": 75},
+      {"id": "quinoa-cooked", "g": 290},
+      {"id": "bell-pepper", "g": 60},
+      {"id": "zucchini", "g": 80},
+      {"id": "carrot", "g": 50},
+      {"id": "olive-oil-extra-virgin", "g": 12}
+    ]
+  },
+  "Sunday": {
+    "Breakfast": [
+      {"id": "oats-rolled", "g": 300},
+      {"id": "blueberry", "g": 80},
+      {"id": "almond-raw", "g": 10},
+      {"id": "milk-2-percent", "g": 200},
+      {"id": "honey", "g": 10}
+    ],
+    "Lunch": [
+      {"id": "chicken-ground-cooked", "g": 110},
+      {"id": "rice-jasmine", "g": 220},
+      {"id": "lettuce-romaine", "g": 60},
+      {"id": "fish-sauce", "g": 10},
+      {"id": "lime", "g": 15},
+      {"id": "carrot", "g": 30},
+      {"id": "peanut-oil", "g": 5}
+    ],
+    "Snack": [
+      {"id": "pear", "g": 200},
+      {"id": "dark-chocolate", "g": 20}
+    ],
+    "Dinner": [
+      {"id": "cod-atlantic-cooked", "g": 130},
+      {"id": "miso-paste", "g": 15},
+      {"id": "sweet-potato", "g": 350},
+      {"id": "green-beans", "g": 100},
+      {"id": "butter-unsalted", "g": 30}
+    ]
+  }
+}

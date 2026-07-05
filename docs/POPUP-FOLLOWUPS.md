@@ -4,30 +4,41 @@
 that meal's **Calories / Protein / Carbs / Fat** as %DV bars (FDA 2,000-kcal Daily Values) + numeric
 grams. Closes on × / outside-tap / Esc; keyboard-accessible; page never shifts; mobile bottom-sheet.
 
-**Files:**
-- `assets/js/plan-popup.js` — event-delegated open/close + bar rendering (no deps). Extend `ORDER`
-  and `DV` to add more nutrients.
-- `assets/css/plans.css` — popup + `.nm-*` bar styles (per-macro colors), `.meal-row` hover/focus.
-- `scripts/render_plans.py` — `esc_attr()`; meal `<tr>`s carry `class="meal-row" role="button"
-  tabindex="0"` + `data-meal/items/kcal/protein/carbs/fat`; `head()` includes the popup script.
-- **Regenerate all 10 plan pages after any change:** `python3 scripts/render_plans.py`
+**Done (this pass):** both pending items shipped via one build-time data pipeline.
+Every meal now also shows **Fiber** (%DV vs 28 g), **Sodium** (%DV vs 2,300 mg), **Total sugar**
+(grams only — FDA defines a DV for *added* sugar, which this data doesn't carry), and a collapsible
+**Vitamins & minerals** section (11 vitamins + 7 minerals, %DV vs FDA adult DVs).
 
-## Pending
+## How it works
 
-### 1. Fiber / sodium / sugar context
-Honest data limit: these exist only at **day/plan** level, not per meal —
-`week[].mealTotals.fiberG` (per day) and `profile.sodiumMgMax` / `profile.addedSugarGMax` (per
-plan) in `assets/data/plans/*.json`. Options: surface day-total fiber in the popup **labeled
-"day total"**, or extend the JSON + `render_plans.py` with per-meal fiber/sodium/sugar (estimates —
-keep the site's "educational estimate" framing).
+- `scripts/food_db.json` — 593 foods (id, name, nutrientsPer100g: kcal + macros + fiber/sugar/sodium
+  + 18 micros), a trimmed derivative of the mobile app's food database
+  (`nutrisize-health-claude/web/public/foods_*.json`). Build-time only; never shipped to the browser.
+  Units: vitamins A/D/K/B9/B12 + selenium in µg; C/E/B1/B2/B3/B6 + minerals in mg.
+- `scripts/meal_foods/<plan>.json` — each of the 280 meals itemized as `[{id, grams}]` against the
+  food DB, keyed by day → meal name. Curated so recomputed kcal/macros match the published per-meal
+  numbers.
+- `scripts/validate_meal_foods.py` — the honesty guard. Recomputes kcal/protein/carbs/fat from the
+  itemization and fails any meal off by more than max(12%, small-absolute-floor) from the published
+  values. **Run it after editing any mapping.** All 280 meals pass.
+- `scripts/render_plans.py` — `meal_nutrient_blob()` sums the 21 extended nutrients per meal
+  (NUTRIENT_ORDER must stay in sync with NUTR in plan-popup.js — blob values are positional arrays)
+  and embeds one compact `<script type="application/json" id="nutri-data">` blob per plan page.
+  Per-meal fiber is scaled per day so meals sum exactly to the published `mealTotals.fiberG`.
+  **Regenerate all pages after any change:** `python3 scripts/render_plans.py`
+- `assets/js/plan-popup.js` — lazily parses `#nutri-data` on first tap; falls back to macros-only
+  if the blob is missing or corrupt. `assets/css/plans.css` — `.nm-micros` grid + fiber/sodium bar
+  colors.
 
-### 2. Per-food micronutrients (match the mobile app)
-A **data project**. The site's plan data is per-MEAL kcal + 3 macros, with foods as a free-text
-`items` string. To match the app's full vitamins/minerals-per-food:
-1. Itemize each meal's foods into discrete items.
-2. Attach a nutrient database (kcal + macros + micros per serving). **Reuse the mobile app's
-   food-nutrient database** — repo `bpupadhyaya/nutrisize-health-claude`.
-3. Render micronutrient bars in the popup alongside the macro bars (extend `ORDER`/`DV` in
-   plan-popup.js; feed values via `data-*` or a per-meal JSON lookup).
+Page cost: ~+1.8 KB gzipped per plan page (9.6 → ~11.4 KB). No extra HTTP requests.
 
-Keep everything educational-only (no medical/dietary advice), matching the rest of the site.
+## Notes / known limits
+
+- Micronutrient values are **educational estimates** derived from the curated itemizations, not
+  lab-analyzed recipe data. Framing on the page stays "educational estimate".
+- The published plan macros for the child/teen plans pair high kcal with low protein, which forced
+  unrealistically small meat portions in the itemizations (e.g. 10–20 g chicken) to stay within the
+  protein tolerance. If plan macros are ever rebalanced, revisit those mappings.
+- No cucumber/crackers/cereal/falafel/pancake entries in the food DB — agents substituted the
+  nutritionally closest items (zucchini, rice-cake, component decompositions); substitutions are
+  consistent across plans.

@@ -1,0 +1,240 @@
+{
+  "Monday": {
+    "Breakfast": [
+      {"id": "oats-rolled", "g": 230},
+      {"id": "banana", "g": 120},
+      {"id": "peanut-butter", "g": 11},
+      {"id": "milk-2-percent", "g": 90}
+    ],
+    "Lunch": [
+      {"id": "bread-whole-wheat", "g": 45},
+      {"id": "cheese-cheddar", "g": 18},
+      {"id": "butter-salted", "g": 8},
+      {"id": "tomato", "g": 250},
+      {"id": "heavy-cream", "g": 10},
+      {"id": "white-sugar", "g": 8},
+      {"id": "apple", "g": 250}
+    ],
+    "Snack": [
+      {"id": "rice-cake", "g": 28},
+      {"id": "cheese-cream", "g": 12},
+      {"id": "apple", "g": 40},
+      {"id": "cinnamon-ground", "g": 1}
+    ],
+    "Dinner": [
+      {"id": "chicken-breast-cooked", "g": 18},
+      {"id": "wheat-flour-white", "g": 12},
+      {"id": "corn-sweet", "g": 120},
+      {"id": "green-beans", "g": 70},
+      {"id": "bread-white", "g": 40},
+      {"id": "barbecue-sauce", "g": 45},
+      {"id": "honey", "g": 12},
+      {"id": "butter-salted", "g": 12},
+      {"id": "canola-oil", "g": 10}
+    ]
+  },
+  "Tuesday": {
+    "Breakfast": [
+      {"id": "rice-cake", "g": 55},
+      {"id": "milk-2-percent", "g": 200},
+      {"id": "strawberry", "g": 100}
+    ],
+    "Lunch": [
+      {"id": "tortilla-corn", "g": 65},
+      {"id": "cheese-cheddar", "g": 17},
+      {"id": "chicken-breast-cooked", "g": 12},
+      {"id": "tomato", "g": 60},
+      {"id": "zucchini", "g": 80},
+      {"id": "mango", "g": 220},
+      {"id": "canola-oil", "g": 12}
+    ],
+    "Snack": [
+      {"id": "guacamole", "g": 70},
+      {"id": "tortilla-corn", "g": 35}
+    ],
+    "Dinner": [
+      {"id": "rice-white", "g": 185},
+      {"id": "tortilla-corn", "g": 70},
+      {"id": "black-beans", "g": 20},
+      {"id": "cheese-cheddar", "g": 10},
+      {"id": "milk-2-percent", "g": 80},
+      {"id": "lettuce-romaine", "g": 30},
+      {"id": "tomato", "g": 60},
+      {"id": "lime", "g": 15},
+      {"id": "canola-oil", "g": 14}
+    ]
+  },
+  "Wednesday": {
+    "Breakfast": [
+      {"id": "bread-whole-wheat", "g": 38},
+      {"id": "almond-butter", "g": 16},
+      {"id": "banana", "g": 150},
+      {"id": "milk-2-percent", "g": 90}
+    ],
+    "Lunch": [
+      {"id": "rice-white", "g": 190},
+      {"id": "chicken-breast-cooked", "g": 12},
+      {"id": "edamame", "g": 15},
+      {"id": "carrot", "g": 30},
+      {"id": "onion", "g": 20},
+      {"id": "green-peas", "g": 15},
+      {"id": "soy-sauce", "g": 8},
+      {"id": "canola-oil", "g": 12},
+      {"id": "orange", "g": 130}
+    ],
+    "Snack": [
+      {"id": "rice-cake", "g": 25},
+      {"id": "cheese-cream", "g": 15}
+    ],
+    "Dinner": [
+      {"id": "salmon-atlantic-cooked", "g": 20},
+      {"id": "teriyaki-sauce", "g": 30},
+      {"id": "honey", "g": 16},
+      {"id": "rice-white", "g": 240},
+      {"id": "broccoli", "g": 60},
+      {"id": "carrot", "g": 60},
+      {"id": "canola-oil", "g": 16}
+    ]
+  },
+  "Thursday": {
+    "Breakfast": [
+      {"id": "yogurt-greek", "g": 60},
+      {"id": "honey", "g": 20},
+      {"id": "blueberry", "g": 80},
+      {"id": "strawberry", "g": 60},
+      {"id": "granola", "g": 45}
+    ],
+    "Lunch": [
+      {"id": "pita-bread", "g": 70},
+      {"id": "hummus", "g": 40},
+      {"id": "turkey-breast-cooked", "g": 8},
+      {"id": "zucchini", "g": 60},
+      {"id": "grape", "g": 150},
+      {"id": "olive-oil-extra-virgin", "g": 12}
+    ],
+    "Snack": [
+      {"id": "apple", "g": 130},
+      {"id": "almond-raw", "g": 18}
+    ],
+    "Dinner": [
+      {"id": "rice-white", "g": 280},
+      {"id": "chicken-breast-cooked", "g": 18},
+      {"id": "zucchini", "g": 80},
+      {"id": "tomato", "g": 70},
+      {"id": "lemon", "g": 10},
+      {"id": "milk-2-percent", "g": 60},
+      {"id": "honey", "g": 10},
+      {"id": "olive-oil-extra-virgin", "g": 18}
+    ]
+  },
+  "Friday": {
+    "Breakfast": [
+      {"id": "wheat-flour-white", "g": 40},
+      {"id": "oats-rolled", "g": 80},
+      {"id": "banana", "g": 100},
+      {"id": "maple-syrup", "g": 20},
+      {"id": "milk-2-percent", "g": 150},
+      {"id": "butter-salted", "g": 6}
+    ],
+    "Lunch": [
+      {"id": "ham-cooked", "g": 13},
+      {"id": "cheese-cheddar", "g": 15},
+      {"id": "tortilla-flour", "g": 35},
+      {"id": "rice-cake", "g": 25},
+      {"id": "tomato", "g": 80},
+      {"id": "peach", "g": 180},
+      {"id": "mayonnaise", "g": 10}
+    ],
+    "Snack": [
+      {"id": "popcorn-air-popped", "g": 22},
+      {"id": "clementine", "g": 100}
+    ],
+    "Dinner": [
+      {"id": "wheat-flour-white", "g": 45},
+      {"id": "rice-flour", "g": 45},
+      {"id": "cheese-mozzarella", "g": 15},
+      {"id": "tomato-paste", "g": 20},
+      {"id": "bell-pepper", "g": 50},
+      {"id": "button-mushroom", "g": 25},
+      {"id": "olive-oil-extra-virgin", "g": 14},
+      {"id": "lettuce-romaine", "g": 40},
+      {"id": "vinaigrette-balsamic", "g": 25},
+      {"id": "milk-2-percent", "g": 80},
+      {"id": "white-sugar", "g": 3}
+    ]
+  },
+  "Saturday": {
+    "Breakfast": [
+      {"id": "paratha", "g": 95},
+      {"id": "yogurt-plain", "g": 70},
+      {"id": "mango", "g": 150},
+      {"id": "potato", "g": 40}
+    ],
+    "Lunch": [
+      {"id": "chicken-breast-cooked", "g": 12},
+      {"id": "rice-basmati", "g": 185},
+      {"id": "potato", "g": 110},
+      {"id": "yogurt-plain", "g": 50},
+      {"id": "zucchini", "g": 60},
+      {"id": "onion", "g": 30},
+      {"id": "tomato", "g": 40},
+      {"id": "curry-powder", "g": 3},
+      {"id": "canola-oil", "g": 14}
+    ],
+    "Snack": [
+      {"id": "lassi-plain", "g": 150},
+      {"id": "mango", "g": 100},
+      {"id": "white-sugar", "g": 6}
+    ],
+    "Dinner": [
+      {"id": "chapati", "g": 30},
+      {"id": "lentil-red", "g": 50},
+      {"id": "rice-white", "g": 245},
+      {"id": "spinach", "g": 40},
+      {"id": "onion", "g": 25},
+      {"id": "tomato", "g": 40},
+      {"id": "ghee", "g": 12}
+    ]
+  },
+  "Sunday": {
+    "Breakfast": [
+      {"id": "egg-omelette", "g": 60},
+      {"id": "bread-whole-wheat", "g": 37},
+      {"id": "orange-juice", "g": 280},
+      {"id": "bell-pepper", "g": 30},
+      {"id": "onion", "g": 20},
+      {"id": "tomato", "g": 30},
+      {"id": "butter-salted", "g": 5}
+    ],
+    "Lunch": [
+      {"id": "noodles-egg", "g": 100},
+      {"id": "chicken-breast-cooked", "g": 8},
+      {"id": "carrot", "g": 40},
+      {"id": "celery", "g": 30},
+      {"id": "onion", "g": 20},
+      {"id": "bread-whole-wheat", "g": 30},
+      {"id": "pear", "g": 170},
+      {"id": "butter-salted", "g": 8},
+      {"id": "olive-oil-extra-virgin", "g": 4}
+    ],
+    "Snack": [
+      {"id": "banana", "g": 120},
+      {"id": "yogurt-plain", "g": 80},
+      {"id": "milk-2-percent", "g": 50},
+      {"id": "honey", "g": 5}
+    ],
+    "Dinner": [
+      {"id": "beef-stew-meat-cooked", "g": 10},
+      {"id": "potato", "g": 310},
+      {"id": "parsnip", "g": 100},
+      {"id": "carrot", "g": 70},
+      {"id": "onion", "g": 30},
+      {"id": "celery", "g": 25},
+      {"id": "wheat-flour-white", "g": 6},
+      {"id": "tomato-paste", "g": 15},
+      {"id": "butter-salted", "g": 18},
+      {"id": "olive-oil-extra-virgin", "g": 8},
+      {"id": "milk-2-percent", "g": 60}
+    ]
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "Monday": {
+    "Breakfast": [
+      {
+        "id": "steel-cut-oats",
+        "g": 310
+      },
+      {
+        "id": "blueberry",
+        "g": 150
+      },
+      {
+        "id": "flaxseed",
+        "g": 5
+      },
+      {
+        "id": "walnut-raw",
+        "g": 8
+      },
+      {
+        "id": "milk-2-percent",
+        "g": 275
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "chicken-breast-cooked",
+        "g": 45
+      },
+      {
+        "id": "chickpeas",
+        "g": 80
+      },
+      {
+        "id": "zucchini",
+        "g": 57
+      },
+      {
+        "id": "tomato",
+        "g": 65
+      },
+      {
+        "id": "lettuce-romaine",
+        "g": 36
+      },
+      {
+        "id": "cheese-feta",
+        "g": 15
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 10
+      },
+      {
+        "id": "lemon",
+        "g": 15
+      },
+      {
+        "id": "pita-bread",
+        "g": 67
+      },
+      {
+        "id": "orange",
+        "g": 154
+      }
+    ],
+    "Snack": [
+      {
+        "id": "yogurt-plain",
+        "g": 131
+      },
+      {
+        "id": "peach",
+        "g": 140
+      },
+      {
+        "id": "pumpkin-seed",
+        "g": 14
+      },
+      {
+        "id": "rice-cake",
+        "g": 20
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "salmon-atlantic-cooked",
+        "g": 106
+      },
+      {
+        "id": "rice-brown",
+        "g": 396
+      },
+      {
+        "id": "asparagus",
+        "g": 98
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 8
+      },
+      {
+        "id": "lemon",
+        "g": 12
+      }
+    ]
+  },
+  "Tuesday": {
+    "Breakfast": [
+      {
+        "id": "egg-chicken-whole-cooked",
+        "g": 90
+      },
+      {
+        "id": "egg-chicken-white-cooked",
+        "g": 25
+      },
+      {
+        "id": "spinach",
+        "g": 20
+      },
+      {
+        "id": "tomato",
+        "g": 41
+      },
+      {
+        "id": "bread-whole-wheat",
+        "g": 69
+      },
+      {
+        "id": "avocado",
+        "g": 50
+      },
+      {
+        "id": "orange",
+        "g": 159
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "tofu-firm",
+        "g": 100
+      },
+      {
+        "id": "broccoli",
+        "g": 88
+      },
+      {
+        "id": "carrot",
+        "g": 31
+      },
+      {
+        "id": "snow-pea",
+        "g": 40
+      },
+      {
+        "id": "rice-brown",
+        "g": 285
+      },
+      {
+        "id": "sesame-seed",
+        "g": 5
+      },
+      {
+        "id": "sesame-oil",
+        "g": 5
+      },
+      {
+        "id": "soy-sauce",
+        "g": 5
+      },
+      {
+        "id": "garlic",
+        "g": 6
+      }
+    ],
+    "Snack": [
+      {
+        "id": "banana",
+        "g": 145
+      },
+      {
+        "id": "peanut-butter",
+        "g": 26
+      },
+      {
+        "id": "green-tea",
+        "g": 200
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "chicken-breast-cooked",
+        "g": 45
+      },
+      {
+        "id": "soba-noodles",
+        "g": 445
+      },
+      {
+        "id": "bok-choy",
+        "g": 60
+      },
+      {
+        "id": "shiitake-mushroom",
+        "g": 50
+      },
+      {
+        "id": "edamame",
+        "g": 30
+      },
+      {
+        "id": "soy-sauce",
+        "g": 5
+      },
+      {
+        "id": "sesame-oil",
+        "g": 10
+      },
+      {
+        "id": "ginger-ground",
+        "g": 3
+      }
+    ]
+  },
+  "Wednesday": {
+    "Breakfast": [
+      {
+        "id": "yogurt-greek",
+        "g": 150
+      },
+      {
+        "id": "strawberry",
+        "g": 156
+      },
+      {
+        "id": "granola",
+        "g": 63
+      },
+      {
+        "id": "chia-seed",
+        "g": 8
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "chicken-breast-cooked",
+        "g": 80
+      },
+      {
+        "id": "black-beans",
+        "g": 70
+      },
+      {
+        "id": "rice-brown",
+        "g": 235
+      },
+      {
+        "id": "tomato",
+        "g": 40
+      },
+      {
+        "id": "onion",
+        "g": 16
+      },
+      {
+        "id": "lettuce-romaine",
+        "g": 37
+      },
+      {
+        "id": "avocado",
+        "g": 90
+      },
+      {
+        "id": "lime",
+        "g": 12
+      }
+    ],
+    "Snack": [
+      {
+        "id": "guacamole",
+        "g": 90
+      },
+      {
+        "id": "carrot",
+        "g": 50
+      },
+      {
+        "id": "jicama",
+        "g": 50
+      },
+      {
+        "id": "rice-cake",
+        "g": 22
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "cod-atlantic-cooked",
+        "g": 110
+      },
+      {
+        "id": "tomato",
+        "g": 70
+      },
+      {
+        "id": "olive",
+        "g": 28
+      },
+      {
+        "id": "bell-pepper",
+        "g": 40
+      },
+      {
+        "id": "rice-white",
+        "g": 318
+      },
+      {
+        "id": "zucchini",
+        "g": 70
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 14
+      },
+      {
+        "id": "lime",
+        "g": 10
+      },
+      {
+        "id": "cilantro-fresh",
+        "g": 2
+      }
+    ]
+  },
+  "Thursday": {
+    "Breakfast": [
+      {
+        "id": "oats-rolled",
+        "g": 345
+      },
+      {
+        "id": "green-peas",
+        "g": 40
+      },
+      {
+        "id": "carrot",
+        "g": 30
+      },
+      {
+        "id": "turmeric-ground",
+        "g": 2
+      },
+      {
+        "id": "egg-chicken-whole-cooked",
+        "g": 50
+      },
+      {
+        "id": "lassi-plain",
+        "g": 240
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "lentil-red",
+        "g": 150
+      },
+      {
+        "id": "rice-basmati",
+        "g": 210
+      },
+      {
+        "id": "spinach",
+        "g": 40
+      },
+      {
+        "id": "yogurt-low-fat",
+        "g": 136
+      },
+      {
+        "id": "zucchini",
+        "g": 31
+      },
+      {
+        "id": "ghee",
+        "g": 10
+      }
+    ],
+    "Snack": [
+      {
+        "id": "apple",
+        "g": 134
+      },
+      {
+        "id": "chickpeas",
+        "g": 63
+      },
+      {
+        "id": "almond-raw",
+        "g": 20
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "chicken-thigh-cooked",
+        "g": 110
+      },
+      {
+        "id": "chapati",
+        "g": 98
+      },
+      {
+        "id": "cauliflower",
+        "g": 73
+      },
+      {
+        "id": "green-peas",
+        "g": 40
+      },
+      {
+        "id": "carrot",
+        "g": 40
+      },
+      {
+        "id": "ghee",
+        "g": 8
+      },
+      {
+        "id": "zucchini",
+        "g": 45
+      },
+      {
+        "id": "tomato",
+        "g": 50
+      },
+      {
+        "id": "onion",
+        "g": 30
+      },
+      {
+        "id": "lemon",
+        "g": 6
+      }
+    ]
+  },
+  "Friday": {
+    "Breakfast": [
+      {
+        "id": "bread-whole-wheat",
+        "g": 77
+      },
+      {
+        "id": "cheese-ricotta",
+        "g": 65
+      },
+      {
+        "id": "pear",
+        "g": 134
+      },
+      {
+        "id": "walnut-raw",
+        "g": 13
+      },
+      {
+        "id": "coffee-black",
+        "g": 180
+      },
+      {
+        "id": "milk-2-percent",
+        "g": 57
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "cannellini-beans",
+        "g": 91
+      },
+      {
+        "id": "pasta-cooked",
+        "g": 111
+      },
+      {
+        "id": "tomato",
+        "g": 102
+      },
+      {
+        "id": "carrot",
+        "g": 52
+      },
+      {
+        "id": "zucchini",
+        "g": 35
+      },
+      {
+        "id": "onion",
+        "g": 37
+      },
+      {
+        "id": "bread-whole-wheat",
+        "g": 54
+      },
+      {
+        "id": "lettuce-romaine",
+        "g": 54
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 14
+      },
+      {
+        "id": "balsamic-vinegar",
+        "g": 8
+      }
+    ],
+    "Snack": [
+      {
+        "id": "cheese-cottage",
+        "g": 110
+      },
+      {
+        "id": "tomato",
+        "g": 96
+      },
+      {
+        "id": "rye-bread",
+        "g": 42
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 4
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "pasta-whole-wheat",
+        "g": 342
+      },
+      {
+        "id": "turkey-ground-cooked",
+        "g": 60
+      },
+      {
+        "id": "tomato",
+        "g": 100
+      },
+      {
+        "id": "tomato-paste",
+        "g": 10
+      },
+      {
+        "id": "cheese-parmesan",
+        "g": 8
+      },
+      {
+        "id": "kale",
+        "g": 50
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 16
+      },
+      {
+        "id": "garlic",
+        "g": 6
+      }
+    ]
+  },
+  "Saturday": {
+    "Breakfast": [
+      {
+        "id": "wheat-flour-whole",
+        "g": 35
+      },
+      {
+        "id": "buckwheat-cooked",
+        "g": 153
+      },
+      {
+        "id": "egg-chicken-whole-cooked",
+        "g": 51
+      },
+      {
+        "id": "milk-2-percent",
+        "g": 88
+      },
+      {
+        "id": "strawberry",
+        "g": 147
+      },
+      {
+        "id": "yogurt-plain",
+        "g": 117
+      },
+      {
+        "id": "maple-syrup",
+        "g": 19
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "turkey-breast-cooked",
+        "g": 50
+      },
+      {
+        "id": "avocado",
+        "g": 93
+      },
+      {
+        "id": "bread-whole-wheat",
+        "g": 68
+      },
+      {
+        "id": "lentil-brown",
+        "g": 92
+      },
+      {
+        "id": "carrot",
+        "g": 31
+      },
+      {
+        "id": "onion",
+        "g": 20
+      },
+      {
+        "id": "apple",
+        "g": 150
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 3
+      }
+    ],
+    "Snack": [
+      {
+        "id": "almond-raw",
+        "g": 16
+      },
+      {
+        "id": "walnut-raw",
+        "g": 10
+      },
+      {
+        "id": "raisins",
+        "g": 32
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "beef-sirloin-steak-cooked",
+        "g": 100
+      },
+      {
+        "id": "sweet-potato",
+        "g": 334
+      },
+      {
+        "id": "green-beans",
+        "g": 83
+      },
+      {
+        "id": "button-mushroom",
+        "g": 62
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 12
+      },
+      {
+        "id": "butter-unsalted",
+        "g": 4
+      }
+    ]
+  },
+  "Sunday": {
+    "Breakfast": [
+      {
+        "id": "egg-chicken-whole-cooked",
+        "g": 98
+      },
+      {
+        "id": "tomato",
+        "g": 100
+      },
+      {
+        "id": "bell-pepper",
+        "g": 52
+      },
+      {
+        "id": "onion",
+        "g": 30
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 8
+      },
+      {
+        "id": "pita-bread",
+        "g": 77
+      },
+      {
+        "id": "cantaloupe",
+        "g": 137
+      }
+    ],
+    "Lunch": [
+      {
+        "id": "lentil-brown",
+        "g": 111
+      },
+      {
+        "id": "carrot",
+        "g": 27
+      },
+      {
+        "id": "tomato",
+        "g": 40
+      },
+      {
+        "id": "hummus",
+        "g": 55
+      },
+      {
+        "id": "bulgur-cooked",
+        "g": 151
+      },
+      {
+        "id": "parsley-fresh",
+        "g": 19
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 11
+      },
+      {
+        "id": "pita-bread",
+        "g": 55
+      },
+      {
+        "id": "lemon",
+        "g": 8
+      }
+    ],
+    "Snack": [
+      {
+        "id": "date",
+        "g": 47
+      },
+      {
+        "id": "walnut-raw",
+        "g": 21
+      },
+      {
+        "id": "mint-fresh",
+        "g": 3
+      }
+    ],
+    "Dinner": [
+      {
+        "id": "shrimp-large-grilled",
+        "g": 90
+      },
+      {
+        "id": "bulgur-cooked",
+        "g": 459
+      },
+      {
+        "id": "eggplant",
+        "g": 148
+      },
+      {
+        "id": "yogurt-plain",
+        "g": 80
+      },
+      {
+        "id": "zucchini",
+        "g": 31
+      },
+      {
+        "id": "olive-oil-extra-virgin",
+        "g": 13
+      },
+      {
+        "id": "lemon",
+        "g": 3
+      },
+      {
+        "id": "garlic",
+        "g": 2
+      }
+    ]
+  }
+}

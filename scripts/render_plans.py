@@ -10,7 +10,19 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "assets", "data", "plans")
+FOOD_DB = os.path.join(ROOT, "scripts", "food_db.json")
+MEAL_FOODS = os.path.join(ROOT, "scripts", "meal_foods")
 SITE = "https://nutrisize.health"
+
+# Per-meal nutrients embedded for the popup, computed from the itemized foods in
+# scripts/meal_foods/<key>.json. Order MUST match NUTR in assets/js/plan-popup.js
+# (blob values are positional arrays to keep pages small).
+NUTRIENT_ORDER = [
+    "fiber", "sugar", "sodium",
+    "vitaminA", "vitaminC", "vitaminD", "vitaminE", "vitaminK",
+    "vitaminB1", "vitaminB2", "vitaminB3", "vitaminB6", "vitaminB9", "vitaminB12",
+    "calcium", "iron", "magnesium", "phosphorus", "potassium", "zinc", "selenium",
+]
 
 CATS = [
     "male-child", "male-teen", "male-young-adult", "male-middle-age", "male-older-adult",
@@ -40,6 +52,56 @@ def esc(s):
 def esc_attr(s):
     # Attribute-safe: also escape quotes so data-* values can't break the tag.
     return esc(s).replace('"', "&quot;").replace("'", "&#39;")
+
+
+def meal_nid(day, meal):
+    return day.lower() + "-" + meal.lower().replace(" ", "-")
+
+
+def _round_nutrient(v):
+    if v >= 100:
+        return int(round(v))
+    if v >= 10:
+        return round(v, 1)
+    return round(v, 2)
+
+
+def meal_nutrient_blob(plan, food_db):
+    """{nid: [values in NUTRIENT_ORDER]} for every itemized meal, or {} when the
+    plan has no scripts/meal_foods mapping yet (pages then render without it)."""
+    path = os.path.join(MEAL_FOODS, plan["key"] + ".json")
+    if not food_db or not os.path.exists(path):
+        return {}
+    with open(path) as f:
+        mapping = json.load(f)
+    fiber_i = NUTRIENT_ORDER.index("fiber")
+    blob = {}
+    for day in plan["week"]:
+        day_map = mapping.get(day["day"], {})
+        day_meals = []
+        for meal in day["meals"]:
+            foods = day_map.get(meal["meal"])
+            if not foods:
+                continue
+            totals = [0.0] * len(NUTRIENT_ORDER)
+            for item in foods:
+                food = food_db.get(item["id"])
+                if not food:
+                    continue
+                scale = item["g"] / 100.0
+                for i, k in enumerate(NUTRIENT_ORDER):
+                    totals[i] += food["n"].get(k, 0) * scale
+            day_meals.append((meal_nid(day["day"], meal["meal"]), totals))
+        # The page already publishes a day-total fiber (mealTotals.fiberG); scale
+        # the meals' fiber to sum to it so the popup never contradicts the table.
+        fiber_sum = sum(t[fiber_i] for _, t in day_meals)
+        pub_fiber = day.get("mealTotals", {}).get("fiberG")
+        if fiber_sum > 0 and pub_fiber:
+            for _, totals in day_meals:
+                totals[fiber_i] *= pub_fiber / fiber_sum
+        for nid, totals in day_meals:
+            blob[nid] = [_round_nutrient(v) for v in totals]
+    return blob
 
 
 # ---------------------------------------------------------------- SVG charts
@@ -239,7 +301,7 @@ DISCLAIMER = """
 
 # ---------------------------------------------------------------- plan page
 
-def plan_page(plan):
+def plan_page(plan, nblob=None):
     key = plan["key"]
     p = plan["profile"]
     gender, group, ages = plan["gender"], plan["ageGroup"], plan["ageRange"]
@@ -364,7 +426,7 @@ def plan_page(plan):
     cards = []
     for i, d in enumerate(plan["week"]):
         mt = d["mealTotals"]
-        meal_rows = "".join(f"""                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for {esc_attr(m["meal"])}" data-meal="{esc_attr(m["meal"])}" data-items="{esc_attr(m["items"])}" data-kcal="{m["kcal"]}" data-protein="{m["proteinG"]}" data-carbs="{m["carbsG"]}" data-fat="{m["fatG"]}">
+        meal_rows = "".join(f"""                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for {esc_attr(m["meal"])}" data-nid="{meal_nid(d["day"], m["meal"])}" data-meal="{esc_attr(m["meal"])}" data-items="{esc_attr(m["items"])}" data-kcal="{m["kcal"]}" data-protein="{m["proteinG"]}" data-carbs="{m["carbsG"]}" data-fat="{m["fatG"]}">
                     <td class="mname">{esc(m["meal"])}</td>
                     <td>{esc(m["items"])}</td>
                     <td class="num">{m["kcal"]:,}</td>
@@ -491,6 +553,9 @@ def plan_page(plan):
     </div>
 </section>
 """
+    if nblob:
+        html += ('<script type="application/json" id="nutri-data">'
+                 + json.dumps(nblob, separators=(",", ":")) + "</script>\n")
     html += footer(prefix)
     return html
 
@@ -602,12 +667,19 @@ def main():
         with open(path) as f:
             plans.append(json.load(f))
 
+    food_db = {}
+    if os.path.exists(FOOD_DB):
+        with open(FOOD_DB) as f:
+            food_db = json.load(f)
+
     for plan in plans:
+        nblob = meal_nutrient_blob(plan, food_db)
         out_dir = os.path.join(ROOT, "plans", plan["key"])
         os.makedirs(out_dir, exist_ok=True)
         with open(os.path.join(out_dir, "index.html"), "w") as f:
-            f.write(plan_page(plan))
-        print("wrote plans/%s/index.html" % plan["key"])
+            f.write(plan_page(plan, nblob))
+        print("wrote plans/%s/index.html (%d meals with nutrients)"
+              % (plan["key"], len(nblob)))
 
     with open(os.path.join(ROOT, "plans", "index.html"), "w") as f:
         f.write(hub_page(plans))
