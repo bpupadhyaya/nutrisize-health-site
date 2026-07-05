@@ -338,8 +338,19 @@ body.nm-open { overflow: hidden; }
 
 .nm-note { margin: 16px 0 2px; font-size: 11.5px; color: #8397; color: #8a9a91; line-height: 1.5; }
 
+/* Scroll cue — sticky at the card's bottom edge while content remains below. */
+.nm-more {
+  position: sticky; bottom: -20px; margin: 0 -24px -20px;
+  padding: 26px 0 10px; text-align: center; pointer-events: none;
+  font-size: 12px; font-weight: 700; color: #178a5e;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), #fff 60%);
+  transition: opacity .2s;
+}
+.nm-more-hidden { opacity: 0; }
+
 @media (max-width: 520px) {
   .nutri-modal { align-items: flex-end; padding: 0; }
   .nm-card { max-width: 100%; border-radius: 20px 20px 0 0; max-height: 88vh; padding: 24px 20px 22px; animation: nm-sheet .2s ease; }
+  .nm-more { margin: 0 -20px -22px; bottom: -22px; }
   @keyframes nm-sheet { from { transform: translateY(100%); } to { transform: none; } }
 }

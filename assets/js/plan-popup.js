@@ -81,9 +81,13 @@
       '<div id="nm-micros"></div>' +
       '<p class="nm-note">% Daily Value on a 2,000-calorie reference diet. ' +
       "Educational estimate — not medical or dietary advice.</p>" +
+      '<div class="nm-more" aria-hidden="true">&#8595; scroll for foods &amp; vitamins</div>' +
       "</div>";
     document.body.appendChild(overlay);
     card = overlay.querySelector(".nm-card");
+
+    // Scroll cue: visible only while more popup content is below the fold.
+    card.addEventListener("scroll", updateMore);
 
     overlay.addEventListener("click", function (e) {
       if (e.target === overlay) close(); // tap outside the card
@@ -95,6 +99,12 @@
   }
 
   function pct(v, dv) { return Math.round((v / dv) * 100); }
+
+  function updateMore() {
+    var more = overlay.querySelector(".nm-more");
+    var atEnd = card.scrollTop + card.clientHeight >= card.scrollHeight - 24;
+    more.classList.toggle("nm-more-hidden", atEnd);
+  }
 
   function fmt(v) {
     if (v >= 100) return Math.round(v).toLocaleString();
@@ -204,10 +214,10 @@
           barHTML(n.label, nvals[i], n.unit, n.dv, n.cls));
       });
       micros.innerHTML =
+        foodsHTML(data.foods, meal) +
         '<details class="nm-micros"><summary>Vitamins &amp; minerals <span class="nm-sum-hint">' +
         "estimated from this meal's foods</span></summary>" +
         '<div class="nm-micro-grid">' + microGrid(NUTR, nvals, true) + "</div></details>" +
-        foodsHTML(data.foods, meal) +
         '<p class="nm-note nm-sugar-note">*FDA sets a Daily Value for added sugar only; ' +
         "the value shown is total sugar.</p>";
     }
@@ -215,6 +225,8 @@
     lastFocus = document.activeElement;
     overlay.removeAttribute("hidden");
     document.body.classList.add("nm-open");
+    card.scrollTop = 0;
+    updateMore();
     overlay.querySelector(".nm-close").focus();
   }
 
