@@ -220,3 +220,67 @@ table.ws-week { width: 100%; border-collapse: collapse; font-size: 13.5px; min-w
     .table-scroll { box-shadow: none; }
     a { color: inherit; }
 }
+
+/* ---- per-meal nutrition popup (tap a meal row) --------------------------- */
+.meal-table tbody tr.meal-row { cursor: pointer; transition: background .12s; }
+.meal-table tbody tr.meal-row:hover { background: #f2f8f4; }
+.meal-table tbody tr.meal-row:focus-visible { outline: 2px solid #178a5e; outline-offset: -2px; }
+.meal-table tbody tr.meal-row .mname::after { content: " \203A"; color: #9db3a7; font-weight: 700; }
+
+body.nm-open { overflow: hidden; }
+.nutri-modal {
+  position: fixed; inset: 0; z-index: 1000;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  background: rgba(11, 30, 22, 0.55);
+  -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+  animation: nm-fade .16s ease;
+}
+.nutri-modal[hidden] { display: none; }
+@keyframes nm-fade { from { opacity: 0; } to { opacity: 1; } }
+
+.nm-card {
+  position: relative; width: 100%; max-width: 440px;
+  max-height: 86vh; overflow-y: auto;
+  background: #fff; border-radius: 20px;
+  box-shadow: 0 24px 70px rgba(6, 28, 20, .45);
+  padding: 26px 24px 20px;
+  animation: nm-pop .18s cubic-bezier(.2,.8,.3,1);
+}
+@keyframes nm-pop { from { transform: translateY(12px) scale(.98); opacity: 0; } to { transform: none; opacity: 1; } }
+
+.nm-close {
+  position: absolute; top: 12px; right: 12px;
+  width: 34px; height: 34px; border: 0; border-radius: 50%;
+  background: #eef4f0; color: #40544a; font-size: 22px; line-height: 1;
+  cursor: pointer; transition: background .12s, color .12s;
+}
+.nm-close:hover { background: #dbe8e1; color: #0b3d2e; }
+
+.nm-eyebrow { display: block; font-size: 12px; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: #178a5e; margin-bottom: 4px; }
+.nm-head h3 { margin: 0 0 6px; font-size: 22px; color: #0b3d2e; }
+.nm-foods { margin: 0 0 18px; color: #52655b; font-size: 14px; line-height: 1.5; padding-right: 20px; }
+
+.nm-bar { margin-bottom: 14px; }
+.nm-bar-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.nm-bar-label { font-weight: 700; color: #223a30; font-size: 14.5px; }
+.nm-bar-val { color: #52655b; font-size: 13px; }
+.nm-bar-val b { color: #0b3d2e; font-size: 15px; }
+.nm-bar-pct { color: #178a5e; font-weight: 700; margin-left: 4px; }
+.nm-track { height: 12px; border-radius: 7px; background: #eef4f0; overflow: hidden; }
+.nm-fill { display: block; height: 100%; border-radius: 7px; transition: width .5s cubic-bezier(.2,.8,.3,1); }
+.nm-bar.kcal .nm-fill { background: #0b3d2e; }
+.nm-bar.protein .nm-fill { background: #178a5e; }
+.nm-bar.carbs .nm-fill { background: #1268b3; }
+.nm-bar.fat .nm-fill { background: #d97706; }
+.nm-bar.carbs .nm-bar-pct { color: #1268b3; }
+.nm-bar.fat .nm-bar-pct { color: #d97706; }
+
+.nm-note { margin: 16px 0 2px; font-size: 11.5px; color: #8397; color: #8a9a91; line-height: 1.5; }
+
+@media (max-width: 520px) {
+  .nutri-modal { align-items: flex-end; padding: 0; }
+  .nm-card { max-width: 100%; border-radius: 20px 20px 0 0; max-height: 88vh; padding: 24px 20px 22px; animation: nm-sheet .2s ease; }
+  @keyframes nm-sheet { from { transform: translateY(100%); } to { transform: none; } }
+}

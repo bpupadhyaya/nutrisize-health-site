@@ -37,6 +37,11 @@ def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def esc_attr(s):
+    # Attribute-safe: also escape quotes so data-* values can't break the tag.
+    return esc(s).replace('"', "&quot;").replace("'", "&#39;")
+
+
 # ---------------------------------------------------------------- SVG charts
 
 def energy_chart(plan):
@@ -170,6 +175,7 @@ def head(title, desc, canonical, prefix, extra=""):
     <link rel="stylesheet" href="{prefix}assets/fonts/inter.css">
     <link rel="stylesheet" href="{prefix}assets/css/style.css">
     <link rel="stylesheet" href="{prefix}assets/css/plans.css">
+    <script src="{prefix}assets/js/plan-popup.js" defer></script>
 {extra}</head>
 <body>
 """
@@ -358,7 +364,7 @@ def plan_page(plan):
     cards = []
     for i, d in enumerate(plan["week"]):
         mt = d["mealTotals"]
-        meal_rows = "".join(f"""                <tr>
+        meal_rows = "".join(f"""                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for {esc_attr(m["meal"])}" data-meal="{esc_attr(m["meal"])}" data-items="{esc_attr(m["items"])}" data-kcal="{m["kcal"]}" data-protein="{m["proteinG"]}" data-carbs="{m["carbsG"]}" data-fat="{m["fatG"]}">
                     <td class="mname">{esc(m["meal"])}</td>
                     <td>{esc(m["items"])}</td>
                     <td class="num">{m["kcal"]:,}</td>

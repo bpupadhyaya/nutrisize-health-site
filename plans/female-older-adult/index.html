@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="../../assets/fonts/inter.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/plans.css">
+    <script src="../../assets/js/plan-popup.js" defer></script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -202,7 +203,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Greek yogurt with rolled oats, blueberries, a drizzle of honey, and walnuts" data-kcal="440" data-protein="20" data-carbs="58" data-fat="14">
                     <td class="mname">Breakfast</td>
                     <td>Greek yogurt with rolled oats, blueberries, a drizzle of honey, and walnuts</td>
                     <td class="num">440</td>
@@ -210,7 +211,7 @@
                     <td class="num">58</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Lentil-barley vegetable soup; whole-grain roll dipped in olive oil; an orange" data-kcal="495" data-protein="18" data-carbs="72" data-fat="15">
                     <td class="mname">Lunch</td>
                     <td>Lentil-barley vegetable soup; whole-grain roll dipped in olive oil; an orange</td>
                     <td class="num">495</td>
@@ -218,7 +219,7 @@
                     <td class="num">72</td>
                     <td class="num">15</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="Hummus with carrot, cucumber, and bell-pepper sticks; whole-grain crackers" data-kcal="245" data-protein="7" data-carbs="36" data-fat="8">
                     <td class="mname">Snack</td>
                     <td>Hummus with carrot, cucumber, and bell-pepper sticks; whole-grain crackers</td>
                     <td class="num">245</td>
@@ -226,7 +227,7 @@
                     <td class="num">36</td>
                     <td class="num">8</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Baked salmon with lemon and dill, herbed quinoa, roasted zucchini and cherry tomatoes" data-kcal="625" data-protein="32" data-carbs="72" data-fat="23">
                     <td class="mname">Dinner</td>
                     <td>Baked salmon with lemon and dill, herbed quinoa, roasted zucchini and cherry tomatoes</td>
                     <td class="num">625</td>
@@ -259,7 +260,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Two-egg omelet with spinach and mushrooms; whole-grain toast with avocado; a kiwi" data-kcal="410" data-protein="18" data-carbs="40" data-fat="20">
                     <td class="mname">Breakfast</td>
                     <td>Two-egg omelet with spinach and mushrooms; whole-grain toast with avocado; a kiwi</td>
                     <td class="num">410</td>
@@ -267,7 +268,7 @@
                     <td class="num">40</td>
                     <td class="num">20</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Miso-glazed tofu bowl with brown rice, edamame, steamed broccoli, and pickled carrot" data-kcal="540" data-protein="24" data-carbs="80" data-fat="14">
                     <td class="mname">Lunch</td>
                     <td>Miso-glazed tofu bowl with brown rice, edamame, steamed broccoli, and pickled carrot</td>
                     <td class="num">540</td>
@@ -275,7 +276,7 @@
                     <td class="num">80</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="A banana with a small handful of roasted almonds" data-kcal="245" data-protein="5" data-carbs="36" data-fat="9">
                     <td class="mname">Snack</td>
                     <td>A banana with a small handful of roasted almonds</td>
                     <td class="num">245</td>
@@ -283,7 +284,7 @@
                     <td class="num">36</td>
                     <td class="num">9</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Chicken-ginger stir-fry with snow peas and peppers over brown rice; a mandarin" data-kcal="565" data-protein="30" data-carbs="78" data-fat="15">
                     <td class="mname">Dinner</td>
                     <td>Chicken-ginger stir-fry with snow peas and peppers over brown rice; a mandarin</td>
                     <td class="num">565</td>
@@ -316,7 +317,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Overnight oats with chia seeds, diced mango, and a spoonful of peanut butter" data-kcal="420" data-protein="14" data-carbs="60" data-fat="14">
                     <td class="mname">Breakfast</td>
                     <td>Overnight oats with chia seeds, diced mango, and a spoonful of peanut butter</td>
                     <td class="num">420</td>
@@ -324,7 +325,7 @@
                     <td class="num">60</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Black bean and roasted sweet-potato tacos on corn tortillas with cabbage slaw and salsa" data-kcal="510" data-protein="18" data-carbs="76" data-fat="15">
                     <td class="mname">Lunch</td>
                     <td>Black bean and roasted sweet-potato tacos on corn tortillas with cabbage slaw and salsa</td>
                     <td class="num">510</td>
@@ -332,7 +333,7 @@
                     <td class="num">76</td>
                     <td class="num">15</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="Plain yogurt with sliced strawberries and a sprinkle of granola" data-kcal="225" data-protein="11" data-carbs="32" data-fat="6">
                     <td class="mname">Snack</td>
                     <td>Plain yogurt with sliced strawberries and a sprinkle of granola</td>
                     <td class="num">225</td>
@@ -340,7 +341,7 @@
                     <td class="num">32</td>
                     <td class="num">6</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Grilled shrimp with cilantro-lime brown rice, black beans, and avocado-tomato salad" data-kcal="600" data-protein="34" data-carbs="64" data-fat="23">
                     <td class="mname">Dinner</td>
                     <td>Grilled shrimp with cilantro-lime brown rice, black beans, and avocado-tomato salad</td>
                     <td class="num">600</td>
@@ -373,7 +374,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Small stack of whole-grain pancakes with warm blueberries, chopped walnuts, and a light drizzle of maple syrup" data-kcal="455" data-protein="16" data-carbs="66" data-fat="14">
                     <td class="mname">Breakfast</td>
                     <td>Small stack of whole-grain pancakes with warm blueberries, chopped walnuts, and a light drizzle of maple syrup</td>
                     <td class="num">455</td>
@@ -381,7 +382,7 @@
                     <td class="num">66</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Olive-oil tuna salad on whole-grain bread with lettuce and tomato; carrot sticks; an apple" data-kcal="465" data-protein="24" data-carbs="58" data-fat="15">
                     <td class="mname">Lunch</td>
                     <td>Olive-oil tuna salad on whole-grain bread with lettuce and tomato; carrot sticks; an apple</td>
                     <td class="num">465</td>
@@ -389,7 +390,7 @@
                     <td class="num">58</td>
                     <td class="num">15</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="Air-popped popcorn with a sprinkle of parmesan; a few mixed nuts" data-kcal="245" data-protein="6" data-carbs="28" data-fat="12">
                     <td class="mname">Snack</td>
                     <td>Air-popped popcorn with a sprinkle of parmesan; a few mixed nuts</td>
                     <td class="num">245</td>
@@ -397,7 +398,7 @@
                     <td class="num">28</td>
                     <td class="num">12</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Roast turkey breast with mashed sweet potatoes, steamed green beans, and cranberry relish" data-kcal="600" data-protein="31" data-carbs="74" data-fat="20">
                     <td class="mname">Dinner</td>
                     <td>Roast turkey breast with mashed sweet potatoes, steamed green beans, and cranberry relish</td>
                     <td class="num">600</td>
@@ -430,7 +431,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Vegetable poha (flattened rice) with green peas and peanuts; a small low-fat lassi" data-kcal="425" data-protein="15" data-carbs="60" data-fat="14">
                     <td class="mname">Breakfast</td>
                     <td>Vegetable poha (flattened rice) with green peas and peanuts; a small low-fat lassi</td>
                     <td class="num">425</td>
@@ -438,7 +439,7 @@
                     <td class="num">60</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Chana masala (chickpea curry) with brown basmati rice and cucumber raita" data-kcal="495" data-protein="20" data-carbs="72" data-fat="14">
                     <td class="mname">Lunch</td>
                     <td>Chana masala (chickpea curry) with brown basmati rice and cucumber raita</td>
                     <td class="num">495</td>
@@ -446,7 +447,7 @@
                     <td class="num">72</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="Roasted chickpea and nut snack mix; a ripe pear" data-kcal="265" data-protein="8" data-carbs="36" data-fat="10">
                     <td class="mname">Snack</td>
                     <td>Roasted chickpea and nut snack mix; a ripe pear</td>
                     <td class="num">265</td>
@@ -454,7 +455,7 @@
                     <td class="num">36</td>
                     <td class="num">10</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Tandoori-spiced baked cod with yellow dal, sauteed spinach, and a small whole-wheat roti" data-kcal="580" data-protein="34" data-carbs="62" data-fat="22">
                     <td class="mname">Dinner</td>
                     <td>Tandoori-spiced baked cod with yellow dal, sauteed spinach, and a small whole-wheat roti</td>
                     <td class="num">580</td>
@@ -487,7 +488,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Whole-grain toast with ricotta, sliced strawberries, and honey; a low-fat milk latte" data-kcal="440" data-protein="18" data-carbs="60" data-fat="14">
                     <td class="mname">Breakfast</td>
                     <td>Whole-grain toast with ricotta, sliced strawberries, and honey; a low-fat milk latte</td>
                     <td class="num">440</td>
@@ -495,7 +496,7 @@
                     <td class="num">60</td>
                     <td class="num">14</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Caprese-style farro salad with tomatoes, mozzarella, basil, and white beans" data-kcal="500" data-protein="22" data-carbs="62" data-fat="18">
                     <td class="mname">Lunch</td>
                     <td>Caprese-style farro salad with tomatoes, mozzarella, basil, and white beans</td>
                     <td class="num">500</td>
@@ -503,7 +504,7 @@
                     <td class="num">62</td>
                     <td class="num">18</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="A peach and a small handful of pistachios" data-kcal="240" data-protein="5" data-carbs="32" data-fat="10">
                     <td class="mname">Snack</td>
                     <td>A peach and a small handful of pistachios</td>
                     <td class="num">240</td>
@@ -511,7 +512,7 @@
                     <td class="num">32</td>
                     <td class="num">10</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Whole-wheat spaghetti with lean beef and tomato ragu; spinach side salad with balsamic vinaigrette" data-kcal="600" data-protein="32" data-carbs="78" data-fat="18">
                     <td class="mname">Dinner</td>
                     <td>Whole-wheat spaghetti with lean beef and tomato ragu; spinach side salad with balsamic vinaigrette</td>
                     <td class="num">600</td>
@@ -544,7 +545,7 @@
                     <thead><tr><th>Meal</th><th>Foods</th><th class="num">kcal</th>
                         <th class="num">Protein g</th><th class="num">Carbs g</th><th class="num">Fat g</th></tr></thead>
                     <tbody>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Breakfast" data-meal="Breakfast" data-items="Shakshuka (two eggs poached in tomato-pepper sauce) with warm whole-grain pita" data-kcal="420" data-protein="20" data-carbs="44" data-fat="18">
                     <td class="mname">Breakfast</td>
                     <td>Shakshuka (two eggs poached in tomato-pepper sauce) with warm whole-grain pita</td>
                     <td class="num">420</td>
@@ -552,7 +553,7 @@
                     <td class="num">44</td>
                     <td class="num">18</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Lunch" data-meal="Lunch" data-items="Mezze plate: hummus, tabbouleh, olives, whole-grain pita, and cucumber-tomato salad" data-kcal="530" data-protein="16" data-carbs="72" data-fat="20">
                     <td class="mname">Lunch</td>
                     <td>Mezze plate: hummus, tabbouleh, olives, whole-grain pita, and cucumber-tomato salad</td>
                     <td class="num">530</td>
@@ -560,7 +561,7 @@
                     <td class="num">72</td>
                     <td class="num">20</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Snack" data-meal="Snack" data-items="Low-fat yogurt with honey, walnuts, and a sliced apricot" data-kcal="250" data-protein="10" data-carbs="30" data-fat="10">
                     <td class="mname">Snack</td>
                     <td>Low-fat yogurt with honey, walnuts, and a sliced apricot</td>
                     <td class="num">250</td>
@@ -568,7 +569,7 @@
                     <td class="num">30</td>
                     <td class="num">10</td>
                 </tr>
-                <tr>
+                <tr class="meal-row" tabindex="0" role="button" aria-label="See nutrition for Dinner" data-meal="Dinner" data-items="Za&#39;atar roast chicken breast with pearl couscous, roasted carrots, and a lemony green salad" data-kcal="555" data-protein="31" data-carbs="76" data-fat="14">
                     <td class="mname">Dinner</td>
                     <td>Za'atar roast chicken breast with pearl couscous, roasted carrots, and a lemony green salad</td>
                     <td class="num">555</td>
