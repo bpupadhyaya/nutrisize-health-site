@@ -4,6 +4,7 @@
 Usage: python3 scripts/render_plans.py
 Idempotent: overwrites plans/index.html and plans/<key>/index.html.
 """
+import hashlib
 import json
 import math
 import os
@@ -55,6 +56,14 @@ def esc(s):
 def esc_attr(s):
     # Attribute-safe: also escape quotes so data-* values can't break the tag.
     return esc(s).replace('"', "&quot;").replace("'", "&#39;")
+
+
+def asset_v(rel):
+    """Short content hash for cache-busting ?v= params on popup assets, so
+    browsers pick up JS/CSS changes as soon as the HTML does."""
+    path = os.path.join(ROOT, rel)
+    with open(path, "rb") as f:
+        return hashlib.md5(f.read()).hexdigest()[:8]
 
 
 def meal_nid(day, meal):
@@ -260,8 +269,8 @@ def head(title, desc, canonical, prefix, extra=""):
     <meta name="theme-color" content="#0b3d2e">
     <link rel="stylesheet" href="{prefix}assets/fonts/inter.css">
     <link rel="stylesheet" href="{prefix}assets/css/style.css">
-    <link rel="stylesheet" href="{prefix}assets/css/plans.css">
-    <script src="{prefix}assets/js/plan-popup.js" defer></script>
+    <link rel="stylesheet" href="{prefix}assets/css/plans.css?v={asset_v('assets/css/plans.css')}">
+    <script src="{prefix}assets/js/plan-popup.js?v={asset_v('assets/js/plan-popup.js')}" defer></script>
 {extra}</head>
 <body>
 """
