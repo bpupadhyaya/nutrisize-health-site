@@ -8,6 +8,7 @@ import hashlib
 import json
 import math
 import os
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "assets", "data", "plans")
@@ -70,6 +71,80 @@ def meal_nid(day, meal):
     return day.lower() + "-" + meal.lower().replace(" ", "-")
 
 
+# --- household portion labels ("≈ 2 eggs", "≈ 1½ cups cooked") -------------
+
+_SIZE_ADJ = {"small", "medium", "large", "extra-large", "whole", "baby"}
+_NO_INFLECT = {"oz", "g", "ml", "tbsp", "tsp", "fl"}
+_FRACTIONS = {0.25: "¼", 0.5: "½", 0.75: "¾"}
+
+
+def _plural(word):
+    if word in _NO_INFLECT:
+        return word
+    if word.endswith("y") and len(word) > 1 and word[-2] not in "aeiou":
+        return word[:-1] + "ies"
+    if word.endswith(("s", "x", "z", "ch", "sh")):
+        return word + "es"
+    return word + "s"
+
+
+def _singular(word):
+    if word in _NO_INFLECT:
+        return word
+    if word.endswith("ies"):
+        return word[:-3] + "y"
+    if word.endswith(("ches", "shes", "xes", "zes", "ses")):
+        return word[:-2]
+    if word.endswith("s") and not word.endswith("ss"):
+        return word[:-1]
+    return word
+
+
+def _inflect(rest, count):
+    # A scaled count makes any parenthetical detail wrong ("1 cup (8 oz)"
+    # quartered is not "¼ cup (8 oz)") — drop it unless the count stayed 1.
+    if count != 1:
+        rest = re.sub(r"\s*\([^)]*\)\s*$", "", rest)
+    words = rest.split()
+    if not words:
+        return rest
+    i = 1 if words[0] in _SIZE_ADJ and len(words) > 1 else 0
+    if words[i] not in _SIZE_ADJ:
+        words[i] = _plural(words[i]) if count > 1 else _singular(words[i])
+    return " ".join(words)
+
+
+def _fmt_count(c):
+    whole, frac = int(c), round(c - int(c), 2)
+    if frac in _FRACTIONS:
+        return (str(whole) if whole else "") + _FRACTIONS[frac]
+    return str(whole)
+
+
+def portion_label(grams, servings):
+    """Best household-measure label for a gram amount, or '' if none is close.
+    Serving descriptions look like '1 cup cooked' / '3 oz portion' / '2 small
+    chops'; the count is scaled and the unit word inflected to match."""
+    best = None
+    for desc, g in servings or []:
+        parts = desc.split(None, 1)
+        if len(parts) != 2 or not parts[0].isdigit() or not g:
+            continue
+        base_n, rest = int(parts[0]), parts[1]
+        units = grams / g * base_n
+        snapped = round(units * 4) / 4.0
+        if not 0.25 <= snapped <= 6 or abs(units - snapped) / units > 0.13:
+            continue
+        roundness = 0 if snapped == int(snapped) else (1 if snapped * 2 == int(snapped * 2) else 2)
+        score = (roundness, abs(snapped - 1.5), abs(units - snapped))
+        if best is None or score < best[0]:
+            best = (score, snapped, rest)
+    if best is None:
+        return ""
+    _, count, rest = best
+    return "≈ " + _fmt_count(count) + " " + _inflect(rest, count)
+
+
 def _round_nutrient(v):
     if v >= 100:
         return int(round(v))
@@ -84,7 +159,7 @@ def meal_nutrient_blob(plan, food_db):
 
       {"foods": [[name, [per-100g values in FOOD_NUTRIENT_ORDER]], ...],
        "meals": {nid: {"t": [meal totals in NUTRIENT_ORDER],
-                       "i": [[food index, grams], ...],
+                       "i": [[food index, grams, portion label], ...],
                        "s": day fiber scale}}}
     """
     path = os.path.join(MEAL_FOODS, plan["key"] + ".json")
@@ -121,7 +196,8 @@ def meal_nutrient_blob(plan, food_db):
                 scale = item["g"] / 100.0
                 for i, k in enumerate(NUTRIENT_ORDER):
                     totals[i] += food["n"].get(k, 0) * scale
-                items.append([index_food(item["id"]), item["g"]])
+                items.append([index_food(item["id"]), item["g"],
+                              portion_label(item["g"], food.get("sv"))])
             day_meals.append((meal_nid(day["day"], meal["meal"]), totals, items))
         # The page already publishes a day-total fiber (mealTotals.fiberG); scale
         # the meals' fiber to sum to it so the popup never contradicts the table.

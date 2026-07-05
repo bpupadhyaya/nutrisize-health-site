@@ -175,9 +175,10 @@
         // scale so foods sum to their meal and meals sum to the day
         return i === 4 ? x * (meal.s || 1) : x;
       });
+      var portion = it[2] ? esc(it[2]) + " · " + fmt(grams) + " g" : fmt(grams) + " g";
       out += '<details class="nm-food"><summary><span class="nm-food-name">' +
-        esc(food[0]) + '</span><span class="nm-food-meta">' + fmt(grams) +
-        ' g · <b>' + fmt(vals[0]) + '</b> kcal</span></summary>' +
+        esc(food[0]) + '</span><span class="nm-food-meta">' + portion +
+        ' · <b>' + fmt(vals[0]) + '</b> kcal</span></summary>' +
         '<div class="nm-micro-grid">' + microGrid(FOOD_NUTR, vals, false) +
         "</div></details>";
     });

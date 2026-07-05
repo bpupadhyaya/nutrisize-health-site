@@ -27,7 +27,17 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Acai berry"
+  "name": "Acai berry",
+  "sv": [
+   [
+    "100g frozen puree packet",
+    100
+   ],
+   [
+    "1 cup smoothie bowl",
+    200
+   ]
+  ]
  },
  "adzuki-beans": {
   "n": {
@@ -57,7 +67,13 @@
    "vitaminK": 2.5,
    "zinc": 1.77
   },
-  "name": "Adzuki Beans"
+  "name": "Adzuki Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    230
+   ]
+  ]
  },
  "agave-nectar": {
   "n": {
@@ -87,7 +103,13 @@
    "vitaminK": 22.5,
    "zinc": 0
   },
-  "name": "Agave Nectar"
+  "name": "Agave Nectar",
+  "sv": [
+   [
+    "1 tbsp",
+    21
+   ]
+  ]
  },
  "aioli": {
   "n": {
@@ -117,7 +139,13 @@
    "vitaminK": 60.0,
    "zinc": 0.2
   },
-  "name": "Aioli"
+  "name": "Aioli",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "ajwain-seed": {
   "n": {
@@ -147,7 +175,13 @@
    "vitaminK": 0,
    "zinc": 3.5
   },
-  "name": "Ajwain Seed (Carom)"
+  "name": "Ajwain Seed (Carom)",
+  "sv": [
+   [
+    "1 tsp",
+    2.5
+   ]
+  ]
  },
  "allspice-ground": {
   "n": {
@@ -177,7 +211,13 @@
    "vitaminK": 0,
    "zinc": 1.0
   },
-  "name": "Allspice (Ground)"
+  "name": "Allspice (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    1.9
+   ]
+  ]
  },
  "almond-butter": {
   "n": {
@@ -207,7 +247,17 @@
    "vitaminK": 0,
    "zinc": 3.3
   },
-  "name": "Almond Butter"
+  "name": "Almond Butter",
+  "sv": [
+   [
+    "2 tbsp",
+    32
+   ],
+   [
+    "1 tbsp",
+    16
+   ]
+  ]
  },
  "almond-flour": {
   "n": {
@@ -237,7 +287,17 @@
    "vitaminK": 0,
    "zinc": 3.1
   },
-  "name": "Almond Flour"
+  "name": "Almond Flour",
+  "sv": [
+   [
+    "1/4 cup",
+    28
+   ],
+   [
+    "1 cup",
+    112
+   ]
+  ]
  },
  "almond-milk": {
   "n": {
@@ -267,7 +327,13 @@
    "vitaminK": 0,
    "zinc": 0.06
   },
-  "name": "Almond Milk"
+  "name": "Almond Milk",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "almond-milk-unsweetened": {
   "n": {
@@ -297,7 +363,13 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Almond Milk (Unsweetened)"
+  "name": "Almond Milk (Unsweetened)",
+  "sv": [
+   [
+    "1 cup",
+    240
+   ]
+  ]
  },
  "almond-oil": {
   "n": {
@@ -327,7 +399,13 @@
    "vitaminK": 7.0,
    "zinc": 0
   },
-  "name": "Almond Oil"
+  "name": "Almond Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "almond-raw": {
   "n": {
@@ -357,7 +435,17 @@
    "vitaminK": 0,
    "zinc": 3.1
   },
-  "name": "Almonds (Raw)"
+  "name": "Almonds (Raw)",
+  "sv": [
+   [
+    "1 oz (23 almonds)",
+    28
+   ],
+   [
+    "1/4 cup",
+    36
+   ]
+  ]
  },
  "almond-roasted": {
   "n": {
@@ -387,7 +475,17 @@
    "vitaminK": 0,
    "zinc": 3.1
   },
-  "name": "Almonds (Roasted)"
+  "name": "Almonds (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    35
+   ]
+  ]
  },
  "amaranth-cooked": {
   "n": {
@@ -417,7 +515,13 @@
    "vitaminK": 0,
    "zinc": 0.86
   },
-  "name": "Amaranth"
+  "name": "Amaranth",
+  "sv": [
+   [
+    "1 cup cooked",
+    246
+   ]
+  ]
  },
  "amaranth-greens": {
   "n": {
@@ -447,7 +551,17 @@
    "vitaminK": 1140,
    "zinc": 0.9
   },
-  "name": "Amaranth greens"
+  "name": "Amaranth greens",
+  "sv": [
+   [
+    "1 cup raw",
+    28
+   ],
+   [
+    "1 cup cooked",
+    132
+   ]
+  ]
  },
  "amaranth-seed": {
   "n": {
@@ -477,7 +591,17 @@
    "vitaminK": 0,
    "zinc": 2.9
   },
-  "name": "Amaranth Seeds"
+  "name": "Amaranth Seeds",
+  "sv": [
+   [
+    "1/4 cup dry",
+    48
+   ],
+   [
+    "1 cup cooked",
+    246
+   ]
+  ]
  },
  "anchovy-canned": {
   "n": {
@@ -507,7 +631,17 @@
    "vitaminK": 0.1,
    "zinc": 2.4
   },
-  "name": "Anchovies (Canned in Oil)"
+  "name": "Anchovies (Canned in Oil)",
+  "sv": [
+   [
+    "5 fillets",
+    20
+   ],
+   [
+    "1 can (2 oz)",
+    56
+   ]
+  ]
  },
  "anise-seed": {
   "n": {
@@ -537,7 +671,17 @@
    "vitaminK": 0,
    "zinc": 5.3
   },
-  "name": "Anise Seeds"
+  "name": "Anise Seeds",
+  "sv": [
+   [
+    "1 tsp",
+    2
+   ],
+   [
+    "1 tbsp",
+    7
+   ]
+  ]
  },
  "apple": {
   "n": {
@@ -567,7 +711,17 @@
    "vitaminK": 2.2,
    "zinc": 0.04
   },
-  "name": "Apple"
+  "name": "Apple",
+  "sv": [
+   [
+    "1 medium",
+    182
+   ],
+   [
+    "1 cup sliced",
+    109
+   ]
+  ]
  },
  "apple-cider-vinegar": {
   "n": {
@@ -597,7 +751,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Apple Cider Vinegar"
+  "name": "Apple Cider Vinegar",
+  "sv": [
+   [
+    "1 tbsp",
+    15
+   ]
+  ]
  },
  "apricot": {
   "n": {
@@ -627,7 +787,17 @@
    "vitaminK": 3.3,
    "zinc": 0.2
   },
-  "name": "Apricot"
+  "name": "Apricot",
+  "sv": [
+   [
+    "1 medium",
+    35
+   ],
+   [
+    "1 cup halves",
+    155
+   ]
+  ]
  },
  "arepa": {
   "n": {
@@ -657,7 +827,13 @@
    "vitaminK": 0.2,
    "zinc": 0.6
   },
-  "name": "Arepa"
+  "name": "Arepa",
+  "sv": [
+   [
+    "1 medium",
+    85
+   ]
+  ]
  },
  "argan-oil": {
   "n": {
@@ -687,7 +863,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Argan Oil (Culinary)"
+  "name": "Argan Oil (Culinary)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ],
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "artichoke": {
   "n": {
@@ -717,7 +903,17 @@
    "vitaminK": 14.8,
    "zinc": 0.49
   },
-  "name": "Artichoke"
+  "name": "Artichoke",
+  "sv": [
+   [
+    "1 medium",
+    128
+   ],
+   [
+    "1 cup hearts",
+    168
+   ]
+  ]
  },
  "arugula": {
   "n": {
@@ -747,7 +943,17 @@
    "vitaminK": 109,
    "zinc": 0.47
   },
-  "name": "Arugula"
+  "name": "Arugula",
+  "sv": [
+   [
+    "1 cup",
+    20
+   ],
+   [
+    "1 bunch",
+    125
+   ]
+  ]
  },
  "asafoetida": {
   "n": {
@@ -777,7 +983,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Asafoetida (Hing)"
+  "name": "Asafoetida (Hing)",
+  "sv": [
+   [
+    "1 pinch",
+    0.3
+   ]
+  ]
  },
  "asian-pear": {
   "n": {
@@ -807,7 +1019,17 @@
    "vitaminK": 4.5,
    "zinc": 0.02
   },
-  "name": "Asian pear (Nashi)"
+  "name": "Asian pear (Nashi)",
+  "sv": [
+   [
+    "1 medium",
+    178
+   ],
+   [
+    "1 cup sliced",
+    140
+   ]
+  ]
  },
  "asparagus": {
   "n": {
@@ -837,7 +1059,17 @@
    "vitaminK": 41.6,
    "zinc": 0.54
   },
-  "name": "Asparagus"
+  "name": "Asparagus",
+  "sv": [
+   [
+    "5 spears",
+    93
+   ],
+   [
+    "1 cup chopped",
+    134
+   ]
+  ]
  },
  "avocado": {
   "n": {
@@ -867,7 +1099,17 @@
    "vitaminK": 21.0,
    "zinc": 0.64
   },
-  "name": "Avocado"
+  "name": "Avocado",
+  "sv": [
+   [
+    "1/2 medium",
+    68
+   ],
+   [
+    "1 cup cubed",
+    150
+   ]
+  ]
  },
  "avocado-oil": {
   "n": {
@@ -897,7 +1139,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Avocado Oil"
+  "name": "Avocado Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "baba-ganoush": {
   "n": {
@@ -927,7 +1175,17 @@
    "vitaminK": 8.0,
    "zinc": 0.5
   },
-  "name": "Baba Ganoush (Eggplant Dip)"
+  "name": "Baba Ganoush (Eggplant Dip)",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ],
+   [
+    "1/4 cup",
+    60
+   ]
+  ]
  },
  "bacon-cooked": {
   "n": {
@@ -957,7 +1215,17 @@
    "vitaminK": 0.1,
    "zinc": 3.2
   },
-  "name": "Bacon (Pork, Cooked)"
+  "name": "Bacon (Pork, Cooked)",
+  "sv": [
+   [
+    "3 slices",
+    24
+   ],
+   [
+    "1 slice",
+    8
+   ]
+  ]
  },
  "bagel-plain": {
   "n": {
@@ -987,7 +1255,13 @@
    "vitaminK": 0.3,
    "zinc": 0.8
   },
-  "name": "Bagel (Plain)"
+  "name": "Bagel (Plain)",
+  "sv": [
+   [
+    "1 medium bagel",
+    105
+   ]
+  ]
  },
  "baguette": {
   "n": {
@@ -1017,7 +1291,17 @@
    "vitaminK": 0.3,
    "zinc": 0.78
   },
-  "name": "Baguette (French Bread)"
+  "name": "Baguette (French Bread)",
+  "sv": [
+   [
+    "1 slice (2 in.)",
+    25
+   ],
+   [
+    "6 inch piece",
+    75
+   ]
+  ]
  },
  "balsamic-vinegar": {
   "n": {
@@ -1047,7 +1331,13 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Balsamic Vinegar"
+  "name": "Balsamic Vinegar",
+  "sv": [
+   [
+    "1 tbsp",
+    16
+   ]
+  ]
  },
  "bamboo-shoots": {
   "n": {
@@ -1077,7 +1367,17 @@
    "vitaminK": 0,
    "zinc": 1.1
   },
-  "name": "Bamboo shoots"
+  "name": "Bamboo shoots",
+  "sv": [
+   [
+    "1 cup sliced",
+    151
+   ],
+   [
+    "1/2 cup",
+    76
+   ]
+  ]
  },
  "banana": {
   "n": {
@@ -1107,7 +1407,17 @@
    "vitaminK": 0.5,
    "zinc": 0.15
   },
-  "name": "Banana"
+  "name": "Banana",
+  "sv": [
+   [
+    "1 medium",
+    118
+   ],
+   [
+    "1 cup sliced",
+    150
+   ]
+  ]
  },
  "barbecue-sauce": {
   "n": {
@@ -1137,7 +1447,13 @@
    "vitaminK": 0.5,
    "zinc": 0.2
   },
-  "name": "Barbecue Sauce"
+  "name": "Barbecue Sauce",
+  "sv": [
+   [
+    "2 tbsp",
+    36
+   ]
+  ]
  },
  "barley-hulled": {
   "n": {
@@ -1167,7 +1483,13 @@
    "vitaminK": 1.0,
    "zinc": 0.9
   },
-  "name": "Hulled Barley (cooked)"
+  "name": "Hulled Barley (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    157
+   ]
+  ]
  },
  "barley-pearled": {
   "n": {
@@ -1197,7 +1519,13 @@
    "vitaminK": 0.8,
    "zinc": 0.82
   },
-  "name": "Pearled Barley"
+  "name": "Pearled Barley",
+  "sv": [
+   [
+    "1 cup cooked",
+    157
+   ]
+  ]
  },
  "baru-nut": {
   "n": {
@@ -1227,7 +1555,13 @@
    "vitaminK": 0,
    "zinc": 4.1
   },
-  "name": "Baru Nut"
+  "name": "Baru Nut",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "basil-fresh": {
   "n": {
@@ -1257,7 +1591,17 @@
    "vitaminK": 414.8,
    "zinc": 0.8
   },
-  "name": "Basil (Fresh)"
+  "name": "Basil (Fresh)",
+  "sv": [
+   [
+    "5 leaves",
+    2.5
+   ],
+   [
+    "1/4 cup chopped",
+    6
+   ]
+  ]
  },
  "basil-seed": {
   "n": {
@@ -1287,7 +1631,17 @@
    "vitaminK": 0,
    "zinc": 4.0
   },
-  "name": "Basil Seeds (Sabja/Tukmaria)"
+  "name": "Basil Seeds (Sabja/Tukmaria)",
+  "sv": [
+   [
+    "1 tbsp",
+    13
+   ],
+   [
+    "1 tsp",
+    4
+   ]
+  ]
  },
  "bay-leaf-dried": {
   "n": {
@@ -1317,7 +1671,13 @@
    "vitaminK": 0,
    "zinc": 3.7
   },
-  "name": "Bay Leaf (Dried)"
+  "name": "Bay Leaf (Dried)",
+  "sv": [
+   [
+    "1 leaf",
+    0.6
+   ]
+  ]
  },
  "beef-brisket-cooked": {
   "n": {
@@ -1347,7 +1707,17 @@
    "vitaminK": 1.3,
    "zinc": 6.8
   },
-  "name": "Beef, Brisket (Braised)"
+  "name": "Beef, Brisket (Braised)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 thick slice",
+    120
+   ]
+  ]
  },
  "beef-flank-steak-cooked": {
   "n": {
@@ -1377,7 +1747,17 @@
    "vitaminK": 1.3,
    "zinc": 4.8
   },
-  "name": "Beef, Flank Steak (Cooked)"
+  "name": "Beef, Flank Steak (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 steak (8 oz)",
+    227
+   ]
+  ]
  },
  "beef-ground-lean-cooked": {
   "n": {
@@ -1407,7 +1787,17 @@
    "vitaminK": 1.6,
    "zinc": 5.7
   },
-  "name": "Beef, Ground (90% Lean, Cooked)"
+  "name": "Beef, Ground (90% Lean, Cooked)",
+  "sv": [
+   [
+    "1 patty (3 oz)",
+    85
+   ],
+   [
+    "1 cup crumbled",
+    135
+   ]
+  ]
  },
  "beef-ground-regular-cooked": {
   "n": {
@@ -1437,7 +1827,17 @@
    "vitaminK": 1.5,
    "zinc": 5.4
   },
-  "name": "Beef, Ground (80% Lean, Cooked)"
+  "name": "Beef, Ground (80% Lean, Cooked)",
+  "sv": [
+   [
+    "1 patty (3 oz)",
+    85
+   ],
+   [
+    "1 cup crumbled",
+    135
+   ]
+  ]
  },
  "beef-liver-cooked": {
   "n": {
@@ -1467,7 +1867,17 @@
    "vitaminK": 3.3,
    "zinc": 5.3
   },
-  "name": "Beef Liver (Cooked)"
+  "name": "Beef Liver (Cooked)",
+  "sv": [
+   [
+    "1 slice (3 oz)",
+    85
+   ],
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "beef-ribeye-steak-cooked": {
   "n": {
@@ -1497,7 +1907,17 @@
    "vitaminK": 1.4,
    "zinc": 5.5
   },
-  "name": "Beef, Ribeye Steak (Cooked)"
+  "name": "Beef, Ribeye Steak (Cooked)",
+  "sv": [
+   [
+    "1 steak (8 oz)",
+    227
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "beef-short-ribs-cooked": {
   "n": {
@@ -1527,7 +1947,17 @@
    "vitaminK": 1.5,
    "zinc": 6.5
   },
-  "name": "Beef, Short Ribs (Braised)"
+  "name": "Beef, Short Ribs (Braised)",
+  "sv": [
+   [
+    "1 rib piece",
+    120
+   ],
+   [
+    "3 oz meat only",
+    85
+   ]
+  ]
  },
  "beef-sirloin-steak-cooked": {
   "n": {
@@ -1557,7 +1987,17 @@
    "vitaminK": 1.5,
    "zinc": 5.0
   },
-  "name": "Beef, Sirloin Steak (Cooked)"
+  "name": "Beef, Sirloin Steak (Cooked)",
+  "sv": [
+   [
+    "1 steak (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "beef-stew-meat-cooked": {
   "n": {
@@ -1587,7 +2027,17 @@
    "vitaminK": 1.4,
    "zinc": 7.3
   },
-  "name": "Beef, Stew Meat (Chuck, Cooked)"
+  "name": "Beef, Stew Meat (Chuck, Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup cubed",
+    140
+   ]
+  ]
  },
  "beef-tenderloin-cooked": {
   "n": {
@@ -1617,7 +2067,17 @@
    "vitaminK": 1.4,
    "zinc": 4.5
   },
-  "name": "Beef, Tenderloin/Filet Mignon (Cooked)"
+  "name": "Beef, Tenderloin/Filet Mignon (Cooked)",
+  "sv": [
+   [
+    "1 steak (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "beef-tongue-cooked": {
   "n": {
@@ -1647,7 +2107,17 @@
    "vitaminK": 0.1,
    "zinc": 4.1
   },
-  "name": "Beef Tongue (Simmered)"
+  "name": "Beef Tongue (Simmered)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 thick slice",
+    60
+   ]
+  ]
  },
  "beet": {
   "n": {
@@ -1677,7 +2147,17 @@
    "vitaminK": 0.2,
    "zinc": 0.35
   },
-  "name": "Beet (Beetroot)"
+  "name": "Beet (Beetroot)",
+  "sv": [
+   [
+    "1 medium",
+    82
+   ],
+   [
+    "1 cup sliced",
+    136
+   ]
+  ]
  },
  "bell-pepper": {
   "n": {
@@ -1707,7 +2187,17 @@
    "vitaminK": 4.9,
    "zinc": 0.25
   },
-  "name": "Bell pepper"
+  "name": "Bell pepper",
+  "sv": [
+   [
+    "1 medium",
+    119
+   ],
+   [
+    "1 cup chopped",
+    149
+   ]
+  ]
  },
  "betel-nut": {
   "n": {
@@ -1737,7 +2227,13 @@
    "vitaminK": 0,
    "zinc": 1.0
   },
-  "name": "Betel Nut (Areca Nut)"
+  "name": "Betel Nut (Areca Nut)",
+  "sv": [
+   [
+    "1 nut",
+    3
+   ]
+  ]
  },
  "bison-ground-cooked": {
   "n": {
@@ -1767,7 +2263,17 @@
    "vitaminK": 1.1,
    "zinc": 5.0
   },
-  "name": "Bison, Ground (Cooked)"
+  "name": "Bison, Ground (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 patty",
+    113
+   ]
+  ]
  },
  "bitter-gourd": {
   "n": {
@@ -1797,7 +2303,17 @@
    "vitaminK": 4.8,
    "zinc": 0.8
   },
-  "name": "Bitter gourd (Bitter melon)"
+  "name": "Bitter gourd (Bitter melon)",
+  "sv": [
+   [
+    "1 cup",
+    93
+   ],
+   [
+    "1 medium",
+    90
+   ]
+  ]
  },
  "black-beans": {
   "n": {
@@ -1827,7 +2343,13 @@
    "vitaminK": 3.3,
    "zinc": 1.12
   },
-  "name": "Black Beans"
+  "name": "Black Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    172
+   ]
+  ]
  },
  "black-eyed-peas": {
   "n": {
@@ -1857,7 +2379,13 @@
    "vitaminK": 1.6,
    "zinc": 1.29
   },
-  "name": "Black-Eyed Peas"
+  "name": "Black-Eyed Peas",
+  "sv": [
+   [
+    "1 cup cooked",
+    171
+   ]
+  ]
  },
  "black-pepper-ground": {
   "n": {
@@ -1887,7 +2415,13 @@
    "vitaminK": 163.7,
    "zinc": 1.4
   },
-  "name": "Black Pepper (Ground)"
+  "name": "Black Pepper (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.3
+   ]
+  ]
  },
  "black-seed-oil": {
   "n": {
@@ -1917,7 +2451,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Black Seed Oil (Nigella Oil)"
+  "name": "Black Seed Oil (Nigella Oil)",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ],
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "black-sesame-seed": {
   "n": {
@@ -1947,7 +2491,17 @@
    "vitaminK": 0,
    "zinc": 7.8
   },
-  "name": "Black Sesame Seeds"
+  "name": "Black Sesame Seeds",
+  "sv": [
+   [
+    "1 tbsp",
+    9
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "black-tea": {
   "n": {
@@ -1977,7 +2531,13 @@
    "vitaminK": 0,
    "zinc": 0.02
   },
-  "name": "Black Tea (Brewed)"
+  "name": "Black Tea (Brewed)",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "blackberry": {
   "n": {
@@ -2007,7 +2567,17 @@
    "vitaminK": 19.8,
    "zinc": 0.53
   },
-  "name": "Blackberry"
+  "name": "Blackberry",
+  "sv": [
+   [
+    "1 cup",
+    144
+   ],
+   [
+    "10 berries",
+    25
+   ]
+  ]
  },
  "blood-orange": {
   "n": {
@@ -2037,7 +2607,17 @@
    "vitaminK": 0,
    "zinc": 0.07
   },
-  "name": "Blood orange"
+  "name": "Blood orange",
+  "sv": [
+   [
+    "1 medium",
+    131
+   ],
+   [
+    "1 cup sections",
+    180
+   ]
+  ]
  },
  "blueberry": {
   "n": {
@@ -2067,7 +2647,17 @@
    "vitaminK": 19.3,
    "zinc": 0.16
   },
-  "name": "Blueberry"
+  "name": "Blueberry",
+  "sv": [
+   [
+    "1 cup",
+    148
+   ],
+   [
+    "1/2 cup",
+    74
+   ]
+  ]
  },
  "bok-choy": {
   "n": {
@@ -2097,7 +2687,17 @@
    "vitaminK": 45.5,
    "zinc": 0.19
   },
-  "name": "Bok choy"
+  "name": "Bok choy",
+  "sv": [
+   [
+    "1 cup shredded",
+    70
+   ],
+   [
+    "1 cup cooked",
+    170
+   ]
+  ]
  },
  "bottle-gourd": {
   "n": {
@@ -2127,7 +2727,17 @@
    "vitaminK": 0,
    "zinc": 0.7
   },
-  "name": "Bottle gourd (Lauki)"
+  "name": "Bottle gourd (Lauki)",
+  "sv": [
+   [
+    "1 cup cooked",
+    146
+   ],
+   [
+    "1 cup raw",
+    116
+   ]
+  ]
  },
  "boysenberry": {
   "n": {
@@ -2157,7 +2767,17 @@
    "vitaminK": 8.0,
    "zinc": 0.53
   },
-  "name": "Boysenberry"
+  "name": "Boysenberry",
+  "sv": [
+   [
+    "1 cup",
+    132
+   ],
+   [
+    "1/2 cup",
+    66
+   ]
+  ]
  },
  "brazil-nut-raw": {
   "n": {
@@ -2187,7 +2807,17 @@
    "vitaminK": 0,
    "zinc": 4.1
   },
-  "name": "Brazil Nuts (Raw)"
+  "name": "Brazil Nuts (Raw)",
+  "sv": [
+   [
+    "1 nut",
+    5
+   ],
+   [
+    "1 oz (6 nuts)",
+    28
+   ]
+  ]
  },
  "bread-white": {
   "n": {
@@ -2217,7 +2847,17 @@
    "vitaminK": 0.3,
    "zinc": 0.74
   },
-  "name": "White Bread"
+  "name": "White Bread",
+  "sv": [
+   [
+    "1 slice",
+    30
+   ],
+   [
+    "2 slices",
+    60
+   ]
+  ]
  },
  "bread-whole-wheat": {
   "n": {
@@ -2247,7 +2887,17 @@
    "vitaminK": 7.8,
    "zinc": 1.8
   },
-  "name": "Whole Wheat Bread"
+  "name": "Whole Wheat Bread",
+  "sv": [
+   [
+    "1 slice",
+    33
+   ],
+   [
+    "2 slices",
+    66
+   ]
+  ]
  },
  "breadfruit": {
   "n": {
@@ -2277,7 +2927,17 @@
    "vitaminK": 0.5,
    "zinc": 0.12
   },
-  "name": "Breadfruit"
+  "name": "Breadfruit",
+  "sv": [
+   [
+    "1 cup",
+    220
+   ],
+   [
+    "1/4 fruit",
+    96
+   ]
+  ]
  },
  "breadnut": {
   "n": {
@@ -2307,7 +2967,13 @@
    "vitaminK": 0,
    "zinc": 1.5
   },
-  "name": "Breadnut (Maya Nut)"
+  "name": "Breadnut (Maya Nut)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "broccoli": {
   "n": {
@@ -2337,7 +3003,17 @@
    "vitaminK": 101.6,
    "zinc": 0.41
   },
-  "name": "Broccoli"
+  "name": "Broccoli",
+  "sv": [
+   [
+    "1 cup chopped",
+    91
+   ],
+   [
+    "1 stalk",
+    37
+   ]
+  ]
  },
  "brown-sugar": {
   "n": {
@@ -2367,7 +3043,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Brown Sugar"
+  "name": "Brown Sugar",
+  "sv": [
+   [
+    "1 tsp",
+    4.6
+   ],
+   [
+    "1 tbsp",
+    13.8
+   ]
+  ]
  },
  "brussels-sprouts": {
   "n": {
@@ -2397,7 +3083,17 @@
    "vitaminK": 177,
    "zinc": 0.42
   },
-  "name": "Brussels sprouts"
+  "name": "Brussels sprouts",
+  "sv": [
+   [
+    "1 cup",
+    88
+   ],
+   [
+    "5 sprouts",
+    95
+   ]
+  ]
  },
  "buckwheat-cooked": {
   "n": {
@@ -2427,7 +3123,13 @@
    "vitaminK": 1.9,
    "zinc": 0.61
   },
-  "name": "Buckwheat Groats"
+  "name": "Buckwheat Groats",
+  "sv": [
+   [
+    "1 cup cooked",
+    168
+   ]
+  ]
  },
  "bulgur-cooked": {
   "n": {
@@ -2457,7 +3159,13 @@
    "vitaminK": 0.5,
    "zinc": 0.57
   },
-  "name": "Bulgur Wheat"
+  "name": "Bulgur Wheat",
+  "sv": [
+   [
+    "1 cup cooked",
+    182
+   ]
+  ]
  },
  "butter-salted": {
   "n": {
@@ -2487,7 +3195,17 @@
    "vitaminK": 7.0,
    "zinc": 0.1
   },
-  "name": "Butter (Salted)"
+  "name": "Butter (Salted)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ],
+   [
+    "1 pat",
+    5
+   ]
+  ]
  },
  "butter-unsalted": {
   "n": {
@@ -2517,7 +3235,17 @@
    "vitaminK": 7.0,
    "zinc": 0.1
   },
-  "name": "Butter (Unsalted)"
+  "name": "Butter (Unsalted)",
+  "sv": [
+   [
+    "1 tablespoon",
+    14
+   ],
+   [
+    "1 pat",
+    5
+   ]
+  ]
  },
  "buttermilk": {
   "n": {
@@ -2547,7 +3275,17 @@
    "vitaminK": 0.1,
    "zinc": 0.4
   },
-  "name": "Buttermilk (Cultured, Low-Fat)"
+  "name": "Buttermilk (Cultured, Low-Fat)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    245
+   ],
+   [
+    "1/2 cup",
+    123
+   ]
+  ]
  },
  "butternut-squash": {
   "n": {
@@ -2577,7 +3315,17 @@
    "vitaminK": 1.1,
    "zinc": 0.15
   },
-  "name": "Butternut squash"
+  "name": "Butternut squash",
+  "sv": [
+   [
+    "1 cup cubed",
+    140
+   ],
+   [
+    "1 cup cooked",
+    205
+   ]
+  ]
  },
  "button-mushroom": {
   "n": {
@@ -2607,7 +3355,17 @@
    "vitaminK": 0,
    "zinc": 0.52
   },
-  "name": "Button mushroom (White)"
+  "name": "Button mushroom (White)",
+  "sv": [
+   [
+    "1 cup sliced",
+    70
+   ],
+   [
+    "5 medium",
+    84
+   ]
+  ]
  },
  "cabbage": {
   "n": {
@@ -2637,7 +3395,17 @@
    "vitaminK": 76,
    "zinc": 0.18
   },
-  "name": "Cabbage"
+  "name": "Cabbage",
+  "sv": [
+   [
+    "1 cup shredded",
+    89
+   ],
+   [
+    "1 cup cooked",
+    150
+   ]
+  ]
  },
  "cactus-pear": {
   "n": {
@@ -2667,7 +3435,17 @@
    "vitaminK": 0,
    "zinc": 0.12
   },
-  "name": "Cactus pear (Prickly pear)"
+  "name": "Cactus pear (Prickly pear)",
+  "sv": [
+   [
+    "1 fruit",
+    103
+   ],
+   [
+    "1 cup",
+    149
+   ]
+  ]
  },
  "candlenut": {
   "n": {
@@ -2697,7 +3475,17 @@
    "vitaminK": 0,
    "zinc": 3.0
   },
-  "name": "Candlenut (Kukui Nut)"
+  "name": "Candlenut (Kukui Nut)",
+  "sv": [
+   [
+    "1 nut",
+    6
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "canned-mackerel": {
   "n": {
@@ -2727,7 +3515,17 @@
    "vitaminK": 3.0,
    "zinc": 0.8
   },
-  "name": "Mackerel (Canned, Jack, Drained)"
+  "name": "Mackerel (Canned, Jack, Drained)",
+  "sv": [
+   [
+    "1 can (5 oz drained)",
+    142
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "cannellini-beans": {
   "n": {
@@ -2757,7 +3555,13 @@
    "vitaminK": 2.2,
    "zinc": 1.38
   },
-  "name": "Cannellini Beans (White Kidney Beans)"
+  "name": "Cannellini Beans (White Kidney Beans)",
+  "sv": [
+   [
+    "1 cup cooked",
+    179
+   ]
+  ]
  },
  "canola-oil": {
   "n": {
@@ -2787,7 +3591,13 @@
    "vitaminK": 71.3,
    "zinc": 0
   },
-  "name": "Canola Oil (Rapeseed Oil)"
+  "name": "Canola Oil (Rapeseed Oil)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "cantaloupe": {
   "n": {
@@ -2817,7 +3627,17 @@
    "vitaminK": 2.5,
    "zinc": 0.18
   },
-  "name": "Cantaloupe"
+  "name": "Cantaloupe",
+  "sv": [
+   [
+    "1 cup cubed",
+    160
+   ],
+   [
+    "1/4 medium",
+    134
+   ]
+  ]
  },
  "cape-gooseberry": {
   "n": {
@@ -2847,7 +3667,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Cape gooseberry (Physalis)"
+  "name": "Cape gooseberry (Physalis)",
+  "sv": [
+   [
+    "1 cup",
+    140
+   ],
+   [
+    "10 berries",
+    25
+   ]
+  ]
  },
  "caraway-seed": {
   "n": {
@@ -2877,7 +3707,13 @@
    "vitaminK": 0,
    "zinc": 5.5
   },
-  "name": "Caraway Seed"
+  "name": "Caraway Seed",
+  "sv": [
+   [
+    "1 tsp",
+    2.1
+   ]
+  ]
  },
  "cardamom-ground": {
   "n": {
@@ -2907,7 +3743,13 @@
    "vitaminK": 0,
    "zinc": 7.5
   },
-  "name": "Cardamom (Ground)"
+  "name": "Cardamom (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "carrot": {
   "n": {
@@ -2937,7 +3779,17 @@
    "vitaminK": 13.2,
    "zinc": 0.24
   },
-  "name": "Carrot"
+  "name": "Carrot",
+  "sv": [
+   [
+    "1 medium",
+    61
+   ],
+   [
+    "1 cup chopped",
+    128
+   ]
+  ]
  },
  "cashew-butter": {
   "n": {
@@ -2967,7 +3819,13 @@
    "vitaminK": 0,
    "zinc": 5.2
   },
-  "name": "Cashew Butter"
+  "name": "Cashew Butter",
+  "sv": [
+   [
+    "2 tbsp",
+    32
+   ]
+  ]
  },
  "cashew-cream": {
   "n": {
@@ -2997,7 +3855,17 @@
    "vitaminK": 0,
    "zinc": 3.0
   },
-  "name": "Cashew Cream"
+  "name": "Cashew Cream",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ],
+   [
+    "1/4 cup",
+    60
+   ]
+  ]
  },
  "cashew-milk": {
   "n": {
@@ -3027,7 +3895,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Cashew Milk (Unsweetened)"
+  "name": "Cashew Milk (Unsweetened)",
+  "sv": [
+   [
+    "1 cup",
+    240
+   ]
+  ]
  },
  "cashew-raw": {
   "n": {
@@ -3057,7 +3931,17 @@
    "vitaminK": 34.1,
    "zinc": 5.8
   },
-  "name": "Cashews (Raw)"
+  "name": "Cashews (Raw)",
+  "sv": [
+   [
+    "1 oz (18 cashews)",
+    28
+   ],
+   [
+    "1/4 cup",
+    32
+   ]
+  ]
  },
  "cashew-roasted": {
   "n": {
@@ -3087,7 +3971,17 @@
    "vitaminK": 33.0,
    "zinc": 5.6
   },
-  "name": "Cashews (Roasted)"
+  "name": "Cashews (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    32
+   ]
+  ]
  },
  "cassava": {
   "n": {
@@ -3117,7 +4011,17 @@
    "vitaminK": 1.9,
    "zinc": 0.34
   },
-  "name": "Cassava (Yuca)"
+  "name": "Cassava (Yuca)",
+  "sv": [
+   [
+    "1 cup",
+    206
+   ],
+   [
+    "1 root piece",
+    100
+   ]
+  ]
  },
  "catfish-cooked": {
   "n": {
@@ -3147,7 +4051,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Catfish (Baked)"
+  "name": "Catfish (Baked)",
+  "sv": [
+   [
+    "1 fillet",
+    159
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "cauliflower": {
   "n": {
@@ -3177,7 +4091,17 @@
    "vitaminK": 15.5,
    "zinc": 0.27
   },
-  "name": "Cauliflower"
+  "name": "Cauliflower",
+  "sv": [
+   [
+    "1 cup chopped",
+    107
+   ],
+   [
+    "1/6 medium head",
+    99
+   ]
+  ]
  },
  "cayenne-pepper": {
   "n": {
@@ -3207,7 +4131,13 @@
    "vitaminK": 80.3,
    "zinc": 2.5
   },
-  "name": "Cayenne Pepper"
+  "name": "Cayenne Pepper",
+  "sv": [
+   [
+    "1 tsp",
+    1.8
+   ]
+  ]
  },
  "celeriac": {
   "n": {
@@ -3237,7 +4167,17 @@
    "vitaminK": 41.0,
    "zinc": 0.33
   },
-  "name": "Celeriac (Celery root)"
+  "name": "Celeriac (Celery root)",
+  "sv": [
+   [
+    "1 cup raw",
+    156
+   ],
+   [
+    "1 cup cooked",
+    155
+   ]
+  ]
  },
  "celery": {
   "n": {
@@ -3267,7 +4207,17 @@
    "vitaminK": 29.3,
    "zinc": 0.13
   },
-  "name": "Celery"
+  "name": "Celery",
+  "sv": [
+   [
+    "1 stalk",
+    40
+   ],
+   [
+    "1 cup chopped",
+    101
+   ]
+  ]
  },
  "celery-seed": {
   "n": {
@@ -3297,7 +4247,13 @@
    "vitaminK": 0,
    "zinc": 6.9
   },
-  "name": "Celery Seed"
+  "name": "Celery Seed",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "chana-dal": {
   "n": {
@@ -3327,7 +4283,13 @@
    "vitaminK": 2.5,
    "zinc": 1.3
   },
-  "name": "Chana Dal (Split Chickpeas)"
+  "name": "Chana Dal (Split Chickpeas)",
+  "sv": [
+   [
+    "1 cup cooked",
+    200
+   ]
+  ]
  },
  "chapati": {
   "n": {
@@ -3357,7 +4319,17 @@
    "vitaminK": 1.5,
    "zinc": 1.5
   },
-  "name": "Chapati (Roti)"
+  "name": "Chapati (Roti)",
+  "sv": [
+   [
+    "1 medium",
+    40
+   ],
+   [
+    "2 pieces",
+    80
+   ]
+  ]
  },
  "chayote": {
   "n": {
@@ -3387,7 +4359,17 @@
    "vitaminK": 4.1,
    "zinc": 0.74
   },
-  "name": "Chayote"
+  "name": "Chayote",
+  "sv": [
+   [
+    "1 cup chopped",
+    132
+   ],
+   [
+    "1 medium",
+    203
+   ]
+  ]
  },
  "cheese-brie": {
   "n": {
@@ -3417,7 +4399,17 @@
    "vitaminK": 2.3,
    "zinc": 2.4
   },
-  "name": "Brie Cheese"
+  "name": "Brie Cheese",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1 wedge",
+    38
+   ]
+  ]
  },
  "cheese-cheddar": {
   "n": {
@@ -3447,7 +4439,17 @@
    "vitaminK": 2.8,
    "zinc": 3.1
   },
-  "name": "Cheddar Cheese"
+  "name": "Cheddar Cheese",
+  "sv": [
+   [
+    "1 oz slice",
+    28
+   ],
+   [
+    "1 cup shredded",
+    113
+   ]
+  ]
  },
  "cheese-cottage": {
   "n": {
@@ -3477,7 +4479,17 @@
    "vitaminK": 0,
    "zinc": 0.4
   },
-  "name": "Cottage Cheese (2% Fat)"
+  "name": "Cottage Cheese (2% Fat)",
+  "sv": [
+   [
+    "1/2 cup",
+    113
+   ],
+   [
+    "1 cup",
+    226
+   ]
+  ]
  },
  "cheese-cream": {
   "n": {
@@ -3507,7 +4519,17 @@
    "vitaminK": 3.0,
    "zinc": 0.5
   },
-  "name": "Cream Cheese"
+  "name": "Cream Cheese",
+  "sv": [
+   [
+    "1 tablespoon",
+    14.5
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "cheese-feta": {
   "n": {
@@ -3537,7 +4559,17 @@
    "vitaminK": 1.8,
    "zinc": 2.9
   },
-  "name": "Feta Cheese"
+  "name": "Feta Cheese",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup crumbled",
+    38
+   ]
+  ]
  },
  "cheese-gouda": {
   "n": {
@@ -3567,7 +4599,17 @@
    "vitaminK": 2.3,
    "zinc": 3.9
   },
-  "name": "Gouda Cheese"
+  "name": "Gouda Cheese",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1 slice",
+    22
+   ]
+  ]
  },
  "cheese-mozzarella": {
   "n": {
@@ -3597,7 +4639,17 @@
    "vitaminK": 2.3,
    "zinc": 2.9
   },
-  "name": "Mozzarella Cheese"
+  "name": "Mozzarella Cheese",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1 cup shredded",
+    112
+   ]
+  ]
  },
  "cheese-parmesan": {
   "n": {
@@ -3627,7 +4679,17 @@
    "vitaminK": 1.7,
    "zinc": 2.8
   },
-  "name": "Parmesan Cheese (Parmigiano-Reggiano)"
+  "name": "Parmesan Cheese (Parmigiano-Reggiano)",
+  "sv": [
+   [
+    "1 tablespoon grated",
+    5
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "cheese-ricotta": {
   "n": {
@@ -3657,7 +4719,17 @@
    "vitaminK": 1.1,
    "zinc": 1.2
   },
-  "name": "Ricotta Cheese (Part-Skim)"
+  "name": "Ricotta Cheese (Part-Skim)",
+  "sv": [
+   [
+    "1/2 cup",
+    124
+   ],
+   [
+    "1/4 cup",
+    62
+   ]
+  ]
  },
  "cheese-swiss": {
   "n": {
@@ -3687,7 +4759,17 @@
    "vitaminK": 2.5,
    "zinc": 4.4
   },
-  "name": "Swiss Cheese (Emmental)"
+  "name": "Swiss Cheese (Emmental)",
+  "sv": [
+   [
+    "1 oz slice",
+    28
+   ],
+   [
+    "1 cup shredded",
+    108
+   ]
+  ]
  },
  "cherimoya": {
   "n": {
@@ -3717,7 +4799,17 @@
    "vitaminK": 0,
    "zinc": 0.16
   },
-  "name": "Cherimoya"
+  "name": "Cherimoya",
+  "sv": [
+   [
+    "1/2 fruit",
+    156
+   ],
+   [
+    "1 cup",
+    312
+   ]
+  ]
  },
  "cherry": {
   "n": {
@@ -3747,7 +4839,17 @@
    "vitaminK": 2.1,
    "zinc": 0.07
   },
-  "name": "Cherry"
+  "name": "Cherry",
+  "sv": [
+   [
+    "1 cup with pits",
+    138
+   ],
+   [
+    "10 cherries",
+    68
+   ]
+  ]
  },
  "chestnut-raw": {
   "n": {
@@ -3777,7 +4879,17 @@
    "vitaminK": 0,
    "zinc": 0.5
   },
-  "name": "Chestnuts (Raw)"
+  "name": "Chestnuts (Raw)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "10 chestnuts",
+    84
+   ]
+  ]
  },
  "chestnut-roasted": {
   "n": {
@@ -3807,7 +4919,17 @@
    "vitaminK": 0,
    "zinc": 0.6
   },
-  "name": "Chestnuts (Roasted)"
+  "name": "Chestnuts (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "10 roasted chestnuts",
+    84
+   ]
+  ]
  },
  "chia-seed": {
   "n": {
@@ -3837,7 +4959,17 @@
    "vitaminK": 0,
    "zinc": 4.6
   },
-  "name": "Chia Seeds"
+  "name": "Chia Seeds",
+  "sv": [
+   [
+    "1 tbsp",
+    12
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "chicken-breast-cooked": {
   "n": {
@@ -3867,7 +4999,17 @@
    "vitaminK": 0.3,
    "zinc": 1.0
   },
-  "name": "Chicken Breast (Skinless, Cooked)"
+  "name": "Chicken Breast (Skinless, Cooked)",
+  "sv": [
+   [
+    "1 breast half",
+    172
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "chicken-drumstick-cooked": {
   "n": {
@@ -3897,7 +5039,17 @@
    "vitaminK": 2.2,
    "zinc": 2.8
   },
-  "name": "Chicken Drumstick (Cooked)"
+  "name": "Chicken Drumstick (Cooked)",
+  "sv": [
+   [
+    "1 drumstick",
+    96
+   ],
+   [
+    "3 oz meat only",
+    85
+   ]
+  ]
  },
  "chicken-ground-cooked": {
   "n": {
@@ -3927,7 +5079,17 @@
    "vitaminK": 1.5,
    "zinc": 1.8
   },
-  "name": "Chicken, Ground (Cooked)"
+  "name": "Chicken, Ground (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup crumbled",
+    135
+   ]
+  ]
  },
  "chicken-liver-cooked": {
   "n": {
@@ -3957,7 +5119,17 @@
    "vitaminK": 0,
    "zinc": 3.9
   },
-  "name": "Chicken Liver (Cooked)"
+  "name": "Chicken Liver (Cooked)",
+  "sv": [
+   [
+    "1 liver",
+    30
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "chicken-thigh-cooked": {
   "n": {
@@ -3987,7 +5159,17 @@
    "vitaminK": 2.4,
    "zinc": 2.5
   },
-  "name": "Chicken Thigh (Skinless, Cooked)"
+  "name": "Chicken Thigh (Skinless, Cooked)",
+  "sv": [
+   [
+    "1 thigh",
+    116
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "chicken-whole-roasted": {
   "n": {
@@ -4017,7 +5199,17 @@
    "vitaminK": 2.4,
    "zinc": 2.0
   },
-  "name": "Chicken, Whole (Roasted, Meat and Skin)"
+  "name": "Chicken, Whole (Roasted, Meat and Skin)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1/4 chicken",
+    250
+   ]
+  ]
  },
  "chicken-wing-cooked": {
   "n": {
@@ -4047,7 +5239,17 @@
    "vitaminK": 2.0,
    "zinc": 1.8
   },
-  "name": "Chicken Wing (Cooked, Skin On)"
+  "name": "Chicken Wing (Cooked, Skin On)",
+  "sv": [
+   [
+    "1 wing (whole)",
+    90
+   ],
+   [
+    "3 wingettes",
+    85
+   ]
+  ]
  },
  "chickpea-flour": {
   "n": {
@@ -4077,7 +5279,13 @@
    "vitaminK": 9.1,
    "zinc": 2.81
   },
-  "name": "Chickpea Flour (Besan)"
+  "name": "Chickpea Flour (Besan)",
+  "sv": [
+   [
+    "1 cup",
+    92
+   ]
+  ]
  },
  "chickpeas": {
   "n": {
@@ -4107,7 +5315,13 @@
    "vitaminK": 4.0,
    "zinc": 1.53
   },
-  "name": "Chickpeas (Garbanzo Beans)"
+  "name": "Chickpeas (Garbanzo Beans)",
+  "sv": [
+   [
+    "1 cup cooked",
+    164
+   ]
+  ]
  },
  "chili-garlic-sauce": {
   "n": {
@@ -4137,7 +5351,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Chili Garlic Sauce"
+  "name": "Chili Garlic Sauce",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "chili-oil": {
   "n": {
@@ -4167,7 +5387,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Chili Oil"
+  "name": "Chili Oil",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ],
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "chili-pepper": {
   "n": {
@@ -4197,7 +5427,17 @@
    "vitaminK": 14.0,
    "zinc": 0.26
   },
-  "name": "Chili pepper"
+  "name": "Chili pepper",
+  "sv": [
+   [
+    "1 pepper",
+    45
+   ],
+   [
+    "1 tbsp chopped",
+    15
+   ]
+  ]
  },
  "chili-powder": {
   "n": {
@@ -4227,7 +5467,13 @@
    "vitaminK": 105.7,
    "zinc": 2.7
   },
-  "name": "Chili Powder"
+  "name": "Chili Powder",
+  "sv": [
+   [
+    "1 tsp",
+    2.7
+   ]
+  ]
  },
  "chives-fresh": {
   "n": {
@@ -4257,7 +5503,13 @@
    "vitaminK": 212.7,
    "zinc": 0.6
   },
-  "name": "Chives (Fresh)"
+  "name": "Chives (Fresh)",
+  "sv": [
+   [
+    "1 tbsp chopped",
+    3
+   ]
+  ]
  },
  "cilantro-fresh": {
   "n": {
@@ -4287,7 +5539,13 @@
    "vitaminK": 310.0,
    "zinc": 0.5
   },
-  "name": "Cilantro (Fresh Coriander Leaves)"
+  "name": "Cilantro (Fresh Coriander Leaves)",
+  "sv": [
+   [
+    "1/4 cup chopped",
+    4
+   ]
+  ]
  },
  "cinnamon-ground": {
   "n": {
@@ -4317,7 +5575,13 @@
    "vitaminK": 31.2,
    "zinc": 1.8
   },
-  "name": "Cinnamon (Ground)"
+  "name": "Cinnamon (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.6
+   ]
+  ]
  },
  "clam-cooked": {
   "n": {
@@ -4347,7 +5611,17 @@
    "vitaminK": 0.1,
    "zinc": 2.7
   },
-  "name": "Clams (Steamed)"
+  "name": "Clams (Steamed)",
+  "sv": [
+   [
+    "3 oz (about 9 small)",
+    85
+   ],
+   [
+    "1 cup",
+    160
+   ]
+  ]
  },
  "clementine": {
   "n": {
@@ -4377,7 +5651,17 @@
    "vitaminK": 0,
    "zinc": 0.06
   },
-  "name": "Clementine"
+  "name": "Clementine",
+  "sv": [
+   [
+    "1 fruit",
+    74
+   ],
+   [
+    "2 fruits",
+    148
+   ]
+  ]
  },
  "cloves-ground": {
   "n": {
@@ -4407,7 +5691,13 @@
    "vitaminK": 141.8,
    "zinc": 2.3
   },
-  "name": "Cloves (Ground)"
+  "name": "Cloves (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.1
+   ]
+  ]
  },
  "cocoa-butter": {
   "n": {
@@ -4437,7 +5727,13 @@
    "vitaminK": 24.7,
    "zinc": 0
   },
-  "name": "Cocoa Butter"
+  "name": "Cocoa Butter",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "coconut-butter": {
   "n": {
@@ -4467,7 +5763,13 @@
    "vitaminK": 0.2,
    "zinc": 1.0
   },
-  "name": "Coconut Butter (Manna)"
+  "name": "Coconut Butter (Manna)",
+  "sv": [
+   [
+    "2 tbsp",
+    32
+   ]
+  ]
  },
  "coconut-cream": {
   "n": {
@@ -4497,7 +5799,13 @@
    "vitaminK": 0,
    "zinc": 0.7
   },
-  "name": "Coconut Cream"
+  "name": "Coconut Cream",
+  "sv": [
+   [
+    "1 tbsp",
+    15
+   ]
+  ]
  },
  "coconut-dried": {
   "n": {
@@ -4527,7 +5835,17 @@
    "vitaminK": 0.3,
    "zinc": 2.0
   },
-  "name": "Coconut (Dried/Desiccated)"
+  "name": "Coconut (Dried/Desiccated)",
+  "sv": [
+   [
+    "1/4 cup",
+    20
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "coconut-flour": {
   "n": {
@@ -4557,7 +5875,17 @@
    "vitaminK": 0,
    "zinc": 2.0
   },
-  "name": "Coconut Flour"
+  "name": "Coconut Flour",
+  "sv": [
+   [
+    "2 tbsp",
+    18
+   ],
+   [
+    "1/4 cup",
+    36
+   ]
+  ]
  },
  "coconut-milk": {
   "n": {
@@ -4587,7 +5915,17 @@
    "vitaminK": 0.1,
    "zinc": 0.7
   },
-  "name": "Coconut Milk (Canned)"
+  "name": "Coconut Milk (Canned)",
+  "sv": [
+   [
+    "1/4 cup",
+    60
+   ],
+   [
+    "1 cup",
+    240
+   ]
+  ]
  },
  "coconut-oil": {
   "n": {
@@ -4617,7 +5955,13 @@
    "vitaminK": 0.6,
    "zinc": 0
   },
-  "name": "Coconut Oil"
+  "name": "Coconut Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "coconut-oil-virgin": {
   "n": {
@@ -4647,7 +5991,13 @@
    "vitaminK": 0.6,
    "zinc": 0
   },
-  "name": "Coconut Oil (Virgin/Unrefined)"
+  "name": "Coconut Oil (Virgin/Unrefined)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "coconut-raw": {
   "n": {
@@ -4677,7 +6027,17 @@
    "vitaminK": 0.2,
    "zinc": 1.1
   },
-  "name": "Coconut Meat (Raw)"
+  "name": "Coconut Meat (Raw)",
+  "sv": [
+   [
+    "1 cup shredded",
+    80
+   ],
+   [
+    "1 piece (2x2x0.5 in)",
+    45
+   ]
+  ]
  },
  "coconut-sugar": {
   "n": {
@@ -4707,7 +6067,13 @@
    "vitaminK": 0,
    "zinc": 2.0
   },
-  "name": "Coconut Sugar"
+  "name": "Coconut Sugar",
+  "sv": [
+   [
+    "1 tsp",
+    4
+   ]
+  ]
  },
  "coconut-water": {
   "n": {
@@ -4737,7 +6103,13 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Coconut Water"
+  "name": "Coconut Water",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "cod-atlantic-cooked": {
   "n": {
@@ -4767,7 +6139,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Cod, Atlantic (Baked)"
+  "name": "Cod, Atlantic (Baked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "cod-liver-oil": {
   "n": {
@@ -4797,7 +6179,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Cod Liver Oil"
+  "name": "Cod Liver Oil",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ],
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "coffee-black": {
   "n": {
@@ -4827,7 +6219,13 @@
    "vitaminK": 0,
    "zinc": 0.02
   },
-  "name": "Coffee (Black, Brewed)"
+  "name": "Coffee (Black, Brewed)",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "collard-greens": {
   "n": {
@@ -4857,7 +6255,17 @@
    "vitaminK": 437,
    "zinc": 0.21
   },
-  "name": "Collard greens"
+  "name": "Collard greens",
+  "sv": [
+   [
+    "1 cup raw chopped",
+    36
+   ],
+   [
+    "1 cup cooked",
+    190
+   ]
+  ]
  },
  "coriander-ground": {
   "n": {
@@ -4887,7 +6295,13 @@
    "vitaminK": 0,
    "zinc": 4.7
   },
-  "name": "Coriander (Ground)"
+  "name": "Coriander (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    1.8
+   ]
+  ]
  },
  "coriander-seed": {
   "n": {
@@ -4917,7 +6331,13 @@
    "vitaminK": 0,
    "zinc": 4.7
   },
-  "name": "Coriander Seed (Whole)"
+  "name": "Coriander Seed (Whole)",
+  "sv": [
+   [
+    "1 tsp",
+    1.8
+   ]
+  ]
  },
  "corn-flour-masa": {
   "n": {
@@ -4947,7 +6367,13 @@
    "vitaminK": 0.3,
    "zinc": 1.68
   },
-  "name": "Masa Harina (Corn Flour)"
+  "name": "Masa Harina (Corn Flour)",
+  "sv": [
+   [
+    "1 cup",
+    114
+   ]
+  ]
  },
  "corn-grits": {
   "n": {
@@ -4977,7 +6403,13 @@
    "vitaminK": 0.1,
    "zinc": 0.12
   },
-  "name": "Corn Grits (Hominy, cooked)"
+  "name": "Corn Grits (Hominy, cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    242
+   ]
+  ]
  },
  "corn-oil": {
   "n": {
@@ -5007,7 +6439,13 @@
    "vitaminK": 1.9,
    "zinc": 0
   },
-  "name": "Corn Oil"
+  "name": "Corn Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "corn-sweet": {
   "n": {
@@ -5037,7 +6475,17 @@
    "vitaminK": 0.4,
    "zinc": 0.62
   },
-  "name": "Sweet Corn"
+  "name": "Sweet Corn",
+  "sv": [
+   [
+    "1 medium ear",
+    90
+   ],
+   [
+    "1 cup kernels",
+    154
+   ]
+  ]
  },
  "cornish-hen-cooked": {
   "n": {
@@ -5067,7 +6515,17 @@
    "vitaminK": 2.0,
    "zinc": 2.0
   },
-  "name": "Cornish Game Hen (Roasted)"
+  "name": "Cornish Game Hen (Roasted)",
+  "sv": [
+   [
+    "1/2 bird",
+    225
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "cornmeal-cooked": {
   "n": {
@@ -5097,7 +6555,13 @@
    "vitaminK": 0.1,
    "zinc": 0.16
   },
-  "name": "Cornmeal (Polenta, cooked)"
+  "name": "Cornmeal (Polenta, cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    240
+   ]
+  ]
  },
  "cottonseed-oil": {
   "n": {
@@ -5127,7 +6591,13 @@
    "vitaminK": 24.7,
    "zinc": 0
   },
-  "name": "Cottonseed Oil"
+  "name": "Cottonseed Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "couscous-cooked": {
   "n": {
@@ -5157,7 +6627,13 @@
    "vitaminK": 0.1,
    "zinc": 0.26
   },
-  "name": "Couscous"
+  "name": "Couscous",
+  "sv": [
+   [
+    "1 cup cooked",
+    157
+   ]
+  ]
  },
  "crab-meat-cooked": {
   "n": {
@@ -5187,7 +6663,17 @@
    "vitaminK": 0,
    "zinc": 6.5
   },
-  "name": "Crab Meat (Cooked)"
+  "name": "Crab Meat (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup flaked",
+    135
+   ]
+  ]
  },
  "cranberry": {
   "n": {
@@ -5217,7 +6703,17 @@
    "vitaminK": 5.1,
    "zinc": 0.1
   },
-  "name": "Cranberry"
+  "name": "Cranberry",
+  "sv": [
+   [
+    "1 cup whole",
+    100
+   ],
+   [
+    "1 cup chopped",
+    110
+   ]
+  ]
  },
  "cranberry-beans": {
   "n": {
@@ -5247,7 +6743,13 @@
    "vitaminK": 2.5,
    "zinc": 1.08
   },
-  "name": "Cranberry Beans (Borlotti)"
+  "name": "Cranberry Beans (Borlotti)",
+  "sv": [
+   [
+    "1 cup cooked",
+    177
+   ]
+  ]
  },
  "crawfish-cooked": {
   "n": {
@@ -5277,7 +6779,17 @@
    "vitaminK": 0,
    "zinc": 1.5
   },
-  "name": "Crawfish/Crayfish (Cooked)"
+  "name": "Crawfish/Crayfish (Cooked)",
+  "sv": [
+   [
+    "3 oz tail meat",
+    85
+   ],
+   [
+    "1 lb whole (yields ~3 oz meat)",
+    85
+   ]
+  ]
  },
  "cream-cheese": {
   "n": {
@@ -5307,7 +6819,17 @@
    "vitaminK": 2.9,
    "zinc": 0.5
   },
-  "name": "Cream Cheese"
+  "name": "Cream Cheese",
+  "sv": [
+   [
+    "2 tbsp",
+    28
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "cream-of-wheat": {
   "n": {
@@ -5337,7 +6859,13 @@
    "vitaminK": 0.1,
    "zinc": 0.16
   },
-  "name": "Cream of Wheat (Semolina Porridge)"
+  "name": "Cream of Wheat (Semolina Porridge)",
+  "sv": [
+   [
+    "1 cup cooked",
+    251
+   ]
+  ]
  },
  "croissant": {
   "n": {
@@ -5367,7 +6895,13 @@
    "vitaminK": 2.8,
    "zinc": 0.72
   },
-  "name": "Croissant"
+  "name": "Croissant",
+  "sv": [
+   [
+    "1 medium",
+    67
+   ]
+  ]
  },
  "cumin-ground": {
   "n": {
@@ -5397,7 +6931,13 @@
    "vitaminK": 5.4,
    "zinc": 4.8
   },
-  "name": "Cumin (Ground)"
+  "name": "Cumin (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.1
+   ]
+  ]
  },
  "cumin-seed": {
   "n": {
@@ -5427,7 +6967,13 @@
    "vitaminK": 5.4,
    "zinc": 4.8
   },
-  "name": "Cumin Seed (Whole)"
+  "name": "Cumin Seed (Whole)",
+  "sv": [
+   [
+    "1 tsp",
+    2.1
+   ]
+  ]
  },
  "curry-leaves": {
   "n": {
@@ -5457,7 +7003,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Curry Leaves (Fresh)"
+  "name": "Curry Leaves (Fresh)",
+  "sv": [
+   [
+    "10 leaves",
+    3
+   ]
+  ]
  },
  "curry-powder": {
   "n": {
@@ -5487,7 +7039,13 @@
    "vitaminK": 99.8,
    "zinc": 4.1
   },
-  "name": "Curry Powder"
+  "name": "Curry Powder",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "custard-apple": {
   "n": {
@@ -5517,7 +7075,17 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Custard apple (Sugar apple)"
+  "name": "Custard apple (Sugar apple)",
+  "sv": [
+   [
+    "1 fruit",
+    135
+   ],
+   [
+    "1 cup pulp",
+    250
+   ]
+  ]
  },
  "daikon-radish": {
   "n": {
@@ -5547,7 +7115,17 @@
    "vitaminK": 0.3,
    "zinc": 0.15
   },
-  "name": "Daikon radish"
+  "name": "Daikon radish",
+  "sv": [
+   [
+    "1 cup sliced",
+    116
+   ],
+   [
+    "7 inch piece",
+    338
+   ]
+  ]
  },
  "dark-chocolate": {
   "n": {
@@ -5577,7 +7155,13 @@
    "vitaminK": 7.3,
    "zinc": 3.31
   },
-  "name": "Dark Chocolate (70-85%)"
+  "name": "Dark Chocolate (70-85%)",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "date": {
   "n": {
@@ -5607,7 +7191,17 @@
    "vitaminK": 2.7,
    "zinc": 0.44
   },
-  "name": "Date (Medjool)"
+  "name": "Date (Medjool)",
+  "sv": [
+   [
+    "1 date",
+    24
+   ],
+   [
+    "1/4 cup chopped",
+    45
+   ]
+  ]
  },
  "date-syrup": {
   "n": {
@@ -5637,7 +7231,13 @@
    "vitaminK": 2.7,
    "zinc": 0.4
   },
-  "name": "Date Syrup"
+  "name": "Date Syrup",
+  "sv": [
+   [
+    "1 tbsp",
+    21
+   ]
+  ]
  },
  "dijon-mustard": {
   "n": {
@@ -5667,7 +7267,13 @@
    "vitaminK": 1.0,
    "zinc": 0.5
   },
-  "name": "Dijon Mustard"
+  "name": "Dijon Mustard",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "dill-fresh": {
   "n": {
@@ -5697,7 +7303,13 @@
    "vitaminK": 0,
    "zinc": 0.9
   },
-  "name": "Dill (Fresh)"
+  "name": "Dill (Fresh)",
+  "sv": [
+   [
+    "5 sprigs",
+    5
+   ]
+  ]
  },
  "dill-seed": {
   "n": {
@@ -5727,7 +7339,17 @@
    "vitaminK": 0,
    "zinc": 5.2
   },
-  "name": "Dill Seeds"
+  "name": "Dill Seeds",
+  "sv": [
+   [
+    "1 tsp",
+    2
+   ],
+   [
+    "1 tbsp",
+    6
+   ]
+  ]
  },
  "dosa-batter": {
   "n": {
@@ -5757,7 +7379,13 @@
    "vitaminK": 0.5,
    "zinc": 0.5
   },
-  "name": "Dosa"
+  "name": "Dosa",
+  "sv": [
+   [
+    "1 dosa",
+    50
+   ]
+  ]
  },
  "dragon-fruit": {
   "n": {
@@ -5787,7 +7415,17 @@
    "vitaminK": 0,
    "zinc": 0.35
   },
-  "name": "Dragon fruit"
+  "name": "Dragon fruit",
+  "sv": [
+   [
+    "1 fruit",
+    200
+   ],
+   [
+    "1 cup cubed",
+    227
+   ]
+  ]
  },
  "dried-apricots": {
   "n": {
@@ -5817,7 +7455,17 @@
    "vitaminK": 3.1,
    "zinc": 0.39
   },
-  "name": "Dried apricots"
+  "name": "Dried apricots",
+  "sv": [
+   [
+    "1/4 cup",
+    33
+   ],
+   [
+    "5 halves",
+    18
+   ]
+  ]
  },
  "dried-figs": {
   "n": {
@@ -5847,7 +7495,17 @@
    "vitaminK": 15.6,
    "zinc": 0.55
   },
-  "name": "Dried figs"
+  "name": "Dried figs",
+  "sv": [
+   [
+    "3 figs",
+    40
+   ],
+   [
+    "1/4 cup",
+    50
+   ]
+  ]
  },
  "drumstick": {
   "n": {
@@ -5877,7 +7535,17 @@
    "vitaminK": 0,
    "zinc": 0.45
   },
-  "name": "Drumstick (Moringa pods)"
+  "name": "Drumstick (Moringa pods)",
+  "sv": [
+   [
+    "1 pod",
+    100
+   ],
+   [
+    "1 cup chopped",
+    100
+   ]
+  ]
  },
  "duck-breast-cooked": {
   "n": {
@@ -5907,7 +7575,17 @@
    "vitaminK": 2.8,
    "zinc": 2.0
   },
-  "name": "Duck Breast (Skin-On, Pan-Seared)"
+  "name": "Duck Breast (Skin-On, Pan-Seared)",
+  "sv": [
+   [
+    "1/2 breast",
+    140
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "duck-fat": {
   "n": {
@@ -5937,7 +7615,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Duck Fat"
+  "name": "Duck Fat",
+  "sv": [
+   [
+    "1 tbsp",
+    13
+   ]
+  ]
  },
  "duck-meat-cooked": {
   "n": {
@@ -5967,7 +7651,17 @@
    "vitaminK": 2.8,
    "zinc": 2.6
   },
-  "name": "Duck Meat (Roasted, No Skin)"
+  "name": "Duck Meat (Roasted, No Skin)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1/2 duck breast",
+    140
+   ]
+  ]
  },
  "dukkah": {
   "n": {
@@ -5997,7 +7691,13 @@
    "vitaminK": 3.0,
    "zinc": 4.0
   },
-  "name": "Dukkah (Egyptian Nut-Spice Blend)"
+  "name": "Dukkah (Egyptian Nut-Spice Blend)",
+  "sv": [
+   [
+    "2 tbsp",
+    16
+   ]
+  ]
  },
  "durian": {
   "n": {
@@ -6027,7 +7727,17 @@
    "vitaminK": 0,
    "zinc": 0.28
   },
-  "name": "Durian"
+  "name": "Durian",
+  "sv": [
+   [
+    "1 cup chopped",
+    243
+   ],
+   [
+    "1 seed with flesh",
+    35
+   ]
+  ]
  },
  "edamame": {
   "n": {
@@ -6057,7 +7767,13 @@
    "vitaminK": 26.7,
    "zinc": 1.37
   },
-  "name": "Edamame"
+  "name": "Edamame",
+  "sv": [
+   [
+    "1 cup",
+    155
+   ]
+  ]
  },
  "egg-chicken-fried": {
   "n": {
@@ -6087,7 +7803,17 @@
    "vitaminK": 2.0,
    "zinc": 1.1
   },
-  "name": "Egg, Chicken (Fried)"
+  "name": "Egg, Chicken (Fried)",
+  "sv": [
+   [
+    "1 large egg fried",
+    46
+   ],
+   [
+    "2 eggs fried",
+    92
+   ]
+  ]
  },
  "egg-chicken-scrambled": {
   "n": {
@@ -6117,7 +7843,17 @@
    "vitaminK": 1.0,
    "zinc": 1.0
   },
-  "name": "Egg, Chicken (Scrambled, with Butter)"
+  "name": "Egg, Chicken (Scrambled, with Butter)",
+  "sv": [
+   [
+    "2 eggs scrambled",
+    122
+   ],
+   [
+    "1 large egg scrambled",
+    61
+   ]
+  ]
  },
  "egg-chicken-white-cooked": {
   "n": {
@@ -6147,7 +7883,17 @@
    "vitaminK": 0,
    "zinc": 0.0
   },
-  "name": "Egg White (Chicken, Cooked)"
+  "name": "Egg White (Chicken, Cooked)",
+  "sv": [
+   [
+    "1 large egg white",
+    33
+   ],
+   [
+    "3 egg whites",
+    100
+   ]
+  ]
  },
  "egg-chicken-whole-cooked": {
   "n": {
@@ -6177,7 +7923,17 @@
    "vitaminK": 0.3,
    "zinc": 1.1
   },
-  "name": "Egg, Chicken (Whole, Hard-Boiled)"
+  "name": "Egg, Chicken (Whole, Hard-Boiled)",
+  "sv": [
+   [
+    "1 large egg",
+    50
+   ],
+   [
+    "2 eggs",
+    100
+   ]
+  ]
  },
  "egg-chicken-yolk-cooked": {
   "n": {
@@ -6207,7 +7963,17 @@
    "vitaminK": 0.7,
    "zinc": 2.3
   },
-  "name": "Egg Yolk (Chicken, Cooked)"
+  "name": "Egg Yolk (Chicken, Cooked)",
+  "sv": [
+   [
+    "1 large egg yolk",
+    17
+   ],
+   [
+    "3 yolks",
+    51
+   ]
+  ]
  },
  "egg-duck-cooked": {
   "n": {
@@ -6237,7 +8003,17 @@
    "vitaminK": 0.4,
    "zinc": 1.4
   },
-  "name": "Duck Egg (Cooked)"
+  "name": "Duck Egg (Cooked)",
+  "sv": [
+   [
+    "1 duck egg",
+    70
+   ],
+   [
+    "2 eggs",
+    140
+   ]
+  ]
  },
  "egg-omelette": {
   "n": {
@@ -6267,7 +8043,17 @@
    "vitaminK": 1.5,
    "zinc": 1.0
   },
-  "name": "Egg Omelette (Plain)"
+  "name": "Egg Omelette (Plain)",
+  "sv": [
+   [
+    "1 two-egg omelette",
+    122
+   ],
+   [
+    "1 three-egg omelette",
+    183
+   ]
+  ]
  },
  "egg-quail-cooked": {
   "n": {
@@ -6297,7 +8083,17 @@
    "vitaminK": 0.3,
    "zinc": 1.5
   },
-  "name": "Quail Egg (Cooked)"
+  "name": "Quail Egg (Cooked)",
+  "sv": [
+   [
+    "5 quail eggs",
+    45
+   ],
+   [
+    "10 quail eggs",
+    90
+   ]
+  ]
  },
  "eggplant": {
   "n": {
@@ -6327,7 +8123,17 @@
    "vitaminK": 3.5,
    "zinc": 0.16
   },
-  "name": "Eggplant (Aubergine)"
+  "name": "Eggplant (Aubergine)",
+  "sv": [
+   [
+    "1 cup cubed",
+    82
+   ],
+   [
+    "1 medium",
+    458
+   ]
+  ]
  },
  "elderberry": {
   "n": {
@@ -6357,7 +8163,17 @@
    "vitaminK": 0,
    "zinc": 0.11
   },
-  "name": "Elderberry"
+  "name": "Elderberry",
+  "sv": [
+   [
+    "1 cup",
+    145
+   ],
+   [
+    "1 tbsp syrup",
+    15
+   ]
+  ]
  },
  "elk-roasted": {
   "n": {
@@ -6387,7 +8203,17 @@
    "vitaminK": 1.0,
    "zinc": 4.0
   },
-  "name": "Elk (Roasted)"
+  "name": "Elk (Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 steak",
+    150
+   ]
+  ]
  },
  "endive": {
   "n": {
@@ -6417,7 +8243,17 @@
    "vitaminK": 231,
    "zinc": 0.79
   },
-  "name": "Endive (Belgian)"
+  "name": "Endive (Belgian)",
+  "sv": [
+   [
+    "1 head",
+    53
+   ],
+   [
+    "1 cup chopped",
+    50
+   ]
+  ]
  },
  "erythritol": {
   "n": {
@@ -6447,7 +8283,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Erythritol"
+  "name": "Erythritol",
+  "sv": [
+   [
+    "1 tsp",
+    4
+   ]
+  ]
  },
  "farro-cooked": {
   "n": {
@@ -6477,7 +8319,13 @@
    "vitaminK": 0.9,
    "zinc": 1.18
   },
-  "name": "Farro"
+  "name": "Farro",
+  "sv": [
+   [
+    "1 cup cooked",
+    170
+   ]
+  ]
  },
  "fava-beans": {
   "n": {
@@ -6507,7 +8355,13 @@
    "vitaminK": 2.8,
    "zinc": 1.01
   },
-  "name": "Fava Beans (Broad Beans)"
+  "name": "Fava Beans (Broad Beans)",
+  "sv": [
+   [
+    "1 cup cooked",
+    170
+   ]
+  ]
  },
  "feijoa": {
   "n": {
@@ -6537,7 +8391,17 @@
    "vitaminK": 3.5,
    "zinc": 0.06
   },
-  "name": "Feijoa (Pineapple guava)"
+  "name": "Feijoa (Pineapple guava)",
+  "sv": [
+   [
+    "1 medium",
+    50
+   ],
+   [
+    "1 cup",
+    243
+   ]
+  ]
  },
  "fennel-bulb": {
   "n": {
@@ -6567,7 +8431,17 @@
    "vitaminK": 62.8,
    "zinc": 0.2
   },
-  "name": "Fennel bulb"
+  "name": "Fennel bulb",
+  "sv": [
+   [
+    "1 cup sliced",
+    87
+   ],
+   [
+    "1 bulb",
+    234
+   ]
+  ]
  },
  "fennel-seed": {
   "n": {
@@ -6597,7 +8471,13 @@
    "vitaminK": 0,
    "zinc": 3.7
   },
-  "name": "Fennel Seed"
+  "name": "Fennel Seed",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "fenugreek-seed": {
   "n": {
@@ -6627,7 +8507,13 @@
    "vitaminK": 0,
    "zinc": 2.5
   },
-  "name": "Fenugreek Seed"
+  "name": "Fenugreek Seed",
+  "sv": [
+   [
+    "1 tsp",
+    3.7
+   ]
+  ]
  },
  "fiddlehead-fern": {
   "n": {
@@ -6657,7 +8543,17 @@
    "vitaminK": 0,
    "zinc": 0.83
   },
-  "name": "Fiddlehead fern"
+  "name": "Fiddlehead fern",
+  "sv": [
+   [
+    "1 cup",
+    100
+   ],
+   [
+    "4 oz",
+    113
+   ]
+  ]
  },
  "fig": {
   "n": {
@@ -6687,7 +8583,17 @@
    "vitaminK": 4.7,
    "zinc": 0.15
   },
-  "name": "Fig (fresh)"
+  "name": "Fig (fresh)",
+  "sv": [
+   [
+    "1 medium",
+    50
+   ],
+   [
+    "1 cup",
+    149
+   ]
+  ]
  },
  "finger-millet": {
   "n": {
@@ -6717,7 +8623,13 @@
    "vitaminK": 0.3,
    "zinc": 1.1
   },
-  "name": "Finger Millet (Ragi)"
+  "name": "Finger Millet (Ragi)",
+  "sv": [
+   [
+    "1 cup cooked",
+    200
+   ]
+  ]
  },
  "fish-oil": {
   "n": {
@@ -6747,7 +8659,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Fish Oil"
+  "name": "Fish Oil",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ],
+   [
+    "1 capsule",
+    1
+   ]
+  ]
  },
  "fish-roe-cooked": {
   "n": {
@@ -6777,7 +8699,17 @@
    "vitaminK": 0.6,
    "zinc": 1.2
   },
-  "name": "Fish Roe (Mixed, Cooked)"
+  "name": "Fish Roe (Mixed, Cooked)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1 tablespoon",
+    16
+   ]
+  ]
  },
  "fish-sauce": {
   "n": {
@@ -6807,7 +8739,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Fish Sauce"
+  "name": "Fish Sauce",
+  "sv": [
+   [
+    "1 tbsp",
+    18
+   ]
+  ]
  },
  "five-spice-powder": {
   "n": {
@@ -6837,7 +8775,13 @@
    "vitaminK": 30.0,
    "zinc": 3.5
   },
-  "name": "Five Spice Powder"
+  "name": "Five Spice Powder",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "flaxseed": {
   "n": {
@@ -6867,7 +8811,17 @@
    "vitaminK": 4.3,
    "zinc": 4.3
   },
-  "name": "Flaxseeds (Linseed)"
+  "name": "Flaxseeds (Linseed)",
+  "sv": [
+   [
+    "1 tbsp",
+    10
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "flaxseed-oil": {
   "n": {
@@ -6897,7 +8851,17 @@
    "vitaminK": 9.3,
    "zinc": 0
   },
-  "name": "Flaxseed Oil (Linseed Oil)"
+  "name": "Flaxseed Oil (Linseed Oil)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ],
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "foxtail-millet": {
   "n": {
@@ -6927,7 +8891,13 @@
    "vitaminK": 0.3,
    "zinc": 0.85
   },
-  "name": "Foxtail Millet"
+  "name": "Foxtail Millet",
+  "sv": [
+   [
+    "1 cup cooked",
+    180
+   ]
+  ]
  },
  "freekeh-cooked": {
   "n": {
@@ -6957,7 +8927,13 @@
    "vitaminK": 1.0,
    "zinc": 1.2
   },
-  "name": "Freekeh"
+  "name": "Freekeh",
+  "sv": [
+   [
+    "1 cup cooked",
+    180
+   ]
+  ]
  },
  "garam-masala": {
   "n": {
@@ -6987,7 +8963,13 @@
    "vitaminK": 45.0,
    "zinc": 4.0
   },
-  "name": "Garam Masala"
+  "name": "Garam Masala",
+  "sv": [
+   [
+    "1 tsp",
+    2.5
+   ]
+  ]
  },
  "garlic": {
   "n": {
@@ -7017,7 +8999,17 @@
    "vitaminK": 1.7,
    "zinc": 1.16
   },
-  "name": "Garlic"
+  "name": "Garlic",
+  "sv": [
+   [
+    "1 clove",
+    3
+   ],
+   [
+    "1 tbsp minced",
+    9
+   ]
+  ]
  },
  "garlic-powder": {
   "n": {
@@ -7047,7 +9039,13 @@
    "vitaminK": 0,
    "zinc": 2.6
   },
-  "name": "Garlic Powder"
+  "name": "Garlic Powder",
+  "sv": [
+   [
+    "1 tsp",
+    3.1
+   ]
+  ]
  },
  "ghee": {
   "n": {
@@ -7077,7 +9075,17 @@
    "vitaminK": 8.6,
    "zinc": 0
   },
-  "name": "Ghee (Clarified Butter)"
+  "name": "Ghee (Clarified Butter)",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ],
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "ginger-ground": {
   "n": {
@@ -7107,7 +9115,13 @@
    "vitaminK": 0.8,
    "zinc": 3.6
   },
-  "name": "Ginger (Ground)"
+  "name": "Ginger (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    1.8
+   ]
+  ]
  },
  "ginkgo-nut": {
   "n": {
@@ -7137,7 +9151,13 @@
    "vitaminK": 0,
    "zinc": 0.3
   },
-  "name": "Ginkgo Nuts"
+  "name": "Ginkgo Nuts",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "goat-meat-cooked": {
   "n": {
@@ -7167,7 +9187,17 @@
    "vitaminK": 1.1,
    "zinc": 5.3
   },
-  "name": "Goat Meat (Cooked)"
+  "name": "Goat Meat (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup cubed",
+    140
+   ]
+  ]
  },
  "gochujang": {
   "n": {
@@ -7197,7 +9227,13 @@
    "vitaminK": 2.0,
    "zinc": 1.0
   },
-  "name": "Gochujang (Korean Chili Paste)"
+  "name": "Gochujang (Korean Chili Paste)",
+  "sv": [
+   [
+    "1 tbsp",
+    16
+   ]
+  ]
  },
  "goji-berry": {
   "n": {
@@ -7227,7 +9263,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Goji berry"
+  "name": "Goji berry",
+  "sv": [
+   [
+    "1 oz dried",
+    28
+   ],
+   [
+    "1/4 cup dried",
+    28
+   ]
+  ]
  },
  "goose-meat-cooked": {
   "n": {
@@ -7257,7 +9303,17 @@
    "vitaminK": 4.6,
    "zinc": 2.8
   },
-  "name": "Goose Meat (Roasted, No Skin)"
+  "name": "Goose Meat (Roasted, No Skin)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1/4 goose",
+    250
+   ]
+  ]
  },
  "gooseberry": {
   "n": {
@@ -7287,7 +9343,17 @@
    "vitaminK": 0,
    "zinc": 0.12
   },
-  "name": "Gooseberry (Indian/Amla)"
+  "name": "Gooseberry (Indian/Amla)",
+  "sv": [
+   [
+    "1 cup",
+    150
+   ],
+   [
+    "5 berries",
+    25
+   ]
+  ]
  },
  "granola": {
   "n": {
@@ -7317,7 +9383,17 @@
    "vitaminK": 1.5,
    "zinc": 2.1
   },
-  "name": "Granola"
+  "name": "Granola",
+  "sv": [
+   [
+    "1/2 cup",
+    55
+   ],
+   [
+    "1 cup",
+    110
+   ]
+  ]
  },
  "grape": {
   "n": {
@@ -7347,7 +9423,17 @@
    "vitaminK": 14.6,
    "zinc": 0.07
   },
-  "name": "Grape"
+  "name": "Grape",
+  "sv": [
+   [
+    "1 cup",
+    151
+   ],
+   [
+    "10 grapes",
+    49
+   ]
+  ]
  },
  "grapefruit": {
   "n": {
@@ -7377,7 +9463,17 @@
    "vitaminK": 0,
    "zinc": 0.07
   },
-  "name": "Grapefruit"
+  "name": "Grapefruit",
+  "sv": [
+   [
+    "1/2 medium",
+    123
+   ],
+   [
+    "1 cup sections",
+    230
+   ]
+  ]
  },
  "grapeseed-oil": {
   "n": {
@@ -7407,7 +9503,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Grapeseed Oil"
+  "name": "Grapeseed Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "great-northern-beans": {
   "n": {
@@ -7437,7 +9539,13 @@
    "vitaminK": 1.8,
    "zinc": 0.92
   },
-  "name": "Great Northern Beans"
+  "name": "Great Northern Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    177
+   ]
+  ]
  },
  "green-apple": {
   "n": {
@@ -7467,7 +9575,17 @@
    "vitaminK": 2.2,
    "zinc": 0.04
   },
-  "name": "Green apple (Granny Smith)"
+  "name": "Green apple (Granny Smith)",
+  "sv": [
+   [
+    "1 medium",
+    182
+   ],
+   [
+    "1 cup sliced",
+    109
+   ]
+  ]
  },
  "green-beans": {
   "n": {
@@ -7497,7 +9615,17 @@
    "vitaminK": 43.0,
    "zinc": 0.24
   },
-  "name": "Green beans"
+  "name": "Green beans",
+  "sv": [
+   [
+    "1 cup",
+    100
+   ],
+   [
+    "10 beans",
+    55
+   ]
+  ]
  },
  "green-peas": {
   "n": {
@@ -7527,7 +9655,13 @@
    "vitaminK": 25.9,
    "zinc": 1.19
   },
-  "name": "Green Peas"
+  "name": "Green Peas",
+  "sv": [
+   [
+    "1 cup cooked",
+    160
+   ]
+  ]
  },
  "green-tea": {
   "n": {
@@ -7557,7 +9691,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Green Tea (Brewed)"
+  "name": "Green Tea (Brewed)",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "guacamole": {
   "n": {
@@ -7587,7 +9727,17 @@
    "vitaminK": 21.0,
    "zinc": 0.6
   },
-  "name": "Guacamole"
+  "name": "Guacamole",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ],
+   [
+    "1/4 cup",
+    60
+   ]
+  ]
  },
  "guava": {
   "n": {
@@ -7617,7 +9767,17 @@
    "vitaminK": 2.6,
    "zinc": 0.23
   },
-  "name": "Guava"
+  "name": "Guava",
+  "sv": [
+   [
+    "1 fruit",
+    55
+   ],
+   [
+    "1 cup",
+    165
+   ]
+  ]
  },
  "halibut-cooked": {
   "n": {
@@ -7647,7 +9807,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Halibut (Pacific, Cooked)"
+  "name": "Halibut (Pacific, Cooked)",
+  "sv": [
+   [
+    "1 fillet (5.6 oz)",
+    159
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "ham-cooked": {
   "n": {
@@ -7677,7 +9847,17 @@
    "vitaminK": 0,
    "zinc": 2.2
   },
-  "name": "Ham (Cured, Cooked)"
+  "name": "Ham (Cured, Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "2 slices deli",
+    56
+   ]
+  ]
  },
  "harissa-paste": {
   "n": {
@@ -7707,7 +9887,13 @@
    "vitaminK": 5.0,
    "zinc": 0.5
   },
-  "name": "Harissa Paste"
+  "name": "Harissa Paste",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "hazelnut-oil": {
   "n": {
@@ -7737,7 +9923,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Hazelnut Oil"
+  "name": "Hazelnut Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "hazelnut-raw": {
   "n": {
@@ -7767,7 +9959,17 @@
    "vitaminK": 14.2,
    "zinc": 2.5
   },
-  "name": "Hazelnuts (Raw)"
+  "name": "Hazelnuts (Raw)",
+  "sv": [
+   [
+    "1 oz (21 nuts)",
+    28
+   ],
+   [
+    "1/4 cup",
+    34
+   ]
+  ]
  },
  "hazelnut-roasted": {
   "n": {
@@ -7797,7 +9999,13 @@
    "vitaminK": 13.5,
    "zinc": 2.5
   },
-  "name": "Hazelnuts (Roasted)"
+  "name": "Hazelnuts (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "hazelnut-spread": {
   "n": {
@@ -7827,7 +10035,13 @@
    "vitaminK": 0,
    "zinc": 1.0
   },
-  "name": "Hazelnut Chocolate Spread (Nutella-type)"
+  "name": "Hazelnut Chocolate Spread (Nutella-type)",
+  "sv": [
+   [
+    "2 tbsp",
+    37
+   ]
+  ]
  },
  "hearts-of-palm": {
   "n": {
@@ -7857,7 +10071,17 @@
    "vitaminK": 0,
    "zinc": 1.15
   },
-  "name": "Hearts of palm"
+  "name": "Hearts of palm",
+  "sv": [
+   [
+    "1 cup",
+    146
+   ],
+   [
+    "1 piece",
+    33
+   ]
+  ]
  },
  "heavy-cream": {
   "n": {
@@ -7887,7 +10111,17 @@
    "vitaminK": 3.3,
    "zinc": 0.2
   },
-  "name": "Heavy Cream (Whipping Cream)"
+  "name": "Heavy Cream (Whipping Cream)",
+  "sv": [
+   [
+    "1 tablespoon",
+    15
+   ],
+   [
+    "1/4 cup",
+    60
+   ]
+  ]
  },
  "hemp-seed": {
   "n": {
@@ -7917,7 +10151,17 @@
    "vitaminK": 0,
    "zinc": 9.9
   },
-  "name": "Hemp Seeds (Hulled)"
+  "name": "Hemp Seeds (Hulled)",
+  "sv": [
+   [
+    "3 tbsp",
+    30
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "hemp-seed-oil": {
   "n": {
@@ -7947,7 +10191,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Hemp Seed Oil"
+  "name": "Hemp Seed Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "herring-cooked": {
   "n": {
@@ -7977,7 +10227,17 @@
    "vitaminK": 0.4,
    "zinc": 1.1
   },
-  "name": "Herring (Atlantic, Cooked)"
+  "name": "Herring (Atlantic, Cooked)",
+  "sv": [
+   [
+    "1 fillet",
+    143
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "hilsa-cooked": {
   "n": {
@@ -8007,7 +10267,17 @@
    "vitaminK": 0.5,
    "zinc": 0.8
   },
-  "name": "Hilsa (Ilish, Cooked)"
+  "name": "Hilsa (Ilish, Cooked)",
+  "sv": [
+   [
+    "1 piece (3 oz)",
+    85
+   ],
+   [
+    "1 steak",
+    100
+   ]
+  ]
  },
  "hoisin-sauce": {
   "n": {
@@ -8037,7 +10307,13 @@
    "vitaminK": 0,
    "zinc": 0.5
   },
-  "name": "Hoisin Sauce"
+  "name": "Hoisin Sauce",
+  "sv": [
+   [
+    "1 tbsp",
+    16
+   ]
+  ]
  },
  "holy-basil": {
   "n": {
@@ -8067,7 +10343,13 @@
    "vitaminK": 414.8,
    "zinc": 0.8
   },
-  "name": "Holy Basil (Tulsi)"
+  "name": "Holy Basil (Tulsi)",
+  "sv": [
+   [
+    "5 leaves",
+    2.5
+   ]
+  ]
  },
  "honey": {
   "n": {
@@ -8097,7 +10379,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Honey"
+  "name": "Honey",
+  "sv": [
+   [
+    "1 tbsp",
+    21
+   ]
+  ]
  },
  "honeydew": {
   "n": {
@@ -8127,7 +10415,17 @@
    "vitaminK": 2.9,
    "zinc": 0.09
   },
-  "name": "Honeydew melon"
+  "name": "Honeydew melon",
+  "sv": [
+   [
+    "1 cup cubed",
+    170
+   ],
+   [
+    "1/8 medium",
+    125
+   ]
+  ]
  },
  "horse-gram": {
   "n": {
@@ -8157,7 +10455,13 @@
    "vitaminK": 0.5,
    "zinc": 1.3
   },
-  "name": "Horse Gram (Kulthi)"
+  "name": "Horse Gram (Kulthi)",
+  "sv": [
+   [
+    "1 cup cooked",
+    190
+   ]
+  ]
  },
  "hot-sauce-tabasco": {
   "n": {
@@ -8187,7 +10491,13 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Hot Sauce (Tabasco-style)"
+  "name": "Hot Sauce (Tabasco-style)",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "hummus": {
   "n": {
@@ -8217,7 +10527,17 @@
    "vitaminK": 3.6,
    "zinc": 1.8
   },
-  "name": "Hummus"
+  "name": "Hummus",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ],
+   [
+    "1/4 cup",
+    62
+   ]
+  ]
  },
  "idli": {
   "n": {
@@ -8247,7 +10567,17 @@
    "vitaminK": 0.3,
    "zinc": 0.4
   },
-  "name": "Idli"
+  "name": "Idli",
+  "sv": [
+   [
+    "1 idli",
+    40
+   ],
+   [
+    "3 idlis",
+    120
+   ]
+  ]
  },
  "injera": {
   "n": {
@@ -8277,7 +10607,13 @@
    "vitaminK": 0.4,
    "zinc": 0.95
   },
-  "name": "Injera"
+  "name": "Injera",
+  "sv": [
+   [
+    "1 piece",
+    100
+   ]
+  ]
  },
  "jabuticaba": {
   "n": {
@@ -8307,7 +10643,17 @@
    "vitaminK": 0,
    "zinc": 0.3
   },
-  "name": "Jabuticaba"
+  "name": "Jabuticaba",
+  "sv": [
+   [
+    "1 cup",
+    140
+   ],
+   [
+    "10 fruits",
+    30
+   ]
+  ]
  },
  "jackfruit": {
   "n": {
@@ -8337,7 +10683,17 @@
    "vitaminK": 0.1,
    "zinc": 0.13
   },
-  "name": "Jackfruit"
+  "name": "Jackfruit",
+  "sv": [
+   [
+    "1 cup sliced",
+    165
+   ],
+   [
+    "1 cup raw",
+    151
+   ]
+  ]
  },
  "jaggery": {
   "n": {
@@ -8367,7 +10723,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Jaggery (Gur)"
+  "name": "Jaggery (Gur)",
+  "sv": [
+   [
+    "1 piece",
+    20
+   ]
+  ]
  },
  "jicama": {
   "n": {
@@ -8397,7 +10759,17 @@
    "vitaminK": 0.3,
    "zinc": 0.16
   },
-  "name": "Jicama"
+  "name": "Jicama",
+  "sv": [
+   [
+    "1 cup sliced",
+    120
+   ],
+   [
+    "1 medium",
+    390
+   ]
+  ]
  },
  "kale": {
   "n": {
@@ -8427,7 +10799,17 @@
    "vitaminK": 817,
    "zinc": 0.56
   },
-  "name": "Kale"
+  "name": "Kale",
+  "sv": [
+   [
+    "1 cup chopped raw",
+    67
+   ],
+   [
+    "1 cup cooked",
+    130
+   ]
+  ]
  },
  "kamut-cooked": {
   "n": {
@@ -8457,7 +10839,13 @@
    "vitaminK": 1.0,
    "zinc": 1.3
   },
-  "name": "Kamut (Khorasan Wheat)"
+  "name": "Kamut (Khorasan Wheat)",
+  "sv": [
+   [
+    "1 cup cooked",
+    172
+   ]
+  ]
  },
  "kefir": {
   "n": {
@@ -8487,7 +10875,17 @@
    "vitaminK": 0.6,
    "zinc": 0.5
   },
-  "name": "Kefir (Plain, Whole Milk)"
+  "name": "Kefir (Plain, Whole Milk)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    243
+   ],
+   [
+    "1/2 cup",
+    122
+   ]
+  ]
  },
  "kelp": {
   "n": {
@@ -8517,7 +10915,17 @@
    "vitaminK": 66.0,
    "zinc": 1.23
   },
-  "name": "Kelp (Kombu)"
+  "name": "Kelp (Kombu)",
+  "sv": [
+   [
+    "1 cup raw",
+    80
+   ],
+   [
+    "1 strip dried",
+    10
+   ]
+  ]
  },
  "kidney-beans": {
   "n": {
@@ -8547,7 +10955,13 @@
    "vitaminK": 8.4,
    "zinc": 1.07
   },
-  "name": "Kidney Beans"
+  "name": "Kidney Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    177
+   ]
+  ]
  },
  "kiwi": {
   "n": {
@@ -8577,7 +10991,17 @@
    "vitaminK": 40.3,
    "zinc": 0.14
   },
-  "name": "Kiwi"
+  "name": "Kiwi",
+  "sv": [
+   [
+    "1 medium",
+    69
+   ],
+   [
+    "1 cup sliced",
+    180
+   ]
+  ]
  },
  "kohlrabi": {
   "n": {
@@ -8607,7 +11031,17 @@
    "vitaminK": 0.1,
    "zinc": 0.03
   },
-  "name": "Kohlrabi"
+  "name": "Kohlrabi",
+  "sv": [
+   [
+    "1 cup chopped",
+    135
+   ],
+   [
+    "1 medium",
+    180
+   ]
+  ]
  },
  "kola-nut": {
   "n": {
@@ -8637,7 +11071,13 @@
    "vitaminK": 0,
    "zinc": 0.5
   },
-  "name": "Kola Nut"
+  "name": "Kola Nut",
+  "sv": [
+   [
+    "1 nut",
+    5
+   ]
+  ]
  },
  "konjac": {
   "n": {
@@ -8667,7 +11107,17 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Konjac (Shirataki)"
+  "name": "Konjac (Shirataki)",
+  "sv": [
+   [
+    "1 cup noodles",
+    181
+   ],
+   [
+    "1 block",
+    250
+   ]
+  ]
  },
  "kumquat": {
   "n": {
@@ -8697,7 +11147,17 @@
    "vitaminK": 0,
    "zinc": 0.17
   },
-  "name": "Kumquat"
+  "name": "Kumquat",
+  "sv": [
+   [
+    "5 fruits",
+    95
+   ],
+   [
+    "1 fruit",
+    19
+   ]
+  ]
  },
  "lamb-chop-cooked": {
   "n": {
@@ -8727,7 +11187,17 @@
    "vitaminK": 3.4,
    "zinc": 4.0
   },
-  "name": "Lamb, Loin Chop (Cooked)"
+  "name": "Lamb, Loin Chop (Cooked)",
+  "sv": [
+   [
+    "1 chop (3 oz)",
+    85
+   ],
+   [
+    "2 small chops",
+    120
+   ]
+  ]
  },
  "lamb-ground-cooked": {
   "n": {
@@ -8757,7 +11227,17 @@
    "vitaminK": 3.3,
    "zinc": 4.2
   },
-  "name": "Lamb, Ground (Cooked)"
+  "name": "Lamb, Ground (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup crumbled",
+    135
+   ]
+  ]
  },
  "lamb-leg-cooked": {
   "n": {
@@ -8787,7 +11267,17 @@
    "vitaminK": 3.6,
    "zinc": 4.5
   },
-  "name": "Lamb, Leg (Roasted)"
+  "name": "Lamb, Leg (Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 thick slice",
+    100
+   ]
+  ]
  },
  "lamb-rack-cooked": {
   "n": {
@@ -8817,7 +11307,17 @@
    "vitaminK": 3.5,
    "zinc": 3.8
   },
-  "name": "Lamb, Rack (Roasted)"
+  "name": "Lamb, Rack (Roasted)",
+  "sv": [
+   [
+    "3 ribs",
+    150
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "lamb-shoulder-cooked": {
   "n": {
@@ -8847,7 +11347,17 @@
    "vitaminK": 3.5,
    "zinc": 5.0
   },
-  "name": "Lamb, Shoulder (Braised)"
+  "name": "Lamb, Shoulder (Braised)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 thick slice",
+    120
+   ]
+  ]
  },
  "lard": {
   "n": {
@@ -8877,7 +11387,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Lard (Pork Fat)"
+  "name": "Lard (Pork Fat)",
+  "sv": [
+   [
+    "1 tbsp",
+    13
+   ]
+  ]
  },
  "lassi-plain": {
   "n": {
@@ -8907,7 +11423,17 @@
    "vitaminK": 0.2,
    "zinc": 0.4
   },
-  "name": "Lassi (Plain Yogurt Drink)"
+  "name": "Lassi (Plain Yogurt Drink)",
+  "sv": [
+   [
+    "1 glass (8 oz)",
+    240
+   ],
+   [
+    "1/2 glass",
+    120
+   ]
+  ]
  },
  "leek": {
   "n": {
@@ -8937,7 +11463,17 @@
    "vitaminK": 47.0,
    "zinc": 0.12
   },
-  "name": "Leek"
+  "name": "Leek",
+  "sv": [
+   [
+    "1 medium",
+    89
+   ],
+   [
+    "1 cup chopped",
+    89
+   ]
+  ]
  },
  "lemon": {
   "n": {
@@ -8967,7 +11503,17 @@
    "vitaminK": 0,
    "zinc": 0.06
   },
-  "name": "Lemon"
+  "name": "Lemon",
+  "sv": [
+   [
+    "1 medium",
+    58
+   ],
+   [
+    "1 tbsp juice",
+    15
+   ]
+  ]
  },
  "lemongrass": {
   "n": {
@@ -8997,7 +11543,13 @@
    "vitaminK": 0,
    "zinc": 2.2
   },
-  "name": "Lemongrass"
+  "name": "Lemongrass",
+  "sv": [
+   [
+    "1 stalk",
+    20
+   ]
+  ]
  },
  "lentil-black": {
   "n": {
@@ -9027,7 +11579,13 @@
    "vitaminK": 1.7,
    "zinc": 1.27
   },
-  "name": "Black Lentils (Beluga)"
+  "name": "Black Lentils (Beluga)",
+  "sv": [
+   [
+    "1 cup cooked",
+    198
+   ]
+  ]
  },
  "lentil-brown": {
   "n": {
@@ -9057,7 +11615,13 @@
    "vitaminK": 1.7,
    "zinc": 1.27
   },
-  "name": "Brown Lentils"
+  "name": "Brown Lentils",
+  "sv": [
+   [
+    "1 cup cooked",
+    198
+   ]
+  ]
  },
  "lentil-green": {
   "n": {
@@ -9087,7 +11651,13 @@
    "vitaminK": 1.7,
    "zinc": 1.27
   },
-  "name": "Green Lentils"
+  "name": "Green Lentils",
+  "sv": [
+   [
+    "1 cup cooked",
+    198
+   ]
+  ]
  },
  "lentil-red": {
   "n": {
@@ -9117,7 +11687,13 @@
    "vitaminK": 1.7,
    "zinc": 1.27
   },
-  "name": "Red Lentils"
+  "name": "Red Lentils",
+  "sv": [
+   [
+    "1 cup cooked",
+    198
+   ]
+  ]
  },
  "lettuce-romaine": {
   "n": {
@@ -9147,7 +11723,17 @@
    "vitaminK": 102.5,
    "zinc": 0.23
   },
-  "name": "Lettuce (Romaine)"
+  "name": "Lettuce (Romaine)",
+  "sv": [
+   [
+    "1 cup shredded",
+    47
+   ],
+   [
+    "1 leaf",
+    24
+   ]
+  ]
  },
  "lima-beans": {
   "n": {
@@ -9177,7 +11763,13 @@
    "vitaminK": 2.0,
    "zinc": 0.95
   },
-  "name": "Lima Beans (Butter Beans)"
+  "name": "Lima Beans (Butter Beans)",
+  "sv": [
+   [
+    "1 cup cooked",
+    170
+   ]
+  ]
  },
  "lime": {
   "n": {
@@ -9207,7 +11799,17 @@
    "vitaminK": 0.6,
    "zinc": 0.11
   },
-  "name": "Lime"
+  "name": "Lime",
+  "sv": [
+   [
+    "1 medium",
+    67
+   ],
+   [
+    "1 tbsp juice",
+    15
+   ]
+  ]
  },
  "lobster-cooked": {
   "n": {
@@ -9237,7 +11839,17 @@
    "vitaminK": 0,
    "zinc": 4.1
   },
-  "name": "Lobster (Cooked)"
+  "name": "Lobster (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 lobster tail",
+    113
+   ]
+  ]
  },
  "longan": {
   "n": {
@@ -9267,7 +11879,17 @@
    "vitaminK": 0,
    "zinc": 0.05
   },
-  "name": "Longan"
+  "name": "Longan",
+  "sv": [
+   [
+    "10 fruits",
+    32
+   ],
+   [
+    "1 cup",
+    150
+   ]
+  ]
  },
  "loquat": {
   "n": {
@@ -9297,7 +11919,17 @@
    "vitaminK": 0,
    "zinc": 0.05
   },
-  "name": "Loquat"
+  "name": "Loquat",
+  "sv": [
+   [
+    "3 fruits",
+    84
+   ],
+   [
+    "1 cup",
+    149
+   ]
+  ]
  },
  "lotus-root": {
   "n": {
@@ -9327,7 +11959,17 @@
    "vitaminK": 0.1,
    "zinc": 0.39
   },
-  "name": "Lotus root"
+  "name": "Lotus root",
+  "sv": [
+   [
+    "10 slices",
+    81
+   ],
+   [
+    "1 cup sliced",
+    120
+   ]
+  ]
  },
  "lotus-seed": {
   "n": {
@@ -9357,7 +11999,17 @@
    "vitaminK": 0,
    "zinc": 1.0
   },
-  "name": "Lotus Seeds (Makhana)"
+  "name": "Lotus Seeds (Makhana)",
+  "sv": [
+   [
+    "1 cup popped",
+    20
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "lupini-beans": {
   "n": {
@@ -9387,7 +12039,13 @@
    "vitaminK": 0.4,
    "zinc": 1.38
   },
-  "name": "Lupini Beans"
+  "name": "Lupini Beans",
+  "sv": [
+   [
+    "1 cup",
+    166
+   ]
+  ]
  },
  "lychee": {
   "n": {
@@ -9417,7 +12075,17 @@
    "vitaminK": 0.4,
    "zinc": 0.07
   },
-  "name": "Lychee"
+  "name": "Lychee",
+  "sv": [
+   [
+    "1 fruit",
+    10
+   ],
+   [
+    "1 cup",
+    190
+   ]
+  ]
  },
  "macadamia-oil": {
   "n": {
@@ -9447,7 +12115,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Macadamia Nut Oil"
+  "name": "Macadamia Nut Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "macadamia-raw": {
   "n": {
@@ -9477,7 +12151,17 @@
    "vitaminK": 0,
    "zinc": 1.3
   },
-  "name": "Macadamia Nuts (Raw)"
+  "name": "Macadamia Nuts (Raw)",
+  "sv": [
+   [
+    "1 oz (10-12 nuts)",
+    28
+   ],
+   [
+    "1/4 cup",
+    34
+   ]
+  ]
  },
  "macadamia-roasted": {
   "n": {
@@ -9507,7 +12191,13 @@
    "vitaminK": 0,
    "zinc": 1.3
   },
-  "name": "Macadamia Nuts (Roasted)"
+  "name": "Macadamia Nuts (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "mace-ground": {
   "n": {
@@ -9537,7 +12227,13 @@
    "vitaminK": 0,
    "zinc": 2.3
   },
-  "name": "Mace (Ground)"
+  "name": "Mace (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    1.7
+   ]
+  ]
  },
  "mackerel-atlantic-cooked": {
   "n": {
@@ -9567,7 +12263,17 @@
    "vitaminK": 5.0,
    "zinc": 0.6
   },
-  "name": "Mackerel, Atlantic (Cooked)"
+  "name": "Mackerel, Atlantic (Cooked)",
+  "sv": [
+   [
+    "1 fillet (3.5 oz)",
+    100
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "mahi-mahi-cooked": {
   "n": {
@@ -9597,7 +12303,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Mahi-Mahi (Dolphinfish, Cooked)"
+  "name": "Mahi-Mahi (Dolphinfish, Cooked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "mango": {
   "n": {
@@ -9627,7 +12343,17 @@
    "vitaminK": 4.2,
    "zinc": 0.09
   },
-  "name": "Mango"
+  "name": "Mango",
+  "sv": [
+   [
+    "1 cup sliced",
+    165
+   ],
+   [
+    "1 whole medium",
+    200
+   ]
+  ]
  },
  "mangosteen": {
   "n": {
@@ -9657,7 +12383,17 @@
    "vitaminK": 0,
    "zinc": 0.21
   },
-  "name": "Mangosteen"
+  "name": "Mangosteen",
+  "sv": [
+   [
+    "1 fruit",
+    76
+   ],
+   [
+    "1 cup",
+    196
+   ]
+  ]
  },
  "maple-syrup": {
   "n": {
@@ -9687,7 +12423,13 @@
    "vitaminK": 0,
    "zinc": 1.5
   },
-  "name": "Maple Syrup"
+  "name": "Maple Syrup",
+  "sv": [
+   [
+    "1 tbsp",
+    20
+   ]
+  ]
  },
  "marcona-almond": {
   "n": {
@@ -9717,7 +12459,13 @@
    "vitaminK": 0,
    "zinc": 3.0
   },
-  "name": "Marcona Almonds"
+  "name": "Marcona Almonds",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "margarine": {
   "n": {
@@ -9747,7 +12495,17 @@
    "vitaminK": 93.0,
    "zinc": 0
   },
-  "name": "Margarine"
+  "name": "Margarine",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ],
+   [
+    "1 pat",
+    5
+   ]
+  ]
  },
  "marzipan": {
   "n": {
@@ -9777,7 +12535,13 @@
    "vitaminK": 0,
    "zinc": 1.2
   },
-  "name": "Marzipan (Almond Paste)"
+  "name": "Marzipan (Almond Paste)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "mayonnaise": {
   "n": {
@@ -9807,7 +12571,13 @@
    "vitaminK": 24.7,
    "zinc": 0.1
   },
-  "name": "Mayonnaise"
+  "name": "Mayonnaise",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "mct-oil": {
   "n": {
@@ -9837,7 +12607,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "MCT Oil"
+  "name": "MCT Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "melon-seed": {
   "n": {
@@ -9867,7 +12643,17 @@
    "vitaminK": 0,
    "zinc": 8.0
   },
-  "name": "Melon Seeds (Char Magaz)"
+  "name": "Melon Seeds (Char Magaz)",
+  "sv": [
+   [
+    "1 tbsp",
+    10
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "milk-2-percent": {
   "n": {
@@ -9897,7 +12683,17 @@
    "vitaminK": 0.2,
    "zinc": 0.4
   },
-  "name": "Milk (2% Reduced Fat)"
+  "name": "Milk (2% Reduced Fat)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    244
+   ],
+   [
+    "1/2 cup",
+    122
+   ]
+  ]
  },
  "milk-goat": {
   "n": {
@@ -9927,7 +12723,17 @@
    "vitaminK": 0.3,
    "zinc": 0.3
   },
-  "name": "Goat Milk"
+  "name": "Goat Milk",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    244
+   ],
+   [
+    "1/2 cup",
+    122
+   ]
+  ]
  },
  "milk-skim": {
   "n": {
@@ -9957,7 +12763,17 @@
    "vitaminK": 0,
    "zinc": 0.4
   },
-  "name": "Skim Milk (Fat-Free)"
+  "name": "Skim Milk (Fat-Free)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    245
+   ],
+   [
+    "1/2 cup",
+    123
+   ]
+  ]
  },
  "milk-whole": {
   "n": {
@@ -9987,7 +12803,17 @@
    "vitaminK": 0.3,
    "zinc": 0.4
   },
-  "name": "Whole Milk (3.25% Fat)"
+  "name": "Whole Milk (3.25% Fat)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    244
+   ],
+   [
+    "1/2 cup",
+    122
+   ]
+  ]
  },
  "millet-cooked": {
   "n": {
@@ -10017,7 +12843,13 @@
    "vitaminK": 0.3,
    "zinc": 0.91
   },
-  "name": "Millet"
+  "name": "Millet",
+  "sv": [
+   [
+    "1 cup cooked",
+    174
+   ]
+  ]
  },
  "mint-fresh": {
   "n": {
@@ -10047,7 +12879,13 @@
    "vitaminK": 0,
    "zinc": 1.1
   },
-  "name": "Mint (Fresh)"
+  "name": "Mint (Fresh)",
+  "sv": [
+   [
+    "2 tbsp chopped",
+    3.2
+   ]
+  ]
  },
  "miso-paste": {
   "n": {
@@ -10077,7 +12915,13 @@
    "vitaminK": 29.3,
    "zinc": 2.6
   },
-  "name": "Miso Paste"
+  "name": "Miso Paste",
+  "sv": [
+   [
+    "1 tbsp",
+    17
+   ]
+  ]
  },
  "mixed-nuts": {
   "n": {
@@ -10107,7 +12951,17 @@
    "vitaminK": 5.0,
    "zinc": 3.5
   },
-  "name": "Mixed Nuts"
+  "name": "Mixed Nuts",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    34
+   ]
+  ]
  },
  "molasses": {
   "n": {
@@ -10137,7 +12991,13 @@
    "vitaminK": 0,
    "zinc": 0.3
   },
-  "name": "Molasses (Blackstrap)"
+  "name": "Molasses (Blackstrap)",
+  "sv": [
+   [
+    "1 tbsp",
+    20
+   ]
+  ]
  },
  "mongongo-nut": {
   "n": {
@@ -10167,7 +13027,13 @@
    "vitaminK": 0,
    "zinc": 4.0
   },
-  "name": "Mongongo Nut"
+  "name": "Mongongo Nut",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "moong-dal-split": {
   "n": {
@@ -10197,7 +13063,13 @@
    "vitaminK": 2.0,
    "zinc": 0.78
   },
-  "name": "Moong Dal (Split, dehusked)"
+  "name": "Moong Dal (Split, dehusked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    200
+   ]
+  ]
  },
  "moringa-leaves": {
   "n": {
@@ -10227,7 +13099,17 @@
    "vitaminK": 0,
    "zinc": 0.6
   },
-  "name": "Moringa leaves"
+  "name": "Moringa leaves",
+  "sv": [
+   [
+    "1 cup",
+    21
+   ],
+   [
+    "1 tbsp powder",
+    10
+   ]
+  ]
  },
  "moth-beans": {
   "n": {
@@ -10257,7 +13139,13 @@
    "vitaminK": 1.0,
    "zinc": 0.9
   },
-  "name": "Moth Beans (Matki)"
+  "name": "Moth Beans (Matki)",
+  "sv": [
+   [
+    "1 cup cooked",
+    195
+   ]
+  ]
  },
  "muhammara": {
   "n": {
@@ -10287,7 +13175,17 @@
    "vitaminK": 5.0,
    "zinc": 1.0
   },
-  "name": "Muhammara (Walnut Red Pepper Dip)"
+  "name": "Muhammara (Walnut Red Pepper Dip)",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ],
+   [
+    "1/4 cup",
+    60
+   ]
+  ]
  },
  "mulberry": {
   "n": {
@@ -10317,7 +13215,17 @@
    "vitaminK": 7.8,
    "zinc": 0.12
   },
-  "name": "Mulberry"
+  "name": "Mulberry",
+  "sv": [
+   [
+    "1 cup",
+    140
+   ],
+   [
+    "10 berries",
+    15
+   ]
+  ]
  },
  "mung-beans": {
   "n": {
@@ -10347,7 +13255,13 @@
    "vitaminK": 2.7,
    "zinc": 0.84
   },
-  "name": "Mung Beans"
+  "name": "Mung Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    202
+   ]
+  ]
  },
  "mussel-cooked": {
   "n": {
@@ -10377,7 +13291,17 @@
    "vitaminK": 0.1,
    "zinc": 2.7
   },
-  "name": "Mussels (Steamed)"
+  "name": "Mussels (Steamed)",
+  "sv": [
+   [
+    "3 oz (about 10 mussels)",
+    85
+   ],
+   [
+    "1 cup",
+    150
+   ]
+  ]
  },
  "mustard-greens": {
   "n": {
@@ -10407,7 +13331,17 @@
    "vitaminK": 497,
    "zinc": 0.25
   },
-  "name": "Mustard greens"
+  "name": "Mustard greens",
+  "sv": [
+   [
+    "1 cup raw chopped",
+    56
+   ],
+   [
+    "1 cup cooked",
+    140
+   ]
+  ]
  },
  "mustard-oil": {
   "n": {
@@ -10437,7 +13371,13 @@
    "vitaminK": 5.4,
    "zinc": 0
   },
-  "name": "Mustard Oil"
+  "name": "Mustard Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "mustard-seed": {
   "n": {
@@ -10467,7 +13407,13 @@
    "vitaminK": 5.4,
    "zinc": 6.1
   },
-  "name": "Mustard Seed"
+  "name": "Mustard Seed",
+  "sv": [
+   [
+    "1 tsp",
+    3.3
+   ]
+  ]
  },
  "naan": {
   "n": {
@@ -10497,7 +13443,13 @@
    "vitaminK": 0.5,
    "zinc": 0.7
   },
-  "name": "Naan Bread"
+  "name": "Naan Bread",
+  "sv": [
+   [
+    "1 piece",
+    90
+   ]
+  ]
  },
  "navy-beans": {
   "n": {
@@ -10527,7 +13479,13 @@
    "vitaminK": 2.0,
    "zinc": 1.03
   },
-  "name": "Navy Beans"
+  "name": "Navy Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    182
+   ]
+  ]
  },
  "nectarine": {
   "n": {
@@ -10557,7 +13515,17 @@
    "vitaminK": 2.2,
    "zinc": 0.17
   },
-  "name": "Nectarine"
+  "name": "Nectarine",
+  "sv": [
+   [
+    "1 medium",
+    142
+   ],
+   [
+    "1 cup sliced",
+    143
+   ]
+  ]
  },
  "nigella-seed": {
   "n": {
@@ -10587,7 +13555,13 @@
    "vitaminK": 0,
    "zinc": 4.8
   },
-  "name": "Nigella Seed (Kalonji)"
+  "name": "Nigella Seed (Kalonji)",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "noodles-egg": {
   "n": {
@@ -10617,7 +13591,13 @@
    "vitaminK": 0.1,
    "zinc": 0.65
   },
-  "name": "Egg Noodles (cooked)"
+  "name": "Egg Noodles (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    160
+   ]
+  ]
  },
  "noodles-rice": {
   "n": {
@@ -10647,7 +13627,13 @@
    "vitaminK": 0,
    "zinc": 0.18
   },
-  "name": "Rice Noodles (cooked)"
+  "name": "Rice Noodles (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    176
+   ]
+  ]
  },
  "nori": {
   "n": {
@@ -10677,7 +13663,17 @@
    "vitaminK": 0,
    "zinc": 1.05
   },
-  "name": "Nori (Seaweed)"
+  "name": "Nori (Seaweed)",
+  "sv": [
+   [
+    "1 sheet",
+    3
+   ],
+   [
+    "10 sheets",
+    26
+   ]
+  ]
  },
  "nutmeg-ground": {
   "n": {
@@ -10707,7 +13703,13 @@
    "vitaminK": 0,
    "zinc": 2.2
   },
-  "name": "Nutmeg (Ground)"
+  "name": "Nutmeg (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.2
+   ]
+  ]
  },
  "nutritional-yeast": {
   "n": {
@@ -10737,7 +13739,13 @@
    "vitaminK": 0,
    "zinc": 8.0
   },
-  "name": "Nutritional Yeast"
+  "name": "Nutritional Yeast",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "oatmeal": {
   "n": {
@@ -10767,7 +13775,13 @@
    "vitaminK": 0,
    "zinc": 0.64
   },
-  "name": "Oatmeal (Cooked)"
+  "name": "Oatmeal (Cooked)",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "oatmeal-cooked": {
   "n": {
@@ -10797,7 +13811,13 @@
    "vitaminK": 0.3,
    "zinc": 0.64
   },
-  "name": "Oatmeal (cooked)"
+  "name": "Oatmeal (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    234
+   ]
+  ]
  },
  "oats-rolled": {
   "n": {
@@ -10827,7 +13847,13 @@
    "vitaminK": 0.3,
    "zinc": 0.64
   },
-  "name": "Rolled Oats"
+  "name": "Rolled Oats",
+  "sv": [
+   [
+    "1 cup cooked",
+    234
+   ]
+  ]
  },
  "octopus-cooked": {
   "n": {
@@ -10857,7 +13883,17 @@
    "vitaminK": 0.1,
    "zinc": 3.2
   },
-  "name": "Octopus (Cooked)"
+  "name": "Octopus (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 tentacle",
+    50
+   ]
+  ]
  },
  "okra": {
   "n": {
@@ -10887,7 +13923,17 @@
    "vitaminK": 31.3,
    "zinc": 0.58
   },
-  "name": "Okra"
+  "name": "Okra",
+  "sv": [
+   [
+    "1 cup sliced",
+    100
+   ],
+   [
+    "8 pods",
+    85
+   ]
+  ]
  },
  "olive": {
   "n": {
@@ -10917,7 +13963,17 @@
    "vitaminK": 1.4,
    "zinc": 0.04
   },
-  "name": "Olive"
+  "name": "Olive",
+  "sv": [
+   [
+    "10 medium",
+    40
+   ],
+   [
+    "1 tbsp olive oil",
+    14
+   ]
+  ]
  },
  "olive-oil-extra-virgin": {
   "n": {
@@ -10947,7 +14003,13 @@
    "vitaminK": 60.2,
    "zinc": 0
   },
-  "name": "Olive Oil (Extra Virgin)"
+  "name": "Olive Oil (Extra Virgin)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "olive-oil-regular": {
   "n": {
@@ -10977,7 +14039,13 @@
    "vitaminK": 60.2,
    "zinc": 0
   },
-  "name": "Olive Oil (Regular/Light)"
+  "name": "Olive Oil (Regular/Light)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "olive-tapenade": {
   "n": {
@@ -11007,7 +14075,13 @@
    "vitaminK": 15.0,
    "zinc": 0.3
   },
-  "name": "Olive Tapenade"
+  "name": "Olive Tapenade",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ]
+  ]
  },
  "onion": {
   "n": {
@@ -11037,7 +14111,17 @@
    "vitaminK": 0.4,
    "zinc": 0.17
   },
-  "name": "Onion"
+  "name": "Onion",
+  "sv": [
+   [
+    "1 medium",
+    110
+   ],
+   [
+    "1 cup chopped",
+    160
+   ]
+  ]
  },
  "onion-powder": {
   "n": {
@@ -11067,7 +14151,13 @@
    "vitaminK": 0,
    "zinc": 2.2
   },
-  "name": "Onion Powder"
+  "name": "Onion Powder",
+  "sv": [
+   [
+    "1 tsp",
+    2.4
+   ]
+  ]
  },
  "orange": {
   "n": {
@@ -11097,7 +14187,17 @@
    "vitaminK": 0,
    "zinc": 0.07
   },
-  "name": "Orange"
+  "name": "Orange",
+  "sv": [
+   [
+    "1 medium",
+    131
+   ],
+   [
+    "1 cup sections",
+    180
+   ]
+  ]
  },
  "orange-juice": {
   "n": {
@@ -11127,7 +14227,13 @@
    "vitaminK": 0.1,
    "zinc": 0.05
   },
-  "name": "Orange Juice"
+  "name": "Orange Juice",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "oregano-dried": {
   "n": {
@@ -11157,7 +14263,13 @@
    "vitaminK": 621.7,
    "zinc": 2.7
   },
-  "name": "Oregano (Dried)"
+  "name": "Oregano (Dried)",
+  "sv": [
+   [
+    "1 tsp",
+    1.0
+   ]
+  ]
  },
  "oyster-cooked": {
   "n": {
@@ -11187,7 +14299,17 @@
    "vitaminK": 1.0,
    "zinc": 78.6
   },
-  "name": "Oysters (Cooked)"
+  "name": "Oysters (Cooked)",
+  "sv": [
+   [
+    "6 medium oysters",
+    84
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "oyster-mushroom": {
   "n": {
@@ -11217,7 +14339,17 @@
    "vitaminK": 0,
    "zinc": 0.77
   },
-  "name": "Oyster mushroom"
+  "name": "Oyster mushroom",
+  "sv": [
+   [
+    "1 cup sliced",
+    86
+   ],
+   [
+    "1 cup chopped",
+    86
+   ]
+  ]
  },
  "oyster-sauce": {
   "n": {
@@ -11247,7 +14379,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Oyster Sauce"
+  "name": "Oyster Sauce",
+  "sv": [
+   [
+    "1 tbsp",
+    18
+   ]
+  ]
  },
  "palm-oil": {
   "n": {
@@ -11277,7 +14415,13 @@
    "vitaminK": 8.0,
    "zinc": 0
   },
-  "name": "Palm Oil"
+  "name": "Palm Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "palm-sugar": {
   "n": {
@@ -11307,7 +14451,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Palm Sugar"
+  "name": "Palm Sugar",
+  "sv": [
+   [
+    "1 tsp",
+    6
+   ]
+  ]
  },
  "paneer": {
   "n": {
@@ -11337,7 +14487,17 @@
    "vitaminK": 1.0,
    "zinc": 2.0
   },
-  "name": "Paneer (Indian Cottage Cheese)"
+  "name": "Paneer (Indian Cottage Cheese)",
+  "sv": [
+   [
+    "1 oz cube",
+    28
+   ],
+   [
+    "100g block",
+    100
+   ]
+  ]
  },
  "papaya": {
   "n": {
@@ -11367,7 +14527,17 @@
    "vitaminK": 2.6,
    "zinc": 0.08
   },
-  "name": "Papaya"
+  "name": "Papaya",
+  "sv": [
+   [
+    "1 cup cubed",
+    145
+   ],
+   [
+    "1 small",
+    157
+   ]
+  ]
  },
  "paprika": {
   "n": {
@@ -11397,7 +14567,13 @@
    "vitaminK": 80.3,
    "zinc": 4.3
   },
-  "name": "Paprika"
+  "name": "Paprika",
+  "sv": [
+   [
+    "1 tsp",
+    2.3
+   ]
+  ]
  },
  "paratha": {
   "n": {
@@ -11427,7 +14603,13 @@
    "vitaminK": 2.0,
    "zinc": 1.3
   },
-  "name": "Paratha"
+  "name": "Paratha",
+  "sv": [
+   [
+    "1 medium",
+    80
+   ]
+  ]
  },
  "parsley-fresh": {
   "n": {
@@ -11457,7 +14639,13 @@
    "vitaminK": 1640.0,
    "zinc": 1.1
   },
-  "name": "Parsley (Fresh)"
+  "name": "Parsley (Fresh)",
+  "sv": [
+   [
+    "1/4 cup chopped",
+    15
+   ]
+  ]
  },
  "parsnip": {
   "n": {
@@ -11487,7 +14675,17 @@
    "vitaminK": 22.5,
    "zinc": 0.59
   },
-  "name": "Parsnip"
+  "name": "Parsnip",
+  "sv": [
+   [
+    "1 medium",
+    133
+   ],
+   [
+    "1 cup sliced",
+    133
+   ]
+  ]
  },
  "passion-fruit": {
   "n": {
@@ -11517,7 +14715,17 @@
    "vitaminK": 0.7,
    "zinc": 0.1
   },
-  "name": "Passion fruit"
+  "name": "Passion fruit",
+  "sv": [
+   [
+    "1 fruit",
+    18
+   ],
+   [
+    "1 cup pulp",
+    236
+   ]
+  ]
  },
  "pasta-cooked": {
   "n": {
@@ -11547,7 +14755,13 @@
    "vitaminK": 0,
    "zinc": 0.5
   },
-  "name": "Pasta (Spaghetti, cooked)"
+  "name": "Pasta (Spaghetti, cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    140
+   ]
+  ]
  },
  "pasta-whole-wheat": {
   "n": {
@@ -11577,7 +14791,13 @@
    "vitaminK": 0.7,
    "zinc": 0.81
   },
-  "name": "Whole Wheat Pasta (cooked)"
+  "name": "Whole Wheat Pasta (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    140
+   ]
+  ]
  },
  "peach": {
   "n": {
@@ -11607,7 +14827,17 @@
    "vitaminK": 2.6,
    "zinc": 0.17
   },
-  "name": "Peach"
+  "name": "Peach",
+  "sv": [
+   [
+    "1 medium",
+    150
+   ],
+   [
+    "1 cup sliced",
+    154
+   ]
+  ]
  },
  "peanut-butter": {
   "n": {
@@ -11637,7 +14867,13 @@
    "vitaminK": 0.3,
    "zinc": 2.8
   },
-  "name": "Peanut Butter"
+  "name": "Peanut Butter",
+  "sv": [
+   [
+    "2 tbsp",
+    32
+   ]
+  ]
  },
  "peanut-butter-natural": {
   "n": {
@@ -11667,7 +14903,13 @@
    "vitaminK": 0.3,
    "zinc": 2.5
   },
-  "name": "Peanut Butter (Natural/Unsweetened)"
+  "name": "Peanut Butter (Natural/Unsweetened)",
+  "sv": [
+   [
+    "2 tbsp",
+    32
+   ]
+  ]
  },
  "peanut-oil": {
   "n": {
@@ -11697,7 +14939,13 @@
    "vitaminK": 0.7,
    "zinc": 0
   },
-  "name": "Peanut Oil (Groundnut Oil)"
+  "name": "Peanut Oil (Groundnut Oil)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "peanut-raw": {
   "n": {
@@ -11727,7 +14975,17 @@
    "vitaminK": 0,
    "zinc": 3.3
   },
-  "name": "Peanuts (Raw)"
+  "name": "Peanuts (Raw)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    37
+   ]
+  ]
  },
  "peanut-roasted": {
   "n": {
@@ -11757,7 +15015,17 @@
    "vitaminK": 0,
    "zinc": 3.3
   },
-  "name": "Peanuts (Roasted)"
+  "name": "Peanuts (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    37
+   ]
+  ]
  },
  "peanuts-boiled": {
   "n": {
@@ -11787,7 +15055,17 @@
    "vitaminK": 0,
    "zinc": 1.83
   },
-  "name": "Peanuts (Boiled)"
+  "name": "Peanuts (Boiled)",
+  "sv": [
+   [
+    "1/4 cup",
+    36
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "pear": {
   "n": {
@@ -11817,7 +15095,17 @@
    "vitaminK": 4.4,
    "zinc": 0.1
   },
-  "name": "Pear"
+  "name": "Pear",
+  "sv": [
+   [
+    "1 medium",
+    178
+   ],
+   [
+    "1 cup sliced",
+    140
+   ]
+  ]
  },
  "pearl-millet": {
   "n": {
@@ -11847,7 +15135,13 @@
    "vitaminK": 0.3,
    "zinc": 1.05
   },
-  "name": "Pearl Millet (Bajra)"
+  "name": "Pearl Millet (Bajra)",
+  "sv": [
+   [
+    "1 cup cooked",
+    185
+   ]
+  ]
  },
  "pecan-raw": {
   "n": {
@@ -11877,7 +15171,17 @@
    "vitaminK": 3.5,
    "zinc": 4.5
   },
-  "name": "Pecans (Raw)"
+  "name": "Pecans (Raw)",
+  "sv": [
+   [
+    "1 oz (19 halves)",
+    28
+   ],
+   [
+    "1/4 cup",
+    27
+   ]
+  ]
  },
  "pecan-roasted": {
   "n": {
@@ -11907,7 +15211,17 @@
    "vitaminK": 3.3,
    "zinc": 4.4
   },
-  "name": "Pecans (Roasted)"
+  "name": "Pecans (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    27
+   ]
+  ]
  },
  "perilla-oil": {
   "n": {
@@ -11937,7 +15251,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Perilla Oil"
+  "name": "Perilla Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "persimmon": {
   "n": {
@@ -11967,7 +15287,17 @@
    "vitaminK": 2.6,
    "zinc": 0.11
   },
-  "name": "Persimmon"
+  "name": "Persimmon",
+  "sv": [
+   [
+    "1 medium",
+    168
+   ],
+   [
+    "1 cup",
+    168
+   ]
+  ]
  },
  "pesto-basil": {
   "n": {
@@ -11997,7 +15327,17 @@
    "vitaminK": 90.0,
    "zinc": 1.5
   },
-  "name": "Pesto (Basil)"
+  "name": "Pesto (Basil)",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ],
+   [
+    "1/4 cup",
+    60
+   ]
+  ]
  },
  "pigeon-peas": {
   "n": {
@@ -12027,7 +15367,13 @@
    "vitaminK": 1.0,
    "zinc": 0.9
   },
-  "name": "Pigeon Peas (Toor Dal)"
+  "name": "Pigeon Peas (Toor Dal)",
+  "sv": [
+   [
+    "1 cup cooked",
+    168
+   ]
+  ]
  },
  "pili-nut": {
   "n": {
@@ -12057,7 +15403,13 @@
    "vitaminK": 0,
    "zinc": 3.0
   },
-  "name": "Pili Nuts"
+  "name": "Pili Nuts",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "pine-nut": {
   "n": {
@@ -12087,7 +15439,17 @@
    "vitaminK": 53.9,
    "zinc": 6.5
   },
-  "name": "Pine Nuts"
+  "name": "Pine Nuts",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1 tbsp",
+    9
+   ]
+  ]
  },
  "pineapple": {
   "n": {
@@ -12117,7 +15479,17 @@
    "vitaminK": 0.7,
    "zinc": 0.12
   },
-  "name": "Pineapple"
+  "name": "Pineapple",
+  "sv": [
+   [
+    "1 cup chunks",
+    165
+   ],
+   [
+    "1 slice",
+    84
+   ]
+  ]
  },
  "pinto-beans": {
   "n": {
@@ -12147,7 +15519,13 @@
    "vitaminK": 3.5,
    "zinc": 0.98
   },
-  "name": "Pinto Beans"
+  "name": "Pinto Beans",
+  "sv": [
+   [
+    "1 cup cooked",
+    171
+   ]
+  ]
  },
  "pistachio-raw": {
   "n": {
@@ -12177,7 +15555,17 @@
    "vitaminK": 13.2,
    "zinc": 2.2
   },
-  "name": "Pistachios (Raw)"
+  "name": "Pistachios (Raw)",
+  "sv": [
+   [
+    "1 oz (49 pistachios)",
+    28
+   ],
+   [
+    "1/4 cup",
+    31
+   ]
+  ]
  },
  "pistachio-roasted": {
   "n": {
@@ -12207,7 +15595,17 @@
    "vitaminK": 12.5,
    "zinc": 2.3
   },
-  "name": "Pistachios (Roasted)"
+  "name": "Pistachios (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    31
+   ]
+  ]
  },
  "pita-bread": {
   "n": {
@@ -12237,7 +15635,17 @@
    "vitaminK": 0.3,
    "zinc": 0.83
   },
-  "name": "Pita Bread"
+  "name": "Pita Bread",
+  "sv": [
+   [
+    "1 large pita",
+    60
+   ],
+   [
+    "1 mini pita",
+    28
+   ]
+  ]
  },
  "plantain": {
   "n": {
@@ -12267,7 +15675,17 @@
    "vitaminK": 0.7,
    "zinc": 0.14
   },
-  "name": "Plantain"
+  "name": "Plantain",
+  "sv": [
+   [
+    "1 medium",
+    179
+   ],
+   [
+    "1 cup sliced",
+    148
+   ]
+  ]
  },
  "plum": {
   "n": {
@@ -12297,7 +15715,17 @@
    "vitaminK": 6.4,
    "zinc": 0.1
   },
-  "name": "Plum"
+  "name": "Plum",
+  "sv": [
+   [
+    "1 medium",
+    66
+   ],
+   [
+    "1 cup sliced",
+    165
+   ]
+  ]
  },
  "pointed-gourd": {
   "n": {
@@ -12327,7 +15755,17 @@
    "vitaminK": 0,
    "zinc": 0.3
   },
-  "name": "Pointed gourd (Parwal)"
+  "name": "Pointed gourd (Parwal)",
+  "sv": [
+   [
+    "1 cup chopped",
+    100
+   ],
+   [
+    "4 pieces",
+    80
+   ]
+  ]
  },
  "pollock-cooked": {
   "n": {
@@ -12357,7 +15795,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Pollock (Alaska, Cooked)"
+  "name": "Pollock (Alaska, Cooked)",
+  "sv": [
+   [
+    "1 fillet",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "pomegranate": {
   "n": {
@@ -12387,7 +15835,17 @@
    "vitaminK": 16.4,
    "zinc": 0.35
   },
-  "name": "Pomegranate"
+  "name": "Pomegranate",
+  "sv": [
+   [
+    "1/2 cup arils",
+    87
+   ],
+   [
+    "1 medium fruit",
+    282
+   ]
+  ]
  },
  "pomelo": {
   "n": {
@@ -12417,7 +15875,17 @@
    "vitaminK": 0,
    "zinc": 0.08
   },
-  "name": "Pomelo"
+  "name": "Pomelo",
+  "sv": [
+   [
+    "1 cup sections",
+    190
+   ],
+   [
+    "1 fruit",
+    609
+   ]
+  ]
  },
  "pomfret-cooked": {
   "n": {
@@ -12447,7 +15915,17 @@
    "vitaminK": 0.2,
    "zinc": 0.5
   },
-  "name": "Pomfret (Cooked)"
+  "name": "Pomfret (Cooked)",
+  "sv": [
+   [
+    "1 whole fish (medium)",
+    200
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "popcorn": {
   "n": {
@@ -12477,7 +15955,13 @@
    "vitaminK": 1.2,
    "zinc": 3.08
   },
-  "name": "Popcorn (Air-Popped)"
+  "name": "Popcorn (Air-Popped)",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "popcorn-air-popped": {
   "n": {
@@ -12507,7 +15991,17 @@
    "vitaminK": 1.2,
    "zinc": 2.73
   },
-  "name": "Popcorn (Air-Popped)"
+  "name": "Popcorn (Air-Popped)",
+  "sv": [
+   [
+    "1 cup",
+    8
+   ],
+   [
+    "3 cups",
+    24
+   ]
+  ]
  },
  "poppy-seed": {
   "n": {
@@ -12537,7 +16031,13 @@
    "vitaminK": 0,
    "zinc": 7.9
   },
-  "name": "Poppy Seed"
+  "name": "Poppy Seed",
+  "sv": [
+   [
+    "1 tsp",
+    2.8
+   ]
+  ]
  },
  "pork-belly-cooked": {
   "n": {
@@ -12567,7 +16067,17 @@
    "vitaminK": 0,
    "zinc": 1.2
   },
-  "name": "Pork Belly (Cooked)"
+  "name": "Pork Belly (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 thick slice",
+    60
+   ]
+  ]
  },
  "pork-chop-cooked": {
   "n": {
@@ -12597,7 +16107,17 @@
    "vitaminK": 0,
    "zinc": 2.6
   },
-  "name": "Pork Chop (Bone-in, Cooked)"
+  "name": "Pork Chop (Bone-in, Cooked)",
+  "sv": [
+   [
+    "1 chop (5 oz)",
+    142
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "pork-liver-cooked": {
   "n": {
@@ -12627,7 +16147,17 @@
    "vitaminK": 0.8,
    "zinc": 6.7
   },
-  "name": "Pork Liver (Cooked)"
+  "name": "Pork Liver (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 slice",
+    70
+   ]
+  ]
  },
  "pork-loin-cooked": {
   "n": {
@@ -12657,7 +16187,17 @@
    "vitaminK": 0,
    "zinc": 2.4
   },
-  "name": "Pork, Loin (Roasted)"
+  "name": "Pork, Loin (Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 chop",
+    125
+   ]
+  ]
  },
  "pork-ribs-cooked": {
   "n": {
@@ -12687,7 +16227,17 @@
    "vitaminK": 0,
    "zinc": 3.0
   },
-  "name": "Pork Ribs (Spare, Cooked)"
+  "name": "Pork Ribs (Spare, Cooked)",
+  "sv": [
+   [
+    "3 ribs",
+    170
+   ],
+   [
+    "3 oz meat only",
+    85
+   ]
+  ]
  },
  "pork-sausage-cooked": {
   "n": {
@@ -12717,7 +16267,17 @@
    "vitaminK": 0,
    "zinc": 2.5
   },
-  "name": "Pork Sausage (Cooked)"
+  "name": "Pork Sausage (Cooked)",
+  "sv": [
+   [
+    "1 link",
+    60
+   ],
+   [
+    "2 patties",
+    56
+   ]
+  ]
  },
  "pork-tenderloin-cooked": {
   "n": {
@@ -12747,7 +16307,17 @@
    "vitaminK": 0,
    "zinc": 2.0
   },
-  "name": "Pork Tenderloin (Roasted)"
+  "name": "Pork Tenderloin (Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 medallion",
+    60
+   ]
+  ]
  },
  "potato": {
   "n": {
@@ -12777,7 +16347,17 @@
    "vitaminK": 2.0,
    "zinc": 0.3
   },
-  "name": "Potato"
+  "name": "Potato",
+  "sv": [
+   [
+    "1 medium",
+    150
+   ],
+   [
+    "1 cup diced",
+    150
+   ]
+  ]
  },
  "prunes": {
   "n": {
@@ -12807,7 +16387,17 @@
    "vitaminK": 59.5,
    "zinc": 0.44
   },
-  "name": "Prunes (Dried plums)"
+  "name": "Prunes (Dried plums)",
+  "sv": [
+   [
+    "5 prunes",
+    42
+   ],
+   [
+    "1/4 cup",
+    44
+   ]
+  ]
  },
  "pumpkin": {
   "n": {
@@ -12837,7 +16427,17 @@
    "vitaminK": 1.1,
    "zinc": 0.32
   },
-  "name": "Pumpkin"
+  "name": "Pumpkin",
+  "sv": [
+   [
+    "1 cup cubed",
+    116
+   ],
+   [
+    "1 cup canned",
+    245
+   ]
+  ]
  },
  "pumpkin-seed": {
   "n": {
@@ -12867,7 +16467,17 @@
    "vitaminK": 7.3,
    "zinc": 7.8
   },
-  "name": "Pumpkin Seeds (Pepitas)"
+  "name": "Pumpkin Seeds (Pepitas)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    32
+   ]
+  ]
  },
  "pumpkin-seed-oil": {
   "n": {
@@ -12897,7 +16507,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Pumpkin Seed Oil"
+  "name": "Pumpkin Seed Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "quail-meat-cooked": {
   "n": {
@@ -12927,7 +16543,17 @@
    "vitaminK": 2.0,
    "zinc": 2.7
   },
-  "name": "Quail Meat (Cooked)"
+  "name": "Quail Meat (Cooked)",
+  "sv": [
+   [
+    "1 whole quail",
+    110
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "quince": {
   "n": {
@@ -12957,7 +16583,17 @@
    "vitaminK": 0,
    "zinc": 0.04
   },
-  "name": "Quince"
+  "name": "Quince",
+  "sv": [
+   [
+    "1 medium",
+    92
+   ],
+   [
+    "1 cup chopped",
+    150
+   ]
+  ]
  },
  "quinoa-cooked": {
   "n": {
@@ -12987,7 +16623,13 @@
    "vitaminK": 0,
    "zinc": 1.09
   },
-  "name": "Quinoa"
+  "name": "Quinoa",
+  "sv": [
+   [
+    "1 cup cooked",
+    185
+   ]
+  ]
  },
  "quinoa-seed": {
   "n": {
@@ -13017,7 +16659,17 @@
    "vitaminK": 0,
    "zinc": 3.1
   },
-  "name": "Quinoa"
+  "name": "Quinoa",
+  "sv": [
+   [
+    "1/4 cup dry",
+    43
+   ],
+   [
+    "1 cup cooked",
+    185
+   ]
+  ]
  },
  "rabbit-cooked": {
   "n": {
@@ -13047,7 +16699,17 @@
    "vitaminK": 0.5,
    "zinc": 2.4
   },
-  "name": "Rabbit (Roasted)"
+  "name": "Rabbit (Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 leg",
+    120
+   ]
+  ]
  },
  "radicchio": {
   "n": {
@@ -13077,7 +16739,17 @@
    "vitaminK": 255,
    "zinc": 0.62
   },
-  "name": "Radicchio"
+  "name": "Radicchio",
+  "sv": [
+   [
+    "1 cup shredded",
+    40
+   ],
+   [
+    "1 head",
+    199
+   ]
+  ]
  },
  "radish": {
   "n": {
@@ -13107,7 +16779,17 @@
    "vitaminK": 1.3,
    "zinc": 0.28
   },
-  "name": "Radish"
+  "name": "Radish",
+  "sv": [
+   [
+    "1 cup sliced",
+    116
+   ],
+   [
+    "10 radishes",
+    45
+   ]
+  ]
  },
  "raisins": {
   "n": {
@@ -13137,7 +16819,17 @@
    "vitaminK": 3.5,
    "zinc": 0.22
   },
-  "name": "Raisins"
+  "name": "Raisins",
+  "sv": [
+   [
+    "1/4 cup",
+    41
+   ],
+   [
+    "1 small box",
+    43
+   ]
+  ]
  },
  "rambutan": {
   "n": {
@@ -13167,7 +16859,17 @@
    "vitaminK": 0,
    "zinc": 0.08
   },
-  "name": "Rambutan"
+  "name": "Rambutan",
+  "sv": [
+   [
+    "10 fruits",
+    100
+   ],
+   [
+    "1 cup",
+    150
+   ]
+  ]
  },
  "ranch-dressing": {
   "n": {
@@ -13197,7 +16899,13 @@
    "vitaminK": 70.0,
    "zinc": 0.2
   },
-  "name": "Ranch Dressing"
+  "name": "Ranch Dressing",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ]
+  ]
  },
  "raspberry": {
   "n": {
@@ -13227,7 +16935,17 @@
    "vitaminK": 7.8,
    "zinc": 0.42
   },
-  "name": "Raspberry"
+  "name": "Raspberry",
+  "sv": [
+   [
+    "1 cup",
+    123
+   ],
+   [
+    "10 berries",
+    19
+   ]
+  ]
  },
  "red-palm-oil": {
   "n": {
@@ -13257,7 +16975,13 @@
    "vitaminK": 8.0,
    "zinc": 0
   },
-  "name": "Red Palm Oil (Unrefined)"
+  "name": "Red Palm Oil (Unrefined)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "red-pepper-flakes": {
   "n": {
@@ -13287,7 +17011,13 @@
    "vitaminK": 80.3,
    "zinc": 2.5
   },
-  "name": "Red Pepper Flakes"
+  "name": "Red Pepper Flakes",
+  "sv": [
+   [
+    "1 tsp",
+    1.5
+   ]
+  ]
  },
  "rice-basmati": {
   "n": {
@@ -13317,7 +17047,13 @@
    "vitaminK": 0,
    "zinc": 0.48
   },
-  "name": "Basmati Rice"
+  "name": "Basmati Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    180
+   ]
+  ]
  },
  "rice-black": {
   "n": {
@@ -13347,7 +17083,13 @@
    "vitaminK": 0.5,
    "zinc": 0.6
   },
-  "name": "Black Rice (Forbidden Rice)"
+  "name": "Black Rice (Forbidden Rice)",
+  "sv": [
+   [
+    "1 cup cooked",
+    185
+   ]
+  ]
  },
  "rice-bran-oil": {
   "n": {
@@ -13377,7 +17119,13 @@
    "vitaminK": 24.7,
    "zinc": 0
   },
-  "name": "Rice Bran Oil"
+  "name": "Rice Bran Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "rice-brown": {
   "n": {
@@ -13407,7 +17155,13 @@
    "vitaminK": 0.6,
    "zinc": 0.62
   },
-  "name": "Brown Rice"
+  "name": "Brown Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    195
+   ]
+  ]
  },
  "rice-cake": {
   "n": {
@@ -13437,7 +17191,13 @@
    "vitaminK": 0,
    "zinc": 1.16
   },
-  "name": "Rice Cake"
+  "name": "Rice Cake",
+  "sv": [
+   [
+    "1 cake",
+    9
+   ]
+  ]
  },
  "rice-flour": {
   "n": {
@@ -13467,7 +17227,13 @@
    "vitaminK": 0,
    "zinc": 0.8
   },
-  "name": "Rice Flour"
+  "name": "Rice Flour",
+  "sv": [
+   [
+    "1 cup",
+    158
+   ]
+  ]
  },
  "rice-jasmine": {
   "n": {
@@ -13497,7 +17263,13 @@
    "vitaminK": 0,
    "zinc": 0.46
   },
-  "name": "Jasmine Rice"
+  "name": "Jasmine Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    185
+   ]
+  ]
  },
  "rice-parboiled": {
   "n": {
@@ -13527,7 +17299,13 @@
    "vitaminK": 0,
    "zinc": 0.52
   },
-  "name": "Parboiled Rice"
+  "name": "Parboiled Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    185
+   ]
+  ]
  },
  "rice-red": {
   "n": {
@@ -13557,7 +17335,13 @@
    "vitaminK": 0.5,
    "zinc": 0.58
   },
-  "name": "Red Rice"
+  "name": "Red Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    190
+   ]
+  ]
  },
  "rice-sticky": {
   "n": {
@@ -13587,7 +17371,13 @@
    "vitaminK": 0,
    "zinc": 0.34
   },
-  "name": "Sticky Rice (Glutinous Rice)"
+  "name": "Sticky Rice (Glutinous Rice)",
+  "sv": [
+   [
+    "1 cup cooked",
+    174
+   ]
+  ]
  },
  "rice-vinegar": {
   "n": {
@@ -13617,7 +17407,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Rice Vinegar"
+  "name": "Rice Vinegar",
+  "sv": [
+   [
+    "1 tbsp",
+    15
+   ]
+  ]
  },
  "rice-white": {
   "n": {
@@ -13647,7 +17443,13 @@
    "vitaminK": 0,
    "zinc": 0.49
   },
-  "name": "White Rice"
+  "name": "White Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    186
+   ]
+  ]
  },
  "rice-wild": {
   "n": {
@@ -13677,7 +17479,13 @@
    "vitaminK": 0.5,
    "zinc": 1.34
   },
-  "name": "Wild Rice"
+  "name": "Wild Rice",
+  "sv": [
+   [
+    "1 cup cooked",
+    164
+   ]
+  ]
  },
  "ridge-gourd": {
   "n": {
@@ -13707,7 +17515,17 @@
    "vitaminK": 0,
    "zinc": 0.08
   },
-  "name": "Ridge gourd (Luffa)"
+  "name": "Ridge gourd (Luffa)",
+  "sv": [
+   [
+    "1 cup chopped",
+    100
+   ],
+   [
+    "1 medium",
+    125
+   ]
+  ]
  },
  "rohu-cooked": {
   "n": {
@@ -13737,7 +17555,17 @@
    "vitaminK": 0.3,
    "zinc": 0.7
   },
-  "name": "Rohu (Cooked)"
+  "name": "Rohu (Cooked)",
+  "sv": [
+   [
+    "1 piece (3 oz)",
+    85
+   ],
+   [
+    "1 steak",
+    100
+   ]
+  ]
  },
  "rosemary-fresh": {
   "n": {
@@ -13767,7 +17595,13 @@
    "vitaminK": 0,
    "zinc": 0.9
   },
-  "name": "Rosemary (Fresh)"
+  "name": "Rosemary (Fresh)",
+  "sv": [
+   [
+    "1 sprig",
+    5
+   ]
+  ]
  },
  "rutabaga": {
   "n": {
@@ -13797,7 +17631,17 @@
    "vitaminK": 0.3,
    "zinc": 0.24
   },
-  "name": "Rutabaga (Swede)"
+  "name": "Rutabaga (Swede)",
+  "sv": [
+   [
+    "1 cup cubed",
+    140
+   ],
+   [
+    "1 medium",
+    386
+   ]
+  ]
  },
  "rye-berries": {
   "n": {
@@ -13827,7 +17671,13 @@
    "vitaminK": 1.2,
    "zinc": 1.2
   },
-  "name": "Rye Berries"
+  "name": "Rye Berries",
+  "sv": [
+   [
+    "1 cup cooked",
+    170
+   ]
+  ]
  },
  "rye-bread": {
   "n": {
@@ -13857,7 +17707,13 @@
    "vitaminK": 1.2,
    "zinc": 1.14
   },
-  "name": "Rye Bread"
+  "name": "Rye Bread",
+  "sv": [
+   [
+    "1 slice",
+    32
+   ]
+  ]
  },
  "sacha-inchi-nut": {
   "n": {
@@ -13887,7 +17743,13 @@
    "vitaminK": 0,
    "zinc": 3.5
   },
-  "name": "Sacha Inchi Nuts"
+  "name": "Sacha Inchi Nuts",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "sacha-inchi-seed": {
   "n": {
@@ -13917,7 +17779,13 @@
    "vitaminK": 0,
    "zinc": 3.5
   },
-  "name": "Sacha Inchi Seeds"
+  "name": "Sacha Inchi Seeds",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "safflower-oil": {
   "n": {
@@ -13947,7 +17815,13 @@
    "vitaminK": 7.1,
    "zinc": 0
   },
-  "name": "Safflower Oil"
+  "name": "Safflower Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "saffron": {
   "n": {
@@ -13977,7 +17851,13 @@
    "vitaminK": 0,
    "zinc": 1.1
   },
-  "name": "Saffron"
+  "name": "Saffron",
+  "sv": [
+   [
+    "1 pinch",
+    0.1
+   ]
+  ]
  },
  "sage-fresh": {
   "n": {
@@ -14007,7 +17887,13 @@
    "vitaminK": 1714.5,
    "zinc": 4.7
   },
-  "name": "Sage (Fresh)"
+  "name": "Sage (Fresh)",
+  "sv": [
+   [
+    "5 leaves",
+    3.5
+   ]
+  ]
  },
  "salmon-atlantic-cooked": {
   "n": {
@@ -14037,7 +17923,17 @@
    "vitaminK": 0.5,
    "zinc": 0.6
   },
-  "name": "Salmon, Atlantic (Baked)"
+  "name": "Salmon, Atlantic (Baked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "salmon-canned": {
   "n": {
@@ -14067,7 +17963,17 @@
    "vitaminK": 0.3,
    "zinc": 0.9
   },
-  "name": "Salmon, Canned (Pink, with Bones)"
+  "name": "Salmon, Canned (Pink, with Bones)",
+  "sv": [
+   [
+    "1 can (6 oz drained)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "salmon-sockeye-cooked": {
   "n": {
@@ -14097,7 +18003,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Salmon, Sockeye (Cooked)"
+  "name": "Salmon, Sockeye (Cooked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "sambal-oelek": {
   "n": {
@@ -14127,7 +18043,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Sambal Oelek"
+  "name": "Sambal Oelek",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "sapodilla": {
   "n": {
@@ -14157,7 +18079,17 @@
    "vitaminK": 0,
    "zinc": 0.1
   },
-  "name": "Sapodilla (Chikoo)"
+  "name": "Sapodilla (Chikoo)",
+  "sv": [
+   [
+    "1 medium",
+    170
+   ],
+   [
+    "1 cup",
+    241
+   ]
+  ]
  },
  "sardine-canned": {
   "n": {
@@ -14187,7 +18119,17 @@
    "vitaminK": 2.6,
    "zinc": 1.3
   },
-  "name": "Sardines (Canned in Oil, Drained)"
+  "name": "Sardines (Canned in Oil, Drained)",
+  "sv": [
+   [
+    "1 can (3.75 oz)",
+    106
+   ],
+   [
+    "2 sardines",
+    40
+   ]
+  ]
  },
  "sardine-fresh-grilled": {
   "n": {
@@ -14217,7 +18159,17 @@
    "vitaminK": 2.5,
    "zinc": 1.2
   },
-  "name": "Sardines (Fresh, Grilled)"
+  "name": "Sardines (Fresh, Grilled)",
+  "sv": [
+   [
+    "3 sardines",
+    85
+   ],
+   [
+    "5 sardines",
+    140
+   ]
+  ]
  },
  "scallops-cooked": {
   "n": {
@@ -14247,7 +18199,17 @@
    "vitaminK": 0,
    "zinc": 1.6
   },
-  "name": "Scallops (Pan-Seared)"
+  "name": "Scallops (Pan-Seared)",
+  "sv": [
+   [
+    "3 large scallops",
+    85
+   ],
+   [
+    "6 scallops",
+    170
+   ]
+  ]
  },
  "schmaltz": {
   "n": {
@@ -14277,7 +18239,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Schmaltz (Chicken Fat)"
+  "name": "Schmaltz (Chicken Fat)",
+  "sv": [
+   [
+    "1 tbsp",
+    13
+   ]
+  ]
  },
  "sea-bass-cooked": {
   "n": {
@@ -14307,7 +18275,17 @@
    "vitaminK": 0.1,
    "zinc": 0.4
   },
-  "name": "Sea Bass (Chilean, Cooked)"
+  "name": "Sea Bass (Chilean, Cooked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "sesame-oil": {
   "n": {
@@ -14337,7 +18315,13 @@
    "vitaminK": 13.6,
    "zinc": 0
   },
-  "name": "Sesame Oil (Toasted)"
+  "name": "Sesame Oil (Toasted)",
+  "sv": [
+   [
+    "1 tsp",
+    4.5
+   ]
+  ]
  },
  "sesame-oil-toasted": {
   "n": {
@@ -14367,7 +18351,17 @@
    "vitaminK": 13.6,
    "zinc": 0
   },
-  "name": "Sesame Oil (Toasted/Dark)"
+  "name": "Sesame Oil (Toasted/Dark)",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ],
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "sesame-seed": {
   "n": {
@@ -14397,7 +18391,17 @@
    "vitaminK": 0,
    "zinc": 7.8
   },
-  "name": "Sesame Seeds"
+  "name": "Sesame Seeds",
+  "sv": [
+   [
+    "1 tbsp",
+    9
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "shallot": {
   "n": {
@@ -14427,7 +18431,17 @@
    "vitaminK": 0.8,
    "zinc": 0.4
   },
-  "name": "Shallot"
+  "name": "Shallot",
+  "sv": [
+   [
+    "1 medium",
+    30
+   ],
+   [
+    "1 tbsp minced",
+    10
+   ]
+  ]
  },
  "shea-butter-edible": {
   "n": {
@@ -14457,7 +18471,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Shea Butter (Edible)"
+  "name": "Shea Butter (Edible)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "shea-nut": {
   "n": {
@@ -14487,7 +18507,13 @@
    "vitaminK": 0,
    "zinc": 2.0
   },
-  "name": "Shea Nut"
+  "name": "Shea Nut",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "shiitake-mushroom": {
   "n": {
@@ -14517,7 +18543,17 @@
    "vitaminK": 0,
    "zinc": 1.03
   },
-  "name": "Shiitake mushroom"
+  "name": "Shiitake mushroom",
+  "sv": [
+   [
+    "1 cup sliced",
+    97
+   ],
+   [
+    "4 dried",
+    15
+   ]
+  ]
  },
  "shortening": {
   "n": {
@@ -14547,7 +18583,13 @@
    "vitaminK": 58.0,
    "zinc": 0
   },
-  "name": "Vegetable Shortening"
+  "name": "Vegetable Shortening",
+  "sv": [
+   [
+    "1 tbsp",
+    13
+   ]
+  ]
  },
  "shrimp-cooked": {
   "n": {
@@ -14577,7 +18619,17 @@
    "vitaminK": 0.3,
    "zinc": 1.6
   },
-  "name": "Shrimp (Cooked)"
+  "name": "Shrimp (Cooked)",
+  "sv": [
+   [
+    "3 oz (about 12 large)",
+    85
+   ],
+   [
+    "6 jumbo shrimp",
+    85
+   ]
+  ]
  },
  "shrimp-large-grilled": {
   "n": {
@@ -14607,7 +18659,17 @@
    "vitaminK": 0.3,
    "zinc": 1.7
   },
-  "name": "Shrimp, Large/Jumbo (Grilled)"
+  "name": "Shrimp, Large/Jumbo (Grilled)",
+  "sv": [
+   [
+    "5 jumbo shrimp",
+    85
+   ],
+   [
+    "6 oz portion",
+    170
+   ]
+  ]
  },
  "smoked-paprika": {
   "n": {
@@ -14637,7 +18699,13 @@
    "vitaminK": 80.3,
    "zinc": 4.3
   },
-  "name": "Smoked Paprika"
+  "name": "Smoked Paprika",
+  "sv": [
+   [
+    "1 tsp",
+    2.3
+   ]
+  ]
  },
  "snake-gourd": {
   "n": {
@@ -14667,7 +18735,17 @@
    "vitaminK": 0,
    "zinc": 0.3
   },
-  "name": "Snake gourd"
+  "name": "Snake gourd",
+  "sv": [
+   [
+    "1 cup",
+    100
+   ],
+   [
+    "1 medium",
+    125
+   ]
+  ]
  },
  "snapper-cooked": {
   "n": {
@@ -14697,7 +18775,17 @@
    "vitaminK": 0.1,
    "zinc": 0.4
   },
-  "name": "Red Snapper (Cooked)"
+  "name": "Red Snapper (Cooked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "snow-pea": {
   "n": {
@@ -14727,7 +18815,17 @@
    "vitaminK": 25.0,
    "zinc": 0.27
   },
-  "name": "Snow pea"
+  "name": "Snow pea",
+  "sv": [
+   [
+    "1 cup",
+    63
+   ],
+   [
+    "10 pods",
+    34
+   ]
+  ]
  },
  "soba-noodles": {
   "n": {
@@ -14757,7 +18855,13 @@
    "vitaminK": 0,
    "zinc": 0.22
   },
-  "name": "Soba Noodles (Buckwheat, cooked)"
+  "name": "Soba Noodles (Buckwheat, cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    114
+   ]
+  ]
  },
  "sorghum-cooked": {
   "n": {
@@ -14787,7 +18891,13 @@
    "vitaminK": 0.5,
    "zinc": 0.87
   },
-  "name": "Sorghum"
+  "name": "Sorghum",
+  "sv": [
+   [
+    "1 cup cooked",
+    192
+   ]
+  ]
  },
  "sour-cream": {
   "n": {
@@ -14817,7 +18927,17 @@
    "vitaminK": 0.5,
    "zinc": 0.3
   },
-  "name": "Sour Cream (Regular)"
+  "name": "Sour Cream (Regular)",
+  "sv": [
+   [
+    "2 tablespoons",
+    30
+   ],
+   [
+    "1/4 cup",
+    58
+   ]
+  ]
  },
  "sourdough-bread": {
   "n": {
@@ -14847,7 +18967,17 @@
    "vitaminK": 0.3,
    "zinc": 0.68
   },
-  "name": "Sourdough Bread"
+  "name": "Sourdough Bread",
+  "sv": [
+   [
+    "1 slice",
+    36
+   ],
+   [
+    "2 slices",
+    72
+   ]
+  ]
  },
  "soursop": {
   "n": {
@@ -14877,7 +19007,17 @@
    "vitaminK": 0.4,
    "zinc": 0.1
   },
-  "name": "Soursop"
+  "name": "Soursop",
+  "sv": [
+   [
+    "1 cup pulp",
+    225
+   ],
+   [
+    "1/2 fruit",
+    160
+   ]
+  ]
  },
  "soy-milk": {
   "n": {
@@ -14907,7 +19047,13 @@
    "vitaminK": 3.0,
    "zinc": 0.31
   },
-  "name": "Soy Milk"
+  "name": "Soy Milk",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "soy-sauce": {
   "n": {
@@ -14937,7 +19083,13 @@
    "vitaminK": 0,
    "zinc": 0.4
   },
-  "name": "Soy Sauce"
+  "name": "Soy Sauce",
+  "sv": [
+   [
+    "1 tbsp",
+    16
+   ]
+  ]
  },
  "soybean-oil": {
   "n": {
@@ -14967,7 +19119,13 @@
    "vitaminK": 183.9,
    "zinc": 0
   },
-  "name": "Soybean Oil"
+  "name": "Soybean Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "soybeans-cooked": {
   "n": {
@@ -14997,7 +19155,13 @@
    "vitaminK": 19.2,
    "zinc": 1.15
   },
-  "name": "Soybeans"
+  "name": "Soybeans",
+  "sv": [
+   [
+    "1 cup cooked",
+    172
+   ]
+  ]
  },
  "spelt-cooked": {
   "n": {
@@ -15027,7 +19191,13 @@
    "vitaminK": 1.0,
    "zinc": 1.25
   },
-  "name": "Spelt"
+  "name": "Spelt",
+  "sv": [
+   [
+    "1 cup cooked",
+    194
+   ]
+  ]
  },
  "spinach": {
   "n": {
@@ -15057,7 +19227,17 @@
    "vitaminK": 483,
    "zinc": 0.53
   },
-  "name": "Spinach"
+  "name": "Spinach",
+  "sv": [
+   [
+    "1 cup raw",
+    30
+   ],
+   [
+    "1 cup cooked",
+    180
+   ]
+  ]
  },
  "spirulina": {
   "n": {
@@ -15087,7 +19267,17 @@
    "vitaminK": 25.5,
    "zinc": 2.0
   },
-  "name": "Spirulina"
+  "name": "Spirulina",
+  "sv": [
+   [
+    "1 tbsp powder",
+    7
+   ],
+   [
+    "1 tsp powder",
+    3
+   ]
+  ]
  },
  "split-peas": {
   "n": {
@@ -15117,7 +19307,13 @@
    "vitaminK": 5.0,
    "zinc": 1.0
   },
-  "name": "Split Peas"
+  "name": "Split Peas",
+  "sv": [
+   [
+    "1 cup cooked",
+    196
+   ]
+  ]
  },
  "spring-onion": {
   "n": {
@@ -15147,7 +19343,17 @@
    "vitaminK": 207,
    "zinc": 0.39
   },
-  "name": "Spring onion (Scallion)"
+  "name": "Spring onion (Scallion)",
+  "sv": [
+   [
+    "1 medium",
+    15
+   ],
+   [
+    "1 cup chopped",
+    100
+   ]
+  ]
  },
  "squid-cooked": {
   "n": {
@@ -15177,7 +19383,17 @@
    "vitaminK": 0.1,
    "zinc": 1.8
   },
-  "name": "Squid (Calamari, Cooked)"
+  "name": "Squid (Calamari, Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup rings",
+    120
+   ]
+  ]
  },
  "sriracha-sauce": {
   "n": {
@@ -15207,7 +19423,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Sriracha Sauce"
+  "name": "Sriracha Sauce",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "star-anise": {
   "n": {
@@ -15237,7 +19459,13 @@
    "vitaminK": 0,
    "zinc": 5.3
   },
-  "name": "Star Anise"
+  "name": "Star Anise",
+  "sv": [
+   [
+    "1 whole star",
+    3.0
+   ]
+  ]
  },
  "starfruit": {
   "n": {
@@ -15267,7 +19495,17 @@
    "vitaminK": 0,
    "zinc": 0.12
   },
-  "name": "Starfruit (Carambola)"
+  "name": "Starfruit (Carambola)",
+  "sv": [
+   [
+    "1 medium",
+    91
+   ],
+   [
+    "1 cup sliced",
+    108
+   ]
+  ]
  },
  "steel-cut-oats": {
   "n": {
@@ -15297,7 +19535,13 @@
    "vitaminK": 0.3,
    "zinc": 0.64
   },
-  "name": "Steel-Cut Oats (cooked)"
+  "name": "Steel-Cut Oats (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    234
+   ]
+  ]
  },
  "stevia": {
   "n": {
@@ -15327,7 +19571,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Stevia (Powder)"
+  "name": "Stevia (Powder)",
+  "sv": [
+   [
+    "1 packet",
+    1
+   ]
+  ]
  },
  "strawberry": {
   "n": {
@@ -15357,7 +19607,17 @@
    "vitaminK": 2.2,
    "zinc": 0.14
   },
-  "name": "Strawberry"
+  "name": "Strawberry",
+  "sv": [
+   [
+    "1 cup halves",
+    152
+   ],
+   [
+    "1 medium",
+    12
+   ]
+  ]
  },
  "sumac": {
   "n": {
@@ -15387,7 +19647,13 @@
    "vitaminK": 0,
    "zinc": 1.0
   },
-  "name": "Sumac"
+  "name": "Sumac",
+  "sv": [
+   [
+    "1 tsp",
+    2.7
+   ]
+  ]
  },
  "sun-dried-tomato": {
   "n": {
@@ -15417,7 +19683,17 @@
    "vitaminK": 43.0,
    "zinc": 1.99
   },
-  "name": "Sun-dried tomato"
+  "name": "Sun-dried tomato",
+  "sv": [
+   [
+    "1/4 cup",
+    14
+   ],
+   [
+    "5 pieces",
+    10
+   ]
+  ]
  },
  "sunchoke": {
   "n": {
@@ -15447,7 +19723,17 @@
    "vitaminK": 0.1,
    "zinc": 0.12
   },
-  "name": "Sunchoke (Jerusalem artichoke)"
+  "name": "Sunchoke (Jerusalem artichoke)",
+  "sv": [
+   [
+    "1 cup sliced",
+    150
+   ],
+   [
+    "1/2 cup",
+    75
+   ]
+  ]
  },
  "sunflower-oil": {
   "n": {
@@ -15477,7 +19763,13 @@
    "vitaminK": 5.4,
    "zinc": 0
   },
-  "name": "Sunflower Oil"
+  "name": "Sunflower Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "sunflower-seed": {
   "n": {
@@ -15507,7 +19799,17 @@
    "vitaminK": 0,
    "zinc": 5.0
   },
-  "name": "Sunflower Seeds"
+  "name": "Sunflower Seeds",
+  "sv": [
+   [
+    "1/4 cup",
+    35
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "sunflower-seed-butter": {
   "n": {
@@ -15537,7 +19839,13 @@
    "vitaminK": 0,
    "zinc": 4.8
   },
-  "name": "Sunflower Seed Butter"
+  "name": "Sunflower Seed Butter",
+  "sv": [
+   [
+    "2 tbsp",
+    32
+   ]
+  ]
  },
  "sweet-potato": {
   "n": {
@@ -15567,7 +19875,17 @@
    "vitaminK": 1.8,
    "zinc": 0.3
   },
-  "name": "Sweet potato"
+  "name": "Sweet potato",
+  "sv": [
+   [
+    "1 medium",
+    130
+   ],
+   [
+    "1 cup cubed",
+    133
+   ]
+  ]
  },
  "swiss-chard": {
   "n": {
@@ -15597,7 +19915,17 @@
    "vitaminK": 830,
    "zinc": 0.36
   },
-  "name": "Swiss chard"
+  "name": "Swiss chard",
+  "sv": [
+   [
+    "1 cup raw",
+    36
+   ],
+   [
+    "1 cup cooked",
+    175
+   ]
+  ]
  },
  "swordfish-cooked": {
   "n": {
@@ -15627,7 +19955,17 @@
    "vitaminK": 0.1,
    "zinc": 1.3
   },
-  "name": "Swordfish (Cooked)"
+  "name": "Swordfish (Cooked)",
+  "sv": [
+   [
+    "1 steak (4 oz)",
+    113
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "tahini": {
   "n": {
@@ -15657,7 +19995,13 @@
    "vitaminK": 0,
    "zinc": 4.6
   },
-  "name": "Tahini (Sesame Paste)"
+  "name": "Tahini (Sesame Paste)",
+  "sv": [
+   [
+    "1 tbsp",
+    15
+   ]
+  ]
  },
  "tahini-dressing": {
   "n": {
@@ -15687,7 +20031,13 @@
    "vitaminK": 0,
    "zinc": 2.5
   },
-  "name": "Tahini Dressing"
+  "name": "Tahini Dressing",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ]
+  ]
  },
  "tallow-beef": {
   "n": {
@@ -15717,7 +20067,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Beef Tallow"
+  "name": "Beef Tallow",
+  "sv": [
+   [
+    "1 tbsp",
+    13
+   ]
+  ]
  },
  "tamarind": {
   "n": {
@@ -15747,7 +20103,17 @@
    "vitaminK": 2.8,
    "zinc": 0.1
   },
-  "name": "Tamarind"
+  "name": "Tamarind",
+  "sv": [
+   [
+    "1 cup pulp",
+    120
+   ],
+   [
+    "1 tbsp paste",
+    15
+   ]
+  ]
  },
  "tamarind-paste": {
   "n": {
@@ -15777,7 +20143,13 @@
    "vitaminK": 2.8,
    "zinc": 0.1
   },
-  "name": "Tamarind Paste"
+  "name": "Tamarind Paste",
+  "sv": [
+   [
+    "1 tbsp",
+    15
+   ]
+  ]
  },
  "tangerine": {
   "n": {
@@ -15807,7 +20179,17 @@
    "vitaminK": 0,
    "zinc": 0.07
   },
-  "name": "Tangerine"
+  "name": "Tangerine",
+  "sv": [
+   [
+    "1 medium",
+    88
+   ],
+   [
+    "1 cup sections",
+    195
+   ]
+  ]
  },
  "taro": {
   "n": {
@@ -15837,7 +20219,17 @@
    "vitaminK": 1.0,
    "zinc": 0.23
   },
-  "name": "Taro"
+  "name": "Taro",
+  "sv": [
+   [
+    "1 cup sliced",
+    132
+   ],
+   [
+    "1/2 cup",
+    66
+   ]
+  ]
  },
  "tarragon-fresh": {
   "n": {
@@ -15867,7 +20259,13 @@
    "vitaminK": 0,
    "zinc": 3.9
   },
-  "name": "Tarragon (Fresh)"
+  "name": "Tarragon (Fresh)",
+  "sv": [
+   [
+    "1 tbsp chopped",
+    2
+   ]
+  ]
  },
  "teff-cooked": {
   "n": {
@@ -15897,7 +20295,13 @@
    "vitaminK": 0.5,
    "zinc": 1.11
   },
-  "name": "Teff"
+  "name": "Teff",
+  "sv": [
+   [
+    "1 cup cooked",
+    252
+   ]
+  ]
  },
  "tempeh": {
   "n": {
@@ -15927,7 +20331,17 @@
    "vitaminK": 0,
    "zinc": 1.1
   },
-  "name": "Tempeh (Soy)"
+  "name": "Tempeh (Soy)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1/2 cup cubed",
+    83
+   ]
+  ]
  },
  "teriyaki-sauce": {
   "n": {
@@ -15957,7 +20371,13 @@
    "vitaminK": 0,
    "zinc": 0.3
   },
-  "name": "Teriyaki Sauce"
+  "name": "Teriyaki Sauce",
+  "sv": [
+   [
+    "1 tbsp",
+    18
+   ]
+  ]
  },
  "thai-basil": {
   "n": {
@@ -15987,7 +20407,13 @@
    "vitaminK": 414.8,
    "zinc": 0.8
   },
-  "name": "Thai Basil"
+  "name": "Thai Basil",
+  "sv": [
+   [
+    "1/4 cup",
+    6
+   ]
+  ]
  },
  "thyme-dried": {
   "n": {
@@ -16017,7 +20443,13 @@
    "vitaminK": 1714.5,
    "zinc": 6.2
   },
-  "name": "Thyme (Dried)"
+  "name": "Thyme (Dried)",
+  "sv": [
+   [
+    "1 tsp",
+    1.0
+   ]
+  ]
  },
  "tiger-nut": {
   "n": {
@@ -16047,7 +20479,17 @@
    "vitaminK": 0,
    "zinc": 2.5
   },
-  "name": "Tiger Nuts (Chufa)"
+  "name": "Tiger Nuts (Chufa)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    35
+   ]
+  ]
  },
  "tilapia-cooked": {
   "n": {
@@ -16077,7 +20519,17 @@
    "vitaminK": 1.5,
    "zinc": 0.4
   },
-  "name": "Tilapia (Baked)"
+  "name": "Tilapia (Baked)",
+  "sv": [
+   [
+    "1 fillet (6 oz)",
+    170
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "tofu-firm": {
   "n": {
@@ -16107,7 +20559,17 @@
    "vitaminK": 2.0,
    "zinc": 1.6
   },
-  "name": "Tofu (Firm, Calcium-Set)"
+  "name": "Tofu (Firm, Calcium-Set)",
+  "sv": [
+   [
+    "1/2 cup cubed",
+    126
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "tofu-silken": {
   "n": {
@@ -16137,7 +20599,17 @@
    "vitaminK": 1.0,
    "zinc": 0.5
   },
-  "name": "Tofu (Silken, Soft)"
+  "name": "Tofu (Silken, Soft)",
+  "sv": [
+   [
+    "1/2 cup",
+    124
+   ],
+   [
+    "1 block (12 oz)",
+    340
+   ]
+  ]
  },
  "tomatillo": {
   "n": {
@@ -16167,7 +20639,17 @@
    "vitaminK": 10.1,
    "zinc": 0.22
   },
-  "name": "Tomatillo"
+  "name": "Tomatillo",
+  "sv": [
+   [
+    "1 medium",
+    34
+   ],
+   [
+    "1 cup chopped",
+    132
+   ]
+  ]
  },
  "tomato": {
   "n": {
@@ -16197,7 +20679,17 @@
    "vitaminK": 7.9,
    "zinc": 0.17
   },
-  "name": "Tomato"
+  "name": "Tomato",
+  "sv": [
+   [
+    "1 medium",
+    123
+   ],
+   [
+    "1 cup chopped",
+    180
+   ]
+  ]
  },
  "tomato-ketchup": {
   "n": {
@@ -16227,7 +20719,13 @@
    "vitaminK": 3.0,
    "zinc": 0.2
   },
-  "name": "Tomato Ketchup"
+  "name": "Tomato Ketchup",
+  "sv": [
+   [
+    "1 tbsp",
+    17
+   ]
+  ]
  },
  "tomato-paste": {
   "n": {
@@ -16257,7 +20755,13 @@
    "vitaminK": 11.0,
    "zinc": 0.9
   },
-  "name": "Tomato Paste"
+  "name": "Tomato Paste",
+  "sv": [
+   [
+    "1 tbsp",
+    16
+   ]
+  ]
  },
  "tortilla-corn": {
   "n": {
@@ -16287,7 +20791,17 @@
    "vitaminK": 0.2,
    "zinc": 0.9
   },
-  "name": "Corn Tortilla"
+  "name": "Corn Tortilla",
+  "sv": [
+   [
+    "1 tortilla",
+    26
+   ],
+   [
+    "3 tortillas",
+    78
+   ]
+  ]
  },
  "tortilla-flour": {
   "n": {
@@ -16317,7 +20831,13 @@
    "vitaminK": 0.5,
    "zinc": 0.58
   },
-  "name": "Flour Tortilla"
+  "name": "Flour Tortilla",
+  "sv": [
+   [
+    "1 large tortilla",
+    64
+   ]
+  ]
  },
  "trail-mix": {
   "n": {
@@ -16347,7 +20867,17 @@
    "vitaminK": 2.0,
    "zinc": 2.5
   },
-  "name": "Trail Mix (Nuts, Seeds, Dried Fruit)"
+  "name": "Trail Mix (Nuts, Seeds, Dried Fruit)",
+  "sv": [
+   [
+    "1/4 cup",
+    38
+   ],
+   [
+    "1 oz",
+    28
+   ]
+  ]
  },
  "triticale-cooked": {
   "n": {
@@ -16377,7 +20907,13 @@
    "vitaminK": 1.0,
    "zinc": 1.15
   },
-  "name": "Triticale"
+  "name": "Triticale",
+  "sv": [
+   [
+    "1 cup cooked",
+    175
+   ]
+  ]
  },
  "trout-rainbow-cooked": {
   "n": {
@@ -16407,7 +20943,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Trout, Rainbow (Cooked)"
+  "name": "Trout, Rainbow (Cooked)",
+  "sv": [
+   [
+    "1 fillet (5 oz)",
+    143
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "truffle-oil": {
   "n": {
@@ -16437,7 +20983,13 @@
    "vitaminK": 60.0,
    "zinc": 0
   },
-  "name": "Truffle Oil"
+  "name": "Truffle Oil",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "tuna-canned-light": {
   "n": {
@@ -16467,7 +21019,17 @@
    "vitaminK": 0.1,
    "zinc": 0.8
   },
-  "name": "Tuna, Canned (Light, In Water)"
+  "name": "Tuna, Canned (Light, In Water)",
+  "sv": [
+   [
+    "1 can (5 oz drained)",
+    142
+   ],
+   [
+    "3 oz portion",
+    85
+   ]
+  ]
  },
  "tuna-yellowfin-cooked": {
   "n": {
@@ -16497,7 +21059,17 @@
    "vitaminK": 0.1,
    "zinc": 0.5
   },
-  "name": "Tuna, Yellowfin (Cooked)"
+  "name": "Tuna, Yellowfin (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 steak (6 oz)",
+    170
+   ]
+  ]
  },
  "turkey-bacon-cooked": {
   "n": {
@@ -16527,7 +21099,17 @@
    "vitaminK": 0,
    "zinc": 2.0
   },
-  "name": "Turkey Bacon (Cooked)"
+  "name": "Turkey Bacon (Cooked)",
+  "sv": [
+   [
+    "2 slices",
+    30
+   ],
+   [
+    "4 slices",
+    60
+   ]
+  ]
  },
  "turkey-breast-cooked": {
   "n": {
@@ -16557,7 +21139,17 @@
    "vitaminK": 0,
    "zinc": 1.6
   },
-  "name": "Turkey Breast (Skinless, Roasted)"
+  "name": "Turkey Breast (Skinless, Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "2 slices deli",
+    56
+   ]
+  ]
  },
  "turkey-ground-cooked": {
   "n": {
@@ -16587,7 +21179,17 @@
    "vitaminK": 0,
    "zinc": 2.8
   },
-  "name": "Turkey, Ground (93% Lean, Cooked)"
+  "name": "Turkey, Ground (93% Lean, Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cup crumbled",
+    135
+   ]
+  ]
  },
  "turkey-thigh-cooked": {
   "n": {
@@ -16617,7 +21219,17 @@
    "vitaminK": 1.5,
    "zinc": 3.8
   },
-  "name": "Turkey Thigh (Cooked)"
+  "name": "Turkey Thigh (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 thigh",
+    200
+   ]
+  ]
  },
  "turmeric-fresh": {
   "n": {
@@ -16647,7 +21259,13 @@
    "vitaminK": 13.4,
    "zinc": 4.4
   },
-  "name": "Turmeric (Fresh Root)"
+  "name": "Turmeric (Fresh Root)",
+  "sv": [
+   [
+    "1 inch piece",
+    7
+   ]
+  ]
  },
  "turmeric-ground": {
   "n": {
@@ -16677,7 +21295,13 @@
    "vitaminK": 13.4,
    "zinc": 4.5
   },
-  "name": "Turmeric (Ground)"
+  "name": "Turmeric (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    3
+   ]
+  ]
  },
  "turnip": {
   "n": {
@@ -16707,7 +21331,17 @@
    "vitaminK": 0.1,
    "zinc": 0.27
   },
-  "name": "Turnip"
+  "name": "Turnip",
+  "sv": [
+   [
+    "1 medium",
+    122
+   ],
+   [
+    "1 cup cubed",
+    130
+   ]
+  ]
  },
  "turnip-greens": {
   "n": {
@@ -16737,7 +21371,17 @@
    "vitaminK": 368,
    "zinc": 0.19
   },
-  "name": "Turnip greens"
+  "name": "Turnip greens",
+  "sv": [
+   [
+    "1 cup raw chopped",
+    55
+   ],
+   [
+    "1 cup cooked",
+    144
+   ]
+  ]
  },
  "udon-noodles": {
   "n": {
@@ -16767,7 +21411,13 @@
    "vitaminK": 0,
    "zinc": 0.18
   },
-  "name": "Udon Noodles (cooked)"
+  "name": "Udon Noodles (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    176
+   ]
+  ]
  },
  "urad-dal": {
   "n": {
@@ -16797,7 +21447,13 @@
    "vitaminK": 0.5,
    "zinc": 1.1
   },
-  "name": "Urad Dal (Black Gram)"
+  "name": "Urad Dal (Black Gram)",
+  "sv": [
+   [
+    "1 cup cooked",
+    180
+   ]
+  ]
  },
  "vanaspati-ghee": {
   "n": {
@@ -16827,7 +21483,13 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Vanaspati (Hydrogenated Vegetable Fat)"
+  "name": "Vanaspati (Hydrogenated Vegetable Fat)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "veal-cutlet-cooked": {
   "n": {
@@ -16857,7 +21519,17 @@
    "vitaminK": 1.0,
    "zinc": 3.6
   },
-  "name": "Veal, Cutlet (Cooked)"
+  "name": "Veal, Cutlet (Cooked)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 cutlet",
+    100
+   ]
+  ]
  },
  "vegetable-oil-blend": {
   "n": {
@@ -16887,7 +21559,13 @@
    "vitaminK": 25.0,
    "zinc": 0
   },
-  "name": "Vegetable Oil (Blended)"
+  "name": "Vegetable Oil (Blended)",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "venison-roasted": {
   "n": {
@@ -16917,7 +21595,17 @@
    "vitaminK": 1.1,
    "zinc": 3.4
   },
-  "name": "Venison (Deer, Roasted)"
+  "name": "Venison (Deer, Roasted)",
+  "sv": [
+   [
+    "3 oz portion",
+    85
+   ],
+   [
+    "1 steak",
+    150
+   ]
+  ]
  },
  "vermicelli-rice": {
   "n": {
@@ -16947,7 +21635,13 @@
    "vitaminK": 0,
    "zinc": 0.18
   },
-  "name": "Rice Vermicelli (cooked)"
+  "name": "Rice Vermicelli (cooked)",
+  "sv": [
+   [
+    "1 cup cooked",
+    176
+   ]
+  ]
  },
  "vinaigrette-balsamic": {
   "n": {
@@ -16977,7 +21671,13 @@
    "vitaminK": 20.0,
    "zinc": 0
   },
-  "name": "Balsamic Vinaigrette"
+  "name": "Balsamic Vinaigrette",
+  "sv": [
+   [
+    "2 tbsp",
+    30
+   ]
+  ]
  },
  "wakame": {
   "n": {
@@ -17007,7 +21707,17 @@
    "vitaminK": 5.3,
    "zinc": 0.38
   },
-  "name": "Wakame"
+  "name": "Wakame",
+  "sv": [
+   [
+    "1 cup raw",
+    80
+   ],
+   [
+    "2 tbsp dried",
+    10
+   ]
+  ]
  },
  "walnut-oil": {
   "n": {
@@ -17037,7 +21747,13 @@
    "vitaminK": 15.0,
    "zinc": 0
   },
-  "name": "Walnut Oil"
+  "name": "Walnut Oil",
+  "sv": [
+   [
+    "1 tbsp",
+    14
+   ]
+  ]
  },
  "walnut-raw": {
   "n": {
@@ -17067,7 +21783,17 @@
    "vitaminK": 2.7,
    "zinc": 3.1
   },
-  "name": "Walnuts (Raw)"
+  "name": "Walnuts (Raw)",
+  "sv": [
+   [
+    "1 oz (14 halves)",
+    28
+   ],
+   [
+    "1/4 cup chopped",
+    30
+   ]
+  ]
  },
  "walnut-roasted": {
   "n": {
@@ -17097,7 +21823,17 @@
    "vitaminK": 2.5,
    "zinc": 3.0
   },
-  "name": "Walnuts (Roasted)"
+  "name": "Walnuts (Roasted)",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    30
+   ]
+  ]
  },
  "water-chestnut": {
   "n": {
@@ -17127,7 +21863,17 @@
    "vitaminK": 0.3,
    "zinc": 0.5
   },
-  "name": "Water chestnut"
+  "name": "Water chestnut",
+  "sv": [
+   [
+    "1/2 cup sliced",
+    62
+   ],
+   [
+    "4 water chestnuts",
+    36
+   ]
+  ]
  },
  "watercress": {
   "n": {
@@ -17157,7 +21903,17 @@
    "vitaminK": 250,
    "zinc": 0.11
   },
-  "name": "Watercress"
+  "name": "Watercress",
+  "sv": [
+   [
+    "1 cup chopped",
+    34
+   ],
+   [
+    "1 bunch",
+    85
+   ]
+  ]
  },
  "watermelon": {
   "n": {
@@ -17187,7 +21943,17 @@
    "vitaminK": 0.1,
    "zinc": 0.1
   },
-  "name": "Watermelon"
+  "name": "Watermelon",
+  "sv": [
+   [
+    "1 cup diced",
+    152
+   ],
+   [
+    "1 wedge",
+    286
+   ]
+  ]
  },
  "watermelon-seed": {
   "n": {
@@ -17217,7 +21983,17 @@
    "vitaminK": 0,
    "zinc": 10.2
   },
-  "name": "Watermelon Seeds"
+  "name": "Watermelon Seeds",
+  "sv": [
+   [
+    "1 oz",
+    28
+   ],
+   [
+    "1/4 cup",
+    32
+   ]
+  ]
  },
  "wheat-berries": {
   "n": {
@@ -17247,7 +22023,13 @@
    "vitaminK": 1.9,
    "zinc": 1.65
   },
-  "name": "Wheat Berries"
+  "name": "Wheat Berries",
+  "sv": [
+   [
+    "1 cup cooked",
+    172
+   ]
+  ]
  },
  "wheat-flour-white": {
   "n": {
@@ -17277,7 +22059,13 @@
    "vitaminK": 0.3,
    "zinc": 0.7
   },
-  "name": "White Wheat Flour (All-Purpose)"
+  "name": "White Wheat Flour (All-Purpose)",
+  "sv": [
+   [
+    "1 cup",
+    125
+   ]
+  ]
  },
  "wheat-flour-whole": {
   "n": {
@@ -17307,7 +22095,13 @@
    "vitaminK": 1.9,
    "zinc": 2.6
   },
-  "name": "Whole Wheat Flour"
+  "name": "Whole Wheat Flour",
+  "sv": [
+   [
+    "1 cup",
+    120
+   ]
+  ]
  },
  "whey-protein": {
   "n": {
@@ -17337,7 +22131,13 @@
    "vitaminK": 0,
    "zinc": 3.0
   },
-  "name": "Whey Protein Powder"
+  "name": "Whey Protein Powder",
+  "sv": [
+   [
+    "1 serving",
+    100
+   ]
+  ]
  },
  "whey-protein-powder": {
   "n": {
@@ -17367,7 +22167,17 @@
    "vitaminK": 0,
    "zinc": 1.0
   },
-  "name": "Whey Protein Powder (Unflavored)"
+  "name": "Whey Protein Powder (Unflavored)",
+  "sv": [
+   [
+    "1 scoop (30g)",
+    30
+   ],
+   [
+    "2 scoops",
+    60
+   ]
+  ]
  },
  "whipped-cream": {
   "n": {
@@ -17397,7 +22207,13 @@
    "vitaminK": 3.4,
    "zinc": 0.2
   },
-  "name": "Whipped Cream"
+  "name": "Whipped Cream",
+  "sv": [
+   [
+    "2 tbsp",
+    15
+   ]
+  ]
  },
  "white-beans": {
   "n": {
@@ -17427,7 +22243,13 @@
    "vitaminK": 2.0,
    "zinc": 1.38
   },
-  "name": "White Beans (Generic)"
+  "name": "White Beans (Generic)",
+  "sv": [
+   [
+    "1 cup cooked",
+    179
+   ]
+  ]
  },
  "white-pepper": {
   "n": {
@@ -17457,7 +22279,13 @@
    "vitaminK": 0,
    "zinc": 1.1
   },
-  "name": "White Pepper (Ground)"
+  "name": "White Pepper (Ground)",
+  "sv": [
+   [
+    "1 tsp",
+    2.4
+   ]
+  ]
  },
  "white-sugar": {
   "n": {
@@ -17487,7 +22315,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "White Sugar (Granulated)"
+  "name": "White Sugar (Granulated)",
+  "sv": [
+   [
+    "1 tsp",
+    4
+   ],
+   [
+    "1 tbsp",
+    12.5
+   ]
+  ]
  },
  "wood-apple": {
   "n": {
@@ -17517,7 +22355,17 @@
    "vitaminK": 0,
    "zinc": 0
   },
-  "name": "Wood apple (Bael)"
+  "name": "Wood apple (Bael)",
+  "sv": [
+   [
+    "1 fruit pulp",
+    100
+   ],
+   [
+    "1 cup juice",
+    250
+   ]
+  ]
  },
  "worcestershire-sauce": {
   "n": {
@@ -17547,7 +22395,13 @@
    "vitaminK": 0,
    "zinc": 0.2
   },
-  "name": "Worcestershire Sauce"
+  "name": "Worcestershire Sauce",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "yam": {
   "n": {
@@ -17577,7 +22431,17 @@
    "vitaminK": 2.3,
    "zinc": 0.24
   },
-  "name": "Yam"
+  "name": "Yam",
+  "sv": [
+   [
+    "1 cup cubed",
+    150
+   ],
+   [
+    "1/2 medium",
+    75
+   ]
+  ]
  },
  "yellow-mustard": {
   "n": {
@@ -17607,7 +22471,13 @@
    "vitaminK": 1.3,
    "zinc": 0.6
   },
-  "name": "Yellow Mustard"
+  "name": "Yellow Mustard",
+  "sv": [
+   [
+    "1 tsp",
+    5
+   ]
+  ]
  },
  "yogurt-greek": {
   "n": {
@@ -17637,7 +22507,17 @@
    "vitaminK": 0,
    "zinc": 0.5
   },
-  "name": "Greek Yogurt (Plain, Non-Fat)"
+  "name": "Greek Yogurt (Plain, Non-Fat)",
+  "sv": [
+   [
+    "1 container (5.3 oz)",
+    150
+   ],
+   [
+    "1 cup",
+    245
+   ]
+  ]
  },
  "yogurt-low-fat": {
   "n": {
@@ -17667,7 +22547,17 @@
    "vitaminK": 0.1,
    "zinc": 0.9
   },
-  "name": "Yogurt (Plain, Low-Fat)"
+  "name": "Yogurt (Plain, Low-Fat)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    245
+   ],
+   [
+    "3/4 cup",
+    184
+   ]
+  ]
  },
  "yogurt-plain": {
   "n": {
@@ -17697,7 +22587,17 @@
    "vitaminK": 0.2,
    "zinc": 0.6
   },
-  "name": "Yogurt (Plain, Whole Milk)"
+  "name": "Yogurt (Plain, Whole Milk)",
+  "sv": [
+   [
+    "1 cup (8 oz)",
+    245
+   ],
+   [
+    "3/4 cup",
+    184
+   ]
+  ]
  },
  "yuzu": {
   "n": {
@@ -17727,7 +22627,17 @@
    "vitaminK": 0,
    "zinc": 0.07
   },
-  "name": "Yuzu"
+  "name": "Yuzu",
+  "sv": [
+   [
+    "1 fruit",
+    120
+   ],
+   [
+    "1 tbsp juice",
+    15
+   ]
+  ]
  },
  "za-atar": {
   "n": {
@@ -17757,7 +22667,13 @@
    "vitaminK": 300.0,
    "zinc": 3.0
   },
-  "name": "Za'atar"
+  "name": "Za'atar",
+  "sv": [
+   [
+    "1 tsp",
+    2.0
+   ]
+  ]
  },
  "zucchini": {
   "n": {
@@ -17787,6 +22703,16 @@
    "vitaminK": 4.3,
    "zinc": 0.32
   },
-  "name": "Zucchini"
+  "name": "Zucchini",
+  "sv": [
+   [
+    "1 medium",
+    196
+   ],
+   [
+    "1 cup sliced",
+    113
+   ]
+  ]
  }
 }
