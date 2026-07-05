@@ -13,9 +13,18 @@ Every meal now also shows **Fiber** (%DV vs 28 g), **Sodium** (%DV vs 2,300 mg),
 meal" section lists every constituent food with its portion and kcal; each expands to that food's
 full 25-nutrient panel (macros + fiber/sugar/sodium + all micros, %DV) for its portion. The page
 blob now carries a per-page food table (`foods`: name + per-100g values in FOOD_NUTRIENT_ORDER)
-plus per-meal food lists (`meals[nid].i`: [food index, grams]); the popup multiplies per-100g by
-grams client-side. Per-food fiber applies the day scale (`meals[nid].s`) so foods sum to their
-meal and meals sum to the day.
+plus per-meal food lists (`meals[nid].i`: [food index, grams, portion label]); the popup
+multiplies per-100g by grams client-side. Per-food fiber applies the day scale (`meals[nid].s`)
+so foods sum to their meal and meals sum to the day.
+
+**Done (polish):**
+- Household portion labels ("≈ 1 medium", "≈ 1¼ cups cooked") derived at build time from the app
+  DB's servingSizes (`portion_label()` in render_plans.py: count snapped to quarter steps within
+  13%, unit word inflected, parentheticals dropped when scaled). Grams-only when no close match.
+- Foods section ordered above the collapsed Vitamins & minerals row; sticky "↓ scroll for foods &
+  vitamins" cue at the card's bottom edge, hidden at scroll-end or when nothing overflows.
+- Popup assets are cache-busted (`plans.css?v=<md5-8>`, `plan-popup.js?v=<md5-8>` via `asset_v()`)
+  so browsers pick up JS/CSS changes with the HTML — users were seeing stale cached popups.
 
 ## How it works
 
