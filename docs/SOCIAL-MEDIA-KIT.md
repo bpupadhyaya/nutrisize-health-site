@@ -72,8 +72,11 @@ Cadence to start: 2–3 posts/week, same content adapted per platform; recycle s
 ## Who does what
 
 **Account creation needs a human** (phone/email verification, CAPTCHAs, 2FA) — that part is
-yours. Use `social-media@nutrisize.health` (existing alias on the Microsoft 365 mailbox).
-Facebook and LinkedIn
+yours. Sign up with `nutrisize.universal@gmail.com` as the primary login everywhere — it's
+free and permanent, so account recovery never depends on the domain or the Microsoft 365
+subscription staying alive (an expired domain would let a stranger receive password resets).
+Where a platform supports a secondary/backup email, add the `social-media@nutrisize.health`
+alias. Facebook and LinkedIn
 are Pages created from your existing personal accounts, not new sign-ups. For YouTube, create
 the Google account with "Use my current email address instead". Enable 2FA, use a password
 manager. Per account: upload `profile-1024.png` + the platform's banner, paste the bio, set
