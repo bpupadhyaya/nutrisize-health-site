@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrisize Health — Weekly Worksheet (offline)</title>
+    <style>
+
+:root { --green-900:#0b3d2e; --green-800:#0f5b40; --green-700:#14684c; --green-600:#178a5e;
+  --green-500:#1fa971; --green-100:#e3f5ec; --blue-700:#0b4f8a; --blue-600:#1268b3;
+  --blue-100:#e5f0fa; --amber-500:#d97706; --red-500:#dc2626; --ink:#12211b; --ink-soft:#40544a;
+  --ink-faint:#6b7f74; --paper:#fff; --paper-tint:#f4faf7; --line:#dcebe3; --radius:14px;
+  --shadow:0 4px 24px rgba(11,61,46,0.08); }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+  color:var(--ink); background:var(--paper-tint); line-height:1.65; padding:32px 20px; }
+.wshead { max-width:1160px; margin:0 auto 26px; }
+.wshead h1 { color:var(--green-900); font-size:28px; letter-spacing:-0.02em; }
+.wshead p { color:var(--ink-soft); font-size:14.5px; margin-top:6px; }
+.wshead a { color:var(--blue-600); }
+.wsmain { max-width:1160px; margin:0 auto; }
+.table-scroll { overflow-x:auto; }
+.btn { display:inline-block; background:var(--green-600); color:#fff; border:none; cursor:pointer;
+  border-radius:10px; padding:12px 24px; font-weight:700; font:inherit; font-weight:700; }
+.btn.outline { background:transparent; border:2px solid var(--green-600); color:var(--green-700); }
+.plan-cta { display:flex; gap:12px; flex-wrap:wrap; }
+
+/* ----------/* Nutrisize Health — sample weekly plans + worksheet styles
+   Loaded in addition to style.css on /plans/ pages. */
+
+
+/* ---------- Worksheet ---------- */
+.ws-grid { display: grid; grid-template-columns: 340px 1fr; gap: 24px; align-items: start; }
+@media (max-width: 900px) { .ws-grid { grid-template-columns: 1fr; } }
+.ws-panel {
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 24px;
+}
+.ws-panel h3 { font-size: 17px; color: var(--green-900); margin-bottom: 14px; }
+.ws-field { margin-bottom: 14px; }
+.ws-field label { display: block; font-size: 13px; font-weight: 600; color: var(--ink-soft); margin-bottom: 5px; }
+.ws-field input, .ws-field select {
+    width: 100%; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px;
+    font: inherit; font-size: 14.5px; color: var(--ink); background: var(--paper-tint);
+}
+.ws-field input:focus, .ws-field select:focus { outline: 2px solid var(--green-500); border-color: transparent; }
+.ws-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.ws-results { display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 10px; margin-top: 8px; }
+.ws-out { background: var(--green-100); border-radius: 12px; padding: 10px 14px; }
+.ws-out .v { font-size: 20px; font-weight: 800; color: var(--green-800, #0f5b40); white-space: nowrap; }
+.ws-out .v small { font-size: 12px; font-weight: 600; color: var(--ink-faint); }
+.ws-out .k { font-size: 11.5px; font-weight: 600; color: var(--ink-faint); }
+.ws-out.blue { background: var(--blue-100); }
+.ws-out.blue .v { color: var(--blue-700); }
+table.ws-week { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 760px; }
+.ws-week th {
+    background: var(--green-900); color: #eaf7f0; padding: 10px 8px; font-size: 11.5px;
+    letter-spacing: 0.04em; text-transform: uppercase; text-align: left; white-space: nowrap;
+}
+.ws-week td { border-top: 1px solid var(--line); padding: 6px 8px; }
+.ws-week td.day { font-weight: 700; color: var(--green-900); white-space: nowrap; }
+.ws-week input {
+    width: 74px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px;
+    font: inherit; font-size: 13.5px; text-align: right; background: var(--paper-tint);
+}
+.ws-week input:focus { outline: 2px solid var(--green-500); border-color: transparent; }
+.ws-week td.total { font-weight: 800; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ws-week td.total.ok { color: var(--green-600); }
+.ws-week td.total.near { color: var(--amber-500); }
+.ws-week td.total.off { color: var(--red-500); }
+.ws-summary { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.ws-note { font-size: 13px; color: var(--ink-faint); margin-top: 14px; }
+
+
+/* ---------- Print (PDF export) ---------- */
+@media print {
+    nav, footer, .no-print, .plan-cta, .cat-chips { display: none !important; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .plan-hero { padding: 20px 0 16px; }
+    section { padding: 22px 0; }
+    details.day-card { break-inside: avoid; }
+    details.day-card summary .arrow { display: none; }
+    .chart-row { grid-template-columns: 1fr 1fr; }
+    .table-scroll { box-shadow: none; }
+    a { color: inherit; }
+}
+
+    </style>
+</head>
+<body>
+
+<div class="wshead">
+    <h1>&#129513; Nutrisize Health — Weekly Worksheet</h1>
+    <p>Offline copy — open this file in any browser; it calculates automatically and saves your
+    entries locally. From <a href="https://nutrisize.health/plans/">nutrisize.health/plans</a>. Educational only —
+    not medical advice.</p>
+</div>
+<div class="wsmain">
+
+<div class="ws-grid">
+    <div class="ws-panel">
+        <h3>&#128202; Your numbers</h3>
+        <div class="ws-field">
+            <label for="sex">Sex</label>
+            <select id="sex"><option value="m">Male</option><option value="f">Female</option></select>
+        </div>
+        <div class="ws-row2">
+            <div class="ws-field">
+                <label for="age">Age (years)</label>
+                <input id="age" type="number" min="15" max="100" placeholder="e.g. 30">
+            </div>
+            <div class="ws-field">
+                <label for="units">Units</label>
+                <select id="units"><option value="metric">Metric (cm, kg)</option><option value="imperial">Imperial (in, lb)</option></select>
+            </div>
+        </div>
+        <div class="ws-row2">
+            <div class="ws-field">
+                <label for="height" id="heightLabel">Height (cm)</label>
+                <input id="height" type="number" min="90" max="250" step="0.5" placeholder="e.g. 170">
+            </div>
+            <div class="ws-field">
+                <label for="weight" id="weightLabel">Weight (kg)</label>
+                <input id="weight" type="number" min="25" max="300" step="0.1" placeholder="e.g. 68">
+            </div>
+        </div>
+        <div class="ws-field">
+            <label for="activity">Activity level</label>
+            <select id="activity">
+                <option value="1.2">Sedentary — mostly sitting</option>
+                <option value="1.375">Lightly active — 1&ndash;3 workouts/week</option>
+                <option value="1.55" selected>Moderately active — 3&ndash;5 workouts/week</option>
+                <option value="1.725">Very active — 6&ndash;7 workouts/week</option>
+            </select>
+        </div>
+        <div class="ws-field">
+            <label for="goal">Goal</label>
+            <select id="goal">
+                <option value="0" selected>Maintain weight</option>
+                <option value="-400">Lose gradually (&minus;400 kcal/day)</option>
+                <option value="300">Gain gradually (+300 kcal/day)</option>
+            </select>
+        </div>
+        <div class="ws-results">
+            <div class="ws-out"><div class="v" id="oBmi">&ndash;</div><div class="k" id="oBmiK">BMI</div></div>
+            <div class="ws-out"><div class="v" id="oBmr">&ndash;</div><div class="k">BMR kcal/day</div></div>
+            <div class="ws-out"><div class="v" id="oTdee">&ndash;</div><div class="k">TDEE kcal/day</div></div>
+            <div class="ws-out"><div class="v" id="oTarget">&ndash;</div><div class="k">Daily target kcal</div></div>
+            <div class="ws-out blue"><div class="v" id="oProtein">&ndash;</div><div class="k">Protein g/day</div></div>
+            <div class="ws-out blue"><div class="v" id="oCarbs">&ndash;</div><div class="k">Carbs g/day</div></div>
+            <div class="ws-out blue"><div class="v" id="oFat">&ndash;</div><div class="k">Fat g/day</div></div>
+            <div class="ws-out blue"><div class="v" id="oFiber">&ndash;</div><div class="k">Fiber g/day</div></div>
+            <div class="ws-out"><div class="v" id="oWater">&ndash;</div><div class="k">Water L/day</div></div>
+        </div>
+        <p class="ws-note">BMR uses the Mifflin&ndash;St&nbsp;Jeor equation (ages 15+). Protein is
+        sized per kg of body weight, fat at 30% of calories, carbs fill the rest, fiber at
+        14&nbsp;g per 1,000&nbsp;kcal. Educational estimates — not medical advice.</p>
+    </div>
+
+    <div class="ws-panel">
+        <h3>&#128197; Plan your week</h3>
+        <p class="ws-note" style="margin:0 0 12px">Enter the calories you plan for each meal —
+        totals, color coding, and the weekly summary update as you type. Your entries stay in
+        this browser only.</p>
+        <div class="table-scroll" style="box-shadow:none">
+        <table class="ws-week" id="wsWeek">
+            <thead><tr>
+                <th>Day</th><th>Breakfast</th><th>Lunch</th><th>Snack</th><th>Dinner</th>
+                <th>Total</th><th>Exercise min</th><th>Intensity</th><th>Burn</th>
+            </tr></thead>
+            <tbody></tbody>
+        </table>
+        </div>
+        <div class="ws-summary">
+            <div class="ws-out"><div class="v" id="sAvg">&ndash;</div><div class="k">Avg intake kcal/day</div></div>
+            <div class="ws-out"><div class="v" id="sVsTarget">&ndash;</div><div class="k">vs. your target</div></div>
+            <div class="ws-out blue"><div class="v" id="sExMin">&ndash;</div><div class="k">Exercise min/week</div></div>
+            <div class="ws-out blue"><div class="v" id="sBurn">&ndash;</div><div class="k">Est. burn kcal/week</div></div>
+        </div>
+        <div class="plan-cta no-print" style="justify-content:flex-start; margin-top:18px">
+            <button class="btn" onclick="window.print()" type="button">&#128424;&#65039; Print / save as PDF</button>
+            <button class="btn outline" onclick="wsReset()" type="button">Reset week</button>
+        </div>
+        <p class="ws-note">Aim for your daily total to land near your target (green = within 5%,
+        amber = within 12%). Exercise burn is a rough estimate from duration, intensity, and your
+        weight (METs method).</p>
+    </div>
+</div>
+
+</div>
+
+<script>
+(function () {
+    var DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+    var MEALS = ["b","l","s","d"];
+    var METS = { light: 3.0, moderate: 5.0, vigorous: 8.0 };
+    var $ = function (id) { return document.getElementById(id); };
+    var state = {};
+    try { state = JSON.parse(localStorage.getItem("nutrisizeWorksheet") || "{}"); } catch (e) { state = {}; }
+
+    // build week rows
+    var tbody = $("wsWeek").tBodies[0];
+    DAYS.forEach(function (day, i) {
+        var tr = document.createElement("tr");
+        var cells = '<td class="day">' + day + "</td>";
+        MEALS.forEach(function (m) {
+            cells += '<td><input type="number" min="0" max="4000" data-k="' + m + i + '" placeholder="kcal"></td>';
+        });
+        cells += '<td class="total" data-t="' + i + '">&ndash;</td>';
+        cells += '<td><input type="number" min="0" max="600" data-k="x' + i + '" placeholder="min"></td>';
+        cells += '<td><select data-k="v' + i + '">' +
+                 '<option value="light">Light</option>' +
+                 '<option value="moderate" selected>Moderate</option>' +
+                 '<option value="vigorous">Vigorous</option></select></td>';
+        cells += '<td class="total" data-b="' + i + '">&ndash;</td>';
+        tr.innerHTML = cells;
+        tbody.appendChild(tr);
+    });
+
+    var FIELDS = ["sex", "age", "units", "height", "weight", "activity", "goal"];
+
+    function restore() {
+        FIELDS.forEach(function (id) { if (state[id] !== undefined) $(id).value = state[id]; });
+        document.querySelectorAll("[data-k]").forEach(function (el) {
+            var v = state["w_" + el.getAttribute("data-k")];
+            if (v !== undefined) el.value = v;
+        });
+    }
+
+    function save() {
+        FIELDS.forEach(function (id) { state[id] = $(id).value; });
+        document.querySelectorAll("[data-k]").forEach(function (el) {
+            state["w_" + el.getAttribute("data-k")] = el.value;
+        });
+        try { localStorage.setItem("nutrisizeWorksheet", JSON.stringify(state)); } catch (e) {}
+    }
+
+    function num(id) { var v = parseFloat($(id).value); return isFinite(v) ? v : NaN; }
+    function fmt(n) { return isFinite(n) ? Math.round(n).toLocaleString() : "\u2013"; }
+
+    var target = NaN, weightKg = NaN;
+
+    function calcProfile() {
+        var imperial = $("units").value === "imperial";
+        $("heightLabel").textContent = imperial ? "Height (in)" : "Height (cm)";
+        $("weightLabel").textContent = imperial ? "Weight (lb)" : "Weight (kg)";
+        var h = num("height"), w = num("weight"), age = num("age");
+        if (imperial) { h = h * 2.54; w = w * 0.45359237; }
+        weightKg = w;
+        var bmi = (h > 0 && w > 0) ? w / Math.pow(h / 100, 2) : NaN;
+        var bmr = NaN;
+        if (h > 0 && w > 0 && age > 0) {
+            bmr = 10 * w + 6.25 * h - 5 * age + ($("sex").value === "m" ? 5 : -161);
+        }
+        var tdee = bmr * parseFloat($("activity").value);
+        target = tdee + parseFloat($("goal").value);
+        var gPerKg = parseFloat($("goal").value) === 0 ? 1.2 : 1.6;
+        var protein = w > 0 ? Math.max(0.8 * w, gPerKg * w) : NaN;
+        var fatG = target * 0.30 / 9;
+        var carbsG = (target - protein * 4 - fatG * 9) / 4;
+        $("oBmi").textContent = isFinite(bmi) ? bmi.toFixed(1) : "\u2013";
+        var cat = !isFinite(bmi) ? "BMI" : bmi < 18.5 ? "BMI \u00b7 underweight" :
+                  bmi < 25 ? "BMI \u00b7 healthy range" : bmi < 30 ? "BMI \u00b7 overweight" : "BMI \u00b7 obese";
+        $("oBmiK").textContent = cat;
+        $("oBmr").textContent = fmt(bmr);
+        $("oTdee").textContent = fmt(tdee);
+        $("oTarget").textContent = fmt(target);
+        $("oProtein").textContent = fmt(protein);
+        $("oCarbs").textContent = fmt(carbsG);
+        $("oFat").textContent = fmt(fatG);
+        $("oFiber").textContent = fmt(target * 14 / 1000);
+        $("oWater").textContent = w > 0 ? (w * 0.035).toFixed(1) : "\u2013";
+    }
+
+    function calcWeek() {
+        var days = 0, sum = 0, exMin = 0, burn = 0;
+        DAYS.forEach(function (_, i) {
+            var t = 0, any = false;
+            MEALS.forEach(function (m) {
+                var el = document.querySelector('[data-k="' + m + i + '"]');
+                var v = parseFloat(el.value);
+                if (isFinite(v)) { t += v; any = true; }
+            });
+            var cell = document.querySelector('[data-t="' + i + '"]');
+            cell.className = "total";
+            if (any) {
+                cell.textContent = t.toLocaleString();
+                days++; sum += t;
+                if (isFinite(target) && target > 0) {
+                    var dev = Math.abs(t - target) / target;
+                    cell.classList.add(dev <= 0.05 ? "ok" : dev <= 0.12 ? "near" : "off");
+                }
+            } else { cell.innerHTML = "&ndash;"; }
+            var mins = parseFloat(document.querySelector('[data-k="x' + i + '"]').value);
+            var met = METS[document.querySelector('[data-k="v' + i + '"]').value];
+            var bcell = document.querySelector('[data-b="' + i + '"]');
+            if (isFinite(mins) && mins > 0 && isFinite(weightKg) && weightKg > 0) {
+                var b = met * weightKg * mins / 60;
+                exMin += mins; burn += b;
+                bcell.textContent = "\u2212" + Math.round(b).toLocaleString();
+            } else { bcell.innerHTML = "&ndash;"; }
+        });
+        $("sAvg").textContent = days ? Math.round(sum / days).toLocaleString() : "\u2013";
+        $("sVsTarget").textContent = (days && isFinite(target) && target > 0)
+            ? (sum / days / target * 100).toFixed(0) + "%" : "\u2013";
+        $("sExMin").textContent = exMin ? Math.round(exMin).toLocaleString() : "\u2013";
+        $("sBurn").textContent = burn ? Math.round(burn).toLocaleString() : "\u2013";
+    }
+
+    function recalc() { calcProfile(); calcWeek(); save(); }
+
+    window.wsReset = function () {
+        document.querySelectorAll("#wsWeek input").forEach(function (el) { el.value = ""; });
+        document.querySelectorAll("#wsWeek select").forEach(function (el) { el.value = "moderate"; });
+        recalc();
+    };
+
+    document.addEventListener("input", recalc);
+    document.addEventListener("change", recalc);
+    restore();
+    recalc();
+})();
+</script>
+
+</body>
+</html>
