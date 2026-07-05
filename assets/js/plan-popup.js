@@ -220,7 +220,10 @@
         "estimated from this meal's foods</span></summary>" +
         '<div class="nm-micro-grid">' + microGrid(NUTR, nvals, true) + "</div></details>" +
         '<p class="nm-note nm-sugar-note">*FDA sets a Daily Value for added sugar only; ' +
-        "the value shown is total sugar.</p>";
+        "the value shown is total sugar.</p>" +
+        '<p class="nm-app">This breakdown is for a sample profile. In the app it’s computed ' +
+        "from what <em>you</em> eat — any diet, 4,995 foods. " +
+        '<a href="/#download">Get the app</a></p>';
     }
 
     lastFocus = document.activeElement;

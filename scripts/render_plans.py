@@ -397,6 +397,15 @@ def footer(prefix):
 """
 
 
+def app_plug(prefix, text):
+    """Quiet inline pointer to the app for things the static samples can't do."""
+    return f"""        <div class="app-plug">
+            <img src="{prefix}assets/img/favicon.png" alt="" width="34" height="34">
+            <p>{text} <a href="{prefix}#download">Get the app &rarr;</a></p>
+        </div>
+"""
+
+
 DISCLAIMER = """
     <div class="notice">
         <strong>Educational example only.</strong> These sample plans assume a normal, healthy
@@ -527,7 +536,9 @@ def plan_page(plan, nblob=None):
             </tbody>
         </table>
         </div>
-    </div>
+{app_plug(prefix, "The exercise column shows one sensible week for this profile. "
+                  "The app plans movement around <em>you</em> — 5,404 exercises matched to "
+                  "your equipment, fitness level, and schedule, re-balanced as you log workouts.")}    </div>
 </section>
 """
 
@@ -581,7 +592,9 @@ def plan_page(plan, nblob=None):
         </div>
         <div class="day-list">
 {"".join(cards)}        </div>
-    </div>
+{app_plug(prefix, "These sample weeks assume a typical mixed diet. Eat vegetarian, vegan, "
+                  "halal, or around allergies? The app generates this same week for your "
+                  "diet and cuisine, from 4,995 foods, sized to your own profile.")}    </div>
 </section>
 """
 
@@ -711,8 +724,10 @@ def hub_page(plans):
                     </a>
 """
         html += "                </div>\n            </div>\n"
-    html += """        </div>
-    </div>
+    html += f"""        </div>
+{app_plug(prefix, "Looking for a vegetarian, vegan, or allergy-aware version? These pages teach "
+                  "the structure on typical healthy profiles; the app builds the week around "
+                  "your diet, cuisine, and calorie needs — and adapts it as your body changes.")}    </div>
 </section>
 
 <section class="tint">
