@@ -394,6 +394,7 @@ def footer(prefix):
             <li><a href="https://www.instagram.com/nutrisizehealth" target="_blank" rel="noopener">Instagram</a></li>
             <li><a href="https://www.threads.com/@nutrisizehealth" target="_blank" rel="noopener">Threads</a></li>
             <li><a href="https://www.youtube.com/@nutrisizehealth" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="https://x.com/nutrisizehealth" target="_blank" rel="noopener">X</a></li>
             <li><a href="https://equalinformation.com" target="_blank" rel="noopener">EqualInformation</a></li>
         </ul>
         <p class="footer-copy">Contact: <a href="mailto:contact@nutrisize.health">contact@nutrisize.health</a> &middot; <a href="mailto:nutrisize.universal@gmail.com">nutrisize.universal@gmail.com</a><br>
