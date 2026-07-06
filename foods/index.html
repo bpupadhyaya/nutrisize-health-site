@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support — Nutrisize Health</title>
-    <meta name="description" content="Get help with the Nutrisize Health app — contact, FAQs, and release notes.">
-    <link rel="canonical" href="https://nutrisize.health/support/">
-    <meta property="og:title" content="Support — Nutrisize Health">
-    <meta property="og:description" content="Get help with the Nutrisize Health app — contact, FAQs, and release notes.">
-    <meta property="og:url" content="https://nutrisize.health/support/">
+    <title>Food Explorer — Nutrition Facts for 533 Foods, Free | Nutrisize Health</title>
+    <meta name="description" content="Browse 533 foods with full nutrition per 100 g — calories, macros, 18+ vitamins and minerals with %DV, glycemic category, and nutrient density. Search, filter by category, and compare foods side by side.">
+    <link rel="canonical" href="https://nutrisize.health/foods/">
+    <meta property="og:title" content="Food Explorer — Nutrition Facts for 533 Foods, Free | Nutrisize Health">
+    <meta property="og:description" content="Browse 533 foods with full nutrition per 100 g — calories, macros, 18+ vitamins and minerals with %DV, glycemic category, and nutrient density. Search, filter by category, and compare foods side by side.">
+    <meta property="og:url" content="https://nutrisize.health/foods/">
     <meta property="og:image" content="https://nutrisize.health/assets/img/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -22,6 +22,21 @@
     <meta name="theme-color" content="#0b3d2e">
     <link rel="stylesheet" href="../assets/fonts/inter.css">
     <link rel="stylesheet" href="../assets/css/style.css?v=d156539a">
+    <link rel="stylesheet" href="../assets/css/plans.css?v=2143aa89">
+    <script src="../assets/js/plan-popup.js?v=be53226f" defer></script>
+    <script src="../assets/js/ref-modal.js?v=af96fb64" defer></script>
+    <link rel="stylesheet" href="../assets/css/explorer.css?v=7a76237f">
+    <script src="../assets/js/food-explorer.js?v=dc83909a" defer></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nutrisize.health/"},
+        {"@type": "ListItem", "position": 2, "name": "Food Explorer", "item": "https://nutrisize.health/foods/"}
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -35,83 +50,100 @@
             <li><a href="../#features">Features</a></li>
             <li><a href="../plans/">Plans</a></li>
             <li><a href="../parameters/">Parameters</a></li>
-            <li><a href="../#kpis">KPIs</a></li>
             <li><a href="../#privacy">Privacy</a></li>
             <li><a href="../about/">About</a></li>
-            <li><a href="./">Support</a></li>
+            <li><a href="../support/">Support</a></li>
             <li><a href="../#download" class="nav-cta">Get the App</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
     </div>
 </nav>
 
-<div class="page-title"><div class="wrap">
-    <h1>Support</h1>
-    <p class="meta">We're glad to help — most questions get a reply within a couple of days.</p>
-</div></div>
+<header class="hero hero-sub">
+    <div class="wrap">
+        <h1>Food <span class="accent">Explorer</span></h1>
+        <p class="tagline">The app&rsquo;s food knowledge base — opened up for learning.</p>
+        <p class="lede">
+            533 foods from the Nutrisize Health database, free to explore: full
+            nutrition per 100&nbsp;g — calories, macros, and 18 vitamins &amp; minerals with
+            %&nbsp;Daily Value — plus glycemic category and a nutrient-density score.
+            Search, filter, sort, and compare up to four foods side by side.
+        </p>
+    </div>
+</header>
 
-<div class="content wrap">
+<section>
+    <div class="wrap">
+        <div class="fx-toolbar">
+            <input type="search" id="fx-q" placeholder="Search foods&hellip;" aria-label="Search foods">
+            <select id="fx-cat" aria-label="Filter by category">
+                <option value="">All categories</option>
+            </select>
+            <select id="fx-gi" aria-label="Filter by glycemic category">
+                <option value="">Any glycemic index</option>
+                <option value="low">Low GI</option>
+                <option value="low-medium">Low&ndash;medium GI</option>
+                <option value="medium-high">Medium&ndash;high GI</option>
+                <option value="high">High GI</option>
+            </select>
+            <select id="fx-sort" aria-label="Sort">
+                <option value="name">Sort: A&ndash;Z</option>
+                <option value="calories">Sort: Calories</option>
+                <option value="protein">Sort: Protein</option>
+                <option value="fiber">Sort: Fiber</option>
+                <option value="density">Sort: Nutrient density</option>
+            </select>
+            <button class="fx-reset" id="fx-reset" type="button">Reset</button>
+        </div>
+        <p class="fx-count" id="fx-count">Loading 533 foods&hellip;</p>
+        <div class="table-scroll">
+        <table class="param-table fx-table">
+            <thead><tr>
+                <th>Food</th><th>Category</th>
+                <th class="fx-num">kcal</th><th class="fx-num">Protein g</th>
+                <th class="fx-num">Carbs g</th><th class="fx-num">Fat g</th>
+                <th class="fx-num">Fiber g</th>
+                <th>Density</th><th>GI</th><th>Compare</th>
+            </tr></thead>
+            <tbody id="fx-tbody"></tbody>
+        </table>
+        </div>
+        <div class="iap-plug">
+            <img class="iap-icon" src="../assets/img/icon-192.png" alt="" width="52" height="52">
+            <div class="iap-copy">
+                <strong>533 foods free here — the app carries all 4,995.</strong>
+                <p>Nutrition Premium unlocks the full food library in the app: every food with serving-size math, regional names in 10 languages, cooking impact, allergen flags, and links to the physiological parameters it moves — all offline, all private, on your device.</p>
+            </div>
+            <div class="iap-stores">
+                <a href="https://apps.apple.com/us/app/nutrisize-health/id6762168316" target="_blank" rel="noopener"><img src="../assets/img/app-store-badge.svg" alt="Download on the App Store" height="40"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health&referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Dfoods-explorer" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
+            </div>
+        </div>
 
-    <h3>Contact us</h3>
-    <p>
-        Support: <a href="mailto:support@nutrisize.health">support@nutrisize.health</a><br>
-        General inquiries: <a href="mailto:info@nutrisize.health">info@nutrisize.health</a><br>
-        Privacy questions: <a href="mailto:privacy@nutrisize.health">privacy@nutrisize.health</a>
-    </p>
-    <p>
-        Alternative (works even if you ever cannot reach a nutrisize.health address):
-        <a href="mailto:nutrisize.universal@gmail.com">nutrisize.universal@gmail.com</a>
-    </p>
-    <p>
-        When reporting a problem, it helps to include your device model, OS version, app version
-        (System &rarr; About inside the app), and a short description of what you expected versus
-        what happened. You can also send feedback directly from inside the app
-        (System &rarr; Feedback) — it attaches the technical details automatically.
-    </p>
+        <div class="notice" style="margin-top:26px;">
+            <strong>Educational reference only.</strong> Values are per 100&nbsp;g from the
+            app&rsquo;s reference database (USDA FoodData Central and comparable sources) and
+            %&nbsp;Daily Value uses the FDA 2,000-calorie reference — individual needs vary.
+            Not medical or dietary advice. See our <a href="../disclaimer/">full disclaimer</a>.
+        </div>
+    </div>
+</section>
 
-    <h3>Frequently asked questions</h3>
-
-    <p><strong>Where is my data stored?</strong><br>
-    On your device, and only there. Nutrisize Health has no accounts and no cloud copies of your
-    health records. See the <a href="../privacy/">privacy policy</a> for details.</p>
-
-    <p><strong>How do I back up or export my data?</strong><br>
-    Open System &rarr; Data (Data Management) in the app and export your health data as a JSON
-    file at any time. Because data is device-local, export before switching devices.</p>
-
-    <p><strong>How do I delete my data?</strong><br>
-    Use the Data Management screen inside the app, or simply uninstall the app — local data goes
-    with it.</p>
-
-    <p><strong>How do I restore my premium purchase?</strong><br>
-    Purchases are handled by the App Store / Google Play. On a new device, use the app's restore
-    option (or reinstall while signed in to the same Apple/Google account).</p>
-
-    <p><strong>Is Nutrisize Health medical advice?</strong><br>
-    No. The app provides general educational information only — always consult a qualified
-    professional for medical decisions. See the <a href="../disclaimer/">disclaimer</a>.</p>
-
-    <h3>Release notes</h3>
-    <p>
-        Version history is published at
-        <a href="https://equalinformation.com/release-notes-nutrisizehealth.html" target="_blank" rel="noopener">equalinformation.com &rarr; Release Notes &rarr; Nutrisize Health</a>.
-    </p>
-
-    <h3>Store pages</h3>
-    <p>
-        <a href="https://apps.apple.com/us/app/nutrisize-health/id6762168316" target="_blank" rel="noopener">App Store (iOS, iPadOS, macOS, visionOS)</a><br>
-        <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health&referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Dsupport" target="_blank" rel="noopener">Google Play (Android, Wear OS)</a>
-    </p>
-
+<div class="fx-comparebar" id="fx-cmpBar" hidden>
+    <span class="fx-cmp-names" id="fx-cmpNames"></span>
+    <button class="fx-cmp-go" id="fx-cmpGo" type="button">Compare</button>
+    <button class="fx-cmp-clear" id="fx-cmpClear" type="button">Clear</button>
 </div>
 
 <footer>
     <div class="footer-inner">
         <ul class="footer-links">
             <li><a href="../about/">About</a></li>
+            <li><a href="../plans/">Plans</a></li>
+            <li><a href="../parameters/">Parameters</a></li>
             <li><a href="../privacy/">Privacy Policy</a></li>
             <li><a href="../disclaimer/">Disclaimer</a></li>
-            <li><a href="./">Support</a></li>
+            <li><a href="../support/">Support</a></li>
             <li><a href="../survey/">Survey</a></li>
             <li><a href="https://equalinformation.com" target="_blank" rel="noopener">EqualInformation</a></li>
         </ul>

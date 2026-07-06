@@ -418,6 +418,43 @@ def app_plug(prefix, text):
 """
 
 
+# Store links, campaign-tagged per page so store analytics can attribute
+# installs to the site feature that drove them. Google Play attributes via the
+# Install Referrer utm params. Apple only registers campaign data when a
+# provider token (pt=) from App Store Connect → Analytics → Sources →
+# Campaigns accompanies ct=; set APPLE_PT once known and re-render.
+APPLE_PT = ""
+APP_STORE = "https://apps.apple.com/us/app/nutrisize-health/id6762168316"
+PLAY_STORE = "https://play.google.com/store/apps/details?id=com.nutrisize.health"
+
+
+def store_urls(campaign):
+    ios = APP_STORE
+    if APPLE_PT:
+        ios += f"?pt={APPLE_PT}&ct=web-{campaign}&mt=8"
+    android = (PLAY_STORE + "&referrer=utm_source%3Dnutrisize.health"
+               "%26utm_medium%3Dweb%26utm_campaign%3D" + campaign)
+    return ios, android
+
+
+def iap_plug(prefix, campaign, headline, text):
+    """Feature-specific pitch: what this page shows free, what the matching
+    in-app purchase unlocks — with campaign-tagged store badges."""
+    ios, android = store_urls(campaign)
+    return f"""        <div class="iap-plug">
+            <img class="iap-icon" src="{prefix}assets/img/icon-192.png" alt="" width="52" height="52">
+            <div class="iap-copy">
+                <strong>{headline}</strong>
+                <p>{text}</p>
+            </div>
+            <div class="iap-stores">
+                <a href="{ios}" target="_blank" rel="noopener"><img src="{prefix}assets/img/app-store-badge.svg" alt="Download on the App Store" height="40"></a>
+                <a href="{android}" target="_blank" rel="noopener"><img src="{prefix}assets/img/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
+            </div>
+        </div>
+"""
+
+
 # Authoritative standards the sample plans are built on — shown in the
 # sources & references window (assets/js/ref-modal.js) on every plan page.
 PLAN_REFS = [

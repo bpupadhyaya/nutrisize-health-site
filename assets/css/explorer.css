@@ -1,0 +1,93 @@
+/* Food Explorer (/foods) — toolbar, results table, compare bar & modal.
+   Builds on style.css tokens and reuses the nutri-modal (nm-*) system from
+   plans.css for the detail popup. */
+
+/* Toolbar */
+.fx-toolbar {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  margin: 0 0 14px;
+}
+.fx-toolbar input[type="search"],
+.fx-toolbar select {
+  font: inherit; font-size: 14px; color: var(--ink);
+  padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px;
+  background: #fff; outline: none;
+}
+.fx-toolbar input[type="search"] { flex: 1 1 220px; min-width: 180px; }
+.fx-toolbar input[type="search"]:focus,
+.fx-toolbar select:focus { border-color: var(--green-500); box-shadow: 0 0 0 3px rgba(31,169,113,.14); }
+.fx-toolbar select { flex: none; max-width: 46vw; }
+.fx-reset {
+  font: inherit; font-size: 13px; font-weight: 700; color: var(--green-700);
+  background: none; border: none; cursor: pointer; padding: 8px 6px;
+}
+.fx-count { font-size: 13px; color: var(--ink-faint); margin: 0 0 10px; }
+
+/* Results table */
+.fx-table td, .fx-table th { white-space: nowrap; }
+.fx-table td.fx-name { white-space: normal; min-width: 180px; }
+.fx-table tbody tr { cursor: pointer; }
+.fx-table tbody tr:hover { background: #f0f8f3; }
+.fx-table tbody tr:focus-visible { outline: 2px solid var(--green-500); outline-offset: -2px; }
+.fx-name b { color: var(--green-900); font-weight: 700; }
+.fx-name .fx-sub { display: block; font-size: 12px; color: var(--ink-faint); }
+.fx-num { text-align: right; font-variant-numeric: tabular-nums; }
+th.fx-sortable { cursor: pointer; user-select: none; }
+th.fx-sortable[aria-sort="ascending"]::after { content: " \2191"; }
+th.fx-sortable[aria-sort="descending"]::after { content: " \2193"; }
+
+/* Density / GI chips */
+.fx-chip {
+  display: inline-block; padding: 2px 9px; border-radius: 999px;
+  font-size: 12px; font-weight: 700; line-height: 1.5;
+}
+.fx-chip.good { background: #e3f5ec; color: #14684c; }
+.fx-chip.mid  { background: #fdf1e2; color: #b45309; }
+.fx-chip.low  { background: #fdecea; color: #b91c1c; }
+.fx-chip.na   { background: #eef2f0; color: #6b7f74; }
+
+/* Compare checkbox cell — clicking it must not open the detail popup */
+.fx-cmp { text-align: center; }
+.fx-cmp input { width: 16px; height: 16px; accent-color: var(--green-600); cursor: pointer; }
+
+/* Compare bar (appears when 1+ foods selected) */
+.fx-comparebar {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: 18px;
+  z-index: 60; display: flex; align-items: center; gap: 14px;
+  background: var(--green-900); color: #fff; border-radius: 999px;
+  padding: 10px 12px 10px 20px; box-shadow: 0 10px 30px rgba(11,61,46,.35);
+  font-size: 14px;
+}
+.fx-comparebar[hidden] { display: none; }
+.fx-comparebar .fx-cmp-names { max-width: 46vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fx-comparebar button {
+  font: inherit; font-weight: 700; border: none; border-radius: 999px;
+  padding: 8px 16px; cursor: pointer;
+}
+.fx-comparebar .fx-cmp-go { background: var(--green-500); color: #fff; }
+.fx-comparebar .fx-cmp-clear { background: transparent; color: #bfe6d4; padding: 8px 6px; }
+
+/* Compare modal table (rendered inside an nm-card) */
+.fx-cmp-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.fx-cmp-table th, .fx-cmp-table td {
+  padding: 7px 10px; border-bottom: 1px solid var(--line); text-align: right;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.fx-cmp-table th { background: var(--green-100); color: var(--green-900); position: sticky; top: 0; }
+.fx-cmp-table th:first-child, .fx-cmp-table td:first-child { text-align: left; }
+.fx-cmp-table td.fx-best { color: var(--green-700); font-weight: 700; }
+.fx-cmp-table .fx-dim { color: var(--ink-faint); font-size: 11px; }
+
+/* Detail modal extras beyond nm-* */
+.fx-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+.fx-serv { margin: 14px 0 0; font-size: 13px; color: var(--ink-soft); }
+.fx-serv b { color: var(--green-900); }
+.fx-links { margin: 14px 0 0; padding: 12px 14px; background: #f4faf7; border: 1px solid var(--line); border-radius: 10px; }
+.fx-links h4 { margin: 0 0 6px; font-size: 13px; color: var(--green-900); }
+.fx-links p { margin: 4px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+.fx-links .fx-param { font-weight: 700; color: var(--blue-700); }
+
+@media (max-width: 700px) {
+  .fx-toolbar select { max-width: 100%; flex: 1 1 40%; }
+  .fx-comparebar { width: calc(100% - 24px); justify-content: space-between; padding-left: 14px; }
+}
