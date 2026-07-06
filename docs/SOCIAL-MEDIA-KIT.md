@@ -72,11 +72,11 @@ Cadence to start: 2–3 posts/week, same content adapted per platform; recycle s
 ## Who does what
 
 **Account creation needs a human** (phone/email verification, CAPTCHAs, 2FA) — that part is
-yours. Sign up with `nutrisize.health@gmail.com` as the primary login everywhere — free and
+yours. Sign up with `nutrisize.global@gmail.com` as the primary login everywhere — free and
 permanent, so recovery never depends on the domain or Microsoft 365 staying alive, and not
-published anywhere (less phishing surface). Recovery chain: `nutrisize.health@gmail.com` →
-`nutrisize.universal@gmail.com` (the published contact) → `nutrisize.global@gmail.com`
-(reserve). Where a platform supports a secondary/backup email, add the
+published anywhere (less phishing surface). Recovery chain: `nutrisize.global@gmail.com` →
+`nutrisize.universal@gmail.com` (the published contact); `nutrisize.health@gmail.com` joins
+as reserve once it's ready. Where a platform supports a secondary/backup email, add the
 `social-media@nutrisize.health` alias. Facebook and LinkedIn
 are Pages created from your existing personal accounts, not new sign-ups. For YouTube, create
 the Google account with "Use my current email address instead". Enable 2FA, use a password
