@@ -388,6 +388,7 @@ def footer(prefix):
             <li><a href="{prefix}disclaimer/">Disclaimer</a></li>
             <li><a href="{prefix}support/">Support</a></li>
             <li><a href="{prefix}survey/">Survey</a></li>
+            <li><a href="https://www.facebook.com/nutrisizehealth" target="_blank" rel="noopener">Facebook</a></li>
             <li><a href="https://equalinformation.com" target="_blank" rel="noopener">EqualInformation</a></li>
         </ul>
         <p class="footer-copy">Contact: <a href="mailto:contact@nutrisize.health">contact@nutrisize.health</a> &middot; <a href="mailto:nutrisize.universal@gmail.com">nutrisize.universal@gmail.com</a><br>
