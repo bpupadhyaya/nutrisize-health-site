@@ -364,6 +364,7 @@ def nav(prefix, here="plans"):
         <ul class="nav-links">
             <li><a href="{prefix}plans/">Plans</a></li>
             <li><a href="{prefix}foods/">Foods</a></li>
+            <li><a href="{prefix}exercises/">Exercises</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}about/">About</a></li>
@@ -383,6 +384,7 @@ def footer(prefix):
         <ul class="footer-links">
             <li><a href="{prefix}plans/">Plans</a></li>
             <li><a href="{prefix}foods/">Foods</a></li>
+            <li><a href="{prefix}exercises/">Exercises</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}about/">About</a></li>

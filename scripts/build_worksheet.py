@@ -302,6 +302,7 @@ def site_page():
         <ul class="nav-links">
             <li><a href="../">Plans</a></li>
             <li><a href="../../foods/">Foods</a></li>
+            <li><a href="../../exercises/">Exercises</a></li>
             <li><a href="../../connections/">Connections</a></li>
             <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../about/">About</a></li>
@@ -338,6 +339,7 @@ def site_page():
         <ul class="footer-links">
             <li><a href="../">Plans</a></li>
             <li><a href="../../foods/">Foods</a></li>
+            <li><a href="../../exercises/">Exercises</a></li>
             <li><a href="../../connections/">Connections</a></li>
             <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../about/">About</a></li>

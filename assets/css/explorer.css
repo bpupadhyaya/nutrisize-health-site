@@ -183,3 +183,33 @@ th.fx-sortable[aria-sort="descending"]::after { content: " \2193"; }
 .cx-grade.c { background: #92610a; } .cx-grade.na { background: #93a29a; }
 .cx-refs .cx-ref a { color: var(--blue-700); font-weight: 600; }
 .cx-refs .cx-ref .cx-src { color: var(--ink-faint); }
+
+/* ---------------------------------------------------------------- Exercise Explorer */
+
+.ex-prose { margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--ink-soft); }
+.ex-note-line { margin: 6px 0 0; font-size: 13.5px; line-height: 1.55; color: var(--ink-soft); }
+.ex-note-line b { color: var(--green-900); }
+
+/* MET calorie-burn calculator */
+.ex-burn { margin: 4px 0 0; padding: 16px 18px; border-radius: 12px;
+  background: linear-gradient(120deg, #f4faf7, #eef5fb); border: 1px solid var(--line); }
+.ex-burn h4 { margin: 0 0 10px; font-size: 14px; color: var(--green-900); }
+.ex-burn-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.ex-burn-row label { font-size: 13px; color: var(--ink-soft); display: inline-flex; align-items: center; gap: 6px; }
+.ex-burn-row input, .ex-burn-row select {
+  font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--line);
+  border-radius: 9px; background: #fff; color: var(--ink); width: 84px;
+}
+.ex-burn-row select { width: auto; }
+.ex-burn-row input:focus, .ex-burn-row select:focus {
+  outline: none; border-color: var(--green-500); box-shadow: 0 0 0 3px rgba(31,169,113,.14);
+}
+.ex-burn-out { margin: 12px 0 0; font-size: 18px; color: var(--green-900); }
+.ex-burn-out b { font-size: 22px; }
+
+/* Sets & reps by level */
+.ex-sr { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.ex-sr-col { padding: 12px 14px; border-radius: 11px; background: #f4faf7; border: 1px solid var(--line); }
+.ex-sr-col .ex-sr-lvl { display: block; font-size: 12px; font-weight: 700; color: var(--blue-700);
+  text-transform: uppercase; letter-spacing: .03em; margin-bottom: 4px; }
+.ex-sr-col b { color: var(--green-900); font-size: 15px; }

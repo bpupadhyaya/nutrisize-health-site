@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connections Explorer — How Food, Exercise &amp; Your Body Interact | Nutrisize Health</title>
-    <meta name="description" content="See how nutrition, exercise, and physiology connect — in every direction. Which foods and workouts move a given health parameter (with sources), which parameters an exercise changes and by how much, and what to eat before, during, and after training.">
-    <link rel="canonical" href="https://nutrisize.health/connections/">
-    <meta property="og:title" content="Connections Explorer — How Food, Exercise &amp; Your Body Interact | Nutrisize Health">
-    <meta property="og:description" content="See how nutrition, exercise, and physiology connect — in every direction. Which foods and workouts move a given health parameter (with sources), which parameters an exercise changes and by how much, and what to eat before, during, and after training.">
-    <meta property="og:url" content="https://nutrisize.health/connections/">
+    <title>Exercise Explorer — 2504 Exercises with How-To &amp; Calorie Burn, Free | Nutrisize Health</title>
+    <meta name="description" content="Browse 2504 exercises across 6 disciplines — strength, cardio, flexibility, balance, rehabilitation, and military — with how-to steps, sets and reps by level, common mistakes, the parameters each one changes, and a calorie-burn calculator for any bodyweight.">
+    <link rel="canonical" href="https://nutrisize.health/exercises/">
+    <meta property="og:title" content="Exercise Explorer — 2504 Exercises with How-To &amp; Calorie Burn, Free | Nutrisize Health">
+    <meta property="og:description" content="Browse 2504 exercises across 6 disciplines — strength, cardio, flexibility, balance, rehabilitation, and military — with how-to steps, sets and reps by level, common mistakes, the parameters each one changes, and a calorie-burn calculator for any bodyweight.">
+    <meta property="og:url" content="https://nutrisize.health/exercises/">
     <meta property="og:image" content="https://nutrisize.health/assets/img/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -26,14 +26,14 @@
     <script src="../assets/js/plan-popup.js?v=be53226f" defer></script>
     <script src="../assets/js/ref-modal.js?v=af96fb64" defer></script>
     <link rel="stylesheet" href="../assets/css/explorer.css?v=b797d4c5">
-    <script src="../assets/js/connections.js?v=afc946e5" defer></script>
+    <script src="../assets/js/exercise-explorer.js?v=36768a63" defer></script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nutrisize.health/"},
-        {"@type": "ListItem", "position": 2, "name": "Connections Explorer", "item": "https://nutrisize.health/connections/"}
+        {"@type": "ListItem", "position": 2, "name": "Exercise Explorer", "item": "https://nutrisize.health/exercises/"}
       ]
     }
     </script>
@@ -62,53 +62,66 @@
 
 <header class="hero hero-sub">
     <div class="wrap">
-        <h1>Connections <span class="accent">Explorer</span></h1>
-        <p class="tagline">How nutrition, exercise, and your body move together.</p>
+        <h1>Exercise <span class="accent">Explorer</span></h1>
+        <p class="tagline">The app&rsquo;s exercise library — opened up for learning.</p>
         <p class="lede">
-            Nothing in the body works alone. This is the Nutrisize Health knowledge graph,
-            opened up for learning: pick a <strong>parameter</strong> to see the food and
-            exercise that move it — with sources; pick an <strong>exercise</strong> to see the
-            parameters it changes and how to fuel it; pick a <strong>food</strong> to see what
-            it touches and when to eat it around training. Every link runs in both directions.
+            2504 exercises from the Nutrisize Health database, free to explore across strength,
+            cardio, flexibility, balance, rehabilitation, and military training. Filter by muscle,
+            equipment, and difficulty; open any exercise for how-to steps, sets and reps by level,
+            common mistakes, the physiological parameters it changes &mdash; and a calorie-burn
+            calculator that works for <em>your</em> bodyweight.
         </p>
     </div>
 </header>
 
 <section>
     <div class="wrap">
-        <div class="cx-tabs" id="cx-tabs" role="tablist" aria-label="Explore by">
-            <button class="cx-tab" role="tab" data-lens="parameter" aria-selected="true">By parameter</button>
-            <button class="cx-tab" role="tab" data-lens="exercise" aria-selected="false">By exercise</button>
-            <button class="cx-tab" role="tab" data-lens="food" aria-selected="false">By food</button>
+        <div class="fx-toolbar">
+            <input type="search" id="ex-q" placeholder="Search exercises&hellip;" aria-label="Search exercises">
+            <select id="ex-cat" aria-label="Filter by category"><option value="">All disciplines</option></select>
+            <select id="ex-muscle" aria-label="Filter by muscle"><option value="">Any muscle</option></select>
+            <select id="ex-equip" aria-label="Filter by equipment"><option value="">Any equipment</option></select>
+            <select id="ex-diff" aria-label="Filter by difficulty">
+                <option value="">Any level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            <select id="ex-sort" aria-label="Sort">
+                <option value="name">Sort: A&ndash;Z</option>
+                <option value="met">Sort: MET (intensity)</option>
+                <option value="burn">Sort: Calorie burn</option>
+                <option value="difficulty">Sort: Difficulty</option>
+            </select>
+            <button class="fx-reset" id="ex-reset" type="button">Reset</button>
         </div>
-        <div class="cx-picker">
-            <input type="search" id="cx-search" placeholder="Filter parameters&hellip;" aria-label="Filter">
-            <select id="cx-select" aria-label="Choose an item"></select>
+        <p class="fx-count" id="ex-count">Loading 2504 exercises&hellip;</p>
+        <div class="table-scroll">
+        <table class="param-table fx-table">
+            <thead><tr>
+                <th>Exercise</th><th>Discipline</th><th>Primary muscle</th>
+                <th>Equipment</th><th>Level</th><th class="fx-num">MET</th>
+            </tr></thead>
+            <tbody id="ex-tbody"></tbody>
+        </table>
         </div>
-        <p class="cx-hint" id="cx-hint">Pick a physiological parameter to see the nutrition and
-        exercise that move it — with sources.</p>
-
-        <div id="cx-result" aria-live="polite"></div>
-
         <div class="iap-plug">
             <img class="iap-icon" src="../assets/img/icon-192.png" alt="" width="52" height="52">
             <div class="iap-copy">
-                <strong>This is the free slice of the graph — 29 parameters, linked to food and exercise.</strong>
-                <p>The app carries the full web: all 201 physiological parameters across 16 body systems, every one cross-linked to the foods and exercises that move it, the interactions between parameters, and evidence for each — then tracks your own numbers and shows what’s changing. Physiology Premium unlocks the complete map.</p>
+                <strong>2504 exercises free here — the app carries all 5,404.</strong>
+                <p>Exercise Premium unlocks the full library in the app: every exercise with video demonstrations, progression pathways, muscle-activation detail, sport and occupation context, and links to the physiology it trains — plus your own logging and weekly plans, offline and private.</p>
             </div>
             <div class="iap-stores">
                 <a href="https://apps.apple.com/us/app/nutrisize-health/id6762168316" target="_blank" rel="noopener"><img src="../assets/img/app-store-badge.svg" alt="Download on the App Store" height="40"></a>
-                <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health&referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Dconnections-explorer" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health&referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Dexercises-explorer" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
             </div>
         </div>
 
-
         <div class="notice" style="margin-top:26px;">
-            <strong>Educational reference only.</strong> These relationships summarize
-            peer-reviewed and guideline sources (linked per parameter) and describe typical
-            physiological responses — they are not medical advice, and individual responses vary
-            with health, medication, and genetics. Consult a qualified professional before acting
-            on them. See our <a href="../disclaimer/">full disclaimer</a>.
+            <strong>Educational reference only.</strong> Calorie burn is estimated from each
+            exercise&rsquo;s MET value and varies with intensity, fitness, and body composition.
+            Nothing here is medical or fitness advice — consult a qualified professional before
+            starting new exercise. See our <a href="../disclaimer/">full disclaimer</a>.
         </div>
     </div>
 </section>
