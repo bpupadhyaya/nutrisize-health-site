@@ -152,10 +152,10 @@ def page():
         </div>
         <div class="grid">
 {insight_cards}        </div>
-        <p style="text-align:center; margin-top:30px">
+        <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:30px">
             <a class="btn outline" href="../simulator/">Try the what-if simulator &rarr;</a>
-            <a class="btn outline" href="../digestion/" style="margin-left:10px">Digestion &amp; sleep tool &rarr;</a>
-        </p>
+            <a class="btn outline" href="../digestion/">Digestion &amp; sleep tool &rarr;</a>
+        </div>
     </div>
 </section>
 
