@@ -363,6 +363,23 @@ def head(title, desc, canonical, prefix, extra=""):
 """
 
 
+def breadcrumb(prefix, trail):
+    """Visible breadcrumb bar. `trail` is a list of (label, href) from the first
+    ancestor after Home to the current page; the current page's href is ignored.
+    Home is prepended automatically."""
+    items = [("Home", prefix)] + list(trail)
+    parts = []
+    for i, (label, href) in enumerate(items):
+        last = i == len(items) - 1
+        if href and not last:
+            parts.append(f'<a href="{href}">{esc(label)}</a>')
+        else:
+            parts.append(f'<span class="current">{esc(label)}</span>')
+    inner = '<span class="sep">&rsaquo;</span>'.join(parts)
+    return (f'<div class="crumbs" role="navigation" aria-label="Breadcrumb">'
+            f'<div class="wrap">{inner}</div></div>\n')
+
+
 def nav(prefix, here="plans"):
     return f"""
 <nav>
@@ -550,7 +567,7 @@ def plan_page(plan, nblob=None):
     }}
     </script>
 """
-    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Plans", prefix + "plans/"), (f"{gender}, {group}", None)])
 
     # hero + profile stats
     stats = [
@@ -805,7 +822,7 @@ def hub_page(plans):
             "for males and females across five life stages, plus an auto-calculating worksheet.")
     canonical = f"{SITE}/plans/"
     prefix = "../"
-    html = head(title, desc, canonical, prefix) + nav(prefix)
+    html = head(title, desc, canonical, prefix) + nav(prefix) + breadcrumb(prefix, [("Plans", None)])
     html += """
 <header class="hero hero-sub">
     <div class="wrap">

@@ -10,7 +10,7 @@ Usage: python3 scripts/render_foods.py   (idempotent)
 import json
 import os
 
-from render_plans import ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav
 
 DATA = os.path.join(ROOT, "assets", "data", "free", "foods.json")
 
@@ -36,7 +36,7 @@ def page(n_foods, n_categories):
     }}
     </script>
 """
-    html = head(title, desc, canonical, prefix, extra) + nav(prefix)
+    html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Foods", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">

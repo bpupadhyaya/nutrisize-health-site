@@ -11,7 +11,7 @@ import os
 
 import re
 
-from render_plans import (ROOT, SITE, app_plug, asset_v, cite_url, esc, footer, head, nav,
+from render_plans import (breadcrumb, ROOT, SITE, app_plug, asset_v, cite_url, esc, footer, head, nav,
                           store_urls, DISCLAIMER)
 
 DATA = os.path.join(ROOT, "scripts", "physiology_tracking.json")
@@ -125,7 +125,7 @@ def page(data):
     </script>
 """
     ios, android = store_urls("parameters-detail")
-    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Parameters", None)])
     html += (f'\n<span id="pd-app-links" hidden data-ios="{esc(ios)}" '
              f'data-android="{esc(android)}"></span>\n')
     html += f"""

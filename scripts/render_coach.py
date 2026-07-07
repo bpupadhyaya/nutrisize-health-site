@@ -10,7 +10,7 @@ Usage: python3 scripts/render_coach.py   (idempotent)
 """
 import os
 
-from render_plans import ROOT, SITE, asset_v, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, footer, head, iap_plug, nav
 
 # Flip to True and set the price once the $4.99/mo Coach subscription is live in
 # the app stores. Until then the page markets the intelligence features without
@@ -89,7 +89,7 @@ def page():
         sub_line = (f'<p class="tagline" style="margin-top:8px">Included with Coach — '
                     f'<strong>{SUB_PRICE}</strong>, with a free trial.</p>')
 
-    html = head(title, desc, canonical, prefix, extra) + nav(prefix)
+    html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Coach", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">

@@ -9,7 +9,7 @@ Usage: python3 scripts/render_learn.py
 """
 import os
 
-from render_plans import ROOT, SITE, esc, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, esc, footer, head, iap_plug, nav
 
 # --- Foundational explainers (original, concise, attributed) ---------------
 # Content is standard, well-established physiology/nutrition science written for
@@ -204,11 +204,10 @@ def article_page(art, prefix="../../"):
       "mainEntityOfPage":"{canonical}"}}
     </script>
 """
-    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Learn", prefix + "learn/"), (art["title"], None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">
-        <p style="margin:0 0 8px"><a href="{prefix}learn/" style="color:var(--green-700); font-weight:600; font-size:14px">&larr; Learn</a></p>
         <h1 style="font-size:clamp(28px,4vw,42px)">{esc(art['title'])}</h1>
         <p class="tagline">{esc(art['track'])} &middot; foundations</p>
         <p class="lede">{esc(art['intro'])}</p>
@@ -247,7 +246,7 @@ def hub_page(prefix="../"):
       {{"@type":"ListItem","position":2,"name":"Learn","item":"{canonical}"}}]}}
     </script>
 """
-    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Learn", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">

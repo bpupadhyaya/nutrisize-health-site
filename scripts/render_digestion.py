@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-from render_plans import ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav
 
 DEFAULT_APP_REPO = os.path.normpath(os.path.join(ROOT, "..", "..", "pvt", "nutrisize-health-claude"))
 OUT_DATA = os.path.join(ROOT, "assets", "data", "free", "digestion.json")
@@ -79,7 +79,7 @@ def page(d):
 
     src_line = ", ".join(esc(s) for s in d.get("sources", [])[:4])
 
-    html = head(title, desc, canonical, prefix, extra) + nav(prefix)
+    html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Coach", prefix + "coach/"), ("Digestion & sleep", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">

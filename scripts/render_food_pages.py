@@ -10,7 +10,7 @@ Usage: python3 scripts/render_food_pages.py
 import json
 import os
 
-from render_plans import ROOT, SITE, asset_v, cite_url, esc, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, cite_url, esc, footer, head, iap_plug, nav
 
 FOODS = os.path.join(ROOT, "assets", "data", "free", "foods.json")
 
@@ -98,11 +98,10 @@ def food_page(food, related, prefix="../../"):
       {{"@type":"ListItem","position":3,"name":"{esc(name)}","item":"{canonical}"}}]}}
     </script>
 """
-    html = head(title, metadesc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, metadesc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Foods", prefix + "foods/"), (name, None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">
-        <p style="margin:0 0 8px"><a href="{prefix}foods/" style="color:var(--green-700); font-weight:600; font-size:14px">&larr; Food Explorer</a></p>
         <h1>{esc(name)}</h1>
         <p class="tagline">{esc(cat)}{f" &middot; {esc(titlecase(food.get('subcategory')))}" if food.get('subcategory') else ""} &middot; per 100&nbsp;g</p>
         {f'<p class="lede">{esc(food["description"])}</p>' if food.get("description") else ""}

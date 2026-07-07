@@ -11,7 +11,7 @@ Usage: python3 scripts/render_exercises.py   (idempotent)
 import json
 import os
 
-from render_plans import ROOT, SITE, asset_v, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, footer, head, iap_plug, nav
 
 DATA = os.path.join(ROOT, "assets", "data", "free", "exercises-index.json")
 
@@ -38,7 +38,7 @@ def page(n_ex, n_cat):
     }}
     </script>
 """
-    html = head(title, desc, canonical, prefix, extra) + nav(prefix)
+    html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Exercises", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">

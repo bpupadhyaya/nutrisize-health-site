@@ -8,7 +8,7 @@ Usage: python3 scripts/render_simulator.py   (idempotent)
 """
 import os
 
-from render_plans import ROOT, SITE, asset_v, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, footer, head, iap_plug, nav
 
 
 def page():
@@ -32,7 +32,7 @@ def page():
     }}
     </script>
 """
-    html = head(title, desc, canonical, prefix, extra) + nav(prefix)
+    html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Coach", prefix + "coach/"), ("What-if simulator", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">

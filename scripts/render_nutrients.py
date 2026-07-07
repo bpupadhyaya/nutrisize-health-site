@@ -14,7 +14,7 @@ import json
 import os
 import re
 
-from render_plans import (ROOT, SITE, asset_v, cite_url, esc, footer, head, iap_plug, nav)
+from render_plans import (breadcrumb, ROOT, SITE, asset_v, cite_url, esc, footer, head, iap_plug, nav)
 
 DEFAULT_APP_REPO = os.path.normpath(os.path.join(ROOT, "..", "..", "pvt", "nutrisize-health-claude"))
 FOODS = os.path.join(ROOT, "assets", "data", "free", "foods.json")
@@ -118,11 +118,10 @@ def nutrient_page(nut, foods, prefix="../../"):
       {{"@type":"ListItem","position":3,"name":"{esc(name)}","item":"{canonical}"}}]}}
     </script>
 """
-    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Nutrients", prefix + "nutrients/"), (name, None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">
-        <p style="margin:0 0 8px"><a href="{prefix}nutrients/" style="color:var(--green-700); font-weight:600; font-size:14px">&larr; All nutrients</a></p>
         <h1>{esc(name)}</h1>
         {f'<p class="pd-pron" style="text-align:center">{esc(nut["pronunciation"])}</p>' if nut.get("pronunciation") else ""}
         <p class="tagline">{esc(cat)}</p>
@@ -257,7 +256,7 @@ def hub_page(nutrients, prefix="../"):
     for n in nutrients:
         by_cat[classify(n)].append(n)
 
-    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html = head(title, desc, canonical, prefix, jsonld) + nav(prefix) + breadcrumb(prefix, [("Nutrients", None)])
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">
