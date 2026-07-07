@@ -101,7 +101,7 @@ def export_foods(db_path):
                 "physiologyLinks": parse_json_field(row["physiology_links_direct"]),
                 "exercisePositive": parse_json_field(row["exercise_positive"]),
                 "exerciseNegative": parse_json_field(row["exercise_negative"]),
-                "exerciseTimingBest": row["exercise_timing_best"],
+                "exerciseTimingBest": parse_json_field(row["exercise_timing_best"]),
                 "optimizationNote": row["optimization_note"],
                 "servingSizes": servings.get(row["id"], []),
                 "citations": citations.get(row["id"], []),
@@ -130,7 +130,7 @@ def export_exercises(db_path):
                   muscle_group_secondary, equipment, difficulty, simply_put,
                   how_to_perform, sets_reps, calorie_burn, calorie_burn_score,
                   met_value, common_mistakes, breathing_cues, contraindications,
-                  physiology_links
+                  physiology_links, nutrition_timing, foods_positive, foods_negative
            FROM exercises WHERE is_premium = 0 ORDER BY name"""
     ):
         cat = row["category"] or "other"
@@ -165,10 +165,78 @@ def export_exercises(db_path):
                 "breathingCues": parse_json_field(row["breathing_cues"]),
                 "contraindications": parse_json_field(row["contraindications"]),
                 "physiologyLinks": parse_json_field(row["physiology_links"]),
+                "nutritionTiming": parse_json_field(row["nutrition_timing"]),
+                "foodsPositive": parse_json_field(row["foods_positive"]),
+                "foodsNegative": parse_json_field(row["foods_negative"]),
             }
         )
     con.close()
     return index, details
+
+
+def export_parameters(physio_path, foods, ex_details):
+    """Free-tier physiological parameters with their nutrition/exercise links,
+    parameter interconnections, and citations — PLUS the reverse direction
+    computed here: every free food and free exercise whose own physiology links
+    point at this parameter. This is what powers the Connections Explorer's
+    "what moves this parameter" view without shipping all 2,504 exercises."""
+    with open(physio_path, encoding="utf-8") as fh:
+        params = json.load(fh)["parameters"]
+    free = [p for p in params if not p.get("premium")]
+    free_ids = {p["id"] for p in free}
+
+    # Reverse index: parameterId -> foods / exercises that list it.
+    food_by_param, ex_by_param = {}, {}
+    for f in foods:
+        for link in f.get("physiologyLinks") or []:
+            pid = link.get("param")
+            if pid in free_ids:
+                food_by_param.setdefault(pid, []).append(
+                    {"id": f["id"], "slug": f["slug"], "name": f["name"],
+                     "effect": link.get("effect")}
+                )
+    for cat, items in ex_details.items():
+        for e in items:
+            for link in e.get("physiologyLinks") or []:
+                pid = link.get("param")
+                if pid in free_ids:
+                    ex_by_param.setdefault(pid, []).append(
+                        {"id": e["id"], "name": e["name"], "category": cat,
+                         "effect": link.get("effect"), "direction": link.get("direction"),
+                         "magnitude": link.get("magnitude"), "duration": link.get("duration")}
+                    )
+
+    out = []
+    for p in free:
+        # normalRange is an object keyed by life-stage (adult/athlete/child/notes);
+        # surface the adult range as the headline string, keep the note.
+        nr = p.get("normalRange") or {}
+        if isinstance(nr, dict):
+            range_str = nr.get("adult") or nr.get("child") or ""
+            range_note = nr.get("notes")
+        else:
+            range_str, range_note = nr, None
+        units = p.get("units") or {}
+        unit_primary = units.get("primary") if isinstance(units, dict) else units
+        out.append(
+            {
+                "id": p["id"],
+                "name": p["name"],
+                "system": p.get("system"),
+                "simplyPut": p.get("simplyPut"),
+                "normalRange": range_str,
+                "normalRangeNote": range_note,
+                "units": unit_primary,
+                "trackingFrequency": p.get("trackingFrequency"),
+                "nutritionLinks": p.get("nutritionLinks") or [],
+                "exerciseLinks": p.get("exerciseLinks") or [],
+                "interconnections": p.get("interconnections") or [],
+                "citations": p.get("citations") or [],
+                "affectingFoods": food_by_param.get(p["id"], []),
+                "affectingExercises": ex_by_param.get(p["id"], []),
+            }
+        )
+    return out, len(params)
 
 
 def write_json(path, data):
@@ -209,6 +277,17 @@ def main():
             "exercises/%s.json: %d items, %.1f KB"
             % (slugify(cat), len(items), size / 1024.0)
         )
+
+    physio = os.path.join(res, "physiology_data.json")
+    if os.path.exists(physio):
+        params, total = export_parameters(physio, foods, details)
+        size = write_json(os.path.join(OUT_DIR, "parameters.json"),
+                          {"parameters": params, "totalParameters": total})
+        n_ex_links = sum(len(p["affectingExercises"]) for p in params)
+        n_food_links = sum(len(p["affectingFoods"]) for p in params)
+        print("parameters.json: %d free params, %.1f KB "
+              "(%d exercise + %d food reverse links)"
+              % (len(params), size / 1024.0, n_ex_links, n_food_links))
 
     # Guardrail: confirm no premium rows leaked
     con = sqlite3.connect(foods_db)
