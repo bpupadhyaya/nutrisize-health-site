@@ -364,12 +364,11 @@ def nav(prefix, here="plans"):
         <ul class="nav-links">
             <li><a href="{prefix}plans/">Plans</a></li>
             <li><a href="{prefix}foods/">Foods</a></li>
+            <li><a href="{prefix}nutrients/">Nutrients</a></li>
             <li><a href="{prefix}exercises/">Exercises</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}coach/">Coach</a></li>
-            <li><a href="{prefix}about/">About</a></li>
-            <li><a href="{prefix}support/">Support</a></li>
             <li><a href="{prefix}#download" class="nav-cta">Get the App</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
@@ -385,6 +384,7 @@ def footer(prefix):
         <ul class="footer-links">
             <li><a href="{prefix}plans/">Plans</a></li>
             <li><a href="{prefix}foods/">Foods</a></li>
+            <li><a href="{prefix}nutrients/">Nutrients</a></li>
             <li><a href="{prefix}exercises/">Exercises</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
