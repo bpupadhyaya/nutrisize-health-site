@@ -365,8 +365,8 @@ def nav(prefix, here="plans"):
             <li><a href="{prefix}plans/">Plans</a></li>
             <li><a href="{prefix}foods/">Foods</a></li>
             <li><a href="{prefix}exercises/">Exercises</a></li>
-            <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
+            <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}support/">Support</a></li>
             <li><a href="{prefix}#download" class="nav-cta">Get the App</a></li>
@@ -385,8 +385,8 @@ def footer(prefix):
             <li><a href="{prefix}plans/">Plans</a></li>
             <li><a href="{prefix}foods/">Foods</a></li>
             <li><a href="{prefix}exercises/">Exercises</a></li>
-            <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
+            <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}privacy/">Privacy Policy</a></li>
             <li><a href="{prefix}disclaimer/">Disclaimer</a></li>
