@@ -267,6 +267,9 @@
       '<details class="nm-micros" open><summary>Vitamins &amp; minerals</summary>' +
       '<div class="nm-micro-grid">' + micros + "</div></details>" +
       links +
+      (f.slug ? '<p style="margin-top:12px"><a href="../foods/' + esc(f.slug) +
+        '/" style="color:#178a5e; font-weight:700">Open the full ' + esc(f.name) +
+        ' page &rarr;</a></p>' : "") +
       '<p class="nm-note">% Daily Value on a 2,000-calorie reference diet. ' +
       "*FDA sets a Daily Value for added sugar only; the value shown is total sugar. " +
       "Educational reference — not medical or dietary advice.</p>" +
