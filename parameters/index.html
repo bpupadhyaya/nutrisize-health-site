@@ -22,9 +22,11 @@
     <meta name="theme-color" content="#0b3d2e">
     <link rel="stylesheet" href="../assets/fonts/inter.css">
     <link rel="stylesheet" href="../assets/css/style.css?v=d156539a">
-    <link rel="stylesheet" href="../assets/css/plans.css?v=2143aa89">
+    <link rel="stylesheet" href="../assets/css/plans.css?v=44336982">
     <script src="../assets/js/plan-popup.js?v=be53226f" defer></script>
     <script src="../assets/js/ref-modal.js?v=af96fb64" defer></script>
+    <link rel="stylesheet" href="../assets/css/explorer.css?v=b797d4c5">
+    <script src="../assets/js/param-detail.js?v=fb268ffb" defer></script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -58,6 +60,8 @@
     </div>
 </nav>
 
+<span id="pd-app-links" hidden data-ios="https://apps.apple.com/us/app/nutrisize-health/id6762168316" data-android="https://play.google.com/store/apps/details?id=com.nutrisize.health&amp;referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Dparameters-detail"></span>
+
 <header class="hero hero-sub">
     <div class="wrap">
         <h1>Physiological <span class="accent">Parameters</span></h1>
@@ -86,43 +90,43 @@
         <table class="param-table">
             <thead><tr><th>Parameter</th><th>Body system</th><th>Typical healthy range</th><th>What it tells you</th></tr></thead>
             <tbody>
-            <tr>
+            <tr class="param-row" data-param="resting-heart-rate" tabindex="0" role="button" aria-label="Resting Heart Rate — details">
                 <td class="pname">Resting Heart Rate</td>
                 <td>Cardiovascular System</td>
                 <td class="change">60–100 bpm</td>
                 <td>The number of times your heart beats per minute while at complete rest.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="blood-pressure-systolic" tabindex="0" role="button" aria-label="Systolic Blood Pressure — details">
                 <td class="pname">Systolic Blood Pressure</td>
                 <td>Cardiovascular System</td>
                 <td class="change">&lt;120 mmHg (normal), 120–129 mmHg (elevated), 130–139 mmHg (Stage 1 HTN), ≥140 mmHg (Stage 2 HTN)</td>
                 <td>The pressure exerted on artery walls when the heart contracts and pumps blood.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="blood-pressure-diastolic" tabindex="0" role="button" aria-label="Diastolic Blood Pressure — details">
                 <td class="pname">Diastolic Blood Pressure</td>
                 <td>Cardiovascular System</td>
                 <td class="change">&lt;80 mmHg (normal), 80–89 mmHg (Stage 1 HTN), ≥90 mmHg (Stage 2 HTN)</td>
                 <td>The pressure in arteries when the heart relaxes between beats.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="spo2" tabindex="0" role="button" aria-label="Blood Oxygen Saturation — details">
                 <td class="pname">Blood Oxygen Saturation</td>
                 <td>Cardiovascular System</td>
                 <td class="change">95–100%</td>
                 <td>The percentage of hemoglobin binding sites occupied by oxygen in arterial blood.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="body-temperature" tabindex="0" role="button" aria-label="Body Temperature — details">
                 <td class="pname">Body Temperature</td>
                 <td>Cardiovascular System</td>
                 <td class="change">97.8–99.1°F (36.6–37.3°C) orally; varies with time of day and individual</td>
                 <td>Core body temperature reflects the balance between heat production (metabolism, muscular activity) and heat loss.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="blood-glucose-fasting" tabindex="0" role="button" aria-label="Fasting Blood Glucose (Self-Monitored) — details">
                 <td class="pname">Fasting Blood Glucose (Self-Monitored)</td>
                 <td>Metabolic &amp; Endocrine System</td>
                 <td class="change">Normal: 70–99 mg/dL; Prediabetes: 100–125 mg/dL; Diabetes: ≥126 mg/dL (confirmed on two occasions)</td>
                 <td>Blood sugar level measured after at least 8 hours of fasting using a home glucometer.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="sleep-duration" tabindex="0" role="button" aria-label="Sleep Duration — details">
                 <td class="pname">Sleep Duration</td>
                 <td>Neurological System</td>
                 <td class="change">7–9 hours (ages 18–64); 7–8 hours (ages 65+)</td>
@@ -145,19 +149,19 @@
         <table class="param-table">
             <thead><tr><th>Parameter</th><th>Body system</th><th>Typical healthy range</th><th>What it tells you</th></tr></thead>
             <tbody>
-            <tr>
+            <tr class="param-row" data-param="mood-stress" tabindex="0" role="button" aria-label="Mood &amp; Stress Level — details">
                 <td class="pname">Mood &amp; Stress Level</td>
                 <td>Neurological System</td>
                 <td class="change">PSS-10 score 0–13 (low stress); PHQ-9 score 0–4 (minimal depression); GAD-7 score 0–4 (minimal anxiety)</td>
                 <td>A self-reported assessment of psychological well-being, emotional state, and perceived stress burden.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="body-fat-percentage" tabindex="0" role="button" aria-label="Body Fat Percentage — details">
                 <td class="pname">Body Fat Percentage</td>
                 <td>Body Composition</td>
                 <td class="change">Men: Essential fat 2–5%, Athletes 6–13%, Fitness 14–17%, Acceptable 18–24%, Obese &gt;25%. Women: Essential fat 10–13%, Athletes 14–20%, Fitness 21–24%, Acceptable 25–31%, Obese &gt;32%.</td>
                 <td>The proportion of total body mass that is adipose tissue.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="total-body-water" tabindex="0" role="button" aria-label="Total Body Water — details">
                 <td class="pname">Total Body Water</td>
                 <td>Body Composition</td>
                 <td class="change">Men: 55–65% of body weight. Women: 45–55% of body weight.</td>
@@ -180,37 +184,37 @@
         <table class="param-table">
             <thead><tr><th>Parameter</th><th>Body system</th><th>Typical healthy range</th><th>What it tells you</th></tr></thead>
             <tbody>
-            <tr>
+            <tr class="param-row" data-param="blood-pressure-trend" tabindex="0" role="button" aria-label="Blood Pressure Trend — details">
                 <td class="pname">Blood Pressure Trend</td>
                 <td>Cardiovascular System</td>
                 <td class="change">Average home BP &lt;135/85 mmHg; average 24-hour ABPM &lt;130/80 mmHg</td>
                 <td>A longitudinal analysis of blood pressure readings over time to identify patterns such as sustained hypertension, white-coat effect, masked hypertension, or nocturnal dipping patterns.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="reaction-time" tabindex="0" role="button" aria-label="Reaction Time — details">
                 <td class="pname">Reaction Time</td>
                 <td>Neurological System</td>
                 <td class="change">Simple reaction time: 150–300 ms (visual), 120–180 ms (auditory). Choice reaction time: 300–500 ms.</td>
                 <td>The time elapsed between presentation of a stimulus and the initiation of a motor response.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="waist-circumference" tabindex="0" role="button" aria-label="Waist Circumference — details">
                 <td class="pname">Waist Circumference</td>
                 <td>Body Composition</td>
                 <td class="change">Men: &lt;94 cm (&lt;37 inches) normal, 94–102 cm increased risk, &gt;102 cm (&gt;40 inches) substantially increased risk. Women: &lt;80 cm (&lt;31.5 inches) normal, 80–88 cm increased risk, &gt;88 cm (&gt;35 inches) substantially increased risk.</td>
                 <td>The circumference of the abdomen measured at the midpoint between the lower rib margin and the iliac crest.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="lean-body-mass" tabindex="0" role="button" aria-label="Lean Body Mass — details">
                 <td class="pname">Lean Body Mass</td>
                 <td>Body Composition</td>
                 <td class="change">Varies by sex, height, and age. Appendicular skeletal muscle mass index (ASMI = appendicular lean mass / height²): Men: &gt;7.0 kg/m². Women: &gt;5.5 kg/m².</td>
                 <td>Total body weight minus fat mass, comprising muscle, bone, water, organs, and connective tissue.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="waist-hip-ratio" tabindex="0" role="button" aria-label="Waist-to-Hip Ratio — details">
                 <td class="pname">Waist-to-Hip Ratio</td>
                 <td>Body Composition</td>
                 <td class="change">Men: &lt;0.90 (low risk), 0.90–0.99 (moderate), ≥1.0 (high risk). Women: &lt;0.80 (low risk), 0.80–0.85 (moderate), &gt;0.85 (high risk).</td>
                 <td>The ratio of waist circumference to hip circumference, indicating body fat distribution.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="menstrual-cycle" tabindex="0" role="button" aria-label="Menstrual Cycle Tracking — details">
                 <td class="pname">Menstrual Cycle Tracking</td>
                 <td>Reproductive System</td>
                 <td class="change">Cycle length: 21–35 days; Flow duration: 3–7 days; Blood loss: 5–80 mL per cycle (&gt;80 mL = heavy menstrual bleeding)</td>
@@ -233,49 +237,49 @@
         <table class="param-table">
             <thead><tr><th>Parameter</th><th>Body system</th><th>Typical healthy range</th><th>What it tells you</th></tr></thead>
             <tbody>
-            <tr>
+            <tr class="param-row" data-param="hba1c" tabindex="0" role="button" aria-label="Hemoglobin A1c — details">
                 <td class="pname">Hemoglobin A1c</td>
                 <td>Metabolic &amp; Endocrine System</td>
                 <td class="change">Normal: &lt;5.7%; Prediabetes: 5.7–6.4%; Diabetes: ≥6.5%</td>
                 <td>The percentage of hemoglobin that has glucose attached, reflecting average blood glucose levels over the preceding 2–3 months.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="tsh-monitoring" tabindex="0" role="button" aria-label="TSH Monitoring (On Treatment) — details">
                 <td class="pname">TSH Monitoring (On Treatment)</td>
                 <td>Metabolic &amp; Endocrine System</td>
                 <td class="change">Target TSH: 0.5–2.5 mIU/L for most patients on levothyroxine; 0.1–0.5 for thyroid cancer suppression therapy</td>
                 <td>Regular TSH monitoring for patients on thyroid hormone replacement or antithyroid medications.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="lipid-panel-monitoring" tabindex="0" role="button" aria-label="Lipid Panel Monitoring (On Treatment) — details">
                 <td class="pname">Lipid Panel Monitoring (On Treatment)</td>
                 <td>Lipid &amp; Cardiovascular Risk</td>
                 <td class="change">On high-intensity statin: expect ≥50% LDL reduction. On moderate-intensity: 30–49% reduction. Specific targets depend on risk category.</td>
                 <td>Regular lipid panel monitoring for patients on lipid-lowering therapy (statins, ezetimibe, PCSK9 inhibitors, fibrates).</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="cortisol" tabindex="0" role="button" aria-label="Cortisol — details">
                 <td class="pname">Cortisol</td>
                 <td>Neurological System</td>
                 <td class="change">Morning (6–8 AM): 10–20 mcg/dL (276–552 nmol/L); Evening: 3–10 mcg/dL</td>
                 <td>The primary glucocorticoid stress hormone produced by the adrenal cortex.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="crp" tabindex="0" role="button" aria-label="C-Reactive Protein — details">
                 <td class="pname">C-Reactive Protein</td>
                 <td>Immunological System</td>
                 <td class="change">hs-CRP &lt;1.0 mg/L (low cardiovascular risk); 1.0–3.0 mg/L (moderate risk); &gt;3.0 mg/L (high risk). Standard CRP &lt;10 mg/L.</td>
                 <td>An acute-phase protein produced by the liver in response to inflammation.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="esr" tabindex="0" role="button" aria-label="Erythrocyte Sedimentation Rate — details">
                 <td class="pname">Erythrocyte Sedimentation Rate</td>
                 <td>Immunological System</td>
                 <td class="change">Men: 0–15 mm/hr (age &lt;50), 0–20 mm/hr (age &gt;50). Women: 0–20 mm/hr (age &lt;50), 0–30 mm/hr (age &gt;50).</td>
                 <td>A nonspecific marker of inflammation that measures how quickly red blood cells settle to the bottom of a test tube in one hour.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="prealbumin" tabindex="0" role="button" aria-label="Prealbumin (Transthyretin) — details">
                 <td class="pname">Prealbumin (Transthyretin)</td>
                 <td>Nutritional Markers</td>
                 <td class="change">20–40 mg/dL (200–400 mg/L)</td>
                 <td>A hepatic transport protein with a short half-life (2–3 days) that makes it a sensitive marker of recent nutritional status and protein-calorie intake.</td>
             </tr>
-            <tr>
+            <tr class="param-row" data-param="visceral-fat" tabindex="0" role="button" aria-label="Visceral Fat Area — details">
                 <td class="pname">Visceral Fat Area</td>
                 <td>Body Composition</td>
                 <td class="change">CT/MRI: VFA &lt;100 cm² (low risk), 100–130 cm² (moderate), &gt;130 cm² (high risk). BIA visceral fat level: 1–9 (normal), 10–14 (high), ≥15 (very high).</td>
@@ -296,7 +300,7 @@
             function, thyroid, vitamins, and blood counts. In the app, each one has its range,
             interpretation, and links to the conditions it flags.</p>
         </div>
-        <div class="chips"><span class="chip">Hemoglobin</span><span class="chip">White Blood Cell Count</span><span class="chip">Platelet Count</span><span class="chip">Fasting Plasma Glucose (Lab)</span><span class="chip">Thyroid Stimulating Hormone</span><span class="chip">Total Cholesterol</span><span class="chip">LDL Cholesterol</span><span class="chip">HDL Cholesterol</span><span class="chip">Triglycerides</span><span class="chip">Alanine Aminotransferase</span><span class="chip">Creatinine / eGFR</span><span class="chip">Urinalysis</span><span class="chip">Cognitive Function Score</span><span class="chip">Immunoglobulin G (Total)</span><span class="chip">Immunoglobulin A (Total)</span><span class="chip">Total IgE</span><span class="chip">Vitamin A (Retinol)</span><span class="chip">Vitamin B1 (Thiamine)</span><span class="chip">Vitamin B2 (Riboflavin)</span><span class="chip">Vitamin B3 (Niacin)</span><span class="chip">Vitamin B5 (Pantothenic Acid)</span><span class="chip">Vitamin B6 (Pyridoxine)</span><span class="chip">Vitamin B7 (Biotin)</span><span class="chip">Folate (Vitamin B9)</span><span class="chip">Vitamin B12 (Cobalamin)</span><span class="chip">Vitamin C (Ascorbic Acid)</span><span class="chip">Vitamin D (25-Hydroxyvitamin D)</span><span class="chip">Vitamin E (Alpha-Tocopherol)</span><span class="chip">Vitamin K</span><span class="chip">Ferritin</span><span class="chip">Total Iron-Binding Capacity</span><span class="chip">Transferrin Saturation</span><span class="chip">Zinc</span><span class="chip">Selenium</span><span class="chip">Copper</span><span class="chip">Iodine</span><span class="chip">RBC Magnesium</span><span class="chip">Omega-3 Index</span><span class="chip">Body Mass Index</span><span class="chip">Bone Mineral Content</span></div>
+        <div class="chips"><span class="chip param-chip" data-param="cbc-hemoglobin" tabindex="0" role="button" aria-label="Hemoglobin — details">Hemoglobin</span><span class="chip param-chip" data-param="cbc-wbc" tabindex="0" role="button" aria-label="White Blood Cell Count — details">White Blood Cell Count</span><span class="chip param-chip" data-param="cbc-platelets" tabindex="0" role="button" aria-label="Platelet Count — details">Platelet Count</span><span class="chip param-chip" data-param="fasting-glucose-lab" tabindex="0" role="button" aria-label="Fasting Plasma Glucose (Lab) — details">Fasting Plasma Glucose (Lab)</span><span class="chip param-chip" data-param="tsh" tabindex="0" role="button" aria-label="Thyroid Stimulating Hormone — details">Thyroid Stimulating Hormone</span><span class="chip param-chip" data-param="total-cholesterol" tabindex="0" role="button" aria-label="Total Cholesterol — details">Total Cholesterol</span><span class="chip param-chip" data-param="ldl-cholesterol" tabindex="0" role="button" aria-label="LDL Cholesterol — details">LDL Cholesterol</span><span class="chip param-chip" data-param="hdl-cholesterol" tabindex="0" role="button" aria-label="HDL Cholesterol — details">HDL Cholesterol</span><span class="chip param-chip" data-param="triglycerides" tabindex="0" role="button" aria-label="Triglycerides — details">Triglycerides</span><span class="chip param-chip" data-param="alt" tabindex="0" role="button" aria-label="Alanine Aminotransferase — details">Alanine Aminotransferase</span><span class="chip param-chip" data-param="creatinine-egfr" tabindex="0" role="button" aria-label="Creatinine / eGFR — details">Creatinine / eGFR</span><span class="chip param-chip" data-param="urinalysis" tabindex="0" role="button" aria-label="Urinalysis — details">Urinalysis</span><span class="chip param-chip" data-param="cognitive-function" tabindex="0" role="button" aria-label="Cognitive Function Score — details">Cognitive Function Score</span><span class="chip param-chip" data-param="igg-total" tabindex="0" role="button" aria-label="Immunoglobulin G (Total) — details">Immunoglobulin G (Total)</span><span class="chip param-chip" data-param="iga-total" tabindex="0" role="button" aria-label="Immunoglobulin A (Total) — details">Immunoglobulin A (Total)</span><span class="chip param-chip" data-param="allergy-ige" tabindex="0" role="button" aria-label="Total IgE — details">Total IgE</span><span class="chip param-chip" data-param="vitamin-a" tabindex="0" role="button" aria-label="Vitamin A (Retinol) — details">Vitamin A (Retinol)</span><span class="chip param-chip" data-param="vitamin-b1" tabindex="0" role="button" aria-label="Vitamin B1 (Thiamine) — details">Vitamin B1 (Thiamine)</span><span class="chip param-chip" data-param="vitamin-b2" tabindex="0" role="button" aria-label="Vitamin B2 (Riboflavin) — details">Vitamin B2 (Riboflavin)</span><span class="chip param-chip" data-param="vitamin-b3" tabindex="0" role="button" aria-label="Vitamin B3 (Niacin) — details">Vitamin B3 (Niacin)</span><span class="chip param-chip" data-param="vitamin-b5" tabindex="0" role="button" aria-label="Vitamin B5 (Pantothenic Acid) — details">Vitamin B5 (Pantothenic Acid)</span><span class="chip param-chip" data-param="vitamin-b6" tabindex="0" role="button" aria-label="Vitamin B6 (Pyridoxine) — details">Vitamin B6 (Pyridoxine)</span><span class="chip param-chip" data-param="vitamin-b7" tabindex="0" role="button" aria-label="Vitamin B7 (Biotin) — details">Vitamin B7 (Biotin)</span><span class="chip param-chip" data-param="folate" tabindex="0" role="button" aria-label="Folate (Vitamin B9) — details">Folate (Vitamin B9)</span><span class="chip param-chip" data-param="vitamin-b12" tabindex="0" role="button" aria-label="Vitamin B12 (Cobalamin) — details">Vitamin B12 (Cobalamin)</span><span class="chip param-chip" data-param="vitamin-c" tabindex="0" role="button" aria-label="Vitamin C (Ascorbic Acid) — details">Vitamin C (Ascorbic Acid)</span><span class="chip param-chip" data-param="vitamin-d" tabindex="0" role="button" aria-label="Vitamin D (25-Hydroxyvitamin D) — details">Vitamin D (25-Hydroxyvitamin D)</span><span class="chip param-chip" data-param="vitamin-e" tabindex="0" role="button" aria-label="Vitamin E (Alpha-Tocopherol) — details">Vitamin E (Alpha-Tocopherol)</span><span class="chip param-chip" data-param="vitamin-k" tabindex="0" role="button" aria-label="Vitamin K — details">Vitamin K</span><span class="chip param-chip" data-param="iron-ferritin" tabindex="0" role="button" aria-label="Ferritin — details">Ferritin</span><span class="chip param-chip" data-param="tibc" tabindex="0" role="button" aria-label="Total Iron-Binding Capacity — details">Total Iron-Binding Capacity</span><span class="chip param-chip" data-param="transferrin-saturation" tabindex="0" role="button" aria-label="Transferrin Saturation — details">Transferrin Saturation</span><span class="chip param-chip" data-param="zinc" tabindex="0" role="button" aria-label="Zinc — details">Zinc</span><span class="chip param-chip" data-param="selenium" tabindex="0" role="button" aria-label="Selenium — details">Selenium</span><span class="chip param-chip" data-param="copper" tabindex="0" role="button" aria-label="Copper — details">Copper</span><span class="chip param-chip" data-param="iodine" tabindex="0" role="button" aria-label="Iodine — details">Iodine</span><span class="chip param-chip" data-param="rbc-magnesium" tabindex="0" role="button" aria-label="RBC Magnesium — details">RBC Magnesium</span><span class="chip param-chip" data-param="omega-3-index" tabindex="0" role="button" aria-label="Omega-3 Index — details">Omega-3 Index</span><span class="chip param-chip" data-param="bmi" tabindex="0" role="button" aria-label="Body Mass Index — details">Body Mass Index</span><span class="chip param-chip" data-param="bone-mineral-content" tabindex="0" role="button" aria-label="Bone Mineral Content — details">Bone Mineral Content</span></div>
         <div class="app-plug">
             <img src="../assets/img/favicon.png" alt="" width="34" height="34">
             <p>These 64 are the essentials. The app carries all 201 parameters across 16 body systems — each with normal ranges, interpretation of high and low values, and disease links — and tracks yours over time, on your device. <a href="../#download">Get the app &rarr;</a></p>

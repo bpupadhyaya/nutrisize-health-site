@@ -415,6 +415,69 @@ body.nm-open { overflow: hidden; }
   font-size: 12px; color: #52655b; line-height: 1.5; }
 .nm-app a { color: #178a5e; font-weight: 700; }
 
+/* ---------------------------------------------------------------- Parameter detail popup */
+
+/* Tappable parameter rows & chips on /parameters/ */
+.param-table tbody tr.param-row { cursor: pointer; }
+.param-table tbody tr.param-row:hover { background: #f0f8f3; }
+.param-table tbody tr.param-row:focus-visible { outline: 2px solid #1fa971; outline-offset: -2px; }
+.param-row .pname { color: #0b3d2e; }
+.param-row .pname::after { content: " \203A"; color: #93a29a; font-weight: 700; }
+.chip.param-chip { cursor: pointer; }
+.chip.param-chip:hover { background: #d7efe3; }
+.chip.param-chip:focus-visible { outline: 2px solid #1fa971; outline-offset: 2px; }
+.chip.param-chip::after { content: " \203A"; color: #93a29a; font-weight: 700; }
+
+/* Audience tabs */
+.pd-tabs { display: flex; gap: 8px; margin: 14px 0 4px; border-bottom: 1px solid #dcebe3; }
+.pd-tab {
+  font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
+  padding: 9px 4px; margin-bottom: -1px; border: none; background: none;
+  color: #6b7f74; border-bottom: 2.5px solid transparent;
+}
+.pd-tab[aria-selected="true"] { color: #0b3d2e; border-bottom-color: #178a5e; }
+.pd-tab:focus-visible { outline: 2px solid #1fa971; outline-offset: 2px; }
+.pd-panel[hidden] { display: none; }
+.pd-pron { font-size: 13px; color: #6b7f74; font-style: italic; margin: 2px 0 0; }
+
+.pd-lead { font-size: 16px; line-height: 1.6; color: #12211b; margin: 14px 0 0; }
+.pd-analogy { margin: 12px 0 0; padding: 12px 14px; border-left: 3px solid #1fa971;
+  background: #f4faf7; border-radius: 0 10px 10px 0; font-size: 14px; line-height: 1.6; color: #40544a; }
+
+/* Labelled reference blocks inside the popup */
+.pd-sec { margin: 18px 0 0; }
+.pd-sec > h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em;
+  color: #178a5e; margin: 0 0 8px; }
+.pd-hl { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+.pd-hl .pd-cell { padding: 11px 13px; border-radius: 10px; border: 1px solid #dcebe3; background: #fff; }
+.pd-hl .pd-cell.high { border-left: 3px solid #dc2626; }
+.pd-hl .pd-cell.low { border-left: 3px solid #1268b3; }
+.pd-hl .pd-cell.worry { border-left: 3px solid #dc2626; }
+.pd-hl .pd-cell.ok { border-left: 3px solid #178a5e; }
+.pd-hl .pd-k { display: block; font-size: 12px; font-weight: 700; color: #40544a; margin-bottom: 3px; }
+.pd-hl .pd-v { font-size: 13.5px; line-height: 1.55; color: #40544a; }
+.pd-row { font-size: 13.5px; line-height: 1.6; color: #40544a; margin: 6px 0 0; }
+.pd-row b { color: #0b3d2e; }
+.pd-pearl { margin: 12px 0 0; padding: 12px 14px; border-radius: 10px;
+  background: #eef5fb; border: 1px solid #d5e6f5; font-size: 13.5px; line-height: 1.6; color: #234; }
+.pd-pearl b { color: #0b4f8a; }
+.pd-codes { display: inline-flex; gap: 8px; flex-wrap: wrap; }
+.pd-code { font-family: ui-monospace, Menlo, monospace; font-size: 12px; background: #f4faf7;
+  border: 1px solid #dcebe3; border-radius: 7px; padding: 3px 8px; color: #40544a; }
+.pd-urgency { display: inline-block; font-size: 11px; font-weight: 800; text-transform: uppercase;
+  border-radius: 999px; padding: 1px 8px; margin-left: 6px; }
+.pd-urgency.emergency, .pd-urgency.urgent { background: #fdecea; color: #b91c1c; }
+.pd-urgency.soon { background: #fdf6e9; color: #92610a; }
+.pd-urgency.routine, .pd-urgency.monitor { background: #e3f5ec; color: #14684c; }
+
+/* Gated-detail plug inside the clinical tab */
+.pd-gate { margin: 18px 0 0; padding: 16px 18px; border-radius: 12px;
+  background: linear-gradient(120deg, #f4faf7, #eef5fb); border: 1px dashed #bcd8ca; }
+.pd-gate h4 { margin: 0 0 4px; font-size: 14px; color: #0b3d2e; }
+.pd-gate p { margin: 0; font-size: 13.5px; line-height: 1.55; color: #40544a; }
+.pd-gate .pd-stores { display: flex; gap: 10px; margin: 12px 0 0; }
+.pd-gate .pd-stores img { height: 38px; width: auto; }
+
 /* Feature-specific IAP plug: free-here vs unlocked-in-app pitch + store badges. */
 .iap-plug {
   display: flex; align-items: center; gap: 18px; flex-wrap: wrap;

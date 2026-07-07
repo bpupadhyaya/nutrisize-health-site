@@ -9,9 +9,30 @@ Usage: python3 scripts/render_parameters.py   (idempotent)
 import json
 import os
 
-from render_plans import ROOT, SITE, app_plug, esc, footer, head, nav, DISCLAIMER
+import re
+
+from render_plans import (ROOT, SITE, app_plug, asset_v, esc, footer, head, nav,
+                          store_urls, DISCLAIMER)
 
 DATA = os.path.join(ROOT, "scripts", "physiology_tracking.json")
+DETAILS = os.path.join(ROOT, "assets", "data", "free", "parameter-details.json")
+
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9]", "", str(s).lower())
+
+
+def attach_ids(tracked):
+    """Match each tracked parameter to its id in parameter-details.json (by
+    name) so rows/chips can open the detail popup. Silently skips if the detail
+    export hasn't been generated yet."""
+    if not os.path.exists(DETAILS):
+        return
+    with open(DETAILS) as f:
+        details = json.load(f)["parameters"]
+    by_name = {_norm(p["name"]): p["id"] for p in details}
+    for t in tracked:
+        t["id"] = by_name.get(_norm(t["name"]), "")
 
 CADENCES = [
     ("daily", "Daily", "Quick self-checks — no lab needed, most take under a minute."),
@@ -22,7 +43,7 @@ CADENCES = [
 
 
 def cadence_table(rows):
-    body = "".join(f"""            <tr>
+    body = "".join(f"""            <tr class="param-row" data-param="{esc(r.get("id", ""))}" tabindex="0" role="button" aria-label="{esc(r["name"])} — details">
                 <td class="pname">{esc(r["name"])}</td>
                 <td>{esc(r["system"])}</td>
                 <td class="change">{esc(r["range"])}</td>
@@ -89,7 +110,9 @@ def page(data):
     canonical = f"{SITE}/parameters/"
     prefix = "../"
 
-    jsonld = f"""    <script type="application/ld+json">
+    jsonld = f"""    <link rel="stylesheet" href="{prefix}assets/css/explorer.css?v={asset_v('assets/css/explorer.css')}">
+    <script src="{prefix}assets/js/param-detail.js?v={asset_v('assets/js/param-detail.js')}" defer></script>
+    <script type="application/ld+json">
     {{
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -100,7 +123,10 @@ def page(data):
     }}
     </script>
 """
+    ios, android = store_urls("parameters-detail")
     html = head(title, desc, canonical, prefix, jsonld) + nav(prefix)
+    html += (f'\n<span id="pd-app-links" hidden data-ios="{esc(ios)}" '
+             f'data-android="{esc(android)}"></span>\n')
     html += f"""
 <header class="hero hero-sub">
     <div class="wrap">
@@ -137,7 +163,10 @@ def page(data):
 """
 
     annual = by_freq.get("annual", [])
-    chips = "".join(f'<span class="chip">{esc(t["name"])}</span>' for t in annual)
+    chips = "".join(
+        f'<span class="chip param-chip" data-param="{esc(t.get("id", ""))}" tabindex="0" '
+        f'role="button" aria-label="{esc(t["name"])} — details">{esc(t["name"])}</span>'
+        for t in annual)
     html += f"""
 <section class="tint">
     <div class="wrap">
@@ -168,6 +197,7 @@ def page(data):
 def main():
     with open(DATA) as f:
         data = json.load(f)
+    attach_ids(data["tracked"])
     out_dir = os.path.join(ROOT, "parameters")
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w") as f:
