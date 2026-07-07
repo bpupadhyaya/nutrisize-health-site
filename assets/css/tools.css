@@ -1,0 +1,56 @@
+/* Nutrisize — interactive marketing tools (what-if simulator, KPI demo).
+   Builds on style.css tokens; shares the ws-* form look from plans.css. */
+
+.tool-grid { display: grid; grid-template-columns: minmax(260px, 340px) 1fr; gap: 24px; align-items: start; }
+@media (max-width: 780px) { .tool-grid { grid-template-columns: 1fr; } }
+
+.tool-panel { background: #fff; border: 1px solid var(--line); border-radius: 16px;
+  padding: 20px 22px; box-shadow: var(--shadow); }
+.tool-panel h3 { color: var(--green-900); font-size: 16px; margin: 0 0 14px; }
+.tool-field { margin: 0 0 12px; }
+.tool-field label { display: block; font-size: 13px; font-weight: 600; color: var(--ink-soft); margin-bottom: 5px; }
+.tool-field input, .tool-field select {
+  width: 100%; font: inherit; font-size: 14px; color: var(--ink);
+  padding: 9px 11px; border: 1px solid var(--line); border-radius: 10px; background: #fff;
+}
+.tool-field input:focus, .tool-field select:focus {
+  outline: none; border-color: var(--green-500); box-shadow: 0 0 0 3px rgba(31,169,113,.14);
+}
+.tool-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+/* Range slider with live value */
+.tool-slider .tool-slabel { display: flex; justify-content: space-between; align-items: baseline; }
+.tool-slider .tool-sval { font-weight: 800; color: var(--green-700); font-size: 14px; }
+.tool-slider input[type="range"] { width: 100%; accent-color: var(--green-600); margin-top: 6px; }
+
+/* Result hero + chart card */
+.tool-out { background: linear-gradient(120deg, #f4faf7, #eef5fb);
+  border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; }
+.tool-hero { display: flex; flex-wrap: wrap; gap: 22px 34px; align-items: flex-end; margin-bottom: 8px; }
+.tool-stat .v { font-size: 34px; font-weight: 900; color: var(--green-900); letter-spacing: -0.02em; line-height: 1; }
+.tool-stat .v.delta-down { color: var(--green-600); }
+.tool-stat .v.delta-up { color: var(--blue-700); }
+.tool-stat .k { font-size: 12.5px; color: var(--ink-faint); margin-top: 6px; }
+.tool-chart { margin-top: 14px; }
+.tool-chart svg { width: 100%; height: auto; display: block; }
+.tool-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; font-size: 12.5px; color: var(--ink-soft); }
+.tool-legend .lg { display: inline-flex; align-items: center; gap: 6px; }
+.tool-legend .sw { width: 22px; height: 3px; border-radius: 2px; display: inline-block; }
+.tool-legend .sw.solid { background: #178a5e; }
+.tool-legend .sw.dash { background: repeating-linear-gradient(90deg,#93a29a 0 5px,transparent 5px 9px); height: 2px; }
+.tool-note { font-size: 12.5px; color: var(--ink-faint); line-height: 1.55; margin-top: 14px; }
+
+/* KPI demo grid */
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.kpi-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 15px 16px; }
+.kpi-card .kpi-name { font-size: 13px; font-weight: 700; color: var(--green-900); }
+.kpi-card .kpi-score { font-size: 30px; font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; margin: 4px 0 2px; }
+.kpi-card .kpi-status { font-size: 12px; font-weight: 700; }
+.kpi-s-excellent { color: #14684c; } .kpi-s-good { color: #178a5e; }
+.kpi-s-fair { color: #b45309; } .kpi-s-attention { color: #b91c1c; }
+.kpi-card .kpi-spark { margin-top: 8px; }
+.kpi-card .kpi-spark svg { width: 100%; height: 34px; display: block; }
+.kpi-band { display: inline-block; height: 6px; border-radius: 3px; margin-top: 8px; width: 100%;
+  background: linear-gradient(90deg,#dc2626,#d97706,#1fa971); position: relative; }
+.kpi-band .kpi-dot { position: absolute; top: -3px; width: 12px; height: 12px; border-radius: 50%;
+  background: #fff; border: 2.5px solid #0b3d2e; transform: translateX(-50%); }
