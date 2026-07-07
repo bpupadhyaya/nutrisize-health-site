@@ -300,9 +300,10 @@ def site_page():
             Nutrisize Health
         </a>
         <ul class="nav-links">
-            <li><a href="../../#features">Features</a></li>
             <li><a href="../">Plans</a></li>
-            <li><a href="../../#privacy">Privacy</a></li>
+            <li><a href="../../foods/">Foods</a></li>
+            <li><a href="../../connections/">Connections</a></li>
+            <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../about/">About</a></li>
             <li><a href="../../support/">Support</a></li>
             <li><a href="../../#download" class="nav-cta">Get the App</a></li>
@@ -335,8 +336,11 @@ def site_page():
 <footer>
     <div class="footer-inner">
         <ul class="footer-links">
-            <li><a href="../../about/">About</a></li>
             <li><a href="../">Plans</a></li>
+            <li><a href="../../foods/">Foods</a></li>
+            <li><a href="../../connections/">Connections</a></li>
+            <li><a href="../../parameters/">Parameters</a></li>
+            <li><a href="../../about/">About</a></li>
             <li><a href="../../privacy/">Privacy Policy</a></li>
             <li><a href="../../disclaimer/">Disclaimer</a></li>
             <li><a href="../../support/">Support</a></li>

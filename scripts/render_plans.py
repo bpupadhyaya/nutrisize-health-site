@@ -362,10 +362,10 @@ def nav(prefix, here="plans"):
             Nutrisize Health
         </a>
         <ul class="nav-links">
-            <li><a href="{prefix}#features">Features</a></li>
             <li><a href="{prefix}plans/">Plans</a></li>
+            <li><a href="{prefix}foods/">Foods</a></li>
+            <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
-            <li><a href="{prefix}#privacy">Privacy</a></li>
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}support/">Support</a></li>
             <li><a href="{prefix}#download" class="nav-cta">Get the App</a></li>
@@ -381,9 +381,11 @@ def footer(prefix):
 <footer>
     <div class="footer-inner">
         <ul class="footer-links">
-            <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}plans/">Plans</a></li>
+            <li><a href="{prefix}foods/">Foods</a></li>
+            <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}parameters/">Parameters</a></li>
+            <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}privacy/">Privacy Policy</a></li>
             <li><a href="{prefix}disclaimer/">Disclaimer</a></li>
             <li><a href="{prefix}support/">Support</a></li>
