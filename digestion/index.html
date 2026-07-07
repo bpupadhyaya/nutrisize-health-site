@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meet your Coach — Adaptive Plans, Insights &amp; Your 10 Health KPIs | Nutrisize Health</title>
-    <meta name="description" content="The intelligence behind Nutrisize Health: adaptive weekly plans, an on-device AI coach, cross-domain insights, forecasts, and a monthly doctor report — built on your own data. Try the live 10-KPI demo.">
-    <link rel="canonical" href="https://nutrisize.health/coach/">
-    <meta property="og:title" content="Meet your Coach — Adaptive Plans, Insights &amp; Your 10 Health KPIs | Nutrisize Health">
-    <meta property="og:description" content="The intelligence behind Nutrisize Health: adaptive weekly plans, an on-device AI coach, cross-domain insights, forecasts, and a monthly doctor report — built on your own data. Try the live 10-KPI demo.">
-    <meta property="og:url" content="https://nutrisize.health/coach/">
+    <title>Digestion Time &amp; Sleep-Impact Calculator — Will Your Dinner Keep You Up? | Nutrisize Health</title>
+    <meta name="description" content="See how long foods take to digest and whether your evening meal is still working at bedtime. Plus digestion times by food group and how food combinations slow things down. Free and instant.">
+    <link rel="canonical" href="https://nutrisize.health/digestion/">
+    <meta property="og:title" content="Digestion Time &amp; Sleep-Impact Calculator — Will Your Dinner Keep You Up? | Nutrisize Health">
+    <meta property="og:description" content="See how long foods take to digest and whether your evening meal is still working at bedtime. Plus digestion times by food group and how food combinations slow things down. Free and instant.">
+    <meta property="og:url" content="https://nutrisize.health/digestion/">
     <meta property="og:image" content="https://nutrisize.health/assets/img/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -26,16 +26,12 @@
     <script src="../assets/js/plan-popup.js?v=be53226f" defer></script>
     <script src="../assets/js/ref-modal.js?v=af96fb64" defer></script>
     <link rel="stylesheet" href="../assets/css/tools.css?v=e46e227e">
-    <script src="../assets/js/kpi-demo.js?v=54379378" defer></script>
+    <link rel="stylesheet" href="../assets/css/explorer.css?v=b797d4c5">
+    <script src="../assets/js/digestion.js?v=ae82254f" defer></script>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nutrisize.health/"},
-        {"@type": "ListItem", "position": 2, "name": "Meet your Coach", "item": "https://nutrisize.health/coach/"}
-      ]
-    }
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://nutrisize.health/"},
+      {"@type":"ListItem","position":2,"name":"Digestion & Sleep","item":"https://nutrisize.health/digestion/"}]}
     </script>
 </head>
 <body>
@@ -62,128 +58,79 @@
 
 <header class="hero hero-sub">
     <div class="wrap">
-        <h1>Meet your <span class="accent">Coach</span></h1>
-        <p class="tagline">The databases are yours to keep. The Coach works for you every week.</p>
+        <h1>Digestion &amp; <span class="accent">Sleep</span></h1>
+        <p class="tagline">Will tonight's dinner still be digesting when you go to bed?</p>
         <p class="lede">
-            The Nutrisize Health libraries tell you <em>what</em> is true. The Coach is the layer
-            that turns your own tracked data into <em>guidance</em> — adaptive plans, insights you
-            would never spot by eye, and a clear read on where you are headed. It gets sharper the
-            longer you use it.
+            Eating too close to bedtime, or too heavy, can leave your body still digesting when
+            you're trying to sleep. Build your evening meal below, set your dinner and bedtime, and
+            see where you land &mdash; then browse how long different foods and combinations take.
         </p>
-        
     </div>
 </header>
 
-<section class="tint">
-    <div class="wrap">
-        <div class="section-head">
-            <span class="kicker">What the Coach does</span>
-            <h2>Intelligence, built on your data</h2>
-            <p>Six ways the app works for you between check-ins — all private, all on your device.</p>
-        </div>
-        <div class="grid">
-            <div class="card">
-                <div class="icon">&#128197;</div>
-                <h3>Adaptive weekly plans</h3>
-                <p>Your meal and exercise week rebuilds itself from what you actually logged, your goals, and your trend — and adjusts when progress stalls.</p>
-            </div>
-            <div class="card">
-                <div class="icon blue">&#128172;</div>
-                <h3>AI coach, on your data</h3>
-                <p>Ask anything and get answers grounded in your own numbers and a knowledge base of 4,995 foods, 5,404 exercises, and 201 parameters — private, on your device.</p>
-            </div>
-            <div class="card">
-                <div class="icon">&#128279;</div>
-                <h3>Cross-domain insights</h3>
-                <p>It connects the dots across sleep, food, activity, and vitals — surfacing what is actually moving your numbers, week over week.</p>
-            </div>
-            <div class="card">
-                <div class="icon blue">&#128200;</div>
-                <h3>Trend forecasts</h3>
-                <p>See where your weight and health KPIs are heading, and how a change today bends the curve months out.</p>
-            </div>
-            <div class="card">
-                <div class="icon">&#129658;</div>
-                <h3>Monthly doctor report</h3>
-                <p>A clean, shareable summary of your trends and ranges — ready to bring to your next appointment.</p>
-            </div>
-            <div class="card">
-                <div class="icon blue">&#128276;</div>
-                <h3>Smart, gentle nudges</h3>
-                <p>Context-aware reminders that adapt to your day and your goals — never generic, never noisy.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section>
     <div class="wrap">
-        <div class="section-head">
-            <span class="kicker">Live demo</span>
-            <h2>Your 10 health KPIs, scored in real time</h2>
-            <p>The app scores ten dimensions of your health from what you log. Move the sliders to
-            see how everyday habits shift the scores — the same ten the Coach watches for you.</p>
-        </div>
         <div class="tool-grid">
-            <div class="tool-panel" id="kpi-inputs"></div>
-            <div>
-                <div class="tool-out" style="margin-bottom:16px; display:flex; align-items:baseline; gap:16px;">
-                    <div class="tool-stat"><div class="v" id="kpi-overall">–</div>
-                        <div class="k">Overall wellness score</div></div>
-                    <p class="tool-note" style="margin:0; flex:1; min-width:200px;">A weighted read across all
-                    ten. In the app this is computed from your real logs and trends, not sliders.</p>
+            <div class="tool-panel">
+                <h3>&#127869;&#65039; Tonight's meal</h3>
+                <div class="tool-field">
+                    <label for="dg-search">Add a food</label>
+                    <input id="dg-search" list="dg-foods" placeholder="Type a food&hellip;" autocomplete="off">
+                    <datalist id="dg-foods"></datalist>
                 </div>
-                <div class="kpi-grid" id="kpi-cards"></div>
+                <p style="margin:0 0 14px"><button class="btn outline" id="dg-add" type="button" style="padding:8px 16px">Add to meal</button></p>
+                <div class="tool-row2">
+                    <div class="tool-field"><label for="dg-dinner">Dinner time</label>
+                        <input id="dg-dinner" type="time" value="18:30"></div>
+                    <div class="tool-field"><label for="dg-bed">Bedtime</label>
+                        <input id="dg-bed" type="time" value="22:30"></div>
+                </div>
+                <p class="tool-note">Times digesting are estimates from food type — actual digestion
+                varies with portion, health, and metabolism.</p>
             </div>
+            <div class="tool-out" id="dg-result"></div>
         </div>
-        <p class="tool-note" style="max-width:760px">Illustrative scoring for the demo. In the app,
-        each KPI is computed from your logged nutrition, activity, sleep, and vitals — with a
-        seven-day trend and specific, ranked recommendations.</p>
-    </div>
-</section>
 
-<section class="tint">
-    <div class="wrap">
-        <div class="section-head">
-            <span class="kicker">Insights you would miss by eye</span>
-            <h2>It connects what happens across your week</h2>
-            <p>Examples of the cross-domain patterns the Coach surfaces from your own history.</p>
-        </div>
-        <div class="grid">
-            <div class="card">
-                <span class="kicker">Sleep &times; heart rate</span>
-                <p style="margin-top:10px">Your resting heart rate ran 4 bpm higher on weeks you slept under 6.5 hours — a signal your recovery was running short.</p>
-            </div>
-            <div class="card">
-                <span class="kicker">Steps &times; sleep</span>
-                <p style="margin-top:10px">On days you passed 8,000 steps, you fell asleep faster and slept about 40 minutes longer that night.</p>
-            </div>
-            <div class="card">
-                <span class="kicker">Late meals &times; morning glucose</span>
-                <p style="margin-top:10px">Dinners after 9pm tracked with higher fasting glucose the next morning — worth shifting earlier.</p>
-            </div>
-        </div>
-        <p style="text-align:center; margin-top:30px">
-            <a class="btn outline" href="../simulator/">Try the what-if simulator &rarr;</a>
-            <a class="btn outline" href="../digestion/" style="margin-left:10px">Digestion &amp; sleep tool &rarr;</a>
-        </p>
-    </div>
-</section>
-
-<section>
-    <div class="wrap">
         <div class="iap-plug">
             <img class="iap-icon" src="../assets/img/icon-192.png" alt="" width="52" height="52">
             <div class="iap-copy">
-                <strong>Ready when you are.</strong>
-                <p>Adaptive plans, the AI coach, insights, forecasts, and your monthly doctor report live in the Nutrisize Health app — learning from your data, working on your device. Download free and start building your picture.</p>
+                <strong>Time your meals to your sleep, every day.</strong>
+                <p>The Nutrisize Health app knows the digestion profile of thousands of foods and can nudge you when a late, heavy meal might cost you sleep — tuned to what you actually eat and when. Private, on your device.</p>
             </div>
             <div class="iap-stores">
                 <a href="https://apps.apple.com/us/app/nutrisize-health/id6762168316" target="_blank" rel="noopener"><img src="../assets/img/app-store-badge.svg" alt="Download on the App Store" height="40"></a>
-                <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health&referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Dcoach" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.nutrisize.health&referrer=utm_source%3Dnutrisize.health%26utm_medium%3Dweb%26utm_campaign%3Ddigestion" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
             </div>
         </div>
 
+    </div>
+</section>
+
+<section class="tint">
+    <div class="wrap">
+        <div class="section-head">
+            <span class="kicker">Reference</span>
+            <h2>How long food takes to digest, by group</h2>
+            <p>Total time to clear the stomach and absorb, fastest first.</p>
+        </div>
+        <div class="table-scroll"><table class="param-table"><thead><tr>
+            <th>Food group</th><th>Time to digest</th><th>Why</th></tr></thead>
+            <tbody><tr><td class="pname">Beverages</td><td class="change">0.5&ndash;1.5 h</td><td>Liquids fastest to process</td></tr><tr><td class="pname">Spices</td><td class="change">1.0&ndash;2.5 h</td><td>Small quantities, fast absorption</td></tr><tr><td class="pname">Fruits</td><td class="change">1.5&ndash;3.5 h</td><td>Simple sugars absorb fastest</td></tr><tr><td class="pname">Eggs</td><td class="change">2.0&ndash;4.5 h</td><td>Complete protein, moderate digestion</td></tr><tr><td class="pname">Superfoods</td><td class="change">2.0&ndash;5.0 h</td><td>Concentrated nutrients</td></tr><tr><td class="pname">Vegetables</td><td class="change">2.5&ndash;5.5 h</td><td>Fiber slows digestion</td></tr><tr><td class="pname">Seeds</td><td class="change">2.5&ndash;6.0 h</td><td>Similar to nuts but smaller portions</td></tr><tr><td class="pname">Dairy</td><td class="change">2.5&ndash;5.5 h</td><td>Varies by fat content</td></tr><tr><td class="pname">Seafood</td><td class="change">2.5&ndash;6.0 h</td><td>Fish digests faster than meat</td></tr><tr><td class="pname">Snacks</td><td class="change">2.5&ndash;6.0 h</td><td>Depends on fat and fiber content</td></tr><tr><td class="pname">Grains</td><td class="change">3.0&ndash;6.5 h</td><td>Complex carbs, moderate digestion</td></tr><tr><td class="pname">Nuts</td><td class="change">3.0&ndash;7.0 h</td><td>High fat content slows digestion</td></tr><tr><td class="pname">Nut Products</td><td class="change">3.0&ndash;7.0 h</td><td>Processed nuts, similar to whole nuts</td></tr><tr><td class="pname">Poultry</td><td class="change">3.0&ndash;7.0 h</td><td>Lean protein</td></tr><tr><td class="pname">Spreads Fats</td><td class="change">3.0&ndash;7.0 h</td><td>Emulsified fats, moderate digestion</td></tr><tr><td class="pname">Processed</td><td class="change">3.0&ndash;7.0 h</td><td>Varies widely by composition</td></tr><tr><td class="pname">Legumes</td><td class="change">3.5&ndash;8.0 h</td><td>High protein + fiber = slow digestion</td></tr><tr><td class="pname">Oils</td><td class="change">3.5&ndash;8.0 h</td><td>Pure fat slows gastric emptying</td></tr><tr><td class="pname">Fats</td><td class="change">3.5&ndash;8.0 h</td><td>Pure fat slows gastric emptying</td></tr><tr><td class="pname">Meat</td><td class="change">4.0&ndash;9.0 h</td><td>Red meat slowest to digest</td></tr></tbody></table></div>
+    </div>
+</section>
+
+<section>
+    <div class="wrap">
+        <div class="section-head">
+            <span class="kicker">Reference</span>
+            <h2>What slows digestion down</h2>
+            <p>Combinations on your plate change how long the whole meal takes.</p>
+        </div>
+        <div class="table-scroll" style="max-width:820px; margin:0 auto"><table class="param-table"><thead><tr>
+            <th>Combination</th><th>Adds</th><th>Effect</th></tr></thead>
+            <tbody><tr><td class="pname">Fat With Protein</td><td class="change">+0.5 h</td><td>Fat slows protein digestion by delaying gastric emptying</td></tr><tr><td class="pname">Fiber With Carbs</td><td class="change">+0.5 h</td><td>Soluble and insoluble fiber slow carbohydrate absorption</td></tr><tr><td class="pname">Acid With Minerals</td><td class="change">+-0.3 h</td><td>Vitamin C enhances iron and calcium absorption speed</td></tr><tr><td class="pname">Liquid With Solid</td><td class="change">+-0.25 h</td><td>Soups and stews digest faster than dry solid foods</td></tr><tr><td class="pname">Spice With Meal</td><td class="change">+-0.15 h</td><td>Ginger, black pepper, and cumin enhance gastric motility</td></tr><tr><td class="pname">Raw Vs Cooked</td><td class="change">+0.5 h</td><td>Raw foods take longer to break down than cooked equivalents</td></tr><tr><td class="pname">Fermented Food</td><td class="change">+-0.3 h</td><td>Fermentation pre-digests proteins and starches</td></tr><tr><td class="pname">High Gimeal</td><td class="change">+-0.5 h</td><td>High glycemic meals empty stomach faster</td></tr></tbody></table></div>
+        <p class="tool-note" style="text-align:center; margin-top:16px">Sources: Mayo Clinic, NIH National Institute of Diabetes and Digestive and Kidney Diseases, Journal of Clinical Gastroenterology, WHO.
+        Educational reference only &mdash; not medical advice.</p>
     </div>
 </section>
 

@@ -154,6 +154,7 @@ def page():
 {insight_cards}        </div>
         <p style="text-align:center; margin-top:30px">
             <a class="btn outline" href="../simulator/">Try the what-if simulator &rarr;</a>
+            <a class="btn outline" href="../digestion/" style="margin-left:10px">Digestion &amp; sleep tool &rarr;</a>
         </p>
     </div>
 </section>
