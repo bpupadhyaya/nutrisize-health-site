@@ -10,7 +10,7 @@ Usage: python3 scripts/render_food_pages.py
 import json
 import os
 
-from render_plans import ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav
+from render_plans import ROOT, SITE, asset_v, cite_url, esc, footer, head, iap_plug, nav
 
 FOODS = os.path.join(ROOT, "assets", "data", "free", "foods.json")
 
@@ -192,8 +192,8 @@ def food_page(food, related, prefix="../../"):
             g = (c.get("evidence_grade") or c.get("evidenceGrade") or "").lower()
             badge = f'<span class="cx-grade {esc(g) or "na"}">{esc(g.upper()) if g else "&ndash;"}</span>'
             txt = esc(c.get("title") or "")
-            url = c.get("url")
-            link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{txt}</a>' if url else txt
+            url = cite_url(c.get("url"), c.get("title"), c.get("source"))
+            link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{txt}</a>'
             src = f' <span class="cx-src">&mdash; {esc(c["source"])}{", " + str(c["year"]) if c.get("year") else ""}</span>' if c.get("source") else ""
             rows.append(f'<div class="cx-ref">{badge}<span>{link}{src}</span></div>')
         html += ('<div id="ref-library"><p class="rm-legend">Sources for this food. Links open in a '

@@ -9,8 +9,18 @@ import json
 import math
 import os
 import re
+import urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def cite_url(url, title, source=""):
+    """A canonical link when the citation carries one; otherwise a reliable
+    search for the exact title so every reference is still openable."""
+    if url:
+        return url
+    q = ('"%s" %s' % (title or "", source or "")).strip()
+    return "https://www.google.com/search?q=" + urllib.parse.quote(q)
 DATA = os.path.join(ROOT, "assets", "data", "plans")
 FOOD_DB = os.path.join(ROOT, "scripts", "food_db.json")
 MEAL_FOODS = os.path.join(ROOT, "scripts", "meal_foods")

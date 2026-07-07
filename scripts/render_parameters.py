@@ -11,7 +11,7 @@ import os
 
 import re
 
-from render_plans import (ROOT, SITE, app_plug, asset_v, esc, footer, head, nav,
+from render_plans import (ROOT, SITE, app_plug, asset_v, cite_url, esc, footer, head, nav,
                           store_urls, DISCLAIMER)
 
 DATA = os.path.join(ROOT, "scripts", "physiology_tracking.json")
@@ -81,9 +81,10 @@ def ref_library(data):
             badge = (f'<span class="rm-grade {esc(grade)}">{esc(grade.upper())}</span>'
                      if grade else "")
             src = f' <span class="rm-src">{esc(c["source"])}</span>' if c.get("source") else ""
+            url = cite_url(c.get("url"), c.get("text"), c.get("source"))
             parts.append(
                 f'<div class="rm-cite">{badge}<span>'
-                f'<a href="{esc(c["url"])}" target="_blank" rel="noopener">{esc(c["text"])}</a>'
+                f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(c["text"])}</a>'
                 f'{src}</span></div>')
     parts.append(
         '<div class="app-plug" style="margin-top:24px">'

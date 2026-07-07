@@ -175,13 +175,19 @@
       "</div></div>";
   }
 
+  function citeUrl(c) {
+    if (c.url) return c.url;
+    var q = ('"' + (c.text || "") + '" ' + (c.source || "")).trim();
+    return "https://www.google.com/search?q=" + encodeURIComponent(q);
+  }
+
   function citationsBlock(cites) {
     if (!Array.isArray(cites) || !cites.length) return "";
     return '<div class="pd-sec"><h4>References</h4><div class="cx-refs">' +
       cites.map(function (c) {
         var g = (c.evidenceGrade || "").toLowerCase();
         var badge = '<span class="cx-grade ' + (g || "na") + '">' + (g ? g.toUpperCase() : "–") + "</span>";
-        var link = c.url ? '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.text) + "</a>" : esc(c.text);
+        var link = '<a href="' + esc(citeUrl(c)) + '" target="_blank" rel="noopener">' + esc(c.text) + "</a>";
         return '<div class="cx-ref">' + badge + "<span>" + link +
           (c.source ? ' <span class="cx-src">— ' + esc(c.source) + "</span>" : "") + "</span></div>";
       }).join("") + "</div></div>";
