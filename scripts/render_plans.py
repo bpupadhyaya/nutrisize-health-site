@@ -389,6 +389,7 @@ def footer(prefix):
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}coach/">Coach</a></li>
+            <li><a href="{prefix}learn/">Learn</a></li>
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}privacy/">Privacy Policy</a></li>
             <li><a href="{prefix}disclaimer/">Disclaimer</a></li>

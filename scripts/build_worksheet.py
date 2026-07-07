@@ -307,6 +307,7 @@ def site_page():
             <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../connections/">Connections</a></li>
             <li><a href="../../coach/">Coach</a></li>
+            <li><a href="../../learn/">Learn</a></li>
             <li><a href="../../#download" class="nav-cta">Get the App</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
@@ -344,6 +345,7 @@ def site_page():
             <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../connections/">Connections</a></li>
             <li><a href="../../coach/">Coach</a></li>
+            <li><a href="../../learn/">Learn</a></li>
             <li><a href="../../about/">About</a></li>
             <li><a href="../../privacy/">Privacy Policy</a></li>
             <li><a href="../../disclaimer/">Disclaimer</a></li>
