@@ -305,6 +305,7 @@ def site_page():
             <li><a href="../../exercises/">Exercises</a></li>
             <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../connections/">Connections</a></li>
+            <li><a href="../../coach/">Coach</a></li>
             <li><a href="../../about/">About</a></li>
             <li><a href="../../support/">Support</a></li>
             <li><a href="../../#download" class="nav-cta">Get the App</a></li>
@@ -342,6 +343,7 @@ def site_page():
             <li><a href="../../exercises/">Exercises</a></li>
             <li><a href="../../parameters/">Parameters</a></li>
             <li><a href="../../connections/">Connections</a></li>
+            <li><a href="../../coach/">Coach</a></li>
             <li><a href="../../about/">About</a></li>
             <li><a href="../../privacy/">Privacy Policy</a></li>
             <li><a href="../../disclaimer/">Disclaimer</a></li>
