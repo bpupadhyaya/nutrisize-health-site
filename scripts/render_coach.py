@@ -66,9 +66,9 @@ REFERENCES = [
      "the Sleep slider.",
      "https://www.cdc.gov/sleep/about/index.html"),
     ("JAMA, 2020", "Association of Daily Step Count and Step Intensity With Mortality Among US "
-     "Adults — 8,000 steps/day was associated with significantly lower all-cause mortality than "
-     "4,000; CDC's coverage of this study frames 8,000 as a practical daily target, used for the "
-     "Steps input in Activity Volume.",
+     "Adults — mortality risk kept falling out to 12,000 steps/day, with 8,000 already capturing "
+     "most of the benefit over 4,000. 10,000/day is used as the full-credit target for the Steps "
+     "input in Activity Volume, matching the app's own Activity Volume KPI.",
      "https://jamanetwork.com/journals/jama/fullarticle/2763292"),
     ("Mayo Clinic", "Water: How much should you drink every day? — eight 8-ounce glasses a day "
      "is the commonly used general benchmark (individual needs vary; NASEM's Dietary Reference "

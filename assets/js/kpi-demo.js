@@ -8,10 +8,12 @@
  * The full-credit target baked into each formula is a cited guideline, not a
  * guess — see the "Sources & references" panel on the page for the WHO/CDC/
  * AHA/JAMA/Lancet citations behind veg & fruit (5 servings), aerobic (5
- * sessions/wk), strength (2 sessions/wk), steps (8,000/day), sleep (7-9h),
- * water (8 cups), sedentary time (8h), and resting heart rate. Only the blend
- * weights across inputs (e.g. the 60/40 steps/cardio split in Activity
- * Volume) are a product design choice, not a medical claim. */
+ * sessions/wk), strength (2 sessions/wk), steps (10,000/day — matches the
+ * app's own Activity Volume KPI; 8,000/day already captures most of the
+ * mortality-risk benefit per JAMA 2020), sleep (7-9h), water (8 cups),
+ * sedentary time (8h), and resting heart rate. Only the blend weights across
+ * inputs (e.g. the 60/40 steps/cardio split in Activity Volume) are a
+ * product design choice, not a medical claim. */
 (function () {
   "use strict";
 
@@ -46,7 +48,7 @@
     var nutQ = clamp(v.veg / 5 * 100);
     var adeq = clamp((v.veg / 5 * 100 + v.logging / 7 * 100) / 2);
     var hyd = clamp(v.water / 8 * 100);
-    var act = clamp(0.6 * Math.min(v.steps / 8, 1) * 100 + 0.4 * Math.min(v.cardio / 5, 1) * 100);
+    var act = clamp(0.6 * Math.min(v.steps / 10, 1) * 100 + 0.4 * Math.min(v.cardio / 5, 1) * 100);
     var str = clamp(Math.min(v.strength / 2, 1) * 100);
     var sed = clamp((12 - v.sedentary) / 6 * 100);
     var slp = sleepScore(v.sleep);
