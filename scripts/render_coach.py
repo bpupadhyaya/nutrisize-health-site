@@ -9,9 +9,12 @@ Usage: python3 scripts/render_coach.py   (idempotent)
 """
 import os
 
-from render_plans import breadcrumb, ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav
+from render_plans import breadcrumb, ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav, store_urls
 
 SUB_PRICE = "$4.99/month"
+HEALTH_SUB_NOTE = ("<strong>Health included at no extra charge</strong> — the "
+                    "<a href=\"../health/\">Health library</a> (90+ cited guides) now ships free with every "
+                    "Coach subscription.")
 
 FEATURES = [
     ("&#128197;", "Today",
@@ -139,6 +142,20 @@ def page():
             </div>
 """ for k, d in INSIGHTS)
 
+    ios, android = store_urls("coach")
+    store_row = f"""        <div class="store-buttons" style="margin:22px 0">
+            <a href="{ios}" target="_blank" rel="noopener"><img class="badge-ios" src="{prefix}assets/img/app-store-badge.svg" alt="Download on the App Store" height="54"></a>
+            <a href="{android}" target="_blank" rel="noopener"><img class="badge-play" src="{prefix}assets/img/google-play-badge.png" alt="Get it on Google Play" height="80"></a>
+        </div>
+"""
+
+    coach_iap_text = (
+        "Today, Ask the Coach, Coaching, My Plan, Simulate, Readiness, Insights, Goals &amp; "
+        "Check-ins, Weekly Review, and the full <a href='../health/'>Health library</a> "
+        "(91 cited guides) live in the Nutrisize Health app — learning from your data, "
+        "working on your device. Download the app free, then unlock Coach + Health together "
+        f"for <strong>{SUB_PRICE}</strong> (cancel anytime).")
+
     html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Coach", None)])
     html += f"""
 <header class="hero hero-sub">
@@ -152,6 +169,8 @@ def page():
             longer you use it.
         </p>
         <p class="lede" style="margin-top:8px"><strong>{SUB_PRICE}</strong>, cancel anytime — 100% offline, on-device, no cloud, no accounts.</p>
+        <p class="lede" style="margin-top:8px">{HEALTH_SUB_NOTE}</p>
+        {store_row}
     </div>
 </header>
 
@@ -206,18 +225,14 @@ def page():
         <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:30px">
             <a class="btn outline" href="../simulator/">Try the what-if simulator &rarr;</a>
             <a class="btn outline" href="../digestion/">Digestion &amp; sleep tool &rarr;</a>
+            <a class="btn outline" href="../health/">Browse the Health library &rarr;</a>
         </div>
     </div>
 </section>
 
 <section>
     <div class="wrap">
-{iap_plug(prefix, "coach",
-          "Ready when you are.",
-          "Today, Ask the Coach, Coaching, My Plan, Simulate, Readiness, Insights, Goals &amp; "
-          "Check-ins, and Weekly Review live in the Nutrisize Health app — learning from your "
-          "data, working on your device. Download the app free, then unlock Coach for "
-          f"<strong>{SUB_PRICE}</strong> (cancel anytime).")}
+{iap_plug(prefix, "coach", "Ready when you are.", coach_iap_text)}
     </div>
 </section>
 

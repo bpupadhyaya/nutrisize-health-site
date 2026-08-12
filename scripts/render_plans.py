@@ -396,6 +396,7 @@ def nav(prefix, here="plans"):
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}coach/">Coach</a></li>
+            <li><a href="{prefix}health/">Health</a></li>
             <li><a href="{prefix}#download" class="nav-cta">Get the App</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
@@ -416,6 +417,7 @@ def footer(prefix):
             <li><a href="{prefix}parameters/">Parameters</a></li>
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}coach/">Coach</a></li>
+            <li><a href="{prefix}health/">Health</a></li>
             <li><a href="{prefix}learn/">Learn</a></li>
             <li><a href="{prefix}about/">About</a></li>
             <li><a href="{prefix}privacy/">Privacy Policy</a></li>
