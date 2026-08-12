@@ -15,7 +15,6 @@ import os
 
 from render_plans import breadcrumb, ROOT, SITE, esc, footer, head, iap_plug, nav, store_urls
 
-SUB_PRICE = "$4.99/month"
 TOPIC_COUNT = 91
 CITATION_KEYS = 83  # verified floor across both platforms (Android 83 / iOS 89 keys)
 CITATION_TOTAL = CITATION_KEYS * 3
@@ -92,7 +91,7 @@ def page():
     title = "The Health Library — 91 Cited Guides on Real Medical Topics | Nutrisize Health"
     desc = ("The Health library: 91 cited guides on mental health, women's & men's health, "
             "chronic conditions, life stages, and everyday care — sourced from CDC, NIH, Mayo "
-            "Clinic, WHO, and 50+ more. Included free with Coach, $4.99/month.")
+            "Clinic, WHO, and 50+ more. Included free with a Coach subscription.")
     canonical = f"{SITE}/health/"
     prefix = "../"
 
@@ -139,9 +138,9 @@ def page():
             health, or just building better sleep habits — the Health library is {TOPIC_COUNT}
             in-depth, cited guides, one searchable library, no folders to dig through.
         </p>
-        <p class="lede" style="margin-top:8px"><strong>Included with Coach</strong> — {SUB_PRICE},
-            cancel anytime. No separate charge for Health. 100% offline, on-device, no cloud,
-            no accounts. <a href="{prefix}coach/">See everything Coach includes &rarr;</a></p>
+        <p class="lede" style="margin-top:8px"><strong>Included with Coach</strong> — one
+            subscription, cancel anytime. No separate charge for Health. 100% offline, on-device,
+            no cloud, no accounts. <a href="{prefix}coach/">See everything Coach includes &rarr;</a></p>
         {store_row}
     </div>
 </header>
@@ -185,7 +184,7 @@ def page():
         <div class="section-head">
             <span class="kicker">One subscription, two libraries</span>
             <h2>Health comes bundled with Coach</h2>
-            <p>Health used to be its own $4.99/month add-on. As of August 2026 it's folded
+            <p>Health used to be its own separate add-on. As of August 2026 it's folded
             into Coach at no extra charge &mdash; subscribe once and you get the adaptive plans,
             Ask the Coach, and 10 health KPIs of <a href="{prefix}coach/">Coach</a>, plus all
             {TOPIC_COUNT} Health guides, together.</p>
@@ -202,8 +201,8 @@ def page():
 {iap_plug(prefix, "health",
           "Read it free in the app, right now.",
           f"All {TOPIC_COUNT} Health guides live in the Nutrisize Health app, right alongside "
-          f"your Coach. Download the app free, then unlock Coach + Health together for "
-          f"<strong>{SUB_PRICE}</strong> (cancel anytime).")}
+          f"your Coach. Download the app free, then unlock Coach + Health together with a "
+          f"single subscription, cancel anytime.")}
     </div>
 </section>
 """

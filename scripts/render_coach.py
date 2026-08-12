@@ -11,7 +11,6 @@ import os
 
 from render_plans import breadcrumb, ROOT, SITE, asset_v, esc, footer, head, iap_plug, nav, store_urls
 
-SUB_PRICE = "$4.99/month"
 HEALTH_SUB_NOTE = ("<strong>Health included at no extra charge</strong> — the "
                     "<a href=\"../health/\">Health library</a> (90+ cited guides) now ships free with every "
                     "Coach subscription.")
@@ -110,7 +109,7 @@ def page():
     title = "Meet your Coach — Adaptive Plans, Insights & Your 10 Health KPIs | Nutrisize Health"
     desc = ("Coach: adaptive weekly plans, an on-device Ask-the-Coach engine, evidence-based "
             "Nutrition/Fitness/Health coaching, and daily readiness scoring — built on your own "
-            "data. $4.99/month, 100% offline. Try the live 10-KPI demo.")
+            "data. 100% offline. Try the live 10-KPI demo.")
     canonical = f"{SITE}/coach/"
     prefix = "../"
 
@@ -154,7 +153,7 @@ def page():
         "Check-ins, Weekly Review, and the full <a href='../health/'>Health library</a> "
         "(91 cited guides) live in the Nutrisize Health app — learning from your data, "
         "working on your device. Download the app free, then unlock Coach + Health together "
-        f"for <strong>{SUB_PRICE}</strong> (cancel anytime).")
+        "with a single subscription, cancel anytime.")
 
     html = head(title, desc, canonical, prefix, extra) + nav(prefix) + breadcrumb(prefix, [("Coach", None)])
     html += f"""
@@ -168,7 +167,7 @@ def page():
             would never spot by eye, and a clear read on where you are headed. It gets sharper the
             longer you use it.
         </p>
-        <p class="lede" style="margin-top:8px"><strong>{SUB_PRICE}</strong>, cancel anytime — 100% offline, on-device, no cloud, no accounts.</p>
+        <p class="lede" style="margin-top:8px"><strong>A single subscription</strong>, cancel anytime — 100% offline, on-device, no cloud, no accounts.</p>
         <p class="lede" style="margin-top:8px">{HEALTH_SUB_NOTE}</p>
         {store_row}
     </div>
