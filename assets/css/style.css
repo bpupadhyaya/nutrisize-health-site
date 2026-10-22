@@ -25,7 +25,7 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 70px; scroll-padding-bottom: 54px; }
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -56,14 +56,14 @@ nav {
 .nav-logo {
     display: flex; align-items: center; gap: 10px;
     font-weight: 800; font-size: 17px; color: var(--green-900);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.02em; white-space: nowrap; flex-shrink: 0;
 }
 .nav-logo:hover { text-decoration: none; }
 .nav-logo img { width: 34px; height: 34px; border-radius: 8px; }
 .nav-links {
     display: flex; gap: 22px; list-style: none; margin-left: auto; align-items: center;
 }
-.nav-links a { color: var(--ink-soft); font-size: 15px; font-weight: 500; }
+.nav-links a { color: var(--ink-soft); font-size: 15px; font-weight: 500; white-space: nowrap; }
 .nav-links a:hover { color: var(--green-700); text-decoration: none; }
 .nav-cta {
     background: var(--green-600); color: #fff !important;
@@ -257,17 +257,44 @@ footer {
 .footer-copy { opacity: 0.75; line-height: 1.9; }
 .footer-copy a { color: #bdf0d8; }
 
+/* Fixed bottom dock: the footer stays visible; "More" expands the full footer upward. */
+body { padding-bottom: 46px; }
+footer { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: 0; box-shadow: 0 -2px 12px rgba(0,0,0,.12); }
+.footer-dock summary {
+    list-style: none; cursor: pointer; display: flex; align-items: center; gap: 18px;
+    max-width: var(--maxw); margin: 0 auto; padding: 0 24px; min-height: 46px; font-size: 13px;
+}
+.footer-dock summary::-webkit-details-marker { display: none; }
+.dock-links { display: flex; gap: 18px; flex-wrap: wrap; }
+.dock-links a { color: #eaf7f0; font-weight: 600; }
+.dock-copy { opacity: .7; margin-left: auto; }
+.dock-more { color: #bdf0d8; font-weight: 600; white-space: nowrap; }
+.dock-more::after { content: " \25B4"; }
+.footer-dock[open] .dock-more::after { content: " \25BE"; }
+.footer-dock[open] .dock-more::before { content: ""; }
+.footer-dock .footer-inner { max-height: 65vh; overflow-y: auto; padding-top: 22px; padding-bottom: 22px; border-top: 1px solid rgba(255,255,255,.12); }
+@media (max-width: 640px) {
+    .dock-copy { display: none; }
+    .dock-more { margin-left: auto; }
+    .footer-dock summary { padding: 0 16px; gap: 14px; }
+    .dock-links { gap: 14px; flex-wrap: nowrap; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
     .grid { grid-template-columns: repeat(2, 1fr); }
 }
-@media (max-width: 768px) {
+@media (max-width: 1180px) {
+    .nav-inner { gap: 16px; }
+    .nav-links { gap: 14px; }
+}
+@media (max-width: 1040px) {
     .nav-links {
         display: none; position: absolute; top: 100%; left: 0; right: 0;
         background: #fff; border-bottom: 1px solid var(--line);
         flex-direction: column; padding: 16px 24px; gap: 14px; align-items: flex-start;
     }
-    .nav-links.show { display: flex; }
+    .nav-links.show { display: flex; max-height: calc(100vh - 120px); overflow-y: auto; }
     .mobile-menu-btn { display: block; }
 }
 @media (max-width: 560px) {

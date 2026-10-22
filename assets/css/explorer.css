@@ -52,7 +52,7 @@ th.fx-sortable[aria-sort="descending"]::after { content: " \2193"; }
 
 /* Compare bar (appears when 1+ foods selected) */
 .fx-comparebar {
-  position: fixed; left: 50%; transform: translateX(-50%); bottom: 18px;
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: 62px;
   z-index: 60; display: flex; align-items: center; gap: 14px;
   background: var(--green-900); color: #fff; border-radius: 999px;
   padding: 10px 12px 10px 20px; box-shadow: 0 10px 30px rgba(11,61,46,.35);

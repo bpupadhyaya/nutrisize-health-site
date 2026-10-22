@@ -408,6 +408,7 @@ def nav(prefix, here="plans"):
 def footer(prefix):
     return f"""
 <footer>
+<details class="footer-dock"><summary><span class="dock-links"><a href="{prefix}">Home</a><a href="{prefix}privacy/">Privacy</a><a href="{prefix}disclaimer/">Disclaimer</a><a href="{prefix}support/">Support</a></span><span class="dock-copy">&copy; 2026 EqualInformation, LLC</span><span class="dock-more">More</span></summary>
     <div class="footer-inner">
         <ul class="footer-links">
             <li><a href="{prefix}plans/">Plans</a></li>
@@ -438,6 +439,7 @@ def footer(prefix):
         <p class="footer-copy">Contact: <a href="mailto:contact@nutrisize.health">contact@nutrisize.health</a> &middot; <a href="mailto:nutrisize.universal@gmail.com">nutrisize.universal@gmail.com</a><br>
             &copy; 2026 EqualInformation, LLC. All rights reserved.</p>
     </div>
+</details>
 </footer>
 
 </body>
