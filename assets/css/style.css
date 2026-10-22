@@ -268,10 +268,12 @@ footer { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: 0;
 .dock-links { display: flex; gap: 18px; flex-wrap: wrap; }
 .dock-links a { color: #eaf7f0; font-weight: 600; }
 .dock-copy { opacity: .7; margin-left: auto; }
-.dock-more { color: #bdf0d8; font-weight: 600; white-space: nowrap; }
+.dock-more { color: #bdf0d8; font-weight: 600; white-space: nowrap; font-size: 0; }
+.dock-more::before, .dock-more::after { font-size: 13px; }
+.dock-more::before { content: "More"; }
 .dock-more::after { content: " \25B4"; }
+.footer-dock[open] .dock-more::before { content: "Less"; }
 .footer-dock[open] .dock-more::after { content: " \25BE"; }
-.footer-dock[open] .dock-more::before { content: ""; }
 .footer-dock .footer-inner { max-height: 65vh; overflow-y: auto; padding-top: 22px; padding-bottom: 22px; border-top: 1px solid rgba(255,255,255,.12); }
 @media (max-width: 640px) {
     .dock-copy { display: none; }
