@@ -31,15 +31,14 @@ TikTok) plus recommended extras. Same identity everywhere: one handle, one logo,
 - **Instagram (≤150):**
   `Your health, computed 🥗 Personalized nutrition + exercise from 201 physiological parameters. Private — your data never leaves your device. ⬇️`
 - **TikTok (≤80):**
-  `Your health, computed 🥗 Private nutrition + fitness app. No cloud, no ads ⬇️`
+  `Your health, computed 🥗 Private nutrition + fitness app. No cloud copies of your health data ⬇️`
 - **Facebook intro (≤101):**
   `Personalized nutrition & exercise, computed on your device. Private by design.`
 - **LinkedIn tagline (≤120):**
   `Local-first health app: personalized nutrition & exercise from 201 physiological parameters. Private by design.`
 - **LinkedIn about:** Nutrisize Health, by EqualInformation, LLC, turns 201 physiological
   parameters, 4,995 foods, and 5,404 exercises into a personal nutrition and exercise plan —
-  computed entirely on your device. No accounts, no cloud copies of your health records, no
-  ads, no tracking; the App Store privacy label reads "no data collected." Free sample plans
+  computed entirely on your device. No accounts, no cloud copies of your health records. Free sample plans
   and the parameter reference live at nutrisize.health.
 - **X (≤160):**
   `Your health, computed. Personalized nutrition + exercise from 201 physiological parameters — private, on your device. 🥗 nutrisize.health`
