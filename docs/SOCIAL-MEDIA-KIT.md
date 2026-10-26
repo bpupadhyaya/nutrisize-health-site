@@ -14,7 +14,7 @@ TikTok) plus recommended extras. Same identity everywhere: one handle, one logo,
 - **Link everywhere:** `https://nutrisize.health` (later: per-platform UTM, e.g. `?utm_source=instagram`)
 - **Voice:** the site's voice — educational, factual, quietly confident. The site teaches; the
   app personalizes. Never salesy; numbers over adjectives (4,995 foods · 5,404 exercises ·
-  201 parameters · local-first/no data collected).
+  201 parameters · local-first health data).
 
 ## Assets (`assets/social/`)
 
@@ -29,7 +29,7 @@ TikTok) plus recommended extras. Same identity everywhere: one handle, one logo,
 ## Bios (within each platform's limit)
 
 - **Instagram (≤150):**
-  `Your health, computed 🥗 Personalized nutrition + exercise from 201 physiological parameters. Private — your data never leaves your device. ⬇️`
+  `Your health, computed 🥗 Personalized nutrition + exercise from 201 physiological parameters. Private — your health data stays on your device. ⬇️`
 - **TikTok (≤80):**
   `Your health, computed 🥗 Private nutrition + fitness app. No cloud copies of your health data ⬇️`
 - **Facebook intro (≤101):**
