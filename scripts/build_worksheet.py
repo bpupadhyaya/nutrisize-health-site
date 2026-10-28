@@ -309,7 +309,7 @@ def site_page():
             <li><a href="../../coach/">Coach</a></li>
             <li><a href="../../health/">Health</a></li>
             <li><a href="../../learn/">Learn</a></li>
-            <li><a href="../../handbook/">Handbook</a></li>
+            <li><a href="../../handbook/" target="_blank" rel="noopener">Handbook</a></li>
             <li><a href="../../#download" class="nav-cta">Get the App</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>

@@ -397,7 +397,7 @@ def nav(prefix, here="plans"):
             <li><a href="{prefix}connections/">Connections</a></li>
             <li><a href="{prefix}coach/">Coach</a></li>
             <li><a href="{prefix}health/">Health</a></li>
-            <li><a href="{prefix}handbook/">Handbook</a></li>
+            <li><a href="{prefix}handbook/" target="_blank" rel="noopener">Handbook</a></li>
             <li><a href="{prefix}#download" class="nav-cta">Get the App</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
